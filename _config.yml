@@ -10,7 +10,7 @@ permalink:        pretty
 # Setup
 title:            o2r
 tagline:          'opening reproducible research'
-description:      'Opening Reproducible Research is a DFG-funded research project by Institute for Geoinformatics (<a href="http://www.uni-muenster.de/Geoinformatics/en/" title="ifgi website">ifgi</a>) and University and Regional Library (<a href="http://www.ulb.uni-muenster.de/" title="ULB website">ULB</a>), University of Münster, Germany'
+description:      'Opening Reproducible Research is a <a href="http://www.dfg.de/en/" title="DFG website">DFG</a>-funded research project by Institute for Geoinformatics (<a href="http://www.uni-muenster.de/Geoinformatics/en/" title="ifgi website">ifgi</a>) and University and Regional Library (<a href="http://www.ulb.uni-muenster.de/" title="ULB website">ULB</a>), University of Münster, Germany'
 url:              https://o2r.info
 baseurl:          /
 
