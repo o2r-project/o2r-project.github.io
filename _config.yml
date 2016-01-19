@@ -14,6 +14,15 @@ description:      'Opening Reproducible Research is a <a href="http://www.dfg.de
 url:              https://o2r.info
 baseurl:          /
 
+keywords:
+  - open access
+  - open data
+  - open source
+  - research data management
+  - executable research
+  - executable papers
+  - one-click reproduce
+
 author:
   name:           'o2r Team'
   url:            https://o2r.info

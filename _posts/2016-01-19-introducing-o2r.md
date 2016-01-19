@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Introducing o2r
+categories:
+  - introduction
+  - meta
+  - description
 ---
 
 Welcome to the new website of the research project *Opening Reproducible Research*.

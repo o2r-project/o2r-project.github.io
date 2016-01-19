@@ -14,6 +14,20 @@
     {% endif %}
   </title>
 
+  {% if page.categories %}
+  <meta name="keywords" content="{{ page.categories | join: ',' }}" />
+  {% else %}
+  <meta name="keywords" content="{{ site.keywords | join: ',' }}" />
+  {% endif %}
+
+  {% if page.description %}
+  <meta name="description" content="{{page.description}}" />
+  {% endif %}
+
+  {% if page.date %}
+  <meta http-equiv="date" content="{{page.date | date: '%A, %d  %Y %H:%M:%S GMT' }}" />
+  {% endif %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">

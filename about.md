@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Project description and team members of the project Opening Reproducible Research
 ---
 
 ## The project
