@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# https://github.com/poole/poole/issues/99
+#relative_permalinks: true
+
+# Setup
+title:            o2r
+tagline:          'opening reproducible research'
+description:      'A DFG-funded research project by Institute for Geoinformatics (<a href="http://www.uni-muenster.de/Geoinformatics/en/" title="ifgi website">ifgi</a>) and University and Regional Library (<a href="http://www.ulb.uni-muenster.de/" title="ULB website">ULB</a>), University of Münster, Germany'
+url:              https://o2r.info
+baseurl:          /
+
+author:
+  name:           'o2r Team'
+  url:            https://o2r.info
+
+paginate:         3
+
+github:
+  org:           https://github.com/o2r-project
+
+
+# https://github.com/poole/poole/issues/112
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
