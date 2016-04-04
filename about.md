@@ -37,3 +37,9 @@ This is the o2r team in alphabetical order.
 * Dr. Marc Schutzeichel (ULB)
 * Jan Suleiman (ifgi, student assistant)
 * Dr. Beate Tröger (ULB)
+
+**********
+
+[<img src="/public/images/ulblogo.svg" width="200" alt="ULB Logo" />](http://ulb.uni-muenster.de)
+
+[<img src="/public/images/ifgilogo.svg" width="300" alt="ifgi Logo" />](http://www.uni-muenster.de/Geoinformatics)
