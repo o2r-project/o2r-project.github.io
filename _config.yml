@@ -32,9 +32,12 @@ paginate:         3
 github:
   org:           https://github.com/o2r-project
 
+exclude: [README.md, CNAME]
 
 # https://github.com/poole/poole/issues/112
 gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
+  # https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-redirect-from

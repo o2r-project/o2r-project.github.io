@@ -1,0 +1,11 @@
+---
+layout: post
+title: Test
+categories:
+  - meta
+---
+
+Welcome to the new website of the research[^2] project *Opening Reproducible Research*. This is a [^1] test for footnotes.
+
+[^1]: would be useful!
+[^2]: yes, no promises on results...
