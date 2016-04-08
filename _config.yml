@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
-permalink:        /:year/:month/:day/:title.html
+permalink:        /:year/:month/:day/:title/
 # https://github.com/poole/poole/issues/99 suggests to disable the following:
 #relative_permalinks: true
 
@@ -11,7 +11,7 @@ permalink:        /:year/:month/:day/:title.html
 title:            o2r
 tagline:          'opening reproducible research'
 description:      'Opening Reproducible Research is a <a href="http://www.dfg.de/en/" title="DFG website">DFG</a>-funded research project by Institute for Geoinformatics (<a href="http://www.uni-muenster.de/Geoinformatics/en/" title="ifgi website">ifgi</a>) and University and Regional Library (<a href="http://www.ulb.uni-muenster.de/" title="ULB website">ULB</a>), University of Münster, Germany'
-url:              https://o2r.info
+url:              http://o2r.info
 baseurl:          /
 
 keywords:
