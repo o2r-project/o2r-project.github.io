@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
-# https://github.com/poole/poole/issues/99
+permalink:        /:year/:month/:day/:title.html
+# https://github.com/poole/poole/issues/99 suggests to disable the following:
 #relative_permalinks: true
 
 # Setup
