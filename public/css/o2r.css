@@ -13,6 +13,10 @@ img.center {
     margin: 0 auto;
 }
 
+.img.rightfloat {
+    float: right;
+}
+
 .small {
     font-size: 0.8em;
 }

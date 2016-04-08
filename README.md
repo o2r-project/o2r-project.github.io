@@ -11,3 +11,9 @@ Follow the [instructions](https://github.com/poole/poole) for Poole to install t
 ```
 jekyll serve
 ```
+
+## Useful stuff
+
+We use the kramdown parser engine and subsequently can use some advanced syntax (e.g. for named lists, image resizing, quotes, and more). See http://kramdown.gettalong.org/quickref.html.
+
+*Note:* When the rendering engine changes, these changes are prone to break.
