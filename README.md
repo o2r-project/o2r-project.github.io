@@ -12,6 +12,8 @@ Follow the [instructions](https://github.com/poole/poole) for Poole to install t
 jekyll serve
 ```
 
+Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the draft posts.
+
 ## Useful stuff
 
 We use the kramdown parser engine and subsequently can use some advanced syntax (e.g. for named lists, image resizing, quotes, and more). See http://kramdown.gettalong.org/quickref.html.
