@@ -1,11 +1,11 @@
 .theme-base-o2r .sidebar {
-  //background-color: #004288;
-  background-color: rgba(0,66,136,.5);
+  //background-color: #004286;
+  background-color: rgba(0,66,134,.5);
   color: rgba(67,69,83,1);
 }
 .theme-base-o2r .content a,
 .theme-base-o2r .related-posts li a:hover {
-  color: #004288;
+  color: #004286;
 }
 
 img.center {
