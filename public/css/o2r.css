@@ -1,5 +1,5 @@
 .theme-base-o2r .sidebar {
-  //background-color: #004286;
+  /*background-color: #004286;*/
   background-color: rgba(0,66,134,.5);
   color: rgba(67,69,83,1);
 }
@@ -17,6 +17,19 @@ img.center {
     float: right;
 }
 
-.small {
-    font-size: 0.8em;
+.img.leftfloat {
+    float: left;
 }
+
+.small {
+    font-size: 0.75em;
+}
+
+.attribution {
+    font-size: 0.6em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #eee;
+    color: rgba(67,69,83,1);
+}
+
