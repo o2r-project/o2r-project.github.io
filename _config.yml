@@ -31,6 +31,9 @@ paginate:         3
 
 github:
   org:           https://github.com/o2r-project
+twitter:
+  url: https://twitter.com/o2r_project
+  handle: '@o2r_project'
 
 exclude: [README.md, CNAME]
 
