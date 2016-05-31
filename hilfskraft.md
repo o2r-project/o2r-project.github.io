@@ -14,12 +14,12 @@ o2r ist ein von der DFG gefördertes Forschungsprojekt und wird vom Institut fü
 Zu den Aufgaben gehören Mitarbeit an der Neu- und Weiterentwicklung von Software zur Unterstützung von wiederherstellbarer Forschung. Der wöchentliche Arbeitsumfang beträgt üblicherweise 10 Stunden.
 
 ## Profil
-Insbesondere einer oder mehrere der folgenden Punkte qualifizieren dich für den Job. In der praktischen Arbeitsteilung sind Schwerpunkte für "Frontend" oder "Backend" Entwickler/in möglich.
+Einer oder mehrere der folgenden Punkte qualifizieren dich für den Job. In der praktischen Arbeitsteilung sind Schwerpunkte für "Frontend" oder "Backend" Entwickler/in möglich.
 
 - Student/in ab dem 4. Semester
-- Programmiererfahrung (z.B. JavaScript, R, objekt-orientierte Programmiersprachen wie Java, C#, golang) und Lust sich als Programmierer weiter zu entwickeln
+- Programmiererfahrung (z.B. JavaScript, R, objekt-orientierte Programmiersprachen wie Java, C#, golang) und Lust sich als Programmierer/in weiter zu entwickeln
 - Erfahrung mit Linux und Docker/Containerisierung
--  Interesse an einer längerfristigen Tätigkeit als Hilfskraft
+- Interesse an einer längerfristigen Tätigkeit als Hilfskraft
 - gute Englischkenntnisse in Wort und Schrift
 - effiziente und selbstständige Arbeitsweise
 - Teamfähigkeit und Kommunikationsstärke
