@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hilfskräfte gesucht!
-description: Stellenausschreibung Studentische Hilfskraft in "Opening Reproducible Research"
+description: Stellenausschreibung Studentische Hilfskraft in 'Opening Reproducible Research'
 exclude_from_nav: true
 ---
 
