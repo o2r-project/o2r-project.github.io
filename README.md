@@ -37,3 +37,7 @@ The file `index.html` contains some logic trying to to a clever handling of the 
 - If the `disable_excerpt` attribute is set to `true`, show the full content and do not show the "Read more" link. This is useful for short posts.
 - If the number of paragraphs in the post's excerpt is the same as the number of paragraphs of the post content, then see above. This is so that no "Read more" link is put on pages with no further text.
 - In any other case, show the excerpt and add a "Read more" link. You can set the length of the excerpt manually by using Jekyll's default tag `<!--more-->`.
+
+### Comments
+
+We use [DISQUS]() for comments, based on their [Jekyll Installation Instructions](), though not quite: Instead of enabling comments for each post, you must add  `disable_comments: true` to the frontmatter to disable them explicitly.

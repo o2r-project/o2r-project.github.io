@@ -33,3 +33,8 @@ img.center {
     color: rgba(67,69,83,1);
 }
 
+.comments_disabled {
+    font-style: italic;
+    color: rgba(67,69,83,1);
+}
+
