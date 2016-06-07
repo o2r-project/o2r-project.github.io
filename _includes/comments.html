@@ -1,0 +1,25 @@
+{% if page.disable_comments %}
+    <p class="comments_disabled">Comments are disabled for this post.</p>
+{% else %}
+<div id="disqus_thread" style="margin:auto; width:auto; text-align=center"></div>
+<script>
+    {% comment %}
+    {% see https://disqus.com/admin/universalcode/ %}
+    {% endcomment %}
+    var disqus_config = function () {
+        this.page.url = "{{ site.url }}{{ site.baseurl }}{{ page.url }}";
+        this.page.identifier = "{{ page.url }}";
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = '//o2r-blog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script id="dsq-count-scr" src="//o2r-blog.disqus.com/count.js" async></script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+{% endif %}
