@@ -13,8 +13,30 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    
+    {% assign total_paragraphs = post.content | split: '<p>' | size | minus: 1 %}
+    {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size | minus: 1 %}
+    
+    {% if post.disable_excerpt or total_paragraphs == excerpt_paragraphs %}
+      {{ post.content }}
+    {% else %}
+      {% if post.content contains '<!--more-->' %}
+        {% comment %}
+        {% when more is set manually, we might have more paragraphs, so remove the last closing p tag, add the three dots, then close the p tag %}
+        {% endcomment %}
+        {{ post.content | split: '<!--more-->' | first | rstrip | append: '@END@' | remove: '</p>@END@' | remove: '@END@' }}<a href="{{ post.url }}">&hellip;</a></p>
+      {% else %}
+        <p>
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' | rstrip | append: '@END@' | remove: '.@END@' }}<a href="{{ post.url }}">&hellip;</a>
+        </p>
+        
+        {% comment %}
+        {% consider linking to anchor for read more, see http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/ %}
+        {% endcomment %}
+      {% endif %}
+      
+      <p><strong><a href="{{ post.url }}">read more&hellip;</a></strong></p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

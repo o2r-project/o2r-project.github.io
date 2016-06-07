@@ -4,6 +4,7 @@ title: Looking back at EGU General Assembly
 categories:
   - conference
   - EGU
+disable_excerpt: true
 ---
 
 o2r team members Edzer Pebesma and Daniel Nüst published a short blog article on [r-spatial](http://r-spatial.org) about the project in general, and more specifically about the poster presented at EGU General Assembly [a couple of weeks ago]({% post_url 2016-04-08-o2r-at-EGU %}).
