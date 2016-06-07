@@ -34,6 +34,7 @@ We found that a narrow focus is crucial for the project to succeed. Since we’r
 - New ways for _searching scientific work_ based on the integrated and linked parts of a research compendium (text, code, data, user interface bindings).
 
 _So what will we understand in two years time that we do not know now?_
+
 - We have a good understanding of how far the process of creating research compendia can be automated, and what efforts remain for authors or preservationists that must be counterbalanced with incentives.
 - We know the potential of user interface bindings as the connecting entity of research compendia.
 - We show the improvements in discovery and understanding of research when all aspects of research are explicitly linked in a meaningful way.
