@@ -41,3 +41,7 @@ The file `index.html` contains some logic trying to to a clever handling of the 
 ### Comments
 
 We use [DISQUS]() for comments, based on their [Jekyll Installation Instructions](), though not quite: Instead of enabling comments for each post, you must add  `disable_comments: true` to the frontmatter to disable them explicitly.
+
+### Ribbon
+
+A generic "Fork me" ribbon has been added and can be configured (text, link) in the file `_config.yml`. The color is configured in `public/css/o2r.css`. The ribbon appears on all pages via `_layouts/default.html`, and stylesheets are included in `_includes/head_default.html` if enabled.

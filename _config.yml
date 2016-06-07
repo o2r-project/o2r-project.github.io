@@ -38,6 +38,12 @@ twitter:
 
 exclude: [README.md, CNAME]
 
+# ribbon itself by https://github.com/simonwhitaker/github-fork-ribbon-css
+ribbon:
+  show:   false
+  text:   'Call for workspaces'
+  url:    'http://o2r.info/almost'
+
 # https://github.com/poole/poole/issues/112
 gems:
   - jekyll-sitemap

@@ -38,3 +38,7 @@ img.center {
     color: rgba(67,69,83,1);
 }
 
+.github-fork-ribbon:before {
+  /* Set the base colour */
+  background-color: #004286;
+}
