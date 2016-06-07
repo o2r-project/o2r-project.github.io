@@ -35,7 +35,7 @@ We use our own [Piwik](https://piwik.org/) server to collect anonymous user stat
 
 ## Discussion
 
-We use [DISQUS](http://disqus.com/) for discussion of blog articles. Please check their [data sharing settings](https://help.disqus.com/customer/portal/articles/1657951) information if you have any privacy concerns. In short, if you enable Do Not Track in your browser, you must opt-in manually. Also, we've disabled [anonymous cookie targeting](https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings) for our site's visitors.
+We use [DISQUS](https://disqus.com/) for discussion of blog articles. Please check their [data sharing settings](https://help.disqus.com/customer/portal/articles/1657951) information if you have any privacy concerns. In short, if you enable Do Not Track in your browser, you must opt-in manually. Also, we've disabled [anonymous cookie targeting](https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings) for our site's visitors.
 
 
 ## Notice of Liability
