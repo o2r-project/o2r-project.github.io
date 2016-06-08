@@ -11,7 +11,7 @@ Das Projekt Opening Reproducible Research ([o2r](http://o2r.info)) sucht zum nä
 
 o2r ist ein von der DFG gefördertes Forschungsprojekt und wird vom Institut für Geoinformatik (ifgi) und der Universitäts- und Landesbibliothek Münster (ulb) durchgeführt. Wir arbeiten an neuen Wegen zur Langzeitarchivierung von und Interaktion mit wissenschaftlichen Forschungsergebnissen und verwenden dafür aktuelle Technologien, wie zum Beispiel node.js, Docker, oder AngularJS. Unsere Software wird mit agilen Methoden entwickelt und als Open Source auf GitHub veröffentlicht.
 
-Zu den Aufgaben gehören Mitarbeit an der Neu- und Weiterentwicklung von Software zur Unterstützung von wiederherstellbarer Forschung. Der wöchentliche Arbeitsumfang beträgt üblicherweise 10 Stunden.
+Zu den Aufgaben gehören Mitarbeit an der Neu- und Weiterentwicklung von Software zur Unterstützung von reproduzierbarer Forschung. Der wöchentliche Arbeitsumfang beträgt üblicherweise 10 Stunden.
 
 ## Profil
 Einer oder mehrere der folgenden Punkte qualifizieren dich für den Job. In der praktischen Arbeitsteilung sind Schwerpunkte für "Frontend" oder "Backend" Entwickler/in möglich.
