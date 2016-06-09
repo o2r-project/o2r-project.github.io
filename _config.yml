@@ -40,9 +40,9 @@ exclude: [README.md, CNAME]
 
 # ribbon itself by https://github.com/simonwhitaker/github-fork-ribbon-css
 ribbon:
-  show:   false
+  show:   true
   text:   'Call for workspaces'
-  url:    'http://o2r.info/almost'
+  url:    '/almost'
 
 # https://github.com/poole/poole/issues/112
 gems:
