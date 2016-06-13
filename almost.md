@@ -8,7 +8,7 @@ categories:
 
 In the project, we have discussed extensively what reproducibility means. We debated what a reproducible paper should allow us to do. A crucial aspect to further develop these ideas for us are practical evaluations. That is where **you** come into the picture.
 
-_Do you have an almost, or even completely, reproducible paper?_
+_Do you have an almost reproducible paper?_
 
 We are looking for scientific publications that we can use to test our approach. We have been in touch with former and current colleagues and collaborators, but we would like to reach beyond our immediate circles. Our "test corpus" of publications must cover a certain breadth of topics, data formats, used tooles/packages et cetera.
 
@@ -37,4 +37,6 @@ Instead we look forward to work with _your workspace directory as it is_. This w
 
 Please forward this website to any of your colleagues who might fit the profile, and don't hesitate to get in touch if you have any questions. Thank you in advance!
 
+**Submit workspace**
 
+Please send an email to <a href="mailto:daniel.nuest@uni-muenster.de" title="submission email address">daniel.nuest@uni-muenster.de</a> or tweet <a href="https://twitter.com/o2r_project" title="o2r on Twitter">@o2r_project</a> with a link to your paper and any supplemental material, e.g. as a link to a shared online folder.
