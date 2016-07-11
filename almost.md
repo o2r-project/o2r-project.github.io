@@ -17,7 +17,7 @@ We are looking for scientific publications that we can use to test our approach.
 - Published open access journal article (peer reviewed)
 - Data, text, and scripts/code are available publicly
   - data size < 1 GB
-  - code or main script in [R](http://r-project.org/)
+  - code or main script in [R](http://www.r-project.org/)
   - data, method or visualisations have a spatial or spatio-temporal component, or other "geo" aspect
 - Interest in open and reproducible research and willing to engage in a dialog with the o2r team
 
