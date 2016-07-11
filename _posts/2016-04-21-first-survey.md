@@ -13,4 +13,4 @@ Please take a few minutes to help understanding reproducibility in geoscience re
 
 <!-- ![survey link QR code](/public/images/qrcode-o2rinfoslashsurvey.svg){:width="100px"} -->
 
-[surveylink]: http://giv-konkol.uni-muenster.de/ls/index.php/811822/lang-en
+[surveylink]: http://konkol.staff.ifgi.de/survey/index.php/811822?lang=en
