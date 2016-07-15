@@ -45,3 +45,7 @@ We use [DISQUS]() for comments, based on their [Jekyll Installation Instructions
 ### Ribbon
 
 A generic "Fork me" ribbon has been added and can be configured (text, link) in the file `_config.yml`. The color is configured in `public/css/o2r.css`. The ribbon appears on all pages via `_layouts/default.html`, and stylesheets are included in `_includes/head_default.html` if enabled.
+
+### Exclude pages from menu
+
+If you do not want a page to appear in the left hand side menu, include the parameter `exclude_from_nav: true` in the page header.

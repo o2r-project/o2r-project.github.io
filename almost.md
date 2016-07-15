@@ -4,6 +4,7 @@ title: Open call for research workspaces
 categories:
   - open call
   - survey
+exclude_from_nav: true
 ---
 
 In the project, we have discussed extensively what reproducibility means. We debated what a reproducible paper should allow us to do. A crucial aspect to further develop these ideas for us are practical evaluations. That is where **you** come into the picture.
