@@ -27,9 +27,7 @@ $(document).ready(function(){
                     
                     var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments;
 
-
                     $(attributes).each(function(index, value) {
-
                         switch(value._name) {
                             case "Title":
                                 title = value.data;
@@ -70,10 +68,9 @@ $(document).ready(function(){
                             case "Comments":
                                 comments = value.data;
                                 break;
-                                
-
                         }
                     });
+
                     var content = "<li><a href='" + url + "'>" + title + "</a>";
                     if(subtitle.length != 0) content += ": " + subtitle + ".";
 
@@ -91,10 +88,11 @@ $(document).ready(function(){
                     if(seriesTitle.length != 0) content += ". <i class='editor'>" + seriesTitle + "</i>";
 
                     content += "<br>";
-                    if(isbn.length != 0 ) content += "ISBN: " + isbn + " ";
+                    if(isbn.length != 0) content += "ISBN: " + isbn + " ";
                     if(doi.length != 0) content += "DOI: <a href='" + doi + "'>" + doi + "</a>";
                     content += "</li>";
 
+                    list.empty(); // clear the list to remove the loader
                     list.append(content);
                 }
             });
@@ -110,6 +108,7 @@ $(document).ready(function(){
 
 <div id="publications">
     <ul id="publicationlist">
+        <li><img alt="loading image" class="center" src="{{site.baseurl}}public/images/loading.gif" width="32" /></li>
     </ul>
 </div>
 
