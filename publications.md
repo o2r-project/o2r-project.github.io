@@ -19,18 +19,16 @@ $(document).ready(function(){
         dataType: "text",
         success: function(data) {
             var publications = x2js.xml_str2json(data).infoObjects;
-            console.log(JSON.stringify(publications));
 
             var list = $("#publicationlist");
             $(publications).each(function(index, value) {
                 if(value.infoObject._type === "Publication") {
                     var attributes = value.infoObject.attribute;
                     
-                    var title, venue;
-                    $(attributes).each(function(index, value) {
-                        console.log(value);
+                    var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments;
 
-// TODO use templating, maybe http://json2html.com/ ??
+
+                    $(attributes).each(function(index, value) {
 
                         switch(value._name) {
                             case "Title":
@@ -38,10 +36,66 @@ $(document).ready(function(){
                                 break;
                             case "Venue":
                                 venue = value.data;
+                                break;
+                            case "Subtitle":
+                                subtitle = value.data;
+                                break;
+                            case "Journal name":
+                                journalName = value.data;
+                                break;
+                            case "Publication year":
+                                pubYear = value.data;
+                                break;
+                            case "Authors":
+                                authors = value.data;
+                                break;
+                            case "Publication type":
+                                pubType = value.additionalInfo;
+                                break;
+                            case "Title of series":
+                                seriesTitle = value.data;
+                                break;
+                            case "Editor":
+                                editor = value.data;
+                                break;
+                            case "ISBN": 
+                                isbn = value.data;
+                                break;
+                            case "DOI":
+                                doi = value.data;
+                                break;
+                            case "URL":
+                                url = value.data;
+                                break;
+                            case "Comments":
+                                comments = value.data;
+                                break;
+                                
+
                         }
                     });
+                    var content = "<li><a href='" + url + "'>" + title + "</a>";
+                    if(subtitle.length != 0) content += ": " + subtitle + ".";
 
-                    list.append("<li>" + title + " @ " + venue + "</li>");
+                    content += "<br><i>" + authors + "</i>";
+
+                    content += "<br>";
+                    if(pubType.length != 0) content += pubType +" ";
+                    if(pubYear.lenght != 0) content += pubYear + " ";
+                    if(venue.length != 0) content += venue;
+                    if(comments.length != 0) content += ". " + comments + ".";
+
+                    content += "<br>";
+                    if(journalName.length != 0) content += journalName;
+                    if(editor.length != 0) content += "<i class='editor'>" + editor + "</i>"; 
+                    if(seriesTitle.length != 0) content += ". <i class='editor'>" + seriesTitle + "</i>";
+
+                    content += "<br>";
+                    if(isbn.length != 0 ) content += "ISBN: " + isbn + " ";
+                    if(doi.length != 0) content += "DOI: <a href='" + doi + "'>" + doi + "</a>";
+                    content += "</li>";
+
+                    list.append(content);
                 }
             });
         },
