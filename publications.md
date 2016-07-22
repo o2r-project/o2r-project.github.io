@@ -85,7 +85,7 @@ $(document).ready(function(){
                     content += "<br>";
                     if(journalName.length != 0) content += journalName;
                     if(editor.length != 0) content += "<i class='editor'>" + editor + "</i>"; 
-                    if(seriesTitle.length != 0) content += ". <i class='editor'>" + seriesTitle + "</i>";
+                    if(seriesTitle.length != 0) content += "<span class='editor'>. <i>" + seriesTitle + "</i></span>";
 
                     content += "<br>";
                     if(isbn.length != 0) content += "ISBN: " + isbn + " ";
