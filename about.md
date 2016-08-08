@@ -27,7 +27,7 @@ This is the o2r team in alphabetical order.
 * Jim Jones (ULB)
 * Dr. Stephanie Klötgen (ULB)
 * [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
-* Jan Koppe (ifgi, student assistant)
+* Jan Koppe (ifgi, student assistant, 2016-03 to 2016-08)
 * [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 * Dr. Dirk Kussmann (ULB)
 * Jörg Lorenz (ULB)
