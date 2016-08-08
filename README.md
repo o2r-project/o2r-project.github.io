@@ -26,9 +26,9 @@ This is based on the files `.travis.yml` and `Gemfile`.
 
 ### Images
 
-We use the kramdown parser engine and subsequently can use some advanced syntax (e.g. for named lists, image resizing, quotes, and more). See http://kramdown.gettalong.org/quickref.html.
+We use the kramdown parser engine and subsequently can use some [advanced syntax](http://kramdown.gettalong.org/quickref.html) (e.g. for named lists, image resizing, quotes, and more).
 
-*Note:* When the rendering engine changes, these changes are prone to break.
+*Note:* When the rendering engine is changed, these changes are prone to break.
 
 ### Excerpts
 
@@ -40,7 +40,7 @@ The file `index.html` contains some logic trying to to a clever handling of the 
 
 ### Comments
 
-We use [DISQUS]() for comments, based on their [Jekyll Installation Instructions](), though not quite: Instead of enabling comments for each post, you must add  `disable_comments: true` to the frontmatter to disable them explicitly.
+We use [DISQUS](https://disqus.com/) for comments, based on their [Jekyll Installation Instructions](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions), though not quite: Instead of enabling comments for each post, you must add  `disable_comments: true` to the frontmatter to disable them explicitly. Data privacy issues are mentioned on the imprint page.
 
 ### Ribbon
 
@@ -48,4 +48,4 @@ A generic "Fork me" ribbon has been added and can be configured (text, link) in 
 
 ### Exclude pages from menu
 
-If you do not want a page to appear in the left hand side menu, include the parameter `exclude_from_nav: true` in the page header.
+If you do not want a page to appear in the left hand side menu, include the parameter `exclude_from_nav: true` in the page's frontmatter.
