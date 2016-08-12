@@ -43,6 +43,11 @@ img.center {
   background-color: #004286;
 }
 
-.editor{
+.editor {
   color: #9a9a9a;
+}
+
+.footnotes {
+  margin-top: 3em;
+  font-size: 0.9em;
 }
