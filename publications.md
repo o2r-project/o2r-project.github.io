@@ -8,6 +8,20 @@ categories:
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.js"></script>
+
+<script id="template" type="x-tmpl-mustache">
+{% raw %}
+<li><strong><a href="{{crisURL}}" title="CRIS entry of publication">{{title}}</a></strong>{{subtitle}}.
+<i>{{ authors }}</i>.
+<br>
+{{#hasJournalName}}{{journalName}}. {{/hasJournalName}}<i class="editor"> {{editor}}</i>.<i class="editor"> {{series}}</i>. {{#hasVenue}} {{venue}}.{{/hasVenue}}
+{{#hasISBN}}ISBN: {{isbn}};{{/hasISBN}}
+{{#hasDoi}}doi: <a href="{{doi}}">{{doi}}</a>;{{/hasDoi}}
+{{#hasURL}}<br><a href="{{url}}">{{url}}</a>{{/hasURL}}
+</li>
+{% endraw %}
+</script>
 
 <script type="text/javascript">
 var x2js = new X2JS();
@@ -19,6 +33,9 @@ $(document).ready(function(){
         dataType: "text",
         success: function(data) {
             var publications = x2js.xml_str2json(data).infoObjects;
+
+            var template = $('#template').html();
+            Mustache.parse(template);
 
             var list = $("#publicationlist");
             $(publications).each(function(index, value) {
@@ -57,7 +74,7 @@ $(document).ready(function(){
                             case "Editor":
                                 editor = value.data;
                                 break;
-                            case "ISBN": 
+                            case "ISBN":
                                 isbn = value.data;
                                 break;
                             case "DOI":
@@ -72,33 +89,48 @@ $(document).ready(function(){
                         }
                     });
 
-                    var content = "<li>";
 
-                    var crisURL = "https://www.uni-muenster.de/forschungaz/publication/" + crisId + "?lang=en";
-                    content += "<a href='" + crisURL + "'>" + title + "</a>";
-                    if(subtitle.length != 0) content += ": " + subtitle + ".";
+                    var view = {
+                        crisURL: "https://www.uni-muenster.de/forschungaz/publication/" + crisId + "?lang=en",
+                        title: title,
+                        authors: authors,
+                        subtitle: function() {
+                            if(subtitle.length != 0) return ": " + subtitle;
+                        },
+                        publicationType: function() {
+                            if(pubType.length != 0) return pubType + " ";
+                        },
+                        publicationYear: function() {
+                            if(pubType.length != 0) return pubYear + " ";
+                        },
+                        hasVenue: function() {
+                            return venue.length != 0;
+                        },
+                        venue: venue,
+                        journalName: function() {
+                            if(journalName.length != 0) return journalName + ".";
+                        },
+                        editor: editor,
+                        series: seriesTitle,
+                        hasISBN: function() {
+                            return isbn.length != 0;
+                        },
+                        isbn: isbn,
+                        hasDoi: function() {
+                            return doi.length != 0;
+                        },
+                        doi: doi,
+                        hasURL: function() {
+                            return url != 0;
+                        },
+                        url: url
+                    };
+                    var output = Mustache.render(template, view);
 
-                    content += "<br><i>" + authors + "</i>";
-
-                    content += "<br>";
-                    if(pubType.length != 0) content += pubType +" ";
-                    if(pubYear.lenght != 0) content += pubYear + " ";
-                    if(venue.length != 0) content += venue;
-                    if(comments.length != 0) content += ". " + comments + ".";
-
-                    content += "<br>";
-                    if(journalName.length != 0) content += journalName;
-                    if(editor.length != 0) content += "<i class='editor'>" + editor + "</i>"; 
-                    if(seriesTitle.length != 0) content += ". <i class='editor'>" + seriesTitle + "</i>";
-
-                    content += "<br>";
-                    if(isbn.length != 0) content += "ISBN: " + isbn + "; ";
-                    if(doi.length != 0) content += "DOI: <a href='" + doi + "'>" + doi + "</a>; ";
-                    if(url != 0) content += "<a href='" + url + "'>" + url + "</a>; ";
-                    content += "</li>";
+                    //if(comments.length != 0) content += ". " + comments + ".";
 
                     list.empty(); // clear the list to remove the loader
-                    list.append(content);
+                    list.append(output);
                 }
             });
         },
