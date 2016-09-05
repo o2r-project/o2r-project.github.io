@@ -22,9 +22,10 @@ $(document).ready(function(){
 
             var list = $("#publicationlist");
             $(publications).each(function(index, value) {
-                if(value.infoObject._type === "Publication") {
+                if(value.infoObject._type === "Publication" && value.infoObject._statusVisible === "true") {
+                    var crisId = value.infoObject._id;
                     var attributes = value.infoObject.attribute;
-                    
+
                     var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments;
 
                     $(attributes).each(function(index, value) {
@@ -71,7 +72,10 @@ $(document).ready(function(){
                         }
                     });
 
-                    var content = "<li><a href='" + url + "'>" + title + "</a>";
+                    var content = "<li>";
+
+                    var crisURL = "https://www.uni-muenster.de/forschungaz/publication/" + crisId + "?lang=en";
+                    content += "<a href='" + crisURL + "'>" + title + "</a>";
                     if(subtitle.length != 0) content += ": " + subtitle + ".";
 
                     content += "<br><i>" + authors + "</i>";
@@ -88,8 +92,9 @@ $(document).ready(function(){
                     if(seriesTitle.length != 0) content += ". <i class='editor'>" + seriesTitle + "</i>";
 
                     content += "<br>";
-                    if(isbn.length != 0) content += "ISBN: " + isbn + " ";
-                    if(doi.length != 0) content += "DOI: <a href='" + doi + "'>" + doi + "</a>";
+                    if(isbn.length != 0) content += "ISBN: " + isbn + "; ";
+                    if(doi.length != 0) content += "DOI: <a href='" + doi + "'>" + doi + "</a>; ";
+                    if(url != 0) content += "<a href='" + url + "'>" + url + "</a>; ";
                     content += "</li>";
 
                     list.empty(); // clear the list to remove the loader
