@@ -26,7 +26,9 @@ This is based on the files `.travis.yml` and `Gemfile`.
 
 ### Images
 
-We use the kramdown parser engine and subsequently can use some [advanced syntax](http://kramdown.gettalong.org/quickref.html) (e.g. for named lists, image resizing, quotes, and more).
+We use the kramdown parser engine and subsequently can use some [advanced syntax](http://kramdown.gettalong.org/syntax.html) (e.g. for named lists, [image resizing](http://kramdown.gettalong.org/syntax.html#images), quotes, and more).
+
+To float images, use the CSS classes `.img.leftfloat` or `.img.rightfloat`, for example `![geocontainers logo](http://geocontainers.org/img/geocontainers-logo.png "geocontainers logo"){:width="100" .img.rightfloat}`
 
 *Note:* When the rendering engine is changed, these changes are prone to break.
 
