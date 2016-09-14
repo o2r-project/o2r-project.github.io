@@ -50,15 +50,14 @@ $(document).ready(function(){
         url: "https://crossorigin.me/https://www.uni-muenster.de/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_PUBL",
         dataType: "text",
         success: function(data) {
-            var publications = x2js.xml_str2json(data).infoObjects;
+            var publicationsData = x2js.xml_str2json(data).infoObjects;
 
             var template = $('#templatePubl').html();
             Mustache.parse(template);
 
-            var list = $("#publicationlist");
-            list.empty(); // clear the list to remove the loader
+            var publications = [];
 
-            $(publications).each(function(index, value) {
+            $(publicationsData).each(function(index, value) {
                 if(value.infoObject._type === "Publication" && value.infoObject._statusVisible === "true") {
                     var crisId = value.infoObject._id;
                     var attributes = value.infoObject.attribute;
@@ -111,6 +110,7 @@ $(document).ready(function(){
 
 
                     var view = {
+                        crisId: crisId,
                         crisURL: "https://www.uni-muenster.de/forschungaz/publication/" + crisId + "?lang=en",
                         title: title,
                         authors: authors,
@@ -145,10 +145,21 @@ $(document).ready(function(){
                         },
                         url: url
                     };
-                    var output = Mustache.render(template, view);
 
-                    list.append(output);
+                    publications.push(view);
                 } // else not a publication
+            });
+
+            publications.sort(function(a,b){
+                return b.crisId - a.crisId;
+            });
+
+            var list = $("#publicationlist");
+            list.empty(); // clear the list to remove the loader
+
+            publications.forEach(function(element, index, array) {
+                var output = Mustache.render(template, element);
+                list.append(output);
             });
         },
         error: function(xhr, status) {
@@ -162,15 +173,14 @@ $(document).ready(function(){
         url: "https://crossorigin.me/https://www.uni-muenster.de/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_TALK",
         dataType: "text",
         success: function(data) {
-            var talks = x2js.xml_str2json(data).infoObjects.infoObject;
+            var talksData = x2js.xml_str2json(data).infoObjects.infoObject;
 
             var template = $('#templateTalk').html();
             Mustache.parse(template);
 
-            var list = $("#talklist");
-            list.empty(); // clear the list to remove the loader
+            var talks = [];
 
-            $(talks).each(function(index, value) {
+            $(talksData).each(function(index, value) {
                 if(value._type === "Talk" && value._statusVisible === "true") {
                     var crisId = value._id;
                     var attributes = value.attribute;
@@ -242,10 +252,23 @@ $(document).ready(function(){
                         eventUrl: eventUrl,
                         year: year
                     };
-                    var output = Mustache.render(template, view);
 
-                    list.append(output);
+                    talks.push(view);
                 } // else not a talk
+            });
+
+            talks.sort(function(a,b){
+                // Turn your strings into dates, and then subtract them
+                // to get a value that is either negative, positive, or zero.
+                return new Date(b.date) - new Date(a.date);
+            });
+
+            var list = $("#talklist");
+            list.empty(); // clear the list to remove the loader
+
+            talks.forEach(function(element, index, array) {
+                var output = Mustache.render(template, element);
+                list.append(output);
             });
 
             // active popovers on the links with popover content
@@ -267,6 +290,7 @@ $(document).ready(function(){
 </div>
 
 <h1>Talks</h1>
+<p>(newest first)</p>
 
 <div id="talks">
     <ul id="talklist">
