@@ -180,7 +180,9 @@ $(document).ready(function(){
                     $(attributes).each(function(index, value) {
                         switch(value._name) {
                             case "Title":
-                                title = value.data;
+                                if(!title && value.data) {
+                                    title = value.data;
+                                }
                                 break;
                             case "Date of talk":
                                 date = value.data;
@@ -195,7 +197,9 @@ $(document).ready(function(){
                                 organiser = value.data;
                                 break;
                             case "Abstract":
-                                abstract = value.data;
+                                if(!abstract && value.data) {
+                                    abstract = value.data;
+                                }
                                 break;
                             case "Keywords":
                                 keywords = value.data;
