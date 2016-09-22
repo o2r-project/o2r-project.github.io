@@ -24,19 +24,29 @@ Building on existing open standards and software, this project develops standard
 
 This is the o2r team in alphabetical order.
 
-* Jim Jones (ULB)
-* Dr. Stephanie Klötgen (ULB)
-* [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
-* Jan Koppe (ifgi, student assistant, 2016-03 to 2016-08)
-* [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
-* Dr. Dirk Kussmann (ULB)
-* Jörg Lorenz (ULB)
-* [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
-* [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
-* Holger Przibytzin (ULB)
-* Dr. Marc Schutzeichel (ULB)
-* Jan Suleiman (ifgi, student assistant)
-* Dr. Beate Tröger (ULB)
+- Jim Jones (ULB)
+- Dr. Stephanie Klötgen (ULB)
+- [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
+- Jan Koppe (ifgi, student assistant, 2016-03 to 2016-08)
+- [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
+- Dr. Dirk Kussmann (ULB)
+- Jörg Lorenz (ULB)
+- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
+- [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
+- Holger Przibytzin (ULB)
+- Dr. Marc Schutzeichel (ULB)
+- Jan Suleiman (ifgi, student assistant)
+- Dr. Beate Tröger (ULB)
+
+## External partners
+
+The o2r project is connected to external partners since its inception, and the group has been extended since then. They come from different disciplines and regularly enrich discussions with their insights. These are the partners in alphabetical order.
+
+- [Dr. Xenia von Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
+- [Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
+- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)
+- [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) (Head of Content Innovation, Elsevier)
+
 
 **********
 
