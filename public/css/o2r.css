@@ -51,3 +51,20 @@ img.center {
   margin-top: 3em;
   font-size: 0.9em;
 }
+
+/* based on https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
+.anchorjs-link {
+  color: inherit !important;
+  text-decoration: none !important; /* do not underline */
+}
+@media (max-width: 768px) {
+  /* Do not display AnchorJS icon on less than 768px view point */
+  .anchorjs-link {
+    display: none;
+  }
+}
+*:hover > .anchorjs-link:hover,
+.anchorjs-link:focus {
+  text-decoration: none !important; /* do not underline */
+  opacity: 1;
+}
