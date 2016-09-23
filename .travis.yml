@@ -1,7 +1,7 @@
 # based on https://www.jacobtomlinson.co.uk/jekyll/2015/02/18/test-you-jekyll-blog-with-travis-ci/
 language: ruby
 rvm:
-  - 2.2
+  - 2.2.2
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
