@@ -33,6 +33,12 @@ img.center {
     color: rgba(67,69,83,1);
 }
 
+.attributionInlineImage {
+    font-size: 0.6em;
+    margin-top: -1em;
+    color: rgba(67,69,83,1);
+}
+
 .comments_disabled {
     font-style: italic;
     color: rgba(67,69,83,1);
