@@ -47,7 +47,7 @@ $(document).ready(function(){
     // get publications
     $.ajax({
         type: "get",
-        url: "https://crossorigin.me/https://www.uni-muenster.de/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_PUBL",
+        url: "https://o2r.uni-muenster.de/wwuproxy/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_PUBL",
         dataType: "text",
         success: function(data) {
             var publicationsData = x2js.xml_str2json(data).infoObjects;
@@ -170,7 +170,7 @@ $(document).ready(function(){
     // get talks
     $.ajax({
         type: "get",
-        url: "https://crossorigin.me/https://www.uni-muenster.de/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_TALK",
+        url: "https://o2r.uni-muenster.de/wwuproxy/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_TALK",
         dataType: "text",
         success: function(data) {
             var talksData = x2js.xml_str2json(data).infoObjects.infoObject;
