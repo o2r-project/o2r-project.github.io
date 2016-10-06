@@ -5,7 +5,7 @@ description: Stellenausschreibung Studentische oder Wissenschaftliche Hilfskraft
 exclude_from_nav: true
 ---
 
-_[German is not your native language but you are interested in working as a student assistant in Opening Reproducible Research? Please get in touch via email (see below) or drop by room 140 at GEO 1.]_
+[**ENGLISH VERSION**](/public/download/student-assistant-o2r.pdf)
 
 Das Projekt Opening Reproducible Research ([o2r](http://o2r.info)) sucht zum nächstmöglichen Zeitpunkt **Studentische/Wissenschaftliche Hilfskräfte (m/w) zur Unterstützung unseres Entwicklerteams**.
 
