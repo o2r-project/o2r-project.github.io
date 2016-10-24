@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Workshop on Reproducible Open Science
+title: Workshop on Reproducible Open Science
 categories:
   - workshop
   - presentation
