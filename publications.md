@@ -19,7 +19,7 @@ categories:
     <strong><a href="{{crisURL}}" title="CRIS entry of publication">{{title}}</a></strong>{{subtitle}}
     <i>{{ authors }}</i>
     <br>
-    {{#hasJournalName}}{{journalName}}{{/hasJournalName}}<i class="editor"> {{publicationType}} {{editor}}</i><i class="editor"> {{series}} {{venue}} {{publicationYear}}</i>
+    <i class="editor">{{publicationType}} {{journalName}} {{editor}}</i><i class="editor"> {{series}} {{venue}} {{publicationYear}}</i>
     {{#hasISBN}}ISBN: {{isbn}};{{/hasISBN}}
     {{#hasDoi}}doi: <a href="{{doi}}">{{doi}}</a>;{{/hasDoi}}
     {{#hasURL}}<br><a href="{{url}}">{{url}}</a>{{/hasURL}}
@@ -162,9 +162,6 @@ $(document).ready(function(){
                         },
                         publicationYear: function() {
                             if(pubYear.length != 0) return pubYear + ".";
-                        },
-                        hasVenue: function() {
-                            return venue.length != 0;
                         },
                         venue: venue,
                         journalName: function() {
