@@ -16,10 +16,10 @@ categories:
 <script id="templatePubl" type="x-tmpl-mustache">
 {% raw %}
 <li>
-    <strong><a href="{{crisURL}}" title="CRIS entry of publication">{{title}}</a></strong>{{subtitle}}.
-    <i>{{ authors }}</i>.
+    <strong><a href="{{crisURL}}" title="CRIS entry of publication">{{title}}</a></strong>{{subtitle}}
+    <i>{{ authors }}</i>
     <br>
-    {{#hasJournalName}}{{journalName}}. {{/hasJournalName}}<i class="editor"> {{editor}}</i>.<i class="editor"> {{series}}</i>. {{#hasVenue}} {{venue}}.{{/hasVenue}}
+    {{#hasJournalName}}{{journalName}}{{/hasJournalName}}<i class="editor"> {{publicationType}} {{editor}}</i><i class="editor"> {{series}} {{venue}} {{publicationYear}}</i>
     {{#hasISBN}}ISBN: {{isbn}};{{/hasISBN}}
     {{#hasDoi}}doi: <a href="{{doi}}">{{doi}}</a>;{{/hasDoi}}
     {{#hasURL}}<br><a href="{{url}}">{{url}}</a>{{/hasURL}}
@@ -57,10 +57,10 @@ $(document).ready(function(){
 
             var publications = [];
 
-            $(publicationsData).each(function(index, value) {
-                if(value.infoObject._type === "Publication" && value.infoObject._statusVisible === "true") {
-                    var crisId = value.infoObject._id;
-                    var attributes = value.infoObject.attribute;
+            $(publicationsData.infoObject).each(function(index, value) {
+                if(value._type === "Publication" && value._statusVisible === "true") {
+                    var crisId = value._id;
+                    var attributes = value.attribute;
 
                     var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments;
 
@@ -85,7 +85,47 @@ $(document).ready(function(){
                                 authors = value.data;
                                 break;
                             case "Publication type":
-                                pubType = value.additionalInfo;
+                                switch(value.data){
+                                    case "212":
+                                        pubType = "Book";
+                                        break;
+                                    case "569":
+                                        pubType = "Book(editor)";
+                                        break;
+                                    case "394":
+                                        pubType = "Book chapter";
+                                        break;
+                                    case "570":
+                                        pubType = "Article(conference)";
+                                        break;
+                                    case "1567":
+                                        pubType = "Abstract(poster)";
+                                        break;
+                                    case "210":
+                                        pubType = "Article(journal)";
+                                        break;
+                                    case "1566":
+                                        pubType = "Article";
+                                        break;
+                                    case "1568":
+                                        pubType = "Encyclopedia entry";
+                                        break;
+                                    case "568":
+                                        pubType = "Recension";
+                                        break;
+                                    case "1569":
+                                        pubType = "Thesis";
+                                        break;
+                                    case "211":
+                                        pubType = "Report";
+                                        break;
+                                    case "572":
+                                        pubType = "Other";
+                                        break;
+                                    case "1644":
+                                        pubType = "Media";
+                                        break;
+                                }
                                 break;
                             case "Title of series":
                                 seriesTitle = value.data;
@@ -115,13 +155,13 @@ $(document).ready(function(){
                         title: title,
                         authors: authors,
                         subtitle: function() {
-                            if(subtitle.length != 0) return ": " + subtitle;
+                            if(subtitle.length != 0) return ": " + subtitle + ".";
                         },
                         publicationType: function() {
-                            if(pubType.length != 0) return pubType + " ";
+                            if(pubType.length != 0) return pubType + ".";
                         },
                         publicationYear: function() {
-                            if(pubType.length != 0) return pubYear + " ";
+                            if(pubYear.length != 0) return pubYear + ".";
                         },
                         hasVenue: function() {
                             return venue.length != 0;
@@ -130,8 +170,12 @@ $(document).ready(function(){
                         journalName: function() {
                             if(journalName.length != 0) return journalName + ".";
                         },
-                        editor: editor,
-                        series: seriesTitle,
+                        editor: function(){
+                            if(editor.length != 0 ) return editor + ".";
+                        },
+                        series: function(){
+                           if(seriesTitle.length != 0) return seriesTitle + ".";
+                        },
                         hasISBN: function() {
                             return isbn.length != 0;
                         },
