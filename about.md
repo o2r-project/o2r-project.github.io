@@ -22,14 +22,18 @@ Building on existing open standards and software, this project develops standard
 
 ## People
 
-This is the o2r team in alphabetical order.
+This is the o2r team and supporting university staff in alphabetical order.
 
+- Matthias Hinz (ifgi, 2016-12 to 2017-03)
 - Jim Jones (ULB)
 - Dr. Stephanie Klötgen (ULB)
 - [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
 - Jan Koppe (ifgi, student assistant, 2016-03 to 2016-08)
+- Torben Kraft (ifgi, student assistant)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Dr. Dirk Kussmann (ULB)
+- Timm Kühnel (ifgi, student assistant)
+- Lukas Lohoff (ifgi, student assistant)
 - Jörg Lorenz (ULB)
 - [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
