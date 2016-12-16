@@ -11,6 +11,8 @@ categories:
 Docker and R: How are they used together?
 That is the question that we asked ourself in recent weeks. In this post, we are going to share our insights with you.
 
+_Thanks to [Ben Marwick](http://faculty.washington.edu/bmarwick/) for [contributing](https://github.com/o2r-project/o2r-project.github.io/pull/6) to this post!_
+
 ## Dockerizing R
 
 The most prominent effort in this area is the **Rocker project**. It was initiated by Dirk Eddelbuettel and Carl Boettiger. For an introduction, you may read their blog post [here](http://dirk.eddelbuettel.com/blog/2014/10/23/) or follow [this tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) from rOpenSci.
