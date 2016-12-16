@@ -54,6 +54,6 @@ The o2r project is connected to external partners since its inception, and the g
 
 **********
 
-[<img src="/public/images/ulblogo.svg" width="200" alt="ULB Logo" />](http://www.ulb.uni-muenster.de/)
+[<img src="/public/images/ulblogo.svg" width="200" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
 
-[<img src="/public/images/ifgilogo.svg" width="300" alt="ifgi Logo" />](http://www.uni-muenster.de/Geoinformatics/)
+[<img src="/public/images/ifgilogo.svg" width="300" alt="ifgi Logo" />](https://www.uni-muenster.de/Geoinformatics/)

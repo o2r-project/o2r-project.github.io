@@ -9,7 +9,7 @@ categories:
 
 With the University in a rather calm state during summer, the o2r team continues to work on the first prototypes for testing and demonstrating our ideas. This is the first post on a technical topic, and we will occassionally write about topics that are not related to the scientific work but either kept us busy for some time or might be useful to others.
 
-Last week o2r team member Jan struggled with the implementation of the **login feature** for a [Node.js](https://nodejs.org) [microservice](https://en.wikipedia.org/wiki/Microservices). _Why would we bother with that?_
+Last week o2r team member Jan struggled with the implementation of the **login feature** for a [Node.js](https://nodejs.org/en) [microservice](https://en.wikipedia.org/wiki/Microservices). _Why would we bother with that?_
 <!--more-->Because we want to share our prototypes publicly and invite you to try them out, but at the same time not have to worry about one of your most valuable possessions: your password.
 
 Therefore we decided early on to rely on [three legged **OAuth 2.0**](http://oauthbible.com/#oauth-2-three-legged) for handling user authentication. We opted for [**ORCID**](http://orcid.org/) as the authorization server because it is the most widespread identification for researchers today[^1], and because of the potential for useful integrations in the future[^2].
