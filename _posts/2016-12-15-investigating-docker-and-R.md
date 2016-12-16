@@ -53,7 +53,7 @@ Rather than running R inside Docker containers, it can be beneficial to call Doc
 
 Docker, in general, may help you to build complex and scalable web applications with R. 
 
-Marc McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2014/09/23/duke-docker-day-was-great/) of the Duke University in North Carolina (USA) how he provided 300+ students each with private RStudio Server instances. In his presentation ([PDF](https://sites.duke.edu/researchcomputing/files/2014/09/mccahill-DockerDays.pdf) / [MOV](https://people.duke.edu/~mdelong/mccahill-DockerDays.mov) (398 MB)), he explains his **RStudio farm** in detail. 
+Mark McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2014/09/23/duke-docker-day-was-great/) of the Duke University in North Carolina (USA) how he provided 300+ students each with private RStudio Server instances. In his presentation ([PDF](https://sites.duke.edu/researchcomputing/files/2014/09/mccahill-DockerDays.pdf) / [MOV](https://people.duke.edu/~mdelong/mccahill-DockerDays.mov) (398 MB)), he explains his **RStudio farm** in detail. 
 
 If you want to use **RStudio with cloud services**, you may find delight in these articles from the SAS and R blog: [RStudio in the cloud with Amazon Lightsail and docker](http://sas-and-r.blogspot.de/2016/12/rstudio-in-cloud-with-amazon-lightsail.html), [Set up RStudio in the cloud to work with GitHub](http://sas-and-r.blogspot.de/2016/01/set-up-rstudio-in-cloud-to-work-with.html), [RStudio in the cloud for dummies, 2014/2015 edition](http://sas-and-r.blogspot.de/2014/12/rstudio-in-cloud-for-dummies-20142015.html).
 
