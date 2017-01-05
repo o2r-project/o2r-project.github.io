@@ -2,7 +2,7 @@
 
 This is the project website of the DFG-funded research project "Opening Reproducible Research" by Institute for Geoinformatics (ifgi) and University and Regional Library (ULB), University of Münster, Germany
 
-The design is base on [Hyde](https://github.com/poole/hyde) by Mark Otto.
+The design is based on [Hyde](https://github.com/poole/hyde) by Mark Otto.
 
 ## Building the site
 
@@ -34,7 +34,7 @@ To float images, use the CSS classes `.img.leftfloat` or `.img.rightfloat`, for 
 
 ### Excerpts
 
-The file `index.html` contains some logic trying to to a clever handling of the post excerpts, i.e. the texts that are shown in the listing of posts. The procedure is as follows:
+The file `index.html` contains some logic trying to do a clever handling of the post excerpts, i.e. the texts that are shown in the listing of posts. The procedure is as follows:
 
 - If the `disable_excerpt` attribute is set to `true`, show the full content and do not show the "Read more" link. This is useful for short posts.
 - If the number of paragraphs in the post's excerpt is the same as the number of paragraphs of the post content, then see above. This is so that no "Read more" link is put on pages with no further text.
