@@ -11,7 +11,7 @@ disable_excerpt: true
 
 ![article cover screenshot](/public/images/2017-01_d-lib-magazine-cover.jpg "screenshot of article at D-Lib Magazine website"){:width="300" .img.rightfloat}
 
-We are happy to announce that our article **Opening the Publication Process with Executable Research Compendia** is now published in D-Lib Magazine' [current issue](https://doi.org/10.1045/january2017-editorial):
+We are happy to announce that our article **Opening the Publication Process with Executable Research Compendia** is now published in D-Lib Magazine's [current issue](https://doi.org/10.1045/january2017-editorial):
 
 **[https://doi.org/10.1045/january2017-nuest](https://doi.org/10.1045/january2017-nuest)**
 
