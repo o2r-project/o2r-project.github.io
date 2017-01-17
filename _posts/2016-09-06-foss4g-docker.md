@@ -9,7 +9,11 @@ categories:
   - video
 ---
 
-o2r team member [Daniel Nüst](https://twitter.com/nordholmen) recently participated in the worlds largest conference for geospatial open source software. The [FOSS4G 2016](http://2016.foss4g.org) was hosted by the Open Source Geospatial Foundation ([OSGeo](http://www.osgeo.org/)) and took place close to home, namely in Bonn. Therefore Daniel was extremely happy that his [talk](http://2016.foss4g.org/talks.html#146) "An overview of Docker images for geospatial applications" was voted to be presented by the OSGeo community. Daniel presented an evaluation into the existing containers for FOSS4G software. After an introduction into Docker and some live demos, the takeaway was that everybody should use Docker more, and many different application scenarios (development, demos, training, cloud deployment) exist.
+**Update**: A video recoriding of the presentation is now published on the TIB AV-Portal: [http://dx.doi.org/10.5446/20330](http://dx.doi.org/10.5446/20330)
+
+<iframe width="560" height="315" scrolling="no" src="//av.tib.eu/player/20330" frameborder="0" allowfullscreen></iframe>
+
+o2r team member [Daniel Nüst](https://twitter.com/nordholmen) recently participated in the worlds largest conference for geospatial open source software. The [FOSS4G 2016](http://2016.foss4g.org) was hosted by the Open Source Geospatial Foundation ([OSGeo](http://www.osgeo.org/)) and took place close to home, namely in Bonn. Therefore Daniel was extremely happy that <!--more--> his [talk](http://2016.foss4g.org/talks.html#146) "An overview of Docker images for geospatial applications" was voted to be presented by the OSGeo community. Daniel presented an evaluation into the existing containers for FOSS4G software. After an introduction into Docker and some live demos, the takeaway was that everybody should use Docker more, and many different application scenarios (development, demos, training, cloud deployment) exist.
 
 The presentation was very well attended (~ 120 people), albeit taking place in the first session on Friday morning after the conference dinner the night before. [Reactions on Twitter](https://twitter.com/search?q=foss4g%20docker&src=typd) were also quite positive, several [good question](https://twitter.com/foss4g/status/769081504718852119)s were asked, and great discussions followed throughout the day.
 
