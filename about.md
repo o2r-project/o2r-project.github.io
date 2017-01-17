@@ -49,7 +49,7 @@ The o2r project is connected to external partners since its inception, and the g
 - [Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
 - [Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
 - [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)
-- [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) (Head of Content Innovation, Elsevier)
+- [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) (Director of Product Management, Enriched Content at Elsevier; previously [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141), Head of Content Innovation, Elsevier)
 
 
 **********
