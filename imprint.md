@@ -30,7 +30,7 @@ Email: c.kray@uni-muenster.de
 
 We use our own [Piwik](https://piwik.org/) server to collect anonymous user statistics in a configuration that is [conform with German privacy laws](https://www.datenschutzzentrum.de/uploads/projekte/verbraucherdatenschutz/20110315-webanalyse-piwik.pdf). If you do not want to be tracked, please use the option below.
 
-<iframe frameborder="no" width="600px" height="200px" src="http://o2r.uni-muenster.de/piwik/index.php?module=CoreAdminHome&action=optOut"></iframe>
+<iframe frameborder="no" width="600px" height="200px" src="https://o2r.uni-muenster.de/piwik/index.php?module=CoreAdminHome&action=optOut"></iframe>
 
 
 ## Discussion
