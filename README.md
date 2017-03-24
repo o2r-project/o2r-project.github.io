@@ -51,3 +51,12 @@ A generic "Fork me" ribbon has been added and can be configured (text, link) in 
 ### Exclude pages from menu
 
 If you do not want a page to appear in the left hand side menu, include the parameter `exclude_from_nav: true` in the page's frontmatter.
+
+### Footnotes
+
+```
+Testing footnotes[^2] for *Opening Reproducible Research*[^1].
+
+[^1]: would be useful!
+[^2]: yes, no promises on results...
+```
