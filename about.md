@@ -24,6 +24,7 @@ Building on existing open standards and software, this project develops standard
 
 This is the o2r team and supporting university staff in alphabetical order.
 
+- Rehan Chaudhary (ifgi, internship from 2017-01-17 to 2017-07-17)
 - Matthias Hinz (ifgi, 2016-12 to 2017-03)
 - Jim Jones (ULB)
 - Dr. Stephanie Klötgen (ULB)
