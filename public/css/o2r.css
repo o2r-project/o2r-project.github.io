@@ -15,10 +15,12 @@ img.center {
 
 .img.rightfloat {
     float: right;
+    margin: 0.5em;
 }
 
 .img.leftfloat {
     float: left;
+    margin: 0.5em;
 }
 
 .small {
