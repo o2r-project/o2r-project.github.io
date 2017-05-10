@@ -21,7 +21,7 @@ categories:
     <br>
     <i class="editor">{{publicationType}} {{journalName}} {{editor}}</i><i class="editor"> {{series}} {{venue}} {{publicationYear}}</i>
     {{#hasISBN}}ISBN: {{isbn}};{{/hasISBN}}
-    {{#hasDoi}}<strong>doi: <a href="{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
+    {{#hasDoi}}<strong>doi: <a href="http://dx.doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
     {{#hasURL}}<br><a href="{{url}}">{{url}}</a>{{/hasURL}}
 </li>
 {% endraw %}
@@ -34,7 +34,7 @@ categories:
     <br>
     Presented at <a href="{{eventUrl}}" title="event URL">{{event}}</a> ({{organiser}}) on {{date}}, {{venue}}.
     <br>
-    {{#hasDoi}}<strong><a href="{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
+    {{#hasDoi}}<strong><a href="http://dx.doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
     {{#hasSlidesURL}}<a href="{{slidesUrl}}">Download slides</a>{{/hasSlidesURL}}
 </li>
 {% endraw %}
