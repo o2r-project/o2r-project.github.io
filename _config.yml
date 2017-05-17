@@ -36,8 +36,7 @@ twitter:
   url: https://twitter.com/o2r_project
   handle: '@o2r_project'
 
-exclude: [README.md, CNAME]
-
+exclude: [README.md, CNAME, "Gemfile", "Gemfile.lock", "README.md", "Makefile"]
 # ribbon itself by https://github.com/simonwhitaker/github-fork-ribbon-css
 ribbon:
   show:   true
