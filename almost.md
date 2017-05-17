@@ -18,14 +18,14 @@ We are looking for scientific publications that we can use to test our approach.
 - Published open access journal article (peer reviewed) or work-in-progress you are able to share with us
 - Data, text, and scripts/code are available publicly
   - data size < 1 GB
-  - code or main script in [R](http://www.r-project.org/)
+  - code or main script in [R](http://www.r-project.org/) (no worries about code quality - _what works is good!_)
   - data, method or visualisations have a spatial or spatio-temporal component, or other "geo" aspect
 - Interest in open and reproducible research and willing to engage in a dialog with the o2r team
 
 *What do you get?*
 
 - Your paper will become part of our test publication corpus
-- _We_ will work hard to make it reproducible _for you_
+- _We_ will work hard to make it reproducible _for you_ and even give feedback on your code, if you wish
 - In the long run, you contributed to a process that intends to make the creation of a reproducible publication a piece of cake, for you and for your fellow scientists
 
 **But I neither need nor want your help!**
