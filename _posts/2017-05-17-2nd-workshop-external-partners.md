@@ -16,7 +16,7 @@ Thanks to the valuable questions and comments by our external partners, the proj
 
 This workshop <!--more-->was only possible thanks to our partner's commitment, enthusiasm, and continued interest in the project. Our heartfelt thanks go to
 
-- [Xenia van Edig](https://twitter.com/xeniavanedig) from [Copernicus](http://www.copernicus.org/about_us.html)’s business development team,
+- [Xenia van Edig](https://twitter.com/xeniavanedig), Business Development Manager, [Copernicus Publications](http://www.copernicus.org/about_us.html),
 - [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/), Director of Product Management, Enriched Content at [Elsevier](https://www.elsevier.com/), and
 - [Tomi Kauppinen](https://twitter.com/LinkedScience) from the [Department of Computer Science at Aalto University](http://cs.aalto.fi/en/)
 
