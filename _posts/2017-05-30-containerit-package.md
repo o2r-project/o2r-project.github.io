@@ -5,6 +5,7 @@ categories:
   - thesis
   - theses
   - research
+  - R
 author: 'Daniel Nüst, Matthias Hinz'
 meta-json: '{"date":"2017-05-30","output":{"md_document":{"variant":"markdown\\_mmd","toc":true,"toc_depth":"2"}},"author":"Matthias Hinz, Daniel Nüst", "title":"Generating Dockerfiles for reproducible research with R","vignette":"%\\VignetteEngine{knitr::rmarkdown}\n%\\VignetteIndexEntry{Generating Dockerfiles for reproducible research with R}\n%\\VignetteEncoding{UTF-8}"}'
 ---
