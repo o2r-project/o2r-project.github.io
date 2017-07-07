@@ -8,10 +8,12 @@ categories:
   - Docker
 ---
 
+_This post is regularly updated (cf. [PR]()) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._
+
 Docker and R: How are they used together?
 That is the question that we asked ourself in recent weeks. In this post, we are going to share our insights with you.
 
-_Thanks to [Ben Marwick](http://faculty.washington.edu/bmarwick/) for [contributing](https://github.com/o2r-project/o2r-project.github.io/pull/6) to this post!_
+_Thanks to [Ben Marwick](http://faculty.washington.edu/bmarwick/) for [contributing](https://github.com/o2r-project/o2r-project.github.io/pull/6) to this post! You know about a project using Docker and R? [Get in touch](https://github.com/o2r-project/o2r-project.github.io/issues/new)._
 
 ## Dockerizing R
 
