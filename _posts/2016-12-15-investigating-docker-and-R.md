@@ -8,7 +8,7 @@ categories:
   - Docker
 ---
 
-_This post is regularly updated (cf. [PR]()) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._
+_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._
 
 Docker and R: How are they used and could they be used together?
 That is the question that we constantly ask ourself. In this post, we are going to share our insights with you.
