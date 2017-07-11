@@ -8,10 +8,10 @@ categories:
   - Docker
 ---
 
-_This post is regularly updated (cf. [PR]()) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._
+_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._
 
-Docker and R: How are they used together?
-That is the question that we asked ourself in recent weeks. In this post, we are going to share our insights with you.
+Docker and R: How are they used and could they be used together?
+That is the question that we constantly ask ourself. In this post, we are going to share our insights with you.
 
 _Thanks to [Ben Marwick](http://faculty.washington.edu/bmarwick/) for [contributing](https://github.com/o2r-project/o2r-project.github.io/pull/6) to this post! You know about a project using Docker and R? [Get in touch](https://github.com/o2r-project/o2r-project.github.io/issues/new)._
 
@@ -25,13 +25,18 @@ If you come from Bioinformatics or neighboring disciplines, you might be delight
 
 ## Dockerizing Research and Development Environments
 
-So why, apart from the incredibly easy and fast installation of R bundles, would you *really* want to combine R with Docker?
+So why, apart from the incredibly easy usage, adoption and transfer of typical R environments, would you want to combine R with Docker?
 
 Ben Marwick, Associate Professor at the University of Washington, explains in [this presentation](https://benmarwick.github.io/UW-eScience-docker-for-reproducible-research/) that it helps you manage dependencies. It gives a computational environment that is isolated from the host, and at the same time transparent, portable, extendable and reusable. Marwick uses Docker and R for **reproducible research** and thus bundles up his works to a kind of *Research Compendium*; an instance is available [here](https://github.com/benmarwick/1989-excavation-report-Madjebebe), and a template [here](https://github.com/benmarwick/researchcompendium).
 
 Carl Boettiger, Assistant Professor at UC Berkeley, has also written in detail about using Docker for reproducibility in his ACM SIGOPS paper ['An introduction to Docker for reproducible research, with examples from the R environment'](https://arxiv.org/abs/1410.0846). Both Ben and Carl have written about their case studies using Docker for research compendia in a [essay for rOpenSci](https://github.com/ropensci/rrrpkg).
 
 An R extension you may want to dockerize is **Shiny**. Flavio Barros dedicated two articles on R-bloggers to this topic: [Dockerizing a Shiny App](https://www.r-bloggers.com/dockerizing-a-shiny-app/) and [Share Shiny apps with Docker and Kitematic](https://www.r-bloggers.com/share-your-shiny-apps-with-docker-and-kitematic/).
+The majority of talks at [useR!2017](https://user2017.brussels) presenting [real-world deployments of Shiny](https://user2017.brussels/schedule) mentioned using Dockerized Shiny applications for scalability and ease of installation.
+
+A new solution to ease the creation of Docker containers for specific research environments is [the package <code>containerit</code>](https://github.com/o2r-project/containerit).
+It creates Dockerfiles (using Rocker base images) from R sessions, R scripts, RMarkdown files or R workspace directories, including the required system dependencies.
+The package was [presented at useR!2017](http://o2r.info/2017/07/07/useR2017) and can currently be installed from GitHub.
 
 ## Running Tests
 
