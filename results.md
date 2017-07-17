@@ -22,6 +22,6 @@ We develop a reference implementation of the mentioned specification as Open Sou
 
 (After logging in with your ORCID, please [get in touch](mailto:daniel.nuest@uni-muenster.de) so that we can give your account the required rights.)
 
-Watch a short video of our platform prototype:
+Watch a short video of our platform prototype (turn on subtitles!):
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vy9b3pIWPd0?rel=0" frameborder="0" allowfullscreen></iframe>
