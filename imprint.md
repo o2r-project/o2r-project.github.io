@@ -2,6 +2,7 @@
 layout: page
 title: Imprint
 description: Website imprint
+exclude_from_nav: true
 ---
 
 ## Contact
