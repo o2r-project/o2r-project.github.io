@@ -14,6 +14,17 @@ We propose a system that supports the evolution of scientific publications from 
 
 Building on existing open standards and software, this project develops standards and tools for executable research documents, and will demonstrate and evaluate these, initially focusing on the geosciences domains. Building on recent advances in mainstream IT, o2r envisions a new architecture for storing, executing and interacting with the original analysis environment alongside the corresponding research data and manuscript. o2r bridges the gaps between long-term archiving, practical geoscientific research, and publication media.
 
+## Open Source
+
+For Open Science and reproducible research, we see not alternative to Open Source software.
+We publish current code online, instead of holding back until publication of a paper, to profit from interaction with the Free and Open Source Software (FOSS) community.
+Even the software of supported workflows (i.e. R) and underlying technologies (i.e. Docker) are published under FOSS principles.
+Already in the project proposal, we set a clear agenda on the questions of software licenses:
+
+> All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g., Apache 2.0).  Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
+
+
+
 ## People
 
 This is the o2r team and supporting university staff in alphabetical order.
