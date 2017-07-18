@@ -17,11 +17,12 @@ Building on existing open standards and software, this project develops standard
 ## Open Source
 
 For Open Science and reproducible research, we see not alternative to Open Source software.
+All scripts, code, and libraries supporting a computational analysis must be open for scrutiny by fellow scientists.
 We publish current code online, instead of holding back until publication of a paper, to profit from interaction with the Free and Open Source Software (FOSS) community.
 Even the software of supported workflows (i.e. R) and underlying technologies (i.e. Docker) are published under FOSS principles.
-Already in the project proposal, we set a clear agenda on the questions of software licenses:
+Already in the project proposal, we set a clear agenda on the question of software licenses:
 
-> All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g., Apache 2.0).  Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
+> All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g., Apache 2.0). Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
 
 
 
