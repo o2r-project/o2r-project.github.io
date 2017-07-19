@@ -4,7 +4,7 @@ title: About
 description: Project description and team members of the project Opening Reproducible Research
 ---
 
-## The project
+## Motivation and goals
 
 Open access is not only a form of publishing such that research papers become available to the large public free of charge, it also refers to a trend in science that the act of doing research becomes more open and transparent. Collected or generated research data as well as procedures are published alongside a research paper.
 
@@ -24,7 +24,46 @@ Already in the project proposal, we set a clear agenda on the question of softwa
 
 > All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g., Apache 2.0). Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    // get repo count
+    $.ajax({
+        type: "get",
+        url: "https://api.github.com/orgs/o2r-project",
+        success: function(data) {
+            var repo_count = data.public_repos;
+            $("#gh-stats-repo-count").html(repo_count);
+        },
+        error: function(err, status) {
+            console.log("Error getting repo count from GitHub API: " + err);
+        }
+    });
 
+    // get languages and forks
+    $.ajax({
+        type: "get",
+        url: "https://api.github.com/users/o2r-project/repos?sort=pushed&per_page=100",
+        success: function(data) {
+            let languages = new Set();
+            let forks = 0;
+            data.forEach(function(item) {
+                languages.add(item.language);
+                forks += item.forks_count;
+            });
+            $("#gh-stats-languages-count").html(languages.size);
+            $("#gh-stats-forks-count").html(forks);
+        },
+        error: function(err, status) {
+            console.log("Error getting repo details from GitHub API: " + err);
+        }
+    });
+});
+</script>
+
+Learn more about our projects on [Open Hub](https://www.openhub.net/orgs/o2r) and [GitHub](https://github.com/o2r-project) (currently <span id="gh-stats-repo-count">[NA]</span> repos having <span id="gh-stats-forks-count">[NA]</span> forks using <span id="gh-stats-languages-count">[NA]</span> languages).
+
+<script type="text/javascript" src="https://www.openhub.net/orgs/o2r/widgets/portfolio_projects_activity?format=js"></script>
 
 ## People
 
