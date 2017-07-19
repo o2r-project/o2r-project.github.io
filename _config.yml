@@ -12,7 +12,7 @@ title:            o2r
 tagline:          'opening reproducible research'
 description:      'Opening Reproducible Research is a <a href="http://www.dfg.de/en/" title="DFG website">DFG</a>-<a href="http://gepris.dfg.de/gepris/projekt/274927273" title="Project description @ DFG GEPRIS">funded</a> research project by Institute for Geoinformatics (<a href="https://www.uni-muenster.de/Geoinformatics/en/" title="ifgi website">ifgi</a>) and University and Regional Library (<a href="https://www.ulb.uni-muenster.de/" title="ULB website">ULB</a>), University of Münster, Germany'
 url:              http://o2r.info
-baseurl:          /
+baseurl:          '/'
 
 keywords:
   - open access
