@@ -97,6 +97,9 @@ The o2r project is connected to external partners since its inception, and the g
 - [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)
 - [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) (Director of Product Management, Enriched Content at Elsevier; previously [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141), Head of Content Innovation, Elsevier)
 
+## Funding
+
+This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](http://gepris.dfg.de/gepris/projekt/274927273) @ DFG GEPRIS) is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE 1632/10-1, KR 3930/3-1 and TR 864/6-1.
 
 **********
 
