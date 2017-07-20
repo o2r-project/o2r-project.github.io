@@ -88,21 +88,26 @@ This is the o2r team and supporting university staff in alphabetical order.
 - Jan Suleiman (ifgi, student assistant)
 - Dr. Beate Tröger (ULB)
 
+
+[<img src="/public/images/ulblogo.svg" height="80" style="float: left" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
+
+[<img src="/public/images/ifgilogo.svg" height="80" style="float: right" alt="ifgi Logo" />](https://www.uni-muenster.de/Geoinformatics/)
+
+<div style="clear: both;"></div>
+
 ## External partners
 
 The o2r project is connected to external partners since its inception, and the group has been extended since then. They come from different disciplines and regularly enrich discussions with their insights. These are the partners in alphabetical order.
 
-- [Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
-- [Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
-- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)
-- [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) (Director of Product Management, Enriched Content at Elsevier; previously [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141), Head of Content Innovation, Elsevier)
+- [<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="100" alt="Elsevier Logo" />](http://elsevier.com/)[Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) (Director of Product Management, Enriched Content at Elsevier; previously [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141), Head of Content Innovation, Elsevier)
+- [Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)[<img src="https://www.copernicus.org/logo_copernicus_publications_rgb.png" style="float:right;" width="100" alt="Copernicus Logo" />](https://www.copernicus.org/)
+- [Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)[<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)
+- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)[<img src="http://spatial.ucsb.edu/wp-content/uploads/spatial-logo.jpg" style="float:right;" height="50" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/)
+
+<div style="clear: both;"></div>
 
 ## Funding
 
 This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](http://gepris.dfg.de/gepris/projekt/274927273) @ DFG GEPRIS) is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE 1632/10-1, KR 3930/3-1 and TR 864/6-1.
 
-**********
-
-[<img src="/public/images/ulblogo.svg" width="200" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
-
-[<img src="/public/images/ifgilogo.svg" width="300" alt="ifgi Logo" />](https://www.uni-muenster.de/Geoinformatics/)
+[<img src="/public/images/dfg_logo_schriftzug_schwarz.png" alt="DFG Logo" />](http://www.dfg.de)
