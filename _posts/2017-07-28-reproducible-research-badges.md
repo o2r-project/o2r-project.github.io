@@ -52,7 +52,7 @@ Extended badges are meant for posters or websites that focus on a single publica
 
 ![shields.io badge](https://img.shields.io/badge/licence-open-44cc11.svg)
  
-They excel at applications where space is important, for example search engines that list many research articles. [Shields.io](https://shields.io/) generates these SVG images on the fly when you request a URL (e.g. https://img.shields.io/badge/licence-open-44cc11.svg) in which you specify the text (“licence” and “open”) and the color (“44cc11” is a HTML color code for green). Thanks to them for providing their services free of charge!
+They excel at applications where space is important, for example search engines that list many research articles. [Shields.io](https://shields.io/) generates these SVG images on the fly when you request a URL (e.g. `https://img.shields.io/badge/licence-open-44cc11.svg`) in which you specify the text (`licence` and `open`) and the color (`44cc11` is a [HTML color code](http://html-color-codes.info/) for green). Thanks to them for providing their services free of charge!
 
 How do you make use of these badges? Firstly, they are ready to be integrated into other projects or websites. Let’s look at an example of an *executable* badge. Simply request the badge from the badger instance on the o2r server by providing the DOI of the publication for the `:id` element in the above routes, for example
 
@@ -62,7 +62,7 @@ This URL requests a badge for the reproducibility status of the paper “Global 
 
 1. The badger tries to find a research paper inside the o2r platform, called Executable Research Compendium ([ERC](http://o2r.info/erc-spec/spec/)) with the given DOI
 2. If if finds an ERC, it looks for a matching *[job](http://o2r.info/o2r-web-api/job/)*, a report of a reproduction analysis.
-3. Depending on the reproduction result (“success”, “running”, or “failure”) specified in the job, the badger generates a green, yellow or red badge with matching text indicating the reproducibility of the specified research publication.
+3. Depending on the reproduction result (`success`, `running`, or `failure`) specified in the job, the badger generates a green, yellow or red badge with matching text indicating the reproducibility of the specified research publication.
 4. The request is redirected to a [shields.io](https://shields.io/) URL link containing the color and textual information. If an extended badge is requested, the badger generates and sends a SVG graphic instead.
 
 The returned image contains the requested information, which is in this case a successful reproduction:
