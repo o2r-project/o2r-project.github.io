@@ -8,17 +8,6 @@ categories:
 author: 'Lukas Lohoff, Daniel Nüst'
 ---
 
-IMAGES: ![workshop participants group picture](/public/images/2016-05_o2r-workshop.jpg "o2r external partner workshop participants. image license: CC BY-NC-ND"){:width="400"}
-
-TODO:
-- links
-- images
-- *kursiv*
-- überschriften
-- references
-
-
-
 *This blog post is based on work started in the study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) at [ifgi](https://www.uni-muenster.de/Geoinformatics/). We thank the [project team](https://github.com/o2r-project/o2r-badger#contributors) for their great work!*
 
 ## Introduction
@@ -77,6 +66,7 @@ This URL requests a badge for the reproducibility status of the paper “Global 
 4. The request is redirected to a [shields.io](https://shields.io/) URL link containing the color and textual information. If an extended badge is requested, the badger generates and sends a SVG graphic instead.
 
 The returned image contains the requested information, which is in this case a successful reproduction:
+
 https://img.shields.io/badge/executable-yes-44cc11.svg
 
 Badges for reproducibility, peer review status and license are color coded to provide additional visual aids indicating for example (un)successful reproducibility.
@@ -89,58 +79,59 @@ So there is a great badge server, and databases providing manifold badge informa
 
 The extender currently supports the following websites:
 
-Google Scholar (https://scholar.google.de/)
-DOAJ.org (https://doaj.org/)
-ScienceDirect.com (http://www.sciencedirect.com/)
-ScienceOpen.com (https://scienceopen.com/)
-PLOS.org (https://www.plos.org/)
-Microsoft Academic (https://academic.microsoft.com/)
-Mendeley (https://www.mendeley.com/)
+- Google Scholar (https://scholar.google.de/)
+- DOAJ.org (https://doaj.org/)
+- ScienceDirect.com (http://www.sciencedirect.com/)
+- ScienceOpen.com (https://scienceopen.com/)
+- PLOS.org (https://www.plos.org/)
+- Microsoft Academic (https://academic.microsoft.com/)
+- Mendeley (https://www.mendeley.com/)
 
 For each listed article contained in these research websites, the extender requests a set of badges from the o2r-badger. These are then inserted into the page’s HTML code after rendering the regular website:
 
-![google scholar badges](/public/images/2017-07-28-badges/license_extended.svg "Figure 3: Badges integrated into Google Scholar search results")
+![google scholar badges](/public/images/2017-07-28-badges/google_scholar_badges.png "Figure 3: Badges integrated into Google Scholar search results")
 
 When the badger does not find information for a certain DOI, it returns a grey “not available” - badge instead, as shown in the screenshot above for the outermost license and peer review badges. 
 
-The extender consists of a content script, similar to a userscript, for each research website. The content scripts insert a set of badges (Figure 1) for each article in the respective website. They all use a set of base functions defined in the chrome extension for generating HTML, getting DOIs and inserting badges.
+The extender consists of a content script, similar to a [userscript](http://techsupportguides.com/what-is-a-userscript/), for each research website. The content scripts insert a set of badges (Figure 3) for each article in the respective website. They all use a set of base functions defined in the chrome extension for generating HTML, getting DOIs and inserting badges.
 
-The listed results on each website can also be filtered based on badge values, and selected badge types can be turned on or ff directly from the website with controls, which are also inserted into the page (see Figure 2). Results not matching the filter or articles where the DOI could not be detected are greyed out (Figure 3).
+The listed results on each website can also be filtered based on badge values, and selected badge types can be turned on or off directly from the website with controls, which are also inserted into the page (see Figure 4). Results not matching the filter or articles where the DOI could not be detected are greyed out.
 
-
-Figure 3: Filtering search results on DOAJ
+![doaj filtering](/public/images/2017-07-28-badges/doaj_badges.png "Figure 4: Filtering search results on DOAJ")
 
 
 ### Configuration
 
 The extender is easily configurable: it can be enabled and disabled with a simple click on the icon in the browser toolbar. You can select the badge types to be displayed in the extension settings. Additionally it contains links to local info pages (“Help” and “About”), explaining the extender and the different badge types:
 
-Figure 4: o2r-extender configuration
+![extender config](/public/images/2017-07-28-badges/extender_configuration.png "Figure 5: o2r-extender configuration")
 
-Outlook: Action integrations
-The extender also has a feature that has nothing to do with badges at all. In the context of open science and reproducible research, we have place the reproducibility service in a larger context as described in the o2r architecture (see section Business context). Two core aspects are loading research workspaces from cloud storage and connecting to suitable data repositories for actual storage of ERCs.
-To facilitate this integration for users, the extender can also augment the user interfaces  of the cloud collaboration platform Sciebo and the scientific data repository Zenodo to integrate our reproducibility service.
+## Outlook: Action integrations
+
+The extender also has a feature that has nothing to do with badges at all. In the context of open science and reproducible research, we have place the reproducibility service in a larger context as described in the [o2r architecture](http://o2r.info/architecture/) (see section Business context). Two core aspects are loading research workspaces from cloud storage and connecting to suitable data repositories for actual storage of ERCs.
+
+To facilitate this integration for users, the extender can also augment the user interfaces  of the cloud collaboration platform [Sciebo](http://sciebo.de/) and the scientific data repository [Zenodo](https://zenodo.org/) to integrate our reproducibility service.
 
 When using Sciebo, a button is added  to a file’s or directory’s context menu. It allows direct submission of workspaces to the o2r platform to create a new Executable Research Compendium (ERC): 
 
-Figure 5: Sciebo upload integration
+![sciebo integration](/public/images/2017-07-28-badges/sciebo_integration.png "Figure 6: Sciebo upload integration")
 
 On the other hand, when you are viewing an Executable Research Compendium on Zenodo, a small badge redirects to the inspection view in the o2r platform:
 
-
-Figure 6: Zenodo inspection integration
-
+![zenodo integration](/public/images/2017-07-28-badges/zenodo_integration.png "Figure 7: Zenodo inspection integration")
 
 ## Challenges
 
-The study project Badges for computational geoscience containers initially implemented eight microservices responsible for the six different badges types, badge scaling and testing. A microservice architecture using Docker containers was not chosen because the project needs immense scaling capabilities, but for another reason: developing independent microservices makes work organization much easier, especially for a study project where students prefer different programming languages and have different skillsets. However, for the o2r project, the eight microservices needed to become a single microservice. This required refactoring, rewriting and bug fixing. Now, when a badge is requested, a promise chain is called depending on the badge type. It consists of a number of functions of which some are used by all badges. The functions each contain code written in the study project separated into small chunks to avoid a callback hell.
+The study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) initially implemented eight microservices responsible for the six different badges types, badge scaling and testing. A microservice architecture using Docker containers was not chosen because the project needs immense scaling capabilities, but for another reason: developing independent microservices makes work organization much easier, especially for a study project where students prefer different programming languages and have different skillsets. However, for the o2r project, the eight microservices needed to become a single microservice. This required refactoring, rewriting and bug fixing. Now, when a badge is requested, a [promise chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) is called depending on the badge type. It consists of a number of functions of which some are used by all badges. The functions each contain code written in the study project separated into small chunks to avoid a [callback hell](http://callbackhell.com/).
 In the extender, a critical feature is the detection of the DOI just from a research paper title. For some websites such as DOAJ.org or ScienceOpen.com this is not necessary, as they provide the DOI directly for each entry. But when the DOI is not directly provided, the extender tries to get the DOI from a request to CrossRef.org. This is not alway successful or may find incorrect results depending on the paper title.
-As discussed above, in an ideal world the o2r-extender Chrome extension would not be necessary. A “hacky” solutions is not always a bad solution, but there are a few tricky parts with a workaround like this: The extension is supporting nine different websites. If there are changes to one of these, the extender has to be updated as well. For example, Sciebo, an OwnCloud implementation, recently changed their URLs to include a “fileid” parameter which resulted in an error when parsing the current folder path.
-Future Work
-There is still potential for future improvements: one of the biggest current issues is the reliability on external services such as Crossref and DOAJ. While this issue cannot be directly resolved, it can be mitigated by having the option to request multiple backend services, which could provide the same information per badge type. Not all research services are available all the time, and not relying on just a single external service improves fault tolerance. Caching might be another way to reduce this effect.
-Furthermore, the reliability on the o2r platform itself is another issue: Licence, executable, and spatial badges are dependent on an existing ERC, which must be linked via DOI to a publication. If a research paper has not been made available as an ERC in the o2r platform, these badge types will return “n/a” badges indicating no information. The implementation of multiple services per badge type would help with at least one of these (the licence badges) as DOAJ also offers licence information for research publications.
+As discussed above, in an ideal world the o2r-extender Chrome extension would not be necessary. A “hacky” solutions is not always a bad solution, but there are a few tricky parts with a workaround like this: The extension is supporting nine different websites. If there are changes to one of these, the extender has to be updated as well. For example, [Sciebo](http://sciebo.de/), an [OwnCloud](https://owncloud.org/) implementation, recently changed their URLs to include a “fileid” parameter which resulted in an error when parsing the current folder path.
 
-The o2r-extender is currently only available for Google Chrome / Chromium. But since Firefox is switching to WebExtensions and slowly moving away from their old “Addons” completely with Firefox 57, a port from a Chrome Extension to the open WebExtensions may help making the o2r-extender available for more users. There are only minor differences between the two types of extensions, which means the port should be possible with a few changes.
+## Future Work
+
+There is still potential for future improvements: one of the biggest current issues is the reliability on external services such as Crossref and DOAJ. While this issue cannot be directly resolved, it can be mitigated by having the option to request multiple backend services, which could provide the same information per badge type. Not all research services are available all the time, and not relying on just a single external service improves fault tolerance. Caching might be another way to reduce this effect.
+Furthermore, the reliability on the o2r platform itself is another issue: *Licence*, *executable*, and *spatial* badges are dependent on an existing ERC, which must be linked via DOI to a publication. If a research paper has not been made available as an ERC in the o2r platform, these badge types will return “n/a” badges indicating no information. The implementation of multiple services per badge type would help with at least one of these (the licence badges) as DOAJ also offers licence information for research publications.
+
+The o2r-extender is currently only available for Google Chrome / Chromium. But since Firefox is switching to [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) and slowly moving away from their old “Addons” completely with [Firefox 57](https://developer.mozilla.org/en-US/Add-ons/Overlay_Extensions/Firefox_addons_developer_guide), a port from a Chrome Extension to the open WebExtensions may help making the extender available for more users. There are only minor differences between the two types of extensions, which means the port should be possible with a few changes.
 
 Other issues include:
 
