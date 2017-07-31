@@ -23,7 +23,7 @@ Today badges are widely used in open source software repositories. They have a h
 We are not the first nor the only ones to do this: [ScienceOpen](https://www.scienceopen.com/) already has badges for open access publications, content type, views, comments and [Altmetric](https://www.altmetric.com/) score:
 
 ![scienceopen badges](/public/images/2017-07-28-badges/scienceOpen.png "Figure 1: ScienceOpen badges")
-<p class="attributionInlineImage">Figure 1: ScienceOpen badges"</p>
+<p class="attributionInlineImage">Figure 1: ScienceOpen badges</p>
 
 
 These are helpful when using the ScienceOpen website, but they’re not available for other websites. Additional issues are the four different styles and that some relevant information for reproducible geosciences is not available, e.g. executability status or the research location.
@@ -49,7 +49,7 @@ o2r-badger (https://github.com/o2r-project/o2r-badger) is a Node.js application.
 The badger currently provides two kinds of badges: internally created SVG-based badges, and redirects to [shields.io](https://shields.io/). The SVG-based badges are called extended badges and often contain more precise information: the extended license badge for example has three categories (code, data and text) of openness compared to just a single value in the standard shields.io badge. 
 
 ![license badge](/public/images/2017-07-28-badges/license_extended.svg "Figure 2: An extended licence badge reporting open data, text and code")
-<p class="attributionInlineImage">Figure 2: An extended licence badge reporting open data, text and code"</p>
+<p class="attributionInlineImage">Figure 2: An extended licence badge reporting open data, text and code</p>
 
 
 Extended badges are meant for posters or websites that focus on a single publication. They can even be resized and provided as an PNG image using the API parameters. See the badger [API documentation](https://github.com/o2r-project/o2r-badger#api-documentation-version-02) for more info. Meanwhile the standard shields.io badges are much smaller, yet still contain most of the important information:
@@ -94,7 +94,7 @@ The extender currently supports the following websites:
 For each listed article contained in these research websites, the extender requests a set of badges from the o2r-badger. These are then inserted into the page’s HTML code after rendering the regular website:
 
 ![google scholar badges](/public/images/2017-07-28-badges/google_scholar_badges.png "Figure 3: Badges integrated into Google Scholar search results")
-<p class="attributionInlineImage">Figure 3: Badges integrated into Google Scholar search results"</p>
+<p class="attributionInlineImage">Figure 3: Badges integrated into Google Scholar search results</p>
 
 
 When the badger does not find information for a certain DOI, it returns a grey “not available” - badge instead, as shown in the screenshot above for the outermost license and peer review badges. 
@@ -104,14 +104,14 @@ The extender consists of a content script, similar to a [userscript](http://tech
 The listed results on each website can also be filtered based on badge values, and selected badge types can be turned on or off directly from the website with controls, which are also inserted into the page (see Figure 4). Results not matching the filter or articles where the DOI could not be detected are greyed out.
 
 ![doaj filtering](/public/images/2017-07-28-badges/doaj_badges.png "Figure 4: Filtering search results on DOAJ")
-<p class="attributionInlineImage">Figure 4: Filtering search results on DOAJ"</p>
+<p class="attributionInlineImage">Figure 4: Filtering search results on DOAJ</p>
 
 ### Configuration
 
 The extender is easily configurable: it can be enabled and disabled with a simple click on the icon in the browser toolbar. You can select the badge types to be displayed in the extension settings. Additionally it contains links to local info pages (“Help” and “About”), explaining the extender and the different badge types:
 
 ![extender config](/public/images/2017-07-28-badges/extender_configuration.png "Figure 5: o2r-extender configuration")
-<p class="attributionInlineImage">Figure 5: o2r-extender configuration"</p>
+<p class="attributionInlineImage">Figure 5: o2r-extender configuration</p>
 
 
 ## Outlook: Action integrations
@@ -151,4 +151,4 @@ Other issues include:
 
 ## <a name="kidwell"></a> References
 
-\[1] Kidwell, Mallory C., et al. 2016 Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. *PLOS Biology* 14(5):e1002456. DOI: https://doi.org/10.1371/journal.pbio.1002456  
+<div class="attribution">[1] Kidwell, Mallory C., et al. 2016 Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. *PLOS Biology* 14(5):e1002456. DOI: https://doi.org/10.1371/journal.pbio.1002456  </div>
