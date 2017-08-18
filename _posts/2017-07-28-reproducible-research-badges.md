@@ -155,10 +155,10 @@ As discussed above, in an ideal world the *o2r-extender* Chrome extension would 
 
 ## Future Work
 
-There is still potential for future improvements: one of the biggest current issues is the depencence on external services such as *Crossref* and *DOAJ*. While this issue cannot be directly resolved, it can be mitigated by having the option to request multiple backend services, which could provide the same information per badge type. Not all research services are available all the time, and not relying on just a single external service improves fault tolerance. Caching might be another way to reduce this effect.
-Furthermore, the reliability on the *o2r platform* itself is another issue: *Licence*, *executable*, and *spatial* badges are dependent on an existing *ERC*, which must be linked via DOI to a publication. If a research paper has not been made available as an *ERC* in the *o2r platform*, these badge types will return “n/a” badges indicating no information. The implementation of multiple services per badge type would help with at least one of these (the licence badges) as *DOAJ* also offers licence information for research publications.
+There is still potential for future improvements: one of the biggest current issues is the dependence on external services such as *Crossref* and *DOAJ*. While this issue cannot be directly resolved, it can be mitigated by having the option to request multiple backend services. These could provide the same information per badge type. Not all research services are available all the time, and not relying on just a single external service improves fault tolerance. Caching might be another way to reduce this effect.
+Furthermore, the reliability on the *o2r platform* itself is another issue: *Licence*, *executable*, and *spatial* badges are dependent on an existing *ERC*, which must be linked via DOI to a publication. If a research paper has not been made available as an *ERC* in the *o2r platform*, these badge types will return “n/a” badges indicating no information. The implementation of multiple services per badge type would help with at least one of these (the licence badges): *DOAJ* for example also offers licence information for research publications.
 
-The *o2r-extender* is currently only available for Google Chrome / Chromium. But since Firefox is switching to [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) and slowly moving away from their old “add-ons” completely with [Firefox 57](https://developer.mozilla.org/en-US/Add-ons/Overlay_Extensions/Firefox_addons_developer_guide), a port from a Chrome Extension to the open *WebExtensions* may help making the extender available for more users. There are only minor differences between the two types of extensions, which means the port should be possible with a few changes.
+The *o2r-extender* is currently only available for Google Chrome / Chromium. But since Firefox is switching to [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) and slowly moving away from their old “add-ons” completely with [Firefox 57](https://developer.mozilla.org/en-US/Add-ons/Overlay_Extensions/Firefox_addons_developer_guide), a port from a Chrome Extension to the open *WebExtensions* may help making the extender available for more users. There are only minor differences between the two types of extensions. This means the port should be possible with a few changes.
 
 Other steps for further development include:
 
@@ -166,9 +166,9 @@ Other steps for further development include:
 - Providing the information in the badges directly via the API in JSON format.
 - Supporting more than simple bounding boxes for spatial information.
 
-For more issues see the GitHub issues page for the [o2r-badger](https://github.com/o2r-project/o2r-badger/issues) and [o2r-extender](https://github.com/o2r-project/o2r-extender/issues). Any feedback or ideas are greatly appreciated.
+For more issues see the GitHub issues page for the [o2r-badger](https://github.com/o2r-project/o2r-badger/issues) and [o2r-extender](https://github.com/o2r-project/o2r-extender/issues). Any feedback and ideas are appreciated.
 
 
 ## <a name="kidwell"></a> References
 
-<div class="attribution">[1] Kidwell, Mallory C., et al. 2016 Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. <i>PLOS Biology</i> 14(5):e1002456. DOI: https://doi.org/10.1371/journal.pbio.1002456  </div>
+<div class="attribution">[1] Kidwell, Mallory C., et al. 2016 Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. <i>PLOS Biology</i> 14(5):e1002456. DOI: <a href="https://doi.org/10.1371/journal.pbio.1002456">https://doi.org/10.1371/journal.pbio.1002456</a> </div>
