@@ -12,37 +12,45 @@ author: 'Lukas Lohoff, Daniel Nüst'
 
 ## Introduction
 
-Today badges are widely used in open source software repositories. They have a high recognition value and consequently provide an easy and efficient way to convey basic metadata such as version numbers, build status, download count, or container image size. Now imagine similar badges not for software projects but for modern research: We developed a backend service that provides badges for reproducible research papers to answer questions such as: 
+Today badges are widely used in open source software repositories. They have a high recognition value and consequently provide an easy and efficient way to convey up-to-date metadata. Examples are version numbers, download count, test coverage or container image size. [Shields.io](https://shields.io) is a website that provides many of these badge types. It also has examples on how to generate them.
+
+Now imagine similar badges (i.e. minimalistic, up-to-date information) not for software projects but for modern research publications: We developed a backend service that provides badges for reproducible research papers to answer questions such as: 
 
 - When was a research paper published?
-- Is it openly accessible?
+- Is the paper openly accessible?
 - Was the paper published in a peer reviewed journal?
-- What is the research location i.e. the location where the data is from?
-- Can the results be reproduced?
+- What is the research location?
+- Are the results reproducible?
 
-We are not the first nor the only ones to do this: [ScienceOpen](https://www.scienceopen.com/) already has badges for open access publications, content type, views, comments and [Altmetric](https://www.altmetric.com/) score:
+These questions cover basic information for publications (date, open access, peer review) but also advanced concepts: the *research location* describes the location a study is focusing on. A publication with *reproducible results* contains a computation or analysis and the means to rerun it - ideally getting the same results again. 
+
+We are however not the first nor the only ones to do this: [ScienceOpen](https://www.scienceopen.com/) is a search engine for scientific publications. It already has badges for open access publications, content type, views, comments and [Altmetric](https://www.altmetric.com/) score:
 
 ![scienceopen badges](/public/images/2017-07-28-badges/scienceOpen.png "Figure 1: ScienceOpen badges")
 <p class="attributionInlineImage">Figure 1: <i>ScienceOpen</i> badges</p>
 
+These are helpful when using the *ScienceOpen* website, but they are not available for other websites. Additional issues are:
 
-These are helpful when using the *ScienceOpen* website, but they’re not available for other websites. Additional issues are the four different styles and that some relevant information for reproducible geosciences is not available, e.g. executability status or the research location.
+- The badges have different styles.
+- Information relevant for reproducible geosciences is not available, e.g. reproducibility status or the research location.
 
-Badges are also used directly for publications, leaving out the search engine “middleman”. Usually the published document, poster or presentation contains a badge along with the information needed to access the data or code. For example, the [Center for Open Science](https://cos.io/) [designed badges](https://osf.io/tvyxz/wiki/home/) for scientific articles. University of Washington’s [eScience Institute](http://escience.washington.edu/) created a peer-review process for open data and open materials badges [https://github.com/uwescience-open-badges/about](https://github.com/uwescience-open-badges/about) based on the COS badges. The service is meant for faculty members and students at the University of Washington, but even external researchers can apply. They also have a great list of [publications on the topic](https://github.com/uwescience-open-badges/about#where-can-i-read-more-about-this).
+Badges are also used directly on publications, without the search engine “middleman” as in the *ScienceOpen* example. The published document, poster or presentation then contains a badge along with the information needed to access the data or code. For example, the [Center for Open Science](https://cos.io/) [designed badges](https://osf.io/tvyxz/wiki/home/) for scientific articles. University of Washington’s [eScience Institute](http://escience.washington.edu/) created a peer-review process for open data and open materials badges [https://github.com/uwescience-open-badges/about](https://github.com/uwescience-open-badges/about) based on the COS badges. The service is meant for faculty members and students at the University of Washington, but even external researchers can apply. They also have a list of relevant [publications on the topic](https://github.com/uwescience-open-badges/about#where-can-i-read-more-about-this).
 
-A study by Mallory C. Kidwell et al. [[1](#kidwell)] demonstrates that introducing such open data badges had a positive effect in the *Psychological Science* journal: After the journal started awarding badges for open data, more articles stated open data availability. They see badges as a simple yet effective way to promote data publishing. 
+A study by Mallory C. Kidwell et al. [[1](#kidwell)] demonstrates that the introduction of open data badges resulted in a positive effect in the *Psychological Science* journal: After the journal started awarding badges for open data, more articles stated open data availability. They see badges as a simple yet effective way to promote data publishing. 
 
-Although these two examples are limited to a specific journal or institution respectively, they demonstrate the potential impact of badges. That is why our goal is to explore sophisticated and novel badge types (reproducibility, research location, etc.) and to find out how to provide them independently from a specific journal, conference, or website.
+Although these two examples are limited to a specific journal or institution, they show the potential impact of badges. For this reason, our goal is to explore sophisticated and novel badge types (reproducibility, research location, etc.) and to find out how to provide them independently from a specific journal, conference, or website.
 
 ## An independent API for research badges
 
-Advanced badges to answer the above questions come in handy when doing literature research as they open new ways of exploring research. But how can we get the required information for these badges?
+Advanced badges to answer the above questions are useful when doing literature research. They open new ways of exploring research. Now the question remains how the required information for the badges can be found out automatically. 
 
-Some of these questions, such as the publication date, the peer review status and the open access status, can already be answered by online research library APIs, i.e. [Crossref](https://www.crossref.org/) or DOAJ[https://doaj.org/].
+Questions, such as the publication date, the peer review status and the open access status can already be answered by online research library APIs, i.e. [Crossref](https://www.crossref.org/) or [DOAJ](https://doaj.org/).
 
-The [o2r API](http://o2r.info/o2r-web-api/) can (or will be able to) answer the remaining questions about reproducibility and location: Knowing if a publication is reproducible is a core part of this project. Furthermore, the location on which a research paper focuses is extracted using [o2r-meta](https://github.com/o2r-project/o2r-meta) by analyzing spatial files in the workspace of the publication. How can we integrate the information from these different sources?
+The [o2r API](http://o2r.info/o2r-web-api/) can (or will be able to) answer the remaining questions about reproducibility and location: Knowing if a publication is reproducible is a core part of this project. Furthermore, the location on which a research paper focuses is extracted from spatial files published with the publication. For this task, [o2r-meta](https://github.com/o2r-project/o2r-meta), a metadata extraction tool, was developed.
 
-[o2r-badger](https://github.com/o2r-project/o2r-badger) is a *Node.js* application. It provides an API endpoint based on the [Express](https://expressjs.com/) web application framework. The API serves badges for reproducible research with information from multiple online services and has routes for five different badge types:
+How can we integrate the information from these different sources?
+
+[o2r-badger](https://github.com/o2r-project/o2r-badger) is a *Node.js* application. It provides an API endpoint based on the [Express](https://expressjs.com/) web application framework. The API serves badges for reproducible research with information from multiple online services. It has routes for five different badge types:
 
 - `/badge/executable/:id`
 - `/badge/licence/:id`
@@ -50,27 +58,27 @@ The [o2r API](http://o2r.info/o2r-web-api/) can (or will be able to) answer the 
 - `/badge/peerreview/:id`
 - `/badge/releasetime/:id`
 
-The badger currently provides two kinds of badges: internally created SVG-based badges, and redirects to [shields.io](https://shields.io/). The SVG-based badges are called *extended* badges and often contain more precise information: the extended *license* badge for example has three categories (*code*, *data* and *text*) of openness compared to just a single value in the standard *shields.io* badge. 
+The badger currently provides two kinds of badges: internally created SVG-based badges, and redirects to [shields.io](https://shields.io/). The SVG-based badges are called *extended* badges and often contain more precise information: the extended *license* badge for example has three categories (*code*, *data* and *text*) of openness. This is to converted to a single value in the standard *shields.io* badge. 
 
 ![license badge](/public/images/2017-07-28-badges/license_extended.svg "Figure 2: An extended *licence* badge reporting open data, text and code")
 <p class="attributionInlineImage">Figure 2: An extended licence badge reporting open data, text and code</p>
 
 
-Extended badges are meant for posters or websites that focus on a single publication. They can even be resized and provided as a PNG image using the API parameters. See the badger [API documentation](https://github.com/o2r-project/o2r-badger#api-documentation-version-02) for more info. Meanwhile the standard shields.io badges are much smaller, yet still communicate the most important piece of information:
+Extended badges are meant for posters or websites that focus on a single publication. They can be resized and provided as a PNG image using the API parameters. See the badger [API documentation](https://github.com/o2r-project/o2r-badger#api-documentation-version-02) for more info. In contrast, the standard shields.io badges are smaller, text based badges. They still communicate the most important piece of information:
 
 ![shields.io badge](https://img.shields.io/badge/licence-open-44cc11.svg)
  
-They excel at applications where space is important, for example search engines that list many research articles. [Shields.io](https://shields.io/) generates these SVG images on the fly when you request a URL (e.g. `https://img.shields.io/badge/licence-open-44cc11.svg`) in which you specify the text (`licence` and `open`) and the color (`44cc11` is a [HTML color code](http://html-color-codes.info/) for green). Thanks to them for providing their services free of charge!
+They excel at applications where space is important, for example search engines that list many research articles. [Shields.io](https://shields.io/) generates these SVG images on the fly when a URL is requested (e.g. `https://img.shields.io/badge/licence-open-44cc11.svg`) which specifies the text (`licence` and `open`) and the color (`44cc11` is a [HTML color code](http://html-color-codes.info/) for green).
 
-How do you make use of these badges? Firstly, they are ready to be integrated into other projects or websites. Let’s look at an example of an *executable* badge. Simply request the badge from the badger instance on the o2r server by providing the DOI of the publication for the `:id` element in the above routes, for example
+How can the badges be utilized? Firstly, they are ready to be integrated into other projects or websites. Here is an example of an *executable* badge: The badge is requested from the badger instance on the o2r server by providing the DOI of the publication for the `:id` element in the above routes, for example
 
 https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666
 
 This URL requests a badge for the reproducibility status of the paper “Global Air Quality and Pollution” from *[Science](http://science.sciencemag.org/)* magazine identified by the DOI [10.1126/science.1092666](https://doi.org/10.1126/science.1092666). When the request is sent, the following steps happen:
 
-1. The badger tries to find a research paper inside the *o2r platform*, called Executable Research Compendium ([ERC](http://o2r.info/erc-spec/spec/)) with the given DOI
+1. The badger tries to find a reproducible research paper (called Executable Research Compendium ([ERC](http://o2r.info/erc-spec/spec/)) inside the *o2r platform*. This is done by searching the database for the given DOI.
 2. If if finds an ERC, it looks for a matching *[job](http://o2r.info/o2r-web-api/job/)*, a report of a reproduction analysis.
-3. Depending on the reproduction result (`success`, `running`, or `failure`) specified in the job, the badger generates a green, yellow or red badge with matching text indicating the reproducibility of the specified research publication.
+3. Depending on the reproduction result (`success`, `running`, or `failure`) specified in the job, the badger generates a green, yellow or red badge. The badge also contains text indicating the reproducibility of the specified research publication.
 4. The request is redirected to a [shields.io](https://shields.io/) URL link containing the color and textual information. If an extended badge is requested, the badger generates and sends a SVG graphic instead.
 
 The returned image contains the requested information, which is in this case a successful reproduction:
@@ -79,13 +87,13 @@ URL: [https://img.shields.io/badge/executable-yes-44cc11.svg](https://img.shield
 
 Badge: ![shields.io badge executable](https://img.shields.io/badge/executable-yes-44cc11.svg)
 
-Badges for reproducibility, peer review status and license are color coded to provide additional visual aids indicating for example (un)successful reproduction.
+Badges for reproducibility, peer review status and license are color coded to provide additional visual aids. This indicates for example (un)successful reproduction.
 
-While a common procedure is reused across the badge types, other badges are generated with different functions and get their information from other sources. The information for peer review and releasetime badges is requested from the external services *DOAJ* and *Crossref*. The spatial badge also uses the o2r services, but it additionally converts the spatial information from coordinates into textual information, i.e. place names, using the [Geonames API](http://www.geonames.org/export/web-services.html). 
+Other badges get their information from external sources: the information for peer review badges is requested from the external service *DOAJ*, a community-based website for open access publications. The *Crossref* API provides the dates for the releasetime badges. The spatial badge also uses the o2r services, but it additionally converts the spatial information from coordinates into textual information, i.e. place names. For the conversion, it is using the [Geonames API](http://www.geonames.org/export/web-services.html). 
 
 ## Spread badges over the web
 
-So there is a great badge server, and databases providing manifold badge information, but how to get them displayed online? The sustainable way would be for research website operators to agree on a common badge system and design, and then incorporate these badges on their platforms. But we know that is never ever going to happen, so instead of waiting we created a [Chrome extension](https://developer.chrome.com/extensions) for common research websites. The [o2r-extender](https://github.com/o2r-project/o2r-extender) automatically inserts badges into search results or publication pages using client-side browser scripting. Its available in the Chrome Web Store (*[here](https://chrome.google.com/webstore/detail/opening-reproducible-rese/fhhfncpkfohlhphlcgpkbpialfhkmbil)*)  and ready to be tried out.
+There is a great badge server, and databases providing manifold badge information, but how to get them displayed online? The sustainable way would be for research website operators to agree on a common badge system and design, and then incorporate these badges on their platforms. But we know that is never ever going to happen. So instead of waiting we created a [Chrome extension](https://developer.chrome.com/extensions) for common research websites. The [o2r-extender](https://github.com/o2r-project/o2r-extender) automatically inserts badges into search results or publication pages using client-side browser scripting. Its available in the Chrome Web Store (*[here](https://chrome.google.com/webstore/detail/opening-reproducible-rese/fhhfncpkfohlhphlcgpkbpialfhkmbil)*) and ready to be tried out.
 
 The extender currently supports the following websites:
 
@@ -103,18 +111,18 @@ For each listed article contained in these research websites, the extender reque
 <p class="attributionInlineImage">Figure 3: Badges integrated into <i>Google Scholar</i> search results</p>
 
 
-When the badger does not find information for a certain DOI, it returns a grey “not available” - badge instead, as shown in the screenshot above for the outermost license and peer review badges. 
+When the badger does not find information for a certain DOI, it returns a grey “not available” - badge instead. This is shown in the screenshot above for the outermost license and peer review badges. 
 
 The *extender* consists of a content script, similar to a [userscript](http://techsupportguides.com/what-is-a-userscript/), for each research website. The content scripts insert a set of badges (Figure 3) for each article in the respective website. They all use a set of base functions defined in the Chrome extension for generating HTML, getting DOIs and inserting badges. The source code is available on [GitHub](https://github.com/o2r-project/o2r-extender/tree/master/extension).
 
-The listed results on each website can also be filtered based on badge values, and selected badge types can be turned on or off directly from the website with controls, which are also inserted into the page (see left hand side of Figure 4). Results not matching the filter or articles where the DOI could not be detected are greyed out.
+The listed results on each website can also be filtered based on badge values. Additionally selected badge types can be turned on or off directly from the website with controls. These filters and controls are also inserted into the page (see left hand side of Figure 4). Results not matching the filter or articles where the DOI could not be detected are greyed out.
 
 ![doaj filtering](/public/images/2017-07-28-badges/doaj_badges.png "Figure 4: Filtering search results on DOAJ")
 <p class="attributionInlineImage">Figure 4: Filtering search results on <i>DOAJ</i></p>
 
 ### Configuration
 
-The extender is easily configurable: it can be enabled and disabled with a simple click on the icon in the browser toolbar. You can select the badge types to be displayed in the extension settings. Additionally it contains links to local info pages (“Help” and “About”), explaining the *extender* and the different badge types:
+The extender is easily configurable: it can be enabled and disabled with a click on the icon in the browser toolbar. You can select the badge types to be displayed in the extension settings. Additionally it contains links to local info pages (“Help” and “About”), explaining the *extender* and the different badge types:
 
 ![extender config](/public/images/2017-07-28-badges/extender_configuration.png "Figure 5: *o2r-extender* configuration")
 <p class="attributionInlineImage">Figure 5: <i>o2r-extender</i> configuration</p>
@@ -122,27 +130,27 @@ The extender is easily configurable: it can be enabled and disabled with a simpl
 
 ## Outlook: Action integrations
 
-The *extender* also has a feature that has nothing to do with badges at all. In the context of open science and reproducible research, we place the reproducibility service in a larger context as described in the [o2r architecture](http://o2r.info/architecture/) (see section Business context). Two core aspects are loading research workspaces from cloud storage and connecting to suitable data repositories for actual storage of ERCs.
+The *extender* also has a feature unrelated to badges. In the context of open science and reproducible research, we place the reproducibility service in a larger context as described in the [o2r architecture](http://o2r.info/architecture/) (see section Business context). Two core aspects are loading research workspaces from cloud storage and connecting to suitable data repositories for actual storage of ERCs.
 
-To facilitate this integration for users, the extender can also augment the user interfaces  of the cloud collaboration platform [Sciebo](http://sciebo.de/) and the scientific data repository [Zenodo](https://zenodo.org/) to integrate our reproducibility service.
+To facilitate this integration for users, the extender can also augment the user interfaces of the cloud collaboration platform [Sciebo](http://sciebo.de/) and the scientific data repository [Zenodo](https://zenodo.org/) to integrate our reproducibility service.
 
-When using *Sciebo*, a button is added  to a file’s or directory’s context menu. It allows direct submission of workspaces to the o2r platform to create a new *Executable Research Compendium* (ERC): 
+When using *Sciebo*, a button is added  to a file’s or directory’s context menu. It allows direct interaction with the o2r platform to upload a new reproducible research paper (called ERC) from the current file or directory.
 
 ![sciebo integration](/public/images/2017-07-28-badges/sciebo_integration.png "Figure 6: *Sciebo* upload integration")
 <p class="attributionInlineImage">Figure 6: <i>Sciebo</i> upload integration</p>
 
-On the other hand, when you are viewing an *Executable Research Compendium* on *Zenodo*, a small badge redirects to the inspection view in the *o2r platform*:
+When you are viewing an *Executable Research Compendium* on *Zenodo*, a small badge redirects to the inspection view in the *o2r platform*:
 
 ![zenodo integration](/public/images/2017-07-28-badges/zenodo_integration.png "Figure 7: Zenodo inspection integration")
 <p class="attributionInlineImage">Figure 7: <i>Zenodo</i> inspection integration</p>
 
 ## Challenges
 
-The study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) initially implemented eight microservices responsible for the six different badges types, badge scaling and testing. A microservice architecture using Docker containers was not chosen because the project needs immense scaling capabilities, but for another reason: developing independent microservices makes work organization much easier, especially for a study project where students prefer different programming languages and have different skillsets.
+The study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) initially implemented eight microservices responsible for six different badges types, badge scaling and testing. A microservice architecture using Docker containers was not chosen because of the need for immense scaling capabilities, but for another reason: developing independent microservices makes work organization much easier. This is especially true for a study project where students prefer different programming languages and have different skillsets.
 
 However, for the *o2r project*, the eight microservices needed to become a single microservice. This required refactoring, rewriting and bug fixing. Now, when a badge is requested, a [promise chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) is called (source code example [here](https://github.com/o2r-project/o2r-badger/blob/master/controllers/executability/executability.js#L83)) depending on the badge type. It consists of a number of functions of which some are used by all badges. The functions each contain code written in the study project separated into small chunks to avoid a [callback hell](http://callbackhell.com/).
 
-In the *extender*, a critical feature is the detection of the DOI just from a research paper title. For some websites such as *DOAJ.org* or *ScienceOpen.com* this is not necessary, as they provide the DOI directly for each entry. But when the DOI is not directly provided, the *extender* tries to get the DOI from a request to *CrossRef.org*. This is not alway successful or may find incorrect results depending on the paper title ([source code](https://github.com/o2r-project/o2r-extender/blob/master/extension/BaseImplementation.js#L447) for the DOI detection).
+In the *extender*, a critical feature is the detection of the DOI just from a research paper title. For some websites such as *DOAJ.org* or *ScienceOpen.com* this is not necessary, as they provide the DOI directly for each entry. But when the DOI is not directly provided, the *extender* tries to get the DOI from a request to *CrossRef.org*. This is not always successful or may find incorrect results depending on the paper title ([source code](https://github.com/o2r-project/o2r-extender/blob/master/extension/BaseImplementation.js#L447) for the DOI detection).
 As discussed above, in an ideal world the *o2r-extender* Chrome extension would not be necessary. There are a few tricky parts with a workaround like this: The extension supports nine different websites. If there are changes to one of these, the *extender* has to be updated as well. For example, [Sciebo](http://sciebo.de/), an [OwnCloud](https://owncloud.org/) implementation, recently changed their URLs to include a “fileid” parameter which resulted in an error when parsing the current folder path.
 
 ## Future Work
