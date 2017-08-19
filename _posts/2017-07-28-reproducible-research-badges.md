@@ -8,37 +8,63 @@ categories:
 author: 'Lukas Lohoff, Daniel Nüst'
 ---
 
-*This blog post is based on work started in the study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) at [ifgi](https://www.uni-muenster.de/Geoinformatics/). We thank the [project team](https://github.com/o2r-project/o2r-badger#contributors) for their great work!*
+*This blog post presents work based on the study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) at [ifgi](https://www.uni-muenster.de/Geoinformatics/). We thank the [project team](https://github.com/o2r-project/o2r-badger#contributors) for their great contributions!*
 
 ## Introduction
 
-Today badges are widely used in open source software repositories. They have a high recognition value and consequently provide an easy and efficient way to convey up-to-date metadata. Examples are version numbers, download count, test coverage or container image size. [Shields.io](https://shields.io) is a website that provides many of these badge types. It also has examples on how to generate them.
+Today badges are widely used in open source software repositories. They have a high recognition value and consequently provide an easy and efficient way to convey up-to-date metadata. Version numbers, download counts, test coverage or container image size are just a few examples. The website [Shields.io](https://shields.io) provides many types of such badges. It also has an API to generate custom ones.
 
-Now imagine similar badges (i.e. minimalistic, up-to-date information) not for software projects but for modern research publications: We developed a backend service that provides badges for reproducible research papers to answer questions such as: 
+Now imagine similar badges, i.e. succinct, up-to-date information, not for software projects <!--more-->but for modern research publications. It answers questions such as: 
 
 - When was a research paper published?
 - Is the paper openly accessible?
 - Was the paper published in a peer reviewed journal?
-- What is the research location?
+- What is the research's area of interest?
 - Are the results reproducible?
 
 These questions cover basic information for publications (date, open access, peer review) but also advanced concepts: the *research location* describes the location a study is focusing on. A publication with *reproducible results* contains a computation or analysis and the means to rerun it - ideally getting the same results again. 
 
-We are however not the first nor the only ones to do this: [ScienceOpen](https://www.scienceopen.com/) is a search engine for scientific publications. It already has badges for open access publications, content type, views, comments and [Altmetric](https://www.altmetric.com/) score:
+We developed a back-end service providing badges for reproducible research papers.
+
+## Overview of badges for research
+
+We are however not the first nor the only ones to do this: [ScienceOpen](https://www.scienceopen.com/) is a search engine for scientific publications. It has badges for open access publications, content type, views, comments and the [Altmetric](https://www.altmetric.com/) score:
 
 ![scienceopen badges](/public/images/2017-07-28-badges/scienceOpen.png "Figure 1: ScienceOpen badges")
-<p class="attributionInlineImage">Figure 1: <i>ScienceOpen</i> badges</p>
+<p class="attributionInlineImage">Figure 1: <em>ScienceOpen</em> badges.</p>
 
-These are helpful when using the *ScienceOpen* website, but they are not available for other websites. Additional issues are:
+These are helpful when using the *ScienceOpen* website, but they are not available for other websites. Additional issues are the inconsistent style and missing information relevant for reproducible geosciences, e.g. reproducibility status or the research location.
 
-- The badges have different styles.
-- Information relevant for reproducible geosciences is not available, e.g. reproducibility status or the research location.
+Badges are also used directly on publications, without the search portal "middleman". The published document, poster or presentation contains a badge along with the information needed to access the data or code.
+The [Center for Open Science](https://cos.io/) [designed badges](https://osf.io/tvyxz/wiki/home/) for acknowledging open practices in scientific articles accompanied by guidelines for [incorporating them into journals' peer review workflows](https://osf.io/tvyxz/wiki/3.%20Incorporating%20Badges%20into%20Publication%20Workflow/) and [adding them to published documents](https://osf.io/tvyxz/wiki/4.%20Incorporating%20Badge%20Visualization%20into%20Publications/), including large colored and small black-and-white variants. The badges are for _Open Data_, _Open Materials_, and _Preregistration_ of studies (see Figure 2) and are adopted by over a dozen of journals to date (cf. [3](https://osf.io/tvyxz/wiki/5.%20Adoptions%20and%20Endorsements/)). 
 
-Badges are also used directly on publications, without the search engine “middleman” as in the *ScienceOpen* example. The published document, poster or presentation then contains a badge along with the information needed to access the data or code. For example, the [Center for Open Science](https://cos.io/) [designed badges](https://osf.io/tvyxz/wiki/home/) for scientific articles. University of Washington’s [eScience Institute](http://escience.washington.edu/) created a peer-review process for open data and open materials badges [https://github.com/uwescience-open-badges/about](https://github.com/uwescience-open-badges/about) based on the COS badges. The service is meant for faculty members and students at the University of Washington, but even external researchers can apply. They also have a list of relevant [publications on the topic](https://github.com/uwescience-open-badges/about#where-can-i-read-more-about-this).
+![COS badges](/public/images/2017-07-28-badges/cos.png "Figure 2: COS badges"){:width="400"}
+<p class="attributionInlineImage">Figure 2: <em>COS</em> badges.</p>
 
-A study by Mallory C. Kidwell et al. [[1](#kidwell)] demonstrates that the introduction of open data badges resulted in a positive effect in the *Psychological Science* journal: After the journal started awarding badges for open data, more articles stated open data availability. They see badges as a simple yet effective way to promote data publishing. 
+University of Washington’s [eScience Institute](http://escience.washington.edu/) created a peer-review process for open data and open materials badges [https://github.com/uwescience-open-badges/about](https://github.com/uwescience-open-badges/about) based on the COS badges. The service is meant for faculty members and students at the University of Washington, but external researchers can also apply. The initiative also has a list of relevant [publications on the topic](https://github.com/uwescience-open-badges/about#where-can-i-read-more-about-this).
 
-Although these two examples are limited to a specific journal or institution, they show the potential impact of badges. For this reason, our goal is to explore sophisticated and novel badge types (reproducibility, research location, etc.) and to find out how to provide them independently from a specific journal, conference, or website.
+A study by Mallory C. Kidwell et al. [[1](#kidwell)] demonstrates a positive effect by the introduction of open data badges in the journal *Psychological Science*: After the journal started awarding badges for open data, more articles stating open data availability actually published data (cf. [[2](#baker)]). They see badges as a simple yet effective way to promote data publishing.
+
+Peng [[4](#peng1), [5](#peng2)] reports on the efforts the journal _Biostatistics_ is taking to promote reproducible research, including a set of _"kite marks"_, which can easily be seen as minimalistic badges. _**D**_ and _**C**_ if data respectively code is provided, and _**R**_ if results were successfully reproduced during the review process (implying D and C). Figure 3 shows the usage of _R_ on an article's title page (cf. [[6](#lee)]).
+
+![Biostatistics badges](/public/images/2017-07-28-badges/biostatistics-kitemark.png "Figure 3: Biostatistics kite marks"){:width="400"}
+<p class="attributionInlineImage">Figure 3: <em>Biostatistis</em> kite mark <em>R</em> rendering in the PDF version of the paper.</p>
+
+The Association for Computing Machinery ([ACM](https://www.acm.org/)) provides a common terminology and standards for artifact review processes for its conferences and journals, see their policies website section on [Artifact Review Badging](https://www.acm.org/publications/policies/artifact-review-badging). The have a system of three badges with several levels accompanied by specific criteria. They can be independently awarded:
+
+- _Artifacts Evaluated_ means artifacts were made available to reviewers and awarded the level _Functional_ or _Reusable_
+- _Artifacts Available_ means a deposition in a repository ensures permanent and open availability (no evaluation)
+- _Results Validated_ means a third party successfully obtained the same results as the author at the levels _Results Replicated_ (using, in part, artifacts provided by the author) or _Results Reproduced_ (without author-supplied artifacts)
+
+Figure 4 shows a rendering of the ACM badges.
+
+![ACM badges](/public/images/2017-07-28-badges/acm.png "Figure 4: ACM badges"){:width="500"}
+<p class="attributionInlineImage">Figure 4: <em>ACM</em> badges, from left to right: Artifacts Evaluated – Functional, Artifacts Evaluated – Reusable, Artifacts Available, Results Replicated, and Results Reproduced. (Copyright &copy; 2017, ACM, Inc)</p>
+
+
+Although these examples are limited to a specific journal, publisher, or institution, they show the potential impact of badges. They also show the diversity, limitations, and challenges in describing and awarding these badges.
+
+For this reason, our goal is to explore sophisticated and novel badge types (reproducibility, research location, etc.) and to find out how to provide them independently from a specific journal, conference, or website.
 
 ## An independent API for research badges
 
@@ -60,9 +86,8 @@ How can we integrate the information from these different sources?
 
 The badger currently provides two kinds of badges: internally created SVG-based badges, and redirects to [shields.io](https://shields.io/). The SVG-based badges are called *extended* badges and often contain more precise information: the extended *license* badge for example has three categories (*code*, *data* and *text*) of openness. This is to converted to a single value in the standard *shields.io* badge. 
 
-![license badge](/public/images/2017-07-28-badges/license_extended.svg "Figure 2: An extended *licence* badge reporting open data, text and code")
-<p class="attributionInlineImage">Figure 2: An extended licence badge reporting open data, text and code</p>
-
+![license badge](/public/images/2017-07-28-badges/license_extended.svg "Figure 3: An extended *licence* badge reporting open data, text and code")
+<p class="attributionInlineImage">Figure 3: An extended licence badge reporting open data, text and code</p>
 
 Extended badges are meant for posters or websites that focus on a single publication. They can be resized and provided as a PNG image using the API parameters. See the badger [API documentation](https://github.com/o2r-project/o2r-badger#api-documentation-version-02) for more info. In contrast, the standard shields.io badges are smaller, text based badges. They still communicate the most important piece of information:
 
@@ -72,9 +97,9 @@ They excel at applications where space is important, for example search engines 
 
 How can the badges be utilized? Firstly, they are ready to be integrated into other projects or websites. Here is an example of an *executable* badge: The badge is requested from the badger instance on the o2r server by providing the DOI of the publication for the `:id` element in the above routes, for example
 
-https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666
+[`https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666`](https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666)
 
-This URL requests a badge for the reproducibility status of the paper “Global Air Quality and Pollution” from *[Science](http://science.sciencemag.org/)* magazine identified by the DOI [10.1126/science.1092666](https://doi.org/10.1126/science.1092666). When the request is sent, the following steps happen:
+This URL requests a badge for the reproducibility status of the paper “Global Air Quality and Pollution” from *[Science](http://science.sciencemag.org/)* magazine identified by the DOI [`10.1126/science.1092666`](https://doi.org/10.1126/science.1092666). When the request is sent, the following steps happen:
 
 1. The badger tries to find a reproducible research paper (called Executable Research Compendium ([ERC](http://o2r.info/erc-spec/spec/)) inside the *o2r platform*. This is done by searching the database for the given DOI.
 2. If if finds an ERC, it looks for a matching *[job](http://o2r.info/o2r-web-api/job/)*, a report of a reproduction analysis.
@@ -108,8 +133,7 @@ The extender currently supports the following websites:
 For each listed article contained in these research websites, the extender requests a set of badges from the *o2r-badger*. These are then inserted into the page’s HTML code after rendering the regular website:
 
 ![google scholar badges](/public/images/2017-07-28-badges/google_scholar_badges.png "Figure 3: Badges integrated into Google Scholar search results")
-<p class="attributionInlineImage">Figure 3: Badges integrated into <i>Google Scholar</i> search results</p>
-
+<p class="attributionInlineImage">Figure 3: Badges integrated into <em>Google Scholar</em> search results</p>
 
 When the badger does not find information for a certain DOI, it returns a grey “not available” - badge instead. This is shown in the screenshot above for the outermost license and peer review badges. 
 
@@ -118,15 +142,14 @@ The *extender* consists of a content script, similar to a [userscript](http://te
 The listed results on each website can also be filtered based on badge values. Additionally selected badge types can be turned on or off directly from the website with controls. These filters and controls are also inserted into the page (see left hand side of Figure 4). Results not matching the filter or articles where the DOI could not be detected are greyed out.
 
 ![doaj filtering](/public/images/2017-07-28-badges/doaj_badges.png "Figure 4: Filtering search results on DOAJ")
-<p class="attributionInlineImage">Figure 4: Filtering search results on <i>DOAJ</i></p>
+<p class="attributionInlineImage">Figure 4: Filtering search results on <em>DOAJ</em></p>
 
 ### Configuration
 
 The extender is easily configurable: it can be enabled and disabled with a click on the icon in the browser toolbar. You can select the badge types to be displayed in the extension settings. Additionally it contains links to local info pages (“Help” and “About”), explaining the *extender* and the different badge types:
 
 ![extender config](/public/images/2017-07-28-badges/extender_configuration.png "Figure 5: *o2r-extender* configuration")
-<p class="attributionInlineImage">Figure 5: <i>o2r-extender</i> configuration</p>
-
+<p class="attributionInlineImage">Figure 5: <em>o2r-extender</em> configuration</p>
 
 ## Outlook: Action integrations
 
@@ -137,12 +160,12 @@ To facilitate this integration for users, the extender can also augment the user
 When using *Sciebo*, a button is added  to a file’s or directory’s context menu. It allows direct interaction with the o2r platform to upload a new reproducible research paper (called ERC) from the current file or directory.
 
 ![sciebo integration](/public/images/2017-07-28-badges/sciebo_integration.png "Figure 6: *Sciebo* upload integration")
-<p class="attributionInlineImage">Figure 6: <i>Sciebo</i> upload integration</p>
+<p class="attributionInlineImage">Figure 6: <em>Sciebo</em> upload integration</p>
 
 When you are viewing an *Executable Research Compendium* on *Zenodo*, a small badge redirects to the inspection view in the *o2r platform*:
 
 ![zenodo integration](/public/images/2017-07-28-badges/zenodo_integration.png "Figure 7: Zenodo inspection integration")
-<p class="attributionInlineImage">Figure 7: <i>Zenodo</i> inspection integration</p>
+<p class="attributionInlineImage">Figure 7: <em>Zenodo</em> inspection integration</p>
 
 ## Challenges
 
@@ -165,10 +188,15 @@ Other steps for further development include:
 - Having interactive badges that provide additional information when hovering over them or when the badges are clicked.
 - Providing the information in the badges directly via the API in JSON format.
 - Supporting more than simple bounding boxes for spatial information.
+- Evaluating usage of badges in print applications and for visually impaired people (cf. COS badges)
 
-For more issues see the GitHub issues page for the [o2r-badger](https://github.com/o2r-project/o2r-badger/issues) and [o2r-extender](https://github.com/o2r-project/o2r-extender/issues). Any feedback and ideas are appreciated.
+For more issues see the GitHub issues page for the [o2r-badger](https://github.com/o2r-project/o2r-badger/issues) and [o2r-extender](https://github.com/o2r-project/o2r-extender/issues). Any feedback and ideas are appreciated, either on the GitHub repository or in [this discussion thread](https://groups.google.com/d/topic/reproducible-research/AP0k_xi69AA/discussion) in the Google Group [_Scientists for Reproducible Research_](). We thank the group members for pointing to some of the resources referenced in this post.
 
+## References
 
-## <a name="kidwell"></a> References
-
-<div class="attribution">[1] Kidwell, Mallory C., et al. 2016 Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. <i>PLOS Biology</i> 14(5):e1002456. DOI: <a href="https://doi.org/10.1371/journal.pbio.1002456">https://doi.org/10.1371/journal.pbio.1002456</a> </div>
+- <a name="kidwell"></a>[1] Kidwell, Mallory C., et al. 2016. Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. <em>PLOS Biology</em> 14(5):e1002456. doi:<a href="https://doi.org/10.1371/journal.pbio.1002456">https://doi.org/10.1371/journal.pbio.1002456</a>.
+- <a name="baker"></a>[2] Baker, Monya, 2016. Digital badges motivate scientists to share data. <em>Nature News</em>. doi:<a href="https://doi.org/10.1038/nature.2016.19907">10.1038/nature.2016.19907</a>.
+<!-- https://www.nature.com/news/digital-badges-motivate-scientists-to-share-data-1.19907 -->
+- <a name="peng1"></a>[4] Peng, Roger D. 2009. Reproducible research and Biostatistics. Biostatistics, Volume 10, Issue 3, Pages 405–408. doi:<a href="https://doi.org/10.1093/biostatistics/kxp014">10.1093/biostatistics/kxp014</a>.
+- <a name="peng2"></a>[5] Peng, Roger D. 2011. Reproducible Research in Computational Science. Science 334 (6060): 1226–27. doi:<a href="https://doi.org/10.1126/science.1213847">10.1126/science.1213847</a>.
+- <a name="lee"></a>[6] Lee, Duncan, Ferguson, Claire, and Mitchell, Richard. 2009. Air pollution and health in Scotland: a multicity study. Biostatistics, Volume 10, Issue 3, Pages 409–423, doi:<a href="https://doi.org/10.1093/biostatistics/kxp010">10.1093/biostatistics/kxp010</a>.
