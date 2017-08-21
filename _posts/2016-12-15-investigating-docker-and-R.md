@@ -6,6 +6,7 @@ categories:
   - overview
   - R
   - Docker
+author: 'Daniel Nüst'
 ---
 
 _This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._

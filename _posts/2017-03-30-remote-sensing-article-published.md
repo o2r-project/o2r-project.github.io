@@ -7,6 +7,7 @@ categories:
   - open access
   - GEOBIA
 disable_excerpt: true
+author: 'Daniel Nüst'
 ---
 
 [![article cover screenshot](/public/images/2017-03_rs-article.jpg "screenshot of article at Remote Sensing journal"){:width="300" .img.rightfloat}](http://dx.doi.org/10.3390/rs9030290)

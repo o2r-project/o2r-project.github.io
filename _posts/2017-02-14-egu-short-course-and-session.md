@@ -6,6 +6,7 @@ categories:
   - short course
   - workshop
   - conference
+author: 'Daniel Nüst'
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Join our short course &quot;<a href="https://twitter.com/hashtag/Reproducible?src=hash">#Reproducible</a> <a href="https://twitter.com/hashtag/computational?src=hash">#computational</a> <a href="https://twitter.com/hashtag/research?src=hash">#research</a> in the publication cycle&quot; at <a href="https://twitter.com/hashtag/EGU2017?src=hash">#EGU2017</a> <a href="https://twitter.com/hashtag/SC81?src=hash">#SC81</a> <a href="https://t.co/zPbvGUDsCy">https://t.co/zPbvGUDsCy</a></p>&mdash; o2r (@o2r_project) <a href="https://twitter.com/o2r_project/status/823508737809858560">January 23, 2017</a></blockquote>

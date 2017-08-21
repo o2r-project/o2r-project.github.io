@@ -7,6 +7,7 @@ categories:
   - recap
   - shourt course
   - general assembly
+author: 'Daniel Nüst, Vicky Steeves, Rémi Rampin'
 ---
 
 At last week’s [EGU general assembly](http://egu2017.eu/) members of the [o2r](http://o2r.info) and [ReproZip](https://reprozip.org/) projects organized the short course [_“Reproducible computational research in the publication cycle”_](http://meetingorganizer.copernicus.org/EGU2017/session/25726). This post is a recap of the course by [Daniel Nüst](http://danielnuest.de/), [Vicky Steeves](https://vickysteeves.com/), and [Rémi Rampin](https://remirampin.com/).
