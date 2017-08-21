@@ -4,6 +4,7 @@ title: Workshop on Reproducible Open Science
 categories:
   - workshop
   - presentation
+author: 'Daniel Nüst, Markus Konkol'
 ---
 
 Just two weeks ago, o2r team members [Daniel](https://orcid.org/0000-0002-0024-5046) and [Markus](http://orcid.org/0000-0001-6651-0976) proudly presented the project's first workshop paper _"Opening the Publication Process with Executable Research Compendia"_ at the [First International Workshop on Reproducible Open Science](http://repscience2016.research-infrastructures.eu) held in conjunction with the [20th International Conference on Theory and Practice of Digital Libraries](http://www.tpdl2016.org/) and suppored by [RDA Europe](http://europe.rd-alliance.org/).

@@ -1,4 +1,4 @@
-all: localdrafts
+all: clean localdrafts
 
 local:
 	bundle exec jekyll serve
@@ -8,3 +8,6 @@ debug:
 
 localdrafts:
 	bundle exec jekyll serve --draft
+
+clean:
+	bundle exec jekyll clean

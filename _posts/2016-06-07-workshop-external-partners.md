@@ -5,6 +5,7 @@ categories:
   - workshop
   - partners
   - report
+author: 'Daniel Nüst'
 ---
 
 A couple of weeks ago the [o2r team](/about) met with a group of experts to discuss the project’s outline and scope. Being a few months into the project, the team members were eager to get feedback on their plans, which they created based on the original project proposal, the first practical evaluations, and extensive reviews of research literature. To give this feedback, we invited a group of external partners to a full day meeting at the  [Wersehaus](https://goo.gl/maps/jsBqYExXjR52), a small boathouse in the countryside next to the Werse river.
@@ -23,7 +24,6 @@ We started the day with talks by the external partners and project grantees. Wit
 - [Xenia](/public/download/o2r-workshop-2016_lightning-talk_xenia-van-edig.pdf) presented different levels of open access publication workflows and shared experiences from the publication domain and enforcement of openness.
 - [Hylke](/public/download/o2r-workshop-2016_lightning-talk_hylke-koers.pdf) talked about content innovation’s relation to reproducibility and showed a variety of work around interactivity in the article of the future.
 - [Chris](/public/download/o2r-workshop-2016_lightning-talk_chris-kray.pdf) related reproducible research to ifgi’s vision of an open geoinformatics platform, and critically discussed benefits and challenges.
-
 
 We continued the day with intensive discussions on the project’s schedule for the first year, stretching across all aspects such as preservation metadata, usability and user interaction, and compendium specification. After lunch these areas were explored more deeply in an Open Space setting prepared by the projects full-time employees Marc, Markus, and Daniel. Afterwards we drilled deeper to identify potentials risks and their mitigations, as well as answering the crucial question: Where can the project have the largest impact?
 
