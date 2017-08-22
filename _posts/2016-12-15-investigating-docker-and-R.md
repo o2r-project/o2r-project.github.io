@@ -9,20 +9,50 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL [http://bit.ly/docker-r](http://bit.ly/docker-r)._
+_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**. Last update: 22 Aug 2017._
 
 Docker and R: How are they used and could they be used together?
-That is the question that we constantly ask ourself. In this post, we are going to share our insights with you.
+That is the question that we regularly ask ourself. And we try to keep up with other people's work! In this post, we are going to share our insights with you.
+
+![Docker loves R, R loves Docker](/public/images/docker-loves-r.png "Docker loves R, R loves Docker"){:width="400"}
 
 _Thanks to [Ben Marwick](http://faculty.washington.edu/bmarwick/) for [contributing](https://github.com/o2r-project/o2r-project.github.io/pull/6) to this post! You know about a project using Docker and R? [Get in touch](https://github.com/o2r-project/o2r-project.github.io/issues/new)._
 
 ## Dockerizing R
 
-The most prominent effort in this area is the **Rocker project**. It was initiated by [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) and [Carl Boettiger](http://www.carlboettiger.info/). For an introduction, you may read their blog post [here](http://dirk.eddelbuettel.com/blog/2014/10/23/) or follow [this tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) from rOpenSci.
+Several implementations of besides the one by R-core exist today, together with numerous integrations into open source and proprietary software (cf. [Englisch](https://en.wikipedia.org/wiki/R_(programming_language)#Implementations) and [German](https://de.wikipedia.org/wiki/R_(Programmiersprache)#Alternative_Open-Source-Interpreter) Wikipedia pages). In the following we present the existing efforts for using _open source_ R implementation with Docker.
 
-With a big choice of pre-build Docker images, Rocker provides optimal solutions for those who want to run R from Docker containers. Explore it on [Github](https://github.com/rocker-org/) or [Docker Hub](https://hub.docker.com/u/rocker/), and soon you will find out that it takes just one single command to run instances of either [base R](https://hub.docker.com/r/rocker/r-base/), [R-devel](https://hub.docker.com/r/rocker/r-devel/) or [Rstudio Server](https://hub.docker.com/r/rocker/rstudio/). Moreover, you can run [previous versions of R](https://hub.docker.com/r/rocker/r-versioned/) or use one of the many bundles with commonly used R packages and other software (e.g. bundles going back to [Hadley Wickham](https://hub.docker.com/r/rocker/hadleyverse/) and [rOpenSci](https://hub.docker.com/r/rocker/ropensci/)). 
+### Rocker
 
-If you come from Bioinformatics or neighboring disciplines, you might be delighted that [**Bioconductor**](http://bioconductor.org/) provides own R package bundles based on Rocker's images (see the [help page](http://bioconductor.org/help/docker/), [GitHub](https://github.com/Bioconductor/bioc_docker), and [Open Hub](https://hub.docker.com/u/bioconductor/)).
+The most prominent effort<!--more--> in this area is the **Rocker project**. It was initiated by [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) and [Carl Boettiger](http://www.carlboettiger.info/) and containerizes the main R implementation. For an introduction, you may read their blog post [here](http://dirk.eddelbuettel.com/blog/2014/10/23/) or follow [this tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) from rOpenSci.
+
+![Rocker logo](/public/images/rocker-logo.png "Rocker logo"){:width="200" .img.rightfloat}
+
+With a big choice of pre-build Docker images, Rocker provides optimal solutions for those who want to run R from Docker containers. Explore it on [Github](https://github.com/rocker-org/) or [Docker Hub](https://hub.docker.com/u/rocker/), and soon you will find out that it takes just one single command to run instances of either [base R](https://hub.docker.com/r/rocker/r-base/), [R-devel](https://hub.docker.com/r/rocker/r-devel/) or [Rstudio Server](https://hub.docker.com/r/rocker/rstudio/). Moreover, you can run [previous versions of R](https://hub.docker.com/r/rocker/r-versioned/) or use one of the many bundles with commonly used R packages and other software (e.g. bundles going back to [Hadley Wickham](https://hub.docker.com/r/rocker/hadleyverse/) and [rOpenSci](https://hub.docker.com/r/rocker/ropensci/)).
+
+Images are build monthly on Docker Hub, except _devel_ tags which are build nightly, but not on every push but triggered by CRON jobs running on a third party server (cf. [GitHub comment](https://github.com/rocker-org/rocker-versioned/issues/42#issuecomment-316149983)).
+
+### Bioconductor
+
+If you come from Bioinformatics or neighboring disciplines, you might be delighted that [**Bioconductor**](http://bioconductor.org/) provides several images based on Rocker's `rocker/rstudio` images (see the [help page](http://bioconductor.org/help/docker/), [GitHub](https://github.com/Bioconductor/bioc_docker), and [Open Hub](https://hub.docker.com/u/bioconductor/)). Image updates occur with each Bioconductor release, except the _devel_ images which are build weekly with the latest versions of R and Bioconductor based on `rocker/rstudio-daily`.
+
+### MRO
+
+![MRO logo](/public/images/mro-logo.png "MRO logo (C) Microsoft"){:width="150" .img.rightfloat}
+
+Microsoft R Open ([MRO](https://mran.revolutionanalytics.com/open)) is an "enhanced R distrubition", formerly known as Revolution R Open (RRO) before [Revolution Analytics](https://en.wikipedia.org/wiki/Revolution_Analytics) was acquired by Microsoft. MRO is compatible with main R and it's packages. "It includes additional capabilities for improved performance, reproducibility, and platform support." ([source](https://mran.revolutionanalytics.com/rro/)); most notably these are the [MRAN repository](http://mran.revolutionanalytics.com/) a.k.a. CRAN Time Machine, which is also used by versioned Rocker images, and the (optional) integration with [Intel® Math Kernel Library](https://software.intel.com/en-us/mkl) (MKL) for [multi-threaded performance](https://mran.revolutionanalytics.com/documents/rro/multithread) in linear algebra operations ([BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) and [LAPACK](https://en.wikipedia.org/wiki/LAPACK)).
+
+o2r team member Daniel created a Docker image for MRO inkluding MKL. It is available [on Docker Hub](https://hub.docker.com/r/nuest/mro/) as `nuest/mro`, with [Dockerfile on GitHub](https://github.com/nuest/mro-docker).
+It is inspired by the Rocker images and can be used in the same fashion. Please note the extended licenses printed at every startup for MKL.
+
+### Renjin
+
+![Renjin logo](/public/images/renjin-logo-v4.svg "Renjin logo"){:width="150" .img.rightfloat}
+
+[Renjin](http://www.renjin.org/about.html) is a [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine)-based interpreter for the R language for statistical computing developed by [BeDataDriven](http://www.bedatadriven.com/). It was developed for big data analysis using existing R code seamlessly in cloud infrastructures, and allows Java/Scala developers to easily combine R with all benefits of Java and the JVM.
+
+While it is not primarily build for interactive use on the command line, this is possible. So o2r team member Daniel created a Docker image for Renjin for you to try it out. It is available [on Docker Hub](https://hub.docker.com/r/nuest/renjin/) as `docker pull nuest/renjin`, with [Dockerfile on GitHub](https://github.com/nuest/renjin-docker).
+
 
 ## Dockerizing Research and Development Environments
 
