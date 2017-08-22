@@ -28,13 +28,15 @@ The most prominent effort<!--more--> in this area is the **Rocker project**. It 
 
 ![Rocker logo](/public/images/rocker-logo.png "Rocker logo"){:width="200" .img.rightfloat}
 
-With a big choice of pre-build Docker images, Rocker provides optimal solutions for those who want to run R from Docker containers. Explore it on [Github](https://github.com/rocker-org/) or [Docker Hub](https://hub.docker.com/u/rocker/), and soon you will find out that it takes just one single command to run instances of either [base R](https://hub.docker.com/r/rocker/r-base/), [R-devel](https://hub.docker.com/r/rocker/r-devel/) or [Rstudio Server](https://hub.docker.com/r/rocker/rstudio/). Moreover, you can run [previous versions of R](https://hub.docker.com/r/rocker/r-versioned/) or use one of the many bundles with commonly used R packages and other software (e.g. bundles going back to [Hadley Wickham](https://hub.docker.com/r/rocker/hadleyverse/) and [rOpenSci](https://hub.docker.com/r/rocker/ropensci/)).
+With a big choice of pre-build Docker images, Rocker provides optimal solutions for those who want to run R from Docker containers. Explore it on [Github](https://github.com/rocker-org/) or [Docker Hub](https://hub.docker.com/u/rocker/), and soon you will find out that it takes just one single command to run instances of either [base R](https://hub.docker.com/r/rocker/r-base/), [R-devel](https://hub.docker.com/r/rocker/r-devel/) or [Rstudio Server](https://hub.docker.com/r/rocker/rstudio/). Moreover, you can run [specific versions of R](https://hub.docker.com/r/rocker/r-versioned/) or use one of the many bundles with commonly used R packages and other software, namely [tidyverse](https://hub.docker.com/r/rocker/tidyverse/) and [rOpenSci](https://hub.docker.com/r/rocker/ropensci/)).
 
-Images are build monthly on Docker Hub, except _devel_ tags which are build nightly, but not on every push but triggered by CRON jobs running on a third party server (cf. [GitHub comment](https://github.com/rocker-org/rocker-versioned/issues/42#issuecomment-316149983)).
+Images are build monthly on Docker Hub, except _devel_ tags which are build nightly. Automated builds are disabled, instead builds are triggered by CRON jobs running on a third party server (cf. [GitHub comment](https://github.com/rocker-org/rocker-versioned/issues/42#issuecomment-316149983)).
 
 ### Bioconductor
 
-If you come from Bioinformatics or neighboring disciplines, you might be delighted that [**Bioconductor**](http://bioconductor.org/) provides several images based on Rocker's `rocker/rstudio` images (see the [help page](http://bioconductor.org/help/docker/), [GitHub](https://github.com/Bioconductor/bioc_docker), and [Open Hub](https://hub.docker.com/u/bioconductor/)). Image updates occur with each Bioconductor release, except the _devel_ images which are build weekly with the latest versions of R and Bioconductor based on `rocker/rstudio-daily`.
+If you come from Bioinformatics or neighboring disciplines, you might be delighted that [**Bioconductor**](http://bioconductor.org/) provides several images based on Rocker's `rocker/rstudio` images. See the [help page](http://bioconductor.org/help/docker/), [GitHub](https://github.com/Bioconductor/bioc_docker), and [Open Hub](https://hub.docker.com/u/bioconductor/) for more information. In short, the Bioconductor core team maintains _release_ and _devel_ images (e.g. `bioconductor/release_base2`), and contributors maintain image with different levels of pre-installed packages (each in _release_ and _devel_ variants), which are based on Bioconductor views (e.g. `bioconductor/devel_proteomics2` installs the views [Proteomics](https://www.bioconductor.org/packages/devel/BiocViews.html#___Proteomics) and [MassSpectrometryData](https://www.bioconductor.org/packages/devel/BiocViews.html#___MassSpectrometryData)).
+
+Image updates occur with each Bioconductor release, except the _devel_ images which are build weekly with the latest versions of R and Bioconductor based on `rocker/rstudio-daily`.
 
 ### MRO
 
@@ -51,8 +53,11 @@ It is inspired by the Rocker images and can be used in the same fashion. Please 
 
 [Renjin](http://www.renjin.org/about.html) is a [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine)-based interpreter for the R language for statistical computing developed by [BeDataDriven](http://www.bedatadriven.com/). It was developed for big data analysis using existing R code seamlessly in cloud infrastructures, and allows Java/Scala developers to easily combine R with all benefits of Java and the JVM.
 
-While it is not primarily build for interactive use on the command line, this is possible. So o2r team member Daniel created a Docker image for Renjin for you to try it out. It is available [on Docker Hub](https://hub.docker.com/r/nuest/renjin/) as `docker pull nuest/renjin`, with [Dockerfile on GitHub](https://github.com/nuest/renjin-docker).
+While it is not primarily build for interactive use on the command line, this is possible. So o2r team member Daniel created a Docker image for Renjin for you to try it out. It is available [on Docker Hub](https://hub.docker.com/r/nuest/renjin/) as `nuest/renjin`, with [Dockerfile on GitHub](https://github.com/nuest/renjin-docker).
 
+### pqR
+
+[**pqR**](http://www.pqr-project.org/) tries to create _"a pretty quick version of R"_ and fixing some perceived issues in the R language. While this is a one man project by [Radford Neal](http://www.cs.toronto.edu/~radford/), it's worth trying out such contributions to the open source community and to the discussion on how R should look like in the future (cf. [a recent presentation](http://www.cs.toronto.edu/~radford/RIOT2017-lang.pdf)), even if things might get [personal](https://github.com/radfordneal/pqR/issues/30#issuecomment-251188198). As you might have guess by now, Daniel created a Docker image for you to try out pqR: It is available [on Docker Hub](https://hub.docker.com/r/nuest/pqr/) as `nuest/pqr`, with [Dockerfile on GitHub](https://github.com/nuest/pqr-docker).
 
 ## Dockerizing Research and Development Environments
 
@@ -67,29 +72,47 @@ Carl Boettiger, Assistant Professor at UC Berkeley, has also written in detail a
 Both Ben and Carl have written about their case studies using Docker for research compendia in the book ["The Practice of Reproducible Research - Case Studies and Lessons from the Data-Intensive Sciences"](https://www.gitbook.com/book/bids/the-practice-of-reproducible-research/details): [Using R and Related Tools for Reproducible Research in Archaeology](https://www.practicereproducibleresearch.org/case-studies/benmarwick.html) and [A Reproducible R Notebook Using Docker](https://www.practicereproducibleresearch.org/case-studies/cboettig.html).
 
 An R extension you may want to dockerize is **Shiny**. Flavio Barros dedicated two articles on R-bloggers to this topic: [Dockerizing a Shiny App](https://www.r-bloggers.com/dockerizing-a-shiny-app/) and [Share Shiny apps with Docker and Kitematic](https://www.r-bloggers.com/share-your-shiny-apps-with-docker-and-kitematic/).
-The majority of talks at [useR!2017](https://user2017.brussels) presenting [real-world deployments of Shiny](https://user2017.brussels/schedule) mentioned using Dockerized Shiny applications for scalability and ease of installation.
+The majority of talks at [useR!2017](https://user2017.brussels) presenting [real-world deployments of Shiny](https://user2017.brussels/schedule) mentioned using Dockerized Shiny applications for reasons of scalability and ease of installation.
 
-A new solution to ease the creation of Docker containers for specific research environments is [the package <code>containerit</code>](https://github.com/o2r-project/containerit).
-It creates Dockerfiles (using Rocker base images) from R sessions, R scripts, RMarkdown files or R workspace directories, including the required system dependencies.
-The package was [presented at useR!2017](http://o2r.info/2017/07/07/useR2017) and can currently be installed from GitHub.
+The company [Seven Bridges](https://www.sevenbridges.com/) provides an example for a public container encapsulating a specific research environment, in this case the product [Seven Bridges Platform](https://www.sevenbridges.com/platform/) (_"a cloud-based environment for conducting bioinformatic analyses"_), its tools and the Bioconductor package [`sevenbridges`](https://www.bioconductor.org/packages/devel/bioc/html/sevenbridges.html). The published image [`sevenbridges/sevenbridges-r`](https://hub.docker.com/r/sevenbridges/sevenbridges-r/) includes both RStudio Server and Shiny, see the [vignette "IDE Container"](https://www.bioconductor.org/packages/devel/bioc/vignettes/sevenbridges/inst/doc/rstudio.html).
+
+A new solution to ease the creation of Docker containers for specific research environments is [**`containerit`**](https://github.com/o2r-project/containerit).
+It creates `Dockerfile`s (using Rocker base images) from R sessions, R scripts, R Markdown files or R workspace directories, including the required system dependencies.
+The package was [presented at useR!2017](http://o2r.info/2017/07/07/useR2017) and can currently only be installed from GitHub.
+
+While Docker is made for running tools and services, and providing user interfaces via web protocols (e.g. via a local port and a website opened in a browser, as with `rocker/rstudio` or Jupyter Notebook images), several activities exists that try to package **GUI applications in containers**. Daniel explores some alternatives for running RStudio in [this GitHub repository](https://github.com/nuest/x11rockerstudio), just for the fun of it. In this particular case it may not be very sensible, because _RStudio Desktop_ is already effectively a browser-based UI (unlike other GUI-based apps packages this way), but for users with reluctance to a browser UI and/or command line interfaces, the "Desktop in a container" approach might be useful.
 
 ## Running Tests
 
-The R package [**dockertest**](https://github.com/traitecoevo/dockertest) makes use of the isolated environment that Docker provides: R programmers can set up test environments for their R packages and R projects, in wich they can rapidly test their works on Docker containers that only contain R and the relevant dependencies. All of this without cluttering your development environment.
+The package [**`dockertest`**](https://github.com/traitecoevo/dockertest) makes use of the isolated environment that Docker provides: R programmers can set up test environments for their R packages and R projects, in which they can rapidly test their works on Docker containers that only contain R and the relevant dependencies. All of this without cluttering your development environment.
 
-## Dockerizing Documents
+The package [**`gitlabr`**](https://cran.r-project.org/package=gitlabr) does not use Docker itself, but wraps the [GitLab API](https://docs.gitlab.com/ce/api/README.html) in R functions for easy usage. This includes starting continuous integration (CI) tests (function [`gl_ci_job`](https://www.rdocumentation.org/packages/gitlabr/versions/0.9/topics/gl_ci_job)), which [GitLab can do using Docker](https://docs.gitlab.com/ce/ci/docker/using_docker_images.html), so the function has an argument `image` to select the image run to perform a CI task.
 
-Some works are dedicated to _dockerizing R-based documents_. The [**liftr package**](http://liftr.me/) for R lets users enhance Rmd files with YAML-metadata, wich enables rendering R Markdown documents in Docker containers. Liftr also supports [Rabix](https://www.rabix.org/), a Docker-based toolkit for portable bioinformatics workflows. That means that users can have Rabix workflows run inside the container and have the results integrated directly into the final document. 
+## Dockerizing Documents and Workflows
 
-## Controll Docker Containers from R
+Some works are dedicated to _dockerizing R-based documents_.
+
+![liftr logo](/public/images/liftr-logo.png "liftr logo"){:width="100" .img.rightfloat}
+
+The package [**`liftr`**](http://liftr.me/) ([on CRAN](https://cran.r-project.org/package=liftr)) for R lets users enhance Rmd files with YAML-metadata ([example](https://github.com/road2stat/dockflow/blob/master/config/sequencing.yml)), which enables rendering R Markdown documents in Docker containers. Unlike `containerit`, this metadata must be written by the author of the R Markdown document.
+
+`liftr` is used in the [**DockFlow**](https://dockflow.org/) initiative to containerize a selection of [Bioconductor workflows](https://bioconductor.org/help/workflows/) as presented in [this poster](https://nanx.me/papers/dockflow-poster-bioc2017.pdf) at BioC 2017 conference.
+Liftr also supports [Rabix](https://www.rabix.org/), a Docker-based toolkit for portable bioinformatics workflows. That means that users can have Rabix workflows run inside the container and have the results integrated directly into the final document. 
+
+The Bioconductor package [`sevenbridges`](https://www.bioconductor.org/packages/devel/bioc/html/sevenbridges.html) (see also above) has [a vignette on creating reproducible reports with Docker](http://www.tengfei.name/sevenbridges/vignettes/docker.html). In recommends a reproducible script or report with `docopt` respectively R markdown (parametrized reports).
+The cloud-based Seven Bridges platform can fulfill requirements, such as required Docker images, within their internal JSON-based workflow and "Tool" description format ([example](https://github.com/sbg/sevenbridges-r/blob/master/inst/docker/sevenbridges/rabix/runif.json#L91)), for which the package provides helper functions to create Tools and execute them, see [this example in a vignette](http://www.tengfei.name/sevenbridges/vignettes/api.html#import-cwl-app-and-run-a-task). Docker images are used for [local testing of these workflows](http://www.tengfei.name/sevenbridges/vignettes/apps.html) based on Rabix (see above), where images are started automatically in the background for a user, who only uses R functions. Automated builds for workflows on Docker Hub are also encouraged.
+
+## Control Docker Containers from R
 
 Rather than running R inside Docker containers, it can be beneficial to call Docker containers from inside R. This is what the packages `RSelenium` and `googleComputeEngineR` do.
 
 [**Selenium**](http://www.seleniumhq.org/) provides tools for browser automation, which are also [available as Docker images](https://hub.docker.com/u/selenium/). They can be used, amongst others, for testing web applications or controlling a headless web browser from your favorite programming language. In [this tutorial](https://rpubs.com/johndharrison/RSelenium-Docker), you can see how and why you should use RSelenium to interact with your Selenium containers.
 
-[**googleComputeEngineR**](https://cloudyr.github.io/googleComputeEngineR/) provides an R interface to the Google Cloud Compute Engine API. It includes a function called `docker_run` that starts a Docker container in a Google Cloud VM and executes R code in it. Read [this article](https://cloudyr.github.io/googleComputeEngineR/articles/docker-ssh-futures.html) for details and examples. There are similar ambitions to implement Docker capabilities in the [**analogsea package**](https://github.com/sckott/analogsea) that interfaces the Digital Ocean API.
+[**`googleComputeEngineR`**](https://cloudyr.github.io/googleComputeEngineR/) provides an R interface to the Google Cloud Compute Engine API. It includes a function called `docker_run` that starts a Docker container in a Google Cloud VM and executes R code in it. Read [this article](https://cloudyr.github.io/googleComputeEngineR/articles/docker-ssh-futures.html) for details and examples. There are similar ambitions to implement Docker capabilities in the [**`analogsea` package**](https://github.com/sckott/analogsea) that interfaces the Digital Ocean API.
 
-`googleComputeEngineR` and `analogsea` use functions from the [**harbor package**](https://github.com/wch/harbor/) for R. You should have a look at it, because it may help you to control your own Docker containers that run either locally or remotely.
+`googleComputeEngineR` and `analogsea` use functions from the [**`harbor` package**](https://github.com/wch/harbor/) for R (only available via GitHub). It may be used to control Docker containers that run either locally or remotely.
+
+A more recent alternative to `harbor` is the package [**`docker`**](https://bhaskarvk.github.io/docker/), also available [on CRAN](https://cran.r-project.org/package=docker) with source code [on GitHub](https://github.com/bhaskarvk/docker). Using a [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) approach, it provides a thin layer to the Docker API using the [Docker SDK for Python](https://docker-py.readthedocs.io/en/stable/) via the package [`reticulate`](https://rstudio.github.io/reticulate/). The package is best suited for apt Docker users, i.e. if you know the Docker commands and life cycle. However, thanks to the abstraction layer provided by the Docker SDK for Python, `docker` also runs on various operating systems (including Windows).
 
 ## R and Docker for Complex Web Applications
 
@@ -100,3 +123,5 @@ Mark McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2
 If you want to use **RStudio with cloud services**, you may find delight in these articles from the SAS and R blog: [RStudio in the cloud with Amazon Lightsail and docker](http://sas-and-r.blogspot.de/2016/12/rstudio-in-cloud-with-amazon-lightsail.html), [Set up RStudio in the cloud to work with GitHub](http://sas-and-r.blogspot.de/2016/01/set-up-rstudio-in-cloud-to-work-with.html), [RStudio in the cloud for dummies, 2014/2015 edition](http://sas-and-r.blogspot.de/2014/12/rstudio-in-cloud-for-dummies-20142015.html).
 
 The platform [**R-hub**](https://github.com/r-hub) helps R developers with solving package issues prior to submitting them to CRAN. In particular, it provides services that build packages on all CRAN-supported platforms and checks them against the latest R release. The services utilize backends that perform regular R builds inside of Docker containers. Read the [project proposal](https://github.com/r-hub/proposal) for details.
+
+The package [**`plumber`**](https://cran.r-project.org/package=plumber) ([website](https://www.rplumber.io/), [repository](https://github.com/trestletech/plumber)) allows creating web services/HTTP APIs in pure R. The maintainer provides a ready to use Docker image `trestletech/plumber` to run/host these applications with [excellent documentation](https://www.rplumber.io/docs/hosting.html#docker) including topics such as multiple images under one port and load balancing.
