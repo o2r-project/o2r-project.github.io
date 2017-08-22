@@ -59,6 +59,12 @@ While it is not primarily build for interactive use on the command line, this is
 
 [**pqR**](http://www.pqr-project.org/) tries to create _"a pretty quick version of R"_ and fixing some perceived issues in the R language. While this is a one man project by [Radford Neal](http://www.cs.toronto.edu/~radford/), it's worth trying out such contributions to the open source community and to the discussion on how R should look like in the future (cf. [a recent presentation](http://www.cs.toronto.edu/~radford/RIOT2017-lang.pdf)), even if things might get [personal](https://github.com/radfordneal/pqR/issues/30#issuecomment-251188198). As you might have guess by now, Daniel created a Docker image for you to try out pqR: It is available [on Docker Hub](https://hub.docker.com/r/nuest/pqr/) as `nuest/pqr`, with [Dockerfile on GitHub](https://github.com/nuest/pqr-docker).
 
+### [WIP] FastR
+
+Also targeting performance, [**FastR**](https://github.com/graalvm/fastr) is _"is an implementation of the R Language in Java atop [Truffle](https://github.com/graalvm/graal/blob/master/truffle/README.md), a framework for building self-optimizing AST interpreters."_ FastR is planned as a drop-in replacement for R, but [relevant limitations](https://github.com/graalvm/fastr/blob/master/documentation/Limitations.md) apply.
+
+While GraalVM has a [Docker Hub user](https://hub.docker.com/u/graalvm/), no images are published probably because of licensing requirements, as can be seen in the GitHub repository [orcale/docker-images](https://github.com/oracle/docker-images/tree/master/GraalVM/graalvm-0.22), where users must manually download a GraalVM release, which requires an Oracle Account... so the current tests available in [this GitHub repository]() try to build FastR from source based on the newest OpenJDK Java 9.
+
 ## Dockerizing Research and Development Environments
 
 So why, apart from the incredibly easy usage, adoption and transfer of typical R environments, would you want to combine R with Docker?
@@ -119,14 +125,6 @@ A more recent alternative to `harbor` is the package [**`docker`**](https://bhas
 ## R and Docker for Complex Web Applications
 
 Docker, in general, may help you to build complex and scalable web applications with R. 
-
-Mark McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2014/09/23/duke-docker-day-was-great/) of the Duke University in North Carolina (USA) how he provided 300+ students each with private RStudio Server instances. In his presentation ([PDF](https://sites.duke.edu/researchcomputing/files/2014/09/mccahill-DockerDays.pdf) / [MOV](https://people.duke.edu/~mdelong/mccahill-DockerDays.mov) (398 MB)), he explains his **RStudio farm** in detail. 
-
-If you want to use **RStudio with cloud services**, you may find delight in these articles from the SAS and R blog: [RStudio in the cloud with Amazon Lightsail and docker](http://sas-and-r.blogspot.de/2016/12/rstudio-in-cloud-with-amazon-lightsail.html), [Set up RStudio in the cloud to work with GitHub](http://sas-and-r.blogspot.de/2016/01/set-up-rstudio-in-cloud-to-work-with.html), [RStudio in the cloud for dummies, 2014/2015 edition](http://sas-and-r.blogspot.de/2014/12/rstudio-in-cloud-for-dummies-20142015.html).
-
-The platform [**R-hub**](https://github.com/r-hub) helps R developers with solving package issues prior to submitting them to CRAN. In particular, it provides services that build packages on all CRAN-supported platforms and checks them against the latest R release. The services utilize backends that perform regular R builds inside of Docker containers. Read the [project proposal](https://github.com/r-hub/proposal) for details.
-
-The package [**`plumber`**](https://cran.r-project.org/package=plumber) ([website](https://www.rplumber.io/), [repository](https://github.com/trestletech/plumber)) allows creating web services/HTTP APIs in pure R. The maintainer provides a ready to use Docker image `trestletech/plumber` to run/host these applications with [excellent documentation](https://www.rplumber.io/docs/hosting.html#docker) including topics such as multiple images under one port and load balancing.
 
 Mark McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2014/09/23/duke-docker-day-was-great/) of the Duke University in North Carolina (USA) how he provided 300+ students each with private RStudio Server instances. In his presentation ([PDF](https://sites.duke.edu/researchcomputing/files/2014/09/mccahill-DockerDays.pdf) / [MOV](https://people.duke.edu/~mdelong/mccahill-DockerDays.mov) (398 MB)), he explains his **RStudio farm** in detail. 
 
