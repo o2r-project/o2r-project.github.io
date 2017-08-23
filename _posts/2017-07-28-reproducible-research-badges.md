@@ -52,7 +52,7 @@ A study by Mallory C. Kidwell et al. [[1](#kidwell)] demonstrates a positive eff
 Peng [[3](#peng1), [4](#peng2)] reports on the efforts the journal _Biostatistics_ is taking to promote reproducible research, including a set of _"kite marks"_, which can easily be seen as minimalistic yet effective badges. _**D**_ and _**C**_ if data respectively code is provided, and _**R**_ if results were successfully reproduced during the review process (implying D and C). Figure 3 shows the usage of **R** on an article's title page (cf. [[5](#lee)]).
 
 ![Biostatistics badges](/public/images/2017-07-28-badges/biostatistics-kitemark.png "Figure 3: Biostatistics kite marks"){:width="400"}
-<p class="attributionInlineImage">Figure 3: <em>Biostatistis</em> kite mark <b>R</b> rendering in the PDF version of the paper.</p>
+<p class="attributionInlineImage">Figure 3: <em>Biostatistics</em> kite mark <b>R</b> rendering in the PDF version of the paper.</p>
 
 The Association for Computing Machinery ([ACM](https://www.acm.org/)) provides a common terminology and standards for artifact review processes for its conferences and journals, see their policies website section on [Artifact Review Badging](https://www.acm.org/publications/policies/artifact-review-badging). The have a system of three badges with several levels accompanied by specific criteria. They can be independently awarded:
 
