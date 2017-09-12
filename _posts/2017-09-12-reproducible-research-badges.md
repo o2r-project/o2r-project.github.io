@@ -224,4 +224,4 @@ For more see the GitHub issues pages of [o2r-badger](https://github.com/o2r-proj
 
 <a name="lee"></a>[5] Lee, Duncan, Ferguson, Claire, and Mitchell, Richard. 2009. Air pollution and health in Scotland: a multicity study. Biostatistics, Volume 10, Issue 3, Pages 409–423, doi:<a href="https://doi.org/10.1093/biostatistics/kxp010">10.1093/biostatistics/kxp010</a>.
 
-<a name="nuest"></a>[g] Nüst, D., Konkol, M., Pebesma, E., Kray, C., Schutzeichel, M., Przibytzin, H., and Lorenz, J. Opening the Publication Process with Executable Research Compendia. D-Lib Magazine. 2017. doi:<a href="https://doi.org/10.1045/january2017-nuest">10.1045/january2017-nuest</a>.
+<a name="nuest"></a>[6] Nüst, D., Konkol, M., Pebesma, E., Kray, C., Schutzeichel, M., Przibytzin, H., and Lorenz, J. Opening the Publication Process with Executable Research Compendia. D-Lib Magazine. 2017. doi:<a href="https://doi.org/10.1045/january2017-nuest">10.1045/january2017-nuest</a>.
