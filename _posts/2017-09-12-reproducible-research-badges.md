@@ -34,7 +34,7 @@ We developed a back-end service providing badges for reproducible research paper
 
 We are however not the first nor the only ones to do this: [ScienceOpen](https://www.scienceopen.com/) is a search engine for scientific publications. It has badges for open access publications, content type, views, comments and the [Altmetric](https://www.altmetric.com/) score as displayed in Figure 1.
 
-![scienceopen badges](/public/images/2017-07-28-badges/scienceOpen.png "Figure 1: ScienceOpen badges")
+![scienceopen badges](/public/images/2017-09-12-badges/scienceOpen.png "Figure 1: ScienceOpen badges")
 <p class="attributionInlineImage">Figure 1: <em>ScienceOpen</em> badges in a search result listing.</p>
 
 These are helpful when using the ScienceOpen website, but they are not available for other websites. Additional issues are the inconsistent style and missing information relevant for reproducible geosciences, e.g. reproducibility status or the research location.
@@ -42,7 +42,7 @@ These are helpful when using the ScienceOpen website, but they are not available
 Badges are also used directly on publications, without the search portal "middleman". The published document, poster or presentation contains a badge along with the information needed to access the data or code.
 The [Center for Open Science](https://cos.io/) [designed badges](https://osf.io/tvyxz/wiki/home/) for acknowledging open practices in scientific articles accompanied by guidelines for [incorporating them into journals' peer review workflows](https://osf.io/tvyxz/wiki/3.%20Incorporating%20Badges%20into%20Publication%20Workflow/) and [adding them to published documents](https://osf.io/tvyxz/wiki/4.%20Incorporating%20Badge%20Visualization%20into%20Publications/), including large colored and small black-and-white variants. The badges are for _Open Data_, _Open Materials_, and _Preregistration_ of studies (see Figure 2) and are adopted by over a dozen of journals to date (cf. [Adoptions and Endorsements](https://osf.io/tvyxz/wiki/5.%20Adoptions%20and%20Endorsements/)). 
 
-![COS badges](/public/images/2017-07-28-badges/cos.png "Figure 2: COS badges"){:width="400"}
+![COS badges](/public/images/2017-09-12-badges/cos.png "Figure 2: COS badges"){:width="400"}
 <p class="attributionInlineImage">Figure 2: <em>COS</em> badges.</p>
 
 University of Washington’s [eScience Institute](http://escience.washington.edu/) created a peer-review process for open data and open materials badges [https://github.com/uwescience-open-badges/about](https://github.com/uwescience-open-badges/about) based on the COS badges. The service is meant for faculty members and students at the University of Washington, but external researchers can also apply. The initiative also has a list of relevant [publications on the topic](https://github.com/uwescience-open-badges/about#where-can-i-read-more-about-this).
@@ -54,7 +54,7 @@ A study by Kidwell et al. [[1](#kidwell)] demonstrates a positive effect by the 
 
 Peng [[3](#peng1), [4](#peng2)] reports on the efforts the journal _Biostatistics_ is taking to promote reproducible research, including a set of _"kite marks"_, which can easily be seen as minimalistic yet effective badges. _**D**_ and _**C**_ if data respectively code is provided, and _**R**_ if results were successfully reproduced during the review process (implying D and C). Figure 3 shows the usage of **R** on an article's title page (cf. [[5](#lee)]).
 
-![Biostatistics badges](/public/images/2017-07-28-badges/biostatistics-kitemark.png "Figure 3: Biostatistics kite marks"){:width="400"}
+![Biostatistics badges](/public/images/2017-09-12-badges/biostatistics-kitemark.png "Figure 3: Biostatistics kite marks"){:width="400"}
 <p class="attributionInlineImage">Figure 3: <em>Biostatistics</em> kite mark <b>R</b> rendering in the PDF version of the paper.</p>
 
 The Association for Computing Machinery ([ACM](https://www.acm.org/)) provides a common terminology and standards for artifact review processes for its conferences and journals, see their policies website section on [Artifact Review Badging](https://www.acm.org/publications/policies/artifact-review-badging). The have a system of three badges with several levels accompanied by specific criteria. They can be independently awarded:
@@ -65,7 +65,7 @@ The Association for Computing Machinery ([ACM](https://www.acm.org/)) provides a
 
 Figure 4 shows a rendering of the ACM badges.
 
-![ACM badges](/public/images/2017-07-28-badges/acm.png "Figure 4: ACM badges"){:width="500"}
+![ACM badges](/public/images/2017-09-12-badges/acm.png "Figure 4: ACM badges"){:width="500"}
 <p class="attributionInlineImage">Figure 4: <em>ACM</em> badges, from left to right: Artifacts Evaluated – Functional, Artifacts Evaluated – Reusable, Artifacts Available, Results Replicated, and Results Reproduced. (Copyright &copy; 2017, ACM, Inc)</p>
 
 Although these examples are limited to a specific journal, publisher, or institution, they show the potential of badges. They also show the diversity, limitations, and challenges in describing and awarding these badges.
@@ -95,7 +95,7 @@ The badger currently provides badges using two methods: internally created SVG-b
 The redirects construct a simple shields.io URL.
 The SVG-based badges are called *extended* badges and contain more detailed information: the extended *license* badge for example has three categories (*code*, *data* and *text*, see Figure 5), which are [aggregated](https://github.com/o2r-project/o2r-badger/blob/master/controllers/license/license.js#L312) to single values (open, partially open, mostly open, closed) for the shields.io badge (see Figure 6). 
 
-![license badge](/public/images/2017-07-28-badges/license_extended.svg "Figure 4: An extended *licence* badge reporting open data, text and code")
+![license badge](/public/images/2017-09-12-badges/license_extended.svg "Figure 4: An extended *licence* badge reporting open data, text and code")
 <p class="attributionInlineImage">Figure 5: An extended licence badge reporting open data, text and code.</p>
 
 Extended badges are meant for websites or print publications of a single publication, e.g. an article's title page. They can be resized and alternatively provided pre-rendered as a PNG image. In contrast, the standard shields.io badges are smaller, text based badges. They still communicate the most important piece of information:
@@ -145,7 +145,7 @@ The extender currently supports the following research websites:
 
 For each article display on these websites, the extender requests a set of badges from the badger server. These are then inserted into the page’s HTML code after rendering the regular website as shown exemplary in the screenshot in Figure 7.
 
-![google scholar badges](/public/images/2017-07-28-badges/google_scholar_badges.png "Figure 7: Badges integrated into Google Scholar search results")
+![google scholar badges](/public/images/2017-09-12-badges/google_scholar_badges.png "Figure 7: Badges integrated into Google Scholar search results")
 <p class="attributionInlineImage">Figure 7: Badges integrated into <em>Google Scholar</em> search results (partial screenshot).</p>
 
 When the badger does not find information for a certain DOI, it returns a grey “not available” - badge instead. This is shown in the screenshot above for the outermost license and peer review badges. 
@@ -154,12 +154,12 @@ The extender consists of a content script, similar to a [userscript](http://tech
 
 But the extender is not limited to inserting static information. The results of searches can also be filtered based on badge value and selected badge types can be turned on or off directly from the website with controls inserted into the pages' navigation menus (see left hand side of Figure 8).
 
-![doaj filtering](/public/images/2017-07-28-badges/doaj_badges.png "Figure 8: Filtering search results on DOAJ")
+![doaj filtering](/public/images/2017-09-12-badges/doaj_badges.png "Figure 8: Filtering search results on DOAJ")
 <p class="attributionInlineImage">Figure 8: Filtering search results on <em>DOAJ</em>. Results not matching the filter or articles where the DOI could not be detected are greyed out.</p>
 
 The extender is easily configurable: it can be enabled and disabled with a click on the icon in the browser toolbar. You can select the badge types to be displayed in the extension settings. Additionally it contains links to local info pages ("Help" and "About", see Figure 9).
 
-![extender config](/public/images/2017-07-28-badges/extender_configuration.png "Figure 9: *o2r-extender* configuration")
+![extender config](/public/images/2017-09-12-badges/extender_configuration.png "Figure 9: *o2r-extender* configuration")
 <p class="attributionInlineImage">Figure 9: extender configuration.</p>
 
 ## Outlook: Action integrations
@@ -171,12 +171,12 @@ To facilitate these for users, the extender can also augment the user interfaces
 
 When using *Sciebo*, a button is added to a file's or directory's context menu. It allows direct interaction with the o2r platform to upload a new reproducible research paper (ERC) from the current file or directory as shown in Figure 10.
 
-![sciebo integration](/public/images/2017-07-28-badges/sciebo_integration.png "Figure 10: *Sciebo* upload integration")
+![sciebo integration](/public/images/2017-09-12-badges/sciebo_integration.png "Figure 10: *Sciebo* upload integration")
 <p class="attributionInlineImage">Figure 10: <em>Sciebo</em> upload integration.</p>
 
 When you are viewing an *Executable Research Compendium* on *Zenodo*, a small badge links directly to the corresponding inspection view in the o2r platform (see Figure 11):
 
-![zenodo integration](/public/images/2017-07-28-badges/zenodo_integration.png "Figure 11: Zenodo inspection integration")
+![zenodo integration](/public/images/2017-09-12-badges/zenodo_integration.png "Figure 11: Zenodo inspection integration")
 <p class="attributionInlineImage">Figure 11: Link to inspection view and tag "ERC" on <em>Zenodo</em>.</p>
 
 ## Discussion
