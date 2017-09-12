@@ -7,6 +7,7 @@ categories:
   - berlin
   - osc2017
   - radio
+author: 'Markus Konkol'
 ---
 
 ![open science conference banner](https://www.open-science-conference.eu/wp-content/themes/science20/images/banner_2017.png){:width="500"}

@@ -7,6 +7,7 @@ categories:
   - conference
   - presentation
   - video
+author: 'Daniel Nüst'
 ---
 
 **Update**: A video recoriding of the presentation is now published on the TIB AV-Portal: [http://dx.doi.org/10.5446/20330](http://dx.doi.org/10.5446/20330)

@@ -27,6 +27,16 @@ img.center {
     font-size: 0.75em;
 }
 
+.lead {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.sidebar .small {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
 .attribution {
     font-size: 0.6em;
     padding-top: 2rem;
