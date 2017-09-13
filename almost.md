@@ -30,7 +30,7 @@ We are looking for scientific publications that we can use to test our approach.
 
 **But I neither need nor want your help!**
 
-You write your papers in [Sweave](https://www.statistik.lmu.de/~leisch/Sweave/) or [RMarkdown](http://rmarkdown.rstudio.com/), and ammend them with an R package including the data and code? Then you are on track for a reproducible workflow. _Congratulations!_ We would really enjoy packaging your workflow in a reproducible way, becaues it will not be too hard. _But_ we don't just want such apparently simple cases. We are well aware that journals might ask for very different looking submissions, even if authors want to use literate programming solutions.
+You write your papers in [Sweave](https://www.statistik.lmu.de/~leisch/Sweave/) or [RMarkdown](http://rmarkdown.rstudio.com/), and amend them with an R package including the data and code? Then you are on track for a reproducible workflow. _Congratulations!_ We would really enjoy packaging your workflow in a reproducible way, becaues it will not be too hard. _But_ we don't just want such apparently simple cases. We are well aware that journals might ask for very different looking submissions, even if authors want to use literate programming solutions.
 
 Instead we look forward to work with _your workspace directory as it is_. This way we learn more about people's workflows and practices, be they good, bad, or just pragmatic. Trust us that you are not the only one for whom living up to her/his standards and expertise is a challenge in day-to-day research.
 
