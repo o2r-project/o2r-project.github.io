@@ -21,10 +21,8 @@ Inspired by the just passed [Open Access Week](http://www.openaccessweek.org/) (
 
 ![o2r screenshot: Ubuntu](/public/images/2017-10-31-refimpl/o2r-refimpl-ubuntu.jpg "Screenshot: o2r reference implementation on Ubuntu"){:width="600"}
 <p class="attributionInlineImage">Screenshot: o2r reference implementation on <em>Ubuntu</em>.</p>
-![o2r screenshot: OS X](/public/images/2017-10-31-refimpl/o2r-refimpl-macos-x.jpg "Screenshot: o2r reference implementation on Mac OS X"){:width="600"}
-<p class="attributionInlineImage">Screenshot: o2r reference implementation on <em>OS X</em>.</p>
 
-It comprises documentation for run o2r software on a completely new machine:
+It comprises documentation for <!--more-->run o2r software on a completely new machine:
 
 - [Run o2r locally with pre-build Docker images](https://github.com/o2r-project/reference-implementation#download-images-and-run) (the regular approach, let's you easily update to later versions)
 - [Download all source code, build Docker images, and then run o2r locally](https://github.com/o2r-project/reference-implementation#build-images-from-source-and-run) (the investigative approach)
@@ -33,6 +31,9 @@ It comprises documentation for run o2r software on a completely new machine:
 The only efforts besides a few commands on your computer is [registering a client application with ORCID](https://support.orcid.org/knowledgebase/articles/343182-register-a-public-api-client-application) to be able to log in, because there is no other way to authenticate within the o2r platform and microservices.
 You may also [get an access token from Zenodo](https://zenodo.org/login/?next=%2Faccount%2Fsettings%2Fapplications%2Ftokens%2Fnew%2F) to "ship" your completed ERC.
 Eventually this repository will be the basis for a citable package of our software.
+
+![o2r screenshot: OS X](/public/images/2017-10-31-refimpl/o2r-refimpl-macos-x.jpg "Screenshot: o2r reference implementation on Mac OS X"){:width="600"}
+<p class="attributionInlineImage">Screenshot: o2r reference implementation on <em>OS X</em>.</p>
 
 We look forward to [your feedback](https://github.com/o2r-project/reference-implementation/issues)!
 
