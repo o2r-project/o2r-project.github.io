@@ -18,7 +18,9 @@ o2r is an open project, so all our components are openly developed [on GitHub]({
 
 We develop a reference implementation of the mentioned specification as Open Source software on GitHub: **[{{ site.github.org }}]({{ site.github.org }})**
 
-**Try the online demo: [https://o2r.uni-muenster.de](https://o2r.uni-muenster.de)**
+**Try the online demo at [https://o2r.uni-muenster.de](https://o2r.uni-muenster.de)**
+
+**Try it out [on your computer](/2017/10/31/reference-implementation/)**
 
 (After logging in with your ORCID, please [get in touch](mailto:daniel.nuest@uni-muenster.de) so that we can give your account the required rights.)
 
