@@ -1,14 +1,14 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-       <a href="{{ site.baseurl }}">
+       <a href="{{ site.url | absolute_url }}">
           <img alt="o2r" class="center" src="{{ '/public/images/logo-transparent.png' | absolute_url }}" width="200" style="margin-bottom: 1em;" />
         </a>
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage.
