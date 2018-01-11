@@ -18,13 +18,13 @@ That is the question that we regularly ask ourself. And we try to keep up with o
 
 _Thanks to [Ben Marwick](http://faculty.washington.edu/bmarwick/) for [contributing](https://github.com/o2r-project/o2r-project.github.io/pull/6) to this post! You know about a project using Docker and R? [Get in touch](https://github.com/o2r-project/o2r-project.github.io/issues/new)._
 
-## Dockerizing R
+## Dockerising R
 
 Several implementations of besides the one by R-core exist today, together with numerous integrations into open source and proprietary software (cf. [Englisch](https://en.wikipedia.org/wiki/R_(programming_language)#Implementations) and [German](https://de.wikipedia.org/wiki/R_(Programmiersprache)#Alternative_Open-Source-Interpreter) Wikipedia pages). In the following we present the existing efforts for using _open source_ R implementation with Docker.
 
 ### Rocker
 
-The most prominent effort<!--more--> in this area is the **Rocker project**. It was initiated by [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) and [Carl Boettiger](http://www.carlboettiger.info/) and containerizes the main R implementation. For an introduction, you may read their blog post [here](http://dirk.eddelbuettel.com/blog/2014/10/23/) or follow [this tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) from rOpenSci.
+The most prominent effort<!--more--> in this area is the **Rocker project**. It was initiated by [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) and [Carl Boettiger](http://www.carlboettiger.info/) and containerises the main R implementation. For an introduction, you may read their blog post [here](http://dirk.eddelbuettel.com/blog/2014/10/23/) or follow [this tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) from rOpenSci.
 
 ![Rocker logo](/public/images/rocker-logo.png "Rocker logo"){:width="200" .img.rightfloat}
 
@@ -42,9 +42,9 @@ Image updates occur with each Bioconductor release, except the _devel_ images wh
 
 ![MRO logo](/public/images/mro-logo.png "MRO logo (C) Microsoft"){:width="150" .img.rightfloat}
 
-Microsoft R Open ([MRO](https://mran.revolutionanalytics.com/open)) is an "enhanced R distrubition", formerly known as Revolution R Open (RRO) before [Revolution Analytics](https://en.wikipedia.org/wiki/Revolution_Analytics) was acquired by Microsoft. MRO is compatible with main R and it's packages. "It includes additional capabilities for improved performance, reproducibility, and platform support." ([source](https://mran.revolutionanalytics.com/rro/)); most notably these are the [MRAN repository](http://mran.revolutionanalytics.com/) a.k.a. CRAN Time Machine, which is also used by versioned Rocker images, and the (optional) integration with [Intel® Math Kernel Library](https://software.intel.com/en-us/mkl) (MKL) for [multi-threaded performance](https://mran.revolutionanalytics.com/documents/rro/multithread) in linear algebra operations ([BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) and [LAPACK](https://en.wikipedia.org/wiki/LAPACK)).
+Microsoft R Open ([MRO](https://mran.revolutionanalytics.com/open)) is an "enhanced R distribution", formerly known as Revolution R Open (RRO) before [Revolution Analytics](https://en.wikipedia.org/wiki/Revolution_Analytics) was acquired by Microsoft. MRO is compatible with main R and it's packages. "It includes additional capabilities for improved performance, reproducibility, and platform support." ([source](https://mran.revolutionanalytics.com/rro/)); most notably these are the [MRAN repository](http://mran.revolutionanalytics.com/) a.k.a. CRAN Time Machine, which is also used by versioned Rocker images, and the (optional) integration with [Intel® Math Kernel Library](https://software.intel.com/en-us/mkl) (MKL) for [multi-threaded performance](https://mran.revolutionanalytics.com/documents/rro/multithread) in linear algebra operations ([BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) and [LAPACK](https://en.wikipedia.org/wiki/LAPACK)).
 
-o2r team member Daniel created a Docker image for MRO inkluding MKL. It is available [on Docker Hub](https://hub.docker.com/r/nuest/mro/) as `nuest/mro`, with [Dockerfile on GitHub](https://github.com/nuest/mro-docker).
+o2r team member Daniel created a Docker image for MRO including MKL. It is available [on Docker Hub](https://hub.docker.com/r/nuest/mro/) as `nuest/mro`, with [Dockerfile on GitHub](https://github.com/nuest/mro-docker).
 It is inspired by the Rocker images and can be used in the same fashion. Please note the extended licenses printed at every startup for MKL.
 
 ### Renjin
@@ -65,7 +65,7 @@ Also targeting performance, [**FastR**](https://github.com/graalvm/fastr) is _"i
 
 While GraalVM has a [Docker Hub user](https://hub.docker.com/u/graalvm/), no images are published probably because of licensing requirements, as can be seen in the GitHub repository [orcale/docker-images](https://github.com/oracle/docker-images/tree/master/GraalVM/graalvm-0.22), where users must manually download a GraalVM release, which requires an Oracle Account... so the current tests available in [this GitHub repository]() try to build FastR from source based on the newest OpenJDK Java 9.
 
-## Dockerizing Research and Development Environments
+## Dockerising Research and Development Environments
 
 So why, apart from the incredibly easy usage, adoption and transfer of typical R environments, would you want to combine R with Docker?
 
@@ -77,8 +77,8 @@ Carl Boettiger, Assistant Professor at UC Berkeley, has also written in detail a
 
 Both Ben and Carl have written about their case studies using Docker for research compendia in the book ["The Practice of Reproducible Research - Case Studies and Lessons from the Data-Intensive Sciences"](https://www.gitbook.com/book/bids/the-practice-of-reproducible-research/details): [Using R and Related Tools for Reproducible Research in Archaeology](https://www.practicereproducibleresearch.org/case-studies/benmarwick.html) and [A Reproducible R Notebook Using Docker](https://www.practicereproducibleresearch.org/case-studies/cboettig.html).
 
-An R extension you may want to dockerize is **Shiny**. Flavio Barros dedicated two articles on R-bloggers to this topic: [Dockerizing a Shiny App](https://www.r-bloggers.com/dockerizing-a-shiny-app/) and [Share Shiny apps with Docker and Kitematic](https://www.r-bloggers.com/share-your-shiny-apps-with-docker-and-kitematic/).
-The majority of talks at [useR!2017](https://user2017.brussels) presenting [real-world deployments of Shiny](https://user2017.brussels/schedule) mentioned using Dockerized Shiny applications for reasons of scalability and ease of installation.
+An R extension you may want to dockerise is **Shiny**. Flavio Barros dedicated two articles on R-bloggers to this topic: [Dockerizing a Shiny App](https://www.r-bloggers.com/dockerizing-a-shiny-app/) and [Share Shiny apps with Docker and Kitematic](https://www.r-bloggers.com/share-your-shiny-apps-with-docker-and-kitematic/).
+The majority of talks at [useR!2017](https://user2017.brussels) presenting [real-world deployments of Shiny](https://user2017.brussels/schedule) mentioned using dockerised Shiny applications for reasons of scalability and ease of installation.
 
 The company [Seven Bridges](https://www.sevenbridges.com/) provides an example for a public container encapsulating a specific research environment, in this case the product [Seven Bridges Platform](https://www.sevenbridges.com/platform/) (_"a cloud-based environment for conducting bioinformatic analyses"_), its tools and the Bioconductor package [`sevenbridges`](https://www.bioconductor.org/packages/devel/bioc/html/sevenbridges.html). The published image [`sevenbridges/sevenbridges-r`](https://hub.docker.com/r/sevenbridges/sevenbridges-r/) includes both RStudio Server and Shiny, see the [vignette "IDE Container"](https://www.bioconductor.org/packages/devel/bioc/vignettes/sevenbridges/inst/doc/rstudio.html).
 
@@ -96,18 +96,18 @@ The package [**`gitlabr`**](https://cran.r-project.org/package=gitlabr) does not
 
 In a completely different vein but still in the testing context, [**`sanitizers`**](https://cran.r-project.org/package=sanitizers) is an R package for testing the compiler setup across different compiler versions to detect code failures in sample code. This allows testing completely different environments on the same host, without touching the well-kept development environment on the host. The packages's images are now _deprecated_ and superseded by Rocker images (`rocker/r-devel-san` and `rocker/r-devel-ubsan-clang`).
 
-## Dockerizing Documents and Workflows
+## Dockerising Documents and Workflows
 
-Some works are dedicated to _dockerizing R-based documents_.
+Some works are dedicated to _dockerising R-based documents_.
 
 ![liftr logo](/public/images/liftr-logo.png "liftr logo"){:width="100" .img.rightfloat}
 
 The package [**`liftr`**](http://liftr.me/) ([on CRAN](https://cran.r-project.org/package=liftr)) for R lets users enhance Rmd files with YAML-metadata ([example](https://github.com/road2stat/dockflow/blob/master/config/sequencing.yml)), which enables rendering R Markdown documents in Docker containers. Unlike `containerit`, this metadata must be written by the author of the R Markdown document.
 
-`liftr` is used in the [**DockFlow**](https://dockflow.org/) initiative to containerize a selection of [Bioconductor workflows](https://bioconductor.org/help/workflows/) as presented in [this poster](https://nanx.me/papers/dockflow-poster-bioc2017.pdf) at BioC 2017 conference.
+`liftr` is used in the [**DockFlow**](https://dockflow.org/) initiative to containerise a selection of [Bioconductor workflows](https://bioconductor.org/help/workflows/) as presented in [this poster](https://nanx.me/papers/dockflow-poster-bioc2017.pdf) at BioC 2017 conference.
 Liftr also supports [Rabix](https://www.rabix.org/), a Docker-based toolkit for portable bioinformatics workflows. That means that users can have Rabix workflows run inside the container and have the results integrated directly into the final document. 
 
-The Bioconductor package [`sevenbridges`](https://www.bioconductor.org/packages/devel/bioc/html/sevenbridges.html) (see also above) has [a vignette on creating reproducible reports with Docker](http://www.tengfei.name/sevenbridges/vignettes/docker.html). In recommends a reproducible script or report with `docopt` respectively R markdown (parametrized reports).
+The Bioconductor package [`sevenbridges`](https://www.bioconductor.org/packages/devel/bioc/html/sevenbridges.html) (see also above) has [a vignette on creating reproducible reports with Docker](http://www.tengfei.name/sevenbridges/vignettes/docker.html). In recommends a reproducible script or report with `docopt` respectively R markdown (parametrised reports).
 The cloud-based Seven Bridges platform can fulfill requirements, such as required Docker images, within their internal JSON-based workflow and "Tool" description format ([example](https://github.com/sbg/sevenbridges-r/blob/master/inst/docker/sevenbridges/rabix/runif.json#L91)), for which the package provides helper functions to create Tools and execute them, see [this example in a vignette](http://www.tengfei.name/sevenbridges/vignettes/api.html#import-cwl-app-and-run-a-task). Docker images are used for [local testing of these workflows](http://www.tengfei.name/sevenbridges/vignettes/apps.html) based on Rabix (see above), where images are started automatically in the background for a user, who only uses R functions. Automated builds for workflows on Docker Hub are also encouraged.
 
 ## Control Docker Containers from R
@@ -130,7 +130,7 @@ Mark McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2
 
 If you want to use **RStudio with cloud services**, you may find delight in these articles from the SAS and R blog: [RStudio in the cloud with Amazon Lightsail and docker](http://sas-and-r.blogspot.de/2016/12/rstudio-in-cloud-with-amazon-lightsail.html), [Set up RStudio in the cloud to work with GitHub](http://sas-and-r.blogspot.de/2016/01/set-up-rstudio-in-cloud-to-work-with.html), [RStudio in the cloud for dummies, 2014/2015 edition](http://sas-and-r.blogspot.de/2014/12/rstudio-in-cloud-for-dummies-20142015.html).
 
-The platform [**R-hub**](https://github.com/r-hub) helps R developers with solving package issues prior to submitting them to CRAN. In particular, it provides services that build packages on all CRAN-supported platforms and checks them against the latest R release. The services utilize backends that perform regular R builds inside of Docker containers. Read the [project proposal](https://github.com/r-hub/proposal) for details.
+The platform [**R-hub**](https://github.com/r-hub) helps R developers with solving package issues prior to submitting them to CRAN. In particular, it provides services that build packages on all CRAN-supported platforms and checks them against the latest R release. The services utilise backends that perform regular R builds inside of Docker containers. Read the [project proposal](https://github.com/r-hub/proposal) for details.
 
 The package [**`plumber`**](https://cran.r-project.org/package=plumber) ([website](https://www.rplumber.io/), [repository](https://github.com/trestletech/plumber)) allows creating web services/HTTP APIs in pure R. The maintainer provides a ready to use Docker image `trestletech/plumber` to run/host these applications with [excellent documentation](https://www.rplumber.io/docs/hosting.html#docker) including topics such as multiple images under one port and load balancing.
 
