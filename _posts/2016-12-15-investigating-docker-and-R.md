@@ -47,6 +47,11 @@ In short, the Bioconductor core team maintains _release_ and _devel_ images (e.g
 
 Image updates occur with each Bioconductor release, except the _devel_ images which are build weekly with the latest versions of R and Bioconductor based on `rocker/rstudio-daily`.
 
+### CentOS-based R containers
+
+[Jonathan Lisic](http://meanmean.me/) works on a collection of Dockerfiles building on [CentOS]() (6 and 7) and other operating systems as an alternative to the Debian-based Rocker stack.
+The Dockerfiles are on GitHub: [https://github.com/jlisic/R-docker-centos](https://github.com/jlisic/R-docker-centos)
+
 ### MRO
 
 ![MRO logo](/public/images/mro-logo.png "MRO logo (C) Microsoft"){:width="150" .img.rightfloat}
@@ -59,6 +64,12 @@ o2r team member Daniel created a Docker image for MRO including MKL.
 It is available [on Docker Hub](https://hub.docker.com/r/nuest/mro/) as `nuest/mro`, with [Dockerfile on GitHub](https://github.com/nuest/mro-docker).
 It is inspired by the Rocker images and can be used in the same fashion.
 Please note the extended licenses printed at every startup for MKL.
+
+[Jonathan Lisic](#centos-based-r-containers) published a Dockerfile for a CentOS-based MRO [on GitHub](https://github.com/jlisic/R-docker-centos).
+
+[Ali Zaidi](https://www.linkedin.com/in/alikzaidi/) published [Dockerfiles on GitHub](https://github.com/akzaidi/mrclient-docker) and [images on Docker Hub](https://hub.docker.com/r/akzaidi/mrclient-docker/) for [Microsoft R Client](https://docs.microsoft.com/en-us/machine-learning-server/r-client/what-is-microsoft-r-client), which is based on MRO.
+
+> _R Client adds to MRO by including a couple of "ScaleR" machine learning algorithms and packages for parallelisation and remote computing._
 
 ### Renjin
 
@@ -146,18 +157,9 @@ Automated builds for workflows on Docker Hub are also encouraged.
 ## Control Docker Containers from R
 
 Rather than running R inside Docker containers, it can be beneficial to call Docker containers from inside R.
-This is what the packages `RSelenium` and `googleComputeEngineR` do.
+This is what the packages in this section do.
 
-[**Selenium**](http://www.seleniumhq.org/) provides tools for browser automation, which are also [available as Docker images](https://hub.docker.com/u/selenium/).
-They can be used, amongst others, for testing web applications or controlling a headless web browser from your favorite programming language.
-In [this tutorial](https://rpubs.com/johndharrison/RSelenium-Docker), you can see how and why you should use RSelenium to interact with your Selenium containers.
-
-[**`googleComputeEngineR`**](https://cloudyr.github.io/googleComputeEngineR/) provides an R interface to the Google Cloud Compute Engine API.
-It includes a function called `docker_run` that starts a Docker container in a Google Cloud VM and executes R code in it.
-Read [this article](https://cloudyr.github.io/googleComputeEngineR/articles/docker-ssh-futures.html) for details and examples.
-There are similar ambitions to implement Docker capabilities in the [**`analogsea` package**](https://github.com/sckott/analogsea) that interfaces the Digital Ocean API.
-
-`googleComputeEngineR` and `analogsea` use functions from the [**`harbor` package**](https://github.com/wch/harbor/) for R (only available via GitHub).
+The [**`harbor` package**](https://github.com/wch/harbor/) for R (only available via GitHub) provides all Docker commands with R functions.
 It may be used to control Docker containers that run either locally or remotely.
 
 A more recent alternative to `harbor` is the package [**`docker`**](https://bhaskarvk.github.io/docker/), also available [on CRAN](https://cran.r-project.org/package=docker) with source code [on GitHub](https://github.com/bhaskarvk/docker).
@@ -165,9 +167,27 @@ Using a [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) approach, i
 The package is best suited for apt Docker users, i.e. if you know the Docker commands and life cycle.
 However, thanks to the abstraction layer provided by the Docker SDK for Python, `docker` also runs on various operating systems (including Windows).
 
+[**`dockermachine`**](https://github.com/cboettig/dockermachine) provides a convenient R interface to the [`docker-machine`](https://docs.docker.com/machine/overview/) command, so you can provision easily local or remote/cloud instances of containers.
+
+[**Selenium**](http://www.seleniumhq.org/) provides tools for browser automation, which are also [available as Docker images](https://hub.docker.com/u/selenium/).
+They can be used, amongst others, for testing web applications or controlling a headless web browser from your favorite programming language.
+In [this tutorial](https://rpubs.com/johndharrison/RSelenium-Docker), you can see how and why you can use the package `RSelenium` to interact with your Selenium containers from R.
+
+[**`googleComputeEngineR`**](https://cloudyr.github.io/googleComputeEngineR/) provides an R interface to the Google Cloud Compute Engine API.
+It includes a function called `docker_run` that starts a Docker container in a Google Cloud VM and executes R code in it.
+Read [this article](https://cloudyr.github.io/googleComputeEngineR/articles/docker-ssh-futures.html) for details and examples.
+There are similar ambitions to implement Docker capabilities in the [**`analogsea` package**](https://github.com/sckott/analogsea) that interfaces the Digital Ocean API.
+`googleComputeEngineR` and `analogsea` use functions from `harbor` for container management.
+
 ## R and Docker for Complex Web Applications
 
 Docker, in general, may help you to build complex and scalable web applications with R.
+
+If you already have a [Shiny](https://shiny.rstudio.com/) app, then [Cole Brokamp's](http://colebrokamp.com/) package [`rize`](https://github.com/cole-brokamp/rize) makes you just one function call away from building and viewing your dockerised Shiny application.
+
+If you want to get serious with Shiny, take a look at [ShinyProxy](https://www.shinyproxy.io/) by [Open Analytics](https://www.openanalytics.eu/).
+ShinyProxy is a Java application ([see GitHub](https://github.com/openanalytics/shinyproxy)) to deploy Shiny applications.
+It [creates a container](https://github.com/openanalytics/shinyproxy/blob/master/src/main/java/eu/openanalytics/services/DockerService.java#L388) with the Shiny app for each user to ensure scalability and isolation and has some other "enterprise" features.
 
 Mark McCahill presented at [an event](https://sites.duke.edu/researchcomputing/2014/09/23/duke-docker-day-was-great/) of the Duke University in North Carolina (USA) how he provided 300+ students each with private RStudio Server instances.
 In his presentation ([PDF](https://sites.duke.edu/researchcomputing/files/2014/09/mccahill-DockerDays.pdf) / [MOV](https://people.duke.edu/~mdelong/mccahill-DockerDays.mov) (398 MB)), he explains his **RStudio farm** in detail.
