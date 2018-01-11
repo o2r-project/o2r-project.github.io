@@ -9,7 +9,7 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**. Last update: 22 Aug 2017._
+_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**. Last update: 11 Jan 2018._
 
 Docker and R: How are they used and could they be used together?
 That is the question that we regularly ask ourself.
