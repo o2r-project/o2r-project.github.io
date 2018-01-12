@@ -35,3 +35,6 @@ And of course he worried about reproducibility and put in several layers of back
 **[https://github.com/nuest/sensebox-binder/](https://github.com/nuest/sensebox-binder/)**
 
 Or get a peak at the output of the analysis here: [https://nuest.github.io/sensebox-binder/sensebox-analysis.html](https://nuest.github.io/sensebox-binder/sensebox-analysis.html)
+
+And we were not the only ones taking a look at particulate matter in Germany using R.
+[Johannes Friedrich](https://johannesfriedrich.github.io/), researcher at [University of Bayreuth](http://www.lumi.uni-bayreuth.de/), used his R package [senseBox](https://github.com/JohannesFriedrich/senseBox) to download and plot data of over 400 senseBoxes. See [his blog](https://johannesfriedrich.github.io/2018-01-11-particular-matter-new-year/) for his findings.
