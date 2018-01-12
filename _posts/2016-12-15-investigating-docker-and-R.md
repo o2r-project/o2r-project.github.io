@@ -26,8 +26,8 @@ In the following we present the existing efforts for using _open source_ R imple
 
 ### Rocker
 
-The most prominent effort<!--more--> in this area is the **Rocker project**.
-It was initiated by [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) and [Carl Boettiger](http://www.carlboettiger.info/) and containerises the main R implementation.
+The most prominent effort<!--more--> in this area is the **Rocker** project ([http://rocker-project.org/](http://rocker-project.org/)).
+It was initiated by [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) and [Carl Boettiger](http://www.carlboettiger.info/) and containerises the main R implementation based on [Debian](https://www.debian.org).
 For an introduction, you may read their blog post [here](http://dirk.eddelbuettel.com/blog/2014/10/23/) or follow [this tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) from rOpenSci.
 
 ![Rocker logo](/public/images/rocker-logo.png "Rocker logo"){:width="200" .img.rightfloat}
@@ -41,7 +41,7 @@ Automated builds are disabled, instead builds are triggered by CRON jobs running
 
 ### Bioconductor
 
-If you come from Bioinformatics or neighboring disciplines, you might be delighted that [**Bioconductor**](http://bioconductor.org/) provides several images based on Rocker's `rocker/rstudio` images.
+If you come from bioinformatics or neighboring disciplines, you might be delighted that [**Bioconductor**](http://bioconductor.org/) provides several images based on Rocker's `rocker/rstudio` images.
 See the [help page](http://bioconductor.org/help/docker/), [GitHub](https://github.com/Bioconductor/bioc_docker), and [Open Hub](https://hub.docker.com/u/bioconductor/) for more information.
 In short, the Bioconductor core team maintains _release_ and _devel_ images (e.g. `bioconductor/release_base2`), and contributors maintain image with different levels of pre-installed packages (each in _release_ and _devel_ variants), which are based on Bioconductor views (e.g. `bioconductor/devel_proteomics2` installs the views [Proteomics](https://www.bioconductor.org/packages/devel/BiocViews.html#___Proteomics) and [MassSpectrometryData](https://www.bioconductor.org/packages/devel/BiocViews.html#___MassSpectrometryData)).
 
@@ -49,14 +49,14 @@ Image updates occur with each Bioconductor release, except the _devel_ images wh
 
 ### CentOS-based R containers
 
-[Jonathan Lisic](http://meanmean.me/) works on a collection of Dockerfiles building on [CentOS]() (6 and 7) and other operating systems as an alternative to the Debian-based Rocker stack.
+[Jonathan Lisic](http://meanmean.me/) works on a collection of Dockerfiles building on [CentOS](https://www.centos.org/) (6 and 7) and other operating systems as an alternative to the Debian-based Rocker stack.
 The Dockerfiles are on GitHub: [https://github.com/jlisic/R-docker-centos](https://github.com/jlisic/R-docker-centos)
 
 ### MRO
 
 ![MRO logo](/public/images/mro-logo.png "MRO logo (C) Microsoft"){:width="150" .img.rightfloat}
 
-Microsoft R Open ([MRO](https://mran.revolutionanalytics.com/open)) is an "enhanced R distribution", formerly known as Revolution R Open (RRO) before [Revolution Analytics](https://en.wikipedia.org/wiki/Revolution_Analytics) was acquired by Microsoft.
+Microsoft R Open ([MRO](https://mran.microsoft.com/open)) is an "enhanced R distribution", formerly known as Revolution R Open (RRO) before [Revolution Analytics](https://en.wikipedia.org/wiki/Revolution_Analytics) was acquired by Microsoft.
 MRO is compatible with main R and it's packages.
 "It includes additional capabilities for improved performance, reproducibility, and platform support." ([source](https://mran.revolutionanalytics.com/rro/)); most notably these are the [MRAN repository](http://mran.revolutionanalytics.com/) a.k.a. CRAN Time Machine, which is also used by versioned Rocker images, and the (optional) integration with [Intel® Math Kernel Library](https://software.intel.com/en-us/mkl) (MKL) for [multi-threaded performance](https://mran.revolutionanalytics.com/documents/rro/multithread) in linear algebra operations ([BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) and [LAPACK](https://en.wikipedia.org/wiki/LAPACK)).
 
@@ -153,6 +153,9 @@ In recommends a reproducible script or report with `docopt` respectively R markd
 The cloud-based Seven Bridges platform can fulfill requirements, such as required Docker images, within their internal JSON-based workflow and "Tool" description format ([example](https://github.com/sbg/sevenbridges-r/blob/master/inst/docker/sevenbridges/rabix/runif.json#L91)), for which the package provides helper functions to create Tools and execute them, see [this example in a vignette](http://www.tengfei.name/sevenbridges/vignettes/api.html#import-cwl-app-and-run-a-task).
 Docker images are used for [local testing of these workflows](http://www.tengfei.name/sevenbridges/vignettes/apps.html) based on Rabix (see above), where images are started automatically in the background for a user, who only uses R functions.
 Automated builds for workflows on Docker Hub are also encouraged.
+
+[**RCloud**](http://rcloud.social) is a collaborative data analysis and visualization platform, which you can not only try out online but also host yourself with Docker.
+Take a look at [their Dockerfiles](https://github.com/att/rcloud/tree/master/docker) or try out their image [`rcl0ud/rcloud`](https://hub.docker.com/r/rcl0ud/rcloud/).
 
 ## Control Docker Containers from R
 
