@@ -11,7 +11,7 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_This article is cross-posted in German on the [senseBox blog](https://sensebox.de/de/blog)._
+_This article is cross-posted in German on the [senseBox blog](https://sensebox.de/blog/2018-01-12-Offene-Forschung)._
 
 It's the time of the year to make resolutions and to see beyond one's own nose.
 For o2r team member Daniel, this meant to explore what he could do with his brand new _[senseBox:home](https://sensebox.de/de/products)_ and the awesome _[BinderHub](https://binderhub.readthedocs.io)_ instead of putting it on the back burner.
