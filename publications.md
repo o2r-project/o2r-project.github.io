@@ -326,7 +326,7 @@ $(document).ready(function(){
 
 <div id="publications">
     <ul id="publicationlist">
-        <li><img alt="loading image" class="center" src="{{site.baseurl}}public/images/loading.gif" width="32" /></li>
+        <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
     </ul>
 </div>
 
@@ -335,7 +335,7 @@ $(document).ready(function(){
 
 <div id="talks">
     <ul id="talklist">
-        <li><img alt="loading image" class="center" src="{{site.baseurl}}public/images/loading.gif" width="32" /></li>
+        <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
     </ul>
 </div>
 
