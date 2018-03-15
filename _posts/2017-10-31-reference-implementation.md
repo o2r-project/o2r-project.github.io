@@ -12,6 +12,8 @@ categories:
 author: 'Daniel Nüst'
 ---
 
+_Post updated on March 15 2018 to reflect simplified run commands._
+
 Our project is going into its final phase. We are [working on](https://github.com/o2r-project/erc-spec/pull/48) integrating our latest experiences and discussions into the [ERC specification](http://o2r.info/erc-spec) and constantly add new features to the [implementation of the reproducibility service](https://github.com/o2r-project).
 
 We also try to keep our [demo server](http://o2r.info/results/#implementation--demo) up to date.
@@ -39,11 +41,10 @@ We look forward to [your feedback](https://github.com/o2r-project/reference-impl
 
 ## `tl;dr`
 
-1. Install [Docker](https://www.docker.com/get-docker), [docker-compose](https://docs.docker.com/compose/), and [make](https://en.wikipedia.org/wiki/Make_(software))
-1. Register your own [client application at ORCID](https://github.com/o2r-project/reference-implementation#orcid))
+1. Install [Docker](https://www.docker.com/get-docker) and [docker-compose](https://docs.docker.com/compose/)
 1. Download the o2r reference implementation repository and run it with with <br />
   - `git clone https://github.com/o2r-project/reference-implementation`
-  - `O2R_ORCID_ID=<your orcid id> O2R_ORCID_SECRET=<your orcid secret> O2R_ORCID_CALLBACK=http://localhost/api/v1/auth/login make run_hub`
+  - `docker-compose up`
 
 ![o2r screenshot: Windows 10](/public/images/2017-10-31-refimpl/o2r-refimpl-windows10.jpg "Screenshot: o2r reference implementation on Windows 10"){:width="600"}
 <p class="attributionInlineImage">Screenshot: o2r reference implementation on <em>Windows 10</em>.</p>

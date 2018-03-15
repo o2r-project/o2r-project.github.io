@@ -18,14 +18,13 @@ o2r is an open project, so all our components are openly developed [on GitHub]({
 
 We develop a reference implementation of the mentioned specification as Open Source software on GitHub: **[{{ site.github.org }}]({{ site.github.org }})**
 
-**Try the online demo at [https://o2r.uni-muenster.de](https://o2r.uni-muenster.de)**
+**Try the online demo at [https://o2r.uni-muenster.de](https://o2r.uni-muenster.de)** and if you are a developer find the web API endpoint at [<code>https://o2r.uni-muenster.de/api/v1/</code>](https://o2r.uni-muenster.de/api/v1/).
 
-**Try it out [on your computer](/2017/10/31/reference-implementation/)**
+**Try it out on your own machine with the [reference-implementation](/2017/10/31/reference-implementation/)** (only Docker required!):
 
-(After logging in with your ORCID, please [get in touch](mailto:daniel.nuest@uni-muenster.de) so that we can give your account the required rights.)
+`git clone https://github.com/o2r-project/reference-implementation`
+`docker-compose up`
 
-The **web API endpoint** is [<code>https://o2r.uni-muenster.de/api/v1/</code>](https://o2r.uni-muenster.de/api/v1/).
-
-Watch a short video of our platform prototype (turn on subtitles!):
+Watch a short **video** of our platform prototype (turn on subtitles!):
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vy9b3pIWPd0?rel=0" frameborder="0" allowfullscreen></iframe>
