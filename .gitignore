@@ -43,3 +43,5 @@ node_modules
 # 
 Gemfile.lock
 *.pstore
+.vscode/settings.json
+.vscode/settings.json
