@@ -93,9 +93,9 @@ This is the o2r team and supporting university staff in alphabetical order.
 - [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
-- Dr. Marc Schutzeichel (ULB)
+- Dr. Marc Schutzeichel (ULB, research associate, 2016-02 to 2018-01)
 - Jan Suleiman (ifgi, student assistant)
-- Dr. Beate Tröger (ULB)
+- [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
 
 
 [<img src="/public/images/ulblogo.svg" height="80" style="float: left" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
