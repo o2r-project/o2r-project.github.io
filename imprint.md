@@ -26,7 +26,6 @@ D-48149 Münster
 
 Email: c.kray@uni-muenster.de
 
-
 ## Privacy Notice
 
 We use our own [Matomo](https://matomo.org/) server to collect anonymous user statistics in a configuration that is [conform with German privacy laws](https://www.datenschutzzentrum.de/uploads/projekte/verbraucherdatenschutz/20110315-webanalyse-piwik.pdf) and the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).
@@ -34,15 +33,13 @@ We use our own [Matomo](https://matomo.org/) server to collect anonymous user st
 We only collect anonymised IPs masking 3 bytes, e.g. `192.xxx.xxx.xxx`, to learn about the number of visitors on our site.
 We honor the [Do Not Track (DNT)](https://en.wikipedia.org/wiki/Do_Not_Track) header.
 
-If you do not want to be tracked at all, please use the option below.
+If you do not want the pages you visit to be tracked _by the o2r team_ at all, please use the option below.
 
 <iframe frameborder="no" width="600px" height="200px" src="https://o2r.uni-muenster.de/piwik/index.php?module=CoreAdminHome&action=optOut"></iframe>
 
-
-## Discussion
-
-We use [DISQUS](https://disqus.com/) for discussion of blog articles. Please check their [data sharing settings](https://help.disqus.com/customer/portal/articles/1657951) information if you have any privacy concerns. In short, if you enable Do Not Track in your browser, you must opt-in manually. Also, we've disabled [anonymous cookie targeting](https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings) for our site's visitors.
-
+This website embeds [DISQUS](https://disqus.com/) for the **discussions** of blog articles.
+Please check their [article on privacy and GDPR compliance](https://blog.disqus.com/update-on-privacy-and-gdpr-compliance) if you have any concerns about your data.
+We have disabled [anonymous cookie targeting](https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings) for our site's visitors.
 
 ## Notice of Liability
 
