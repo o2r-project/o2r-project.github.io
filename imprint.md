@@ -27,9 +27,14 @@ D-48149 Münster
 Email: c.kray@uni-muenster.de
 
 
-## Site visitor tracking
+## Privacy Notice
 
-We use our own [Piwik](https://piwik.org/) server to collect anonymous user statistics in a configuration that is [conform with German privacy laws](https://www.datenschutzzentrum.de/uploads/projekte/verbraucherdatenschutz/20110315-webanalyse-piwik.pdf). If you do not want to be tracked, please use the option below.
+We use our own [Matomo](https://matomo.org/) server to collect anonymous user statistics in a configuration that is [conform with German privacy laws](https://www.datenschutzzentrum.de/uploads/projekte/verbraucherdatenschutz/20110315-webanalyse-piwik.pdf) and the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).
+**We collect no personal data.**
+We only collect anonymised IPs masking 3 bytes, e.g. `192.xxx.xxx.xxx`, to learn about the number of visitors on our site.
+We honor the [Do Not Track (DNT)](https://en.wikipedia.org/wiki/Do_Not_Track) header.
+
+If you do not want to be tracked at all, please use the option below.
 
 <iframe frameborder="no" width="600px" height="200px" src="https://o2r.uni-muenster.de/piwik/index.php?module=CoreAdminHome&action=optOut"></iframe>
 
