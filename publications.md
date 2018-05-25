@@ -327,6 +327,7 @@ $(document).ready(function(){
 <div id="publications">
     <ul id="publicationlist">
         <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
+        <li>If loading does not work, please visit <strong><a href="https://www.uni-muenster.de/forschungaz/project/9520">https://www.uni-muenster.de/forschungaz/project/9520</a></strong></li>
     </ul>
 </div>
 
@@ -336,6 +337,7 @@ $(document).ready(function(){
 <div id="talks">
     <ul id="talklist">
         <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
+        <li>If loading does not work, please visit <strong><a href="https://www.uni-muenster.de/forschungaz/project/9520">https://www.uni-muenster.de/forschungaz/project/9520</a></strong></li>
     </ul>
 </div>
 
