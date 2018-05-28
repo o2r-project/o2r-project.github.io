@@ -204,7 +204,7 @@ $(document).ready(function(){
             });
         },
         error: function(xhr, status) {
-            $("#publications").html("Error fetching publications: " + status);
+            $("#publications").html("<p>Error fetching publications: " + status + "</p><p><strong>Please visit <a href=\"https://www.uni-muenster.de/forschungaz/project/9520\">https://www.uni-muenster.de/forschungaz/project/9520</a></strong></p>");
         }
     });
 
@@ -318,7 +318,7 @@ $(document).ready(function(){
             }).webuiPopover({width: 600});
         },
         error: function(xhr, status) {
-            $("#talks").html("Error fetching talks: " + status);
+            $("#talks").html("Error fetching talks: " + status + "</p><p><strong>Please visit <a href=\"https://www.uni-muenster.de/forschungaz/project/9520\">https://www.uni-muenster.de/forschungaz/project/9520</a></strong></p>");
         }
     });
 });
