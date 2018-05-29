@@ -99,3 +99,9 @@ img.center {
   font-size: 80%;
   padding-left: 0.2em;
 }*/
+
+.publicationBadge {
+  display: inline-block;
+  vertical-align: middle;
+  margin: -0.3em 0.5em 0 0;
+}

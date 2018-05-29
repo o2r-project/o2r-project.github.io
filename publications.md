@@ -13,15 +13,15 @@ categories:
 <script src="//cdn.jsdelivr.net/jquery.webui-popover/2.1.15/jquery.webui-popover.min.js"></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.webui-popover/2.1.15/jquery.webui-popover.min.css">
 
-<script id="templatePubl" type="x-tmpl-mustache">
+<script id="templatePublication" type="x-tmpl-mustache">
 {% raw %}
 <li>
-    <strong><a href="{{crisURL}}" title="CRIS entry of publication">{{title}}</a></strong>{{subtitle}}
+    {{#hasBadge}}<img src="{{badge_url}}" alt="publication badge" class="publicationBadge"/>{{/hasBadge}}<strong><a href="{{crisURL}}" title="CRIS entry of publication">{{title}}</a></strong>{{subtitle}}
     <i>{{ authors }}</i>
-    <br>
-    <i class="editor">{{publicationType}} {{journalName}} {{editor}}</i><i class="editor"> {{series}} {{venue}} {{publicationYear}}</i>
-    {{#hasISBN}}ISBN: {{isbn}};{{/hasISBN}}
-    {{#hasDoi}}<strong>doi: <a href="http://dx.doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
+    <br />
+    <i class="editor">{{publicationType}} {{journalName}} {{editor}}</i><i class="editor"> {{seriesTitle}} {{venue}} {{publicationYear}}</i>
+    {{#hasISBN}}ISBN:&nbsp;{{isbn}};{{/hasISBN}}
+    {{#hasDoi}}<strong>doi:&nbsp;<a href="https://doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
     {{#hasURL}}<br><a href="{{url}}">{{url}}</a>{{/hasURL}}
 </li>
 {% endraw %}
@@ -31,10 +31,10 @@ categories:
 {% raw %}
 <li>
     <a href="#" class="show-pop" title="Abstract" data-placement="bottom" data-content="{{abstract}}"><strong>{{title}}</strong></a> by <i>{{speakers}}</i>
-    <br>
+    <br />
     Presented at <a href="{{eventUrl}}" title="event URL">{{event}}</a> ({{organiser}}) on {{date}}, {{venue}}.
-    <br>
-    {{#hasDoi}}<strong><a href="http://dx.doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
+    <br />
+    {{#hasDoi}}<strong>doi:&nbsp;<a href="https://doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
     {{#hasSlidesURL}}<a href="{{slidesUrl}}">Download slides</a>{{/hasSlidesURL}}
 </li>
 {% endraw %}
@@ -52,7 +52,7 @@ $(document).ready(function(){
         success: function(data) {
             var publicationsData = x2js.xml_str2json(data).infoObjects;
 
-            var template = $('#templatePubl').html();
+            var template = $('#templatePublication').html();
             Mustache.parse(template);
 
             var publications = [];
@@ -62,7 +62,7 @@ $(document).ready(function(){
                     var crisId = value._id;
                     var attributes = value.attribute;
 
-                    var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments;
+                    var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments, badge_url;
 
                     $(attributes).each(function(index, value) {
                         switch(value._name) {
@@ -97,12 +97,14 @@ $(document).ready(function(){
                                         break;
                                     case "570":
                                         pubType = "Article(conference)";
+                                        badge_url = "https://img.shields.io/badge/article-peer--reviewed-brightgreen.svg";
                                         break;
                                     case "1567":
                                         pubType = "Abstract(poster)";
                                         break;
                                     case "210":
                                         pubType = "Article(journal)";
+                                        badge_url = "https://img.shields.io/badge/article-peer--reviewed-brightgreen.svg";
                                         break;
                                     case "1566":
                                         pubType = "Article";
@@ -148,14 +150,24 @@ $(document).ready(function(){
                         }
                     });
 
+                    if(pubType === "Other"
+                        && (url.includes("arxiv")
+                            || journalName.toLowerCase().includes("preprint")
+                            || seriesTitle.toLowerCase().includes("preprint"))) {
+                        badge_url = "https://img.shields.io/badge/article-preprint-ff69b4.svg";
+                    }
 
                     var view = {
                         crisId: crisId,
+                        badge_url: badge_url,
+                        hasBadge: function() {
+                            return badge_url != undefined;
+                        },
                         crisURL: "https://www.uni-muenster.de/forschungaz/publication/" + crisId + "?lang=en",
                         title: title,
                         authors: authors,
                         subtitle: function() {
-                            if(subtitle.length != 0) return ": " + subtitle + ".";
+                            if(subtitle.length != 0) return ":&nbsp;" + subtitle + ".";
                         },
                         publicationType: function() {
                             if(pubType.length != 0) return pubType + ".";
@@ -170,7 +182,7 @@ $(document).ready(function(){
                         editor: function(){
                             if(editor.length != 0 ) return editor + ".";
                         },
-                        series: function(){
+                        seriesTitle: function(){
                            if(seriesTitle.length != 0) return seriesTitle + ".";
                         },
                         hasISBN: function() {
