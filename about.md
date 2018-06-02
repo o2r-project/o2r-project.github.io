@@ -76,27 +76,18 @@ Learn more about our projects on [Open Hub](https://www.openhub.net/orgs/o2r) an
 
 ## People
 
-This is the o2r team and supporting university staff in alphabetical order.
+o2r team members, supporting university staff, and external advisory board members in alphabetical order.
 
-- Rehan Chaudhary (ifgi, internship from 2017-01-17 to 2017-07-17)
-- Matthias Hinz (ifgi, 2016-12 to 2017-03)
-- Jim Jones (ULB)
+### Team
+
 - Dr. Stephanie Klötgen (ULB)
 - [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
-- Jan Koppe (ifgi, student assistant, 2016-03 to 2016-08)
-- Torben Kraft (ifgi, student assistant)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
-- Dr. Dirk Kussmann (ULB)
-- Timm Kühnel (ifgi, student assistant)
-- Lukas Lohoff (ifgi, student assistant)
 - Jörg Lorenz (ULB)
 - [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
-- Dr. Marc Schutzeichel (ULB, research associate, 2016-02 to 2018-01)
-- Jan Suleiman (ifgi, student assistant)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
-
 
 [<img src="/public/images/ulblogo.svg" height="80" style="float: left" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
 
@@ -104,7 +95,18 @@ This is the o2r team and supporting university staff in alphabetical order.
 
 <div style="clear: both;"></div>
 
-## External partners
+### Former team members
+
+- Rehan Chaudhary (ifgi, intern, 2017-01-17 to 2017-07-17)
+- Matthias Hinz (ifgi, research assistant, 2016-12 to 2017-03)
+- Jan Koppe (ifgi, student assistant, 2016-03 to 2016-08)
+- Torben Kraft (ifgi, student assistant, 2017-01 to 2017-12)
+- Timm Kühnel (ifgi, student assistant, 2017-01 to 2018-06)
+- Lukas Lohoff (ULB, student assistant, 2016-12 to 2018-03)
+- Dr. Marc Schutzeichel (ULB, research associate, 2016-02 to 2018-01)
+- Jan Suleiman (ifgi, student assistant, 2016-04 to 2017-12)
+
+### External partners
 
 The o2r project is connected to external partners since its inception, and the group has been extended since then. They come from different disciplines and regularly enrich discussions with their insights. These are the partners in alphabetical order.
 
