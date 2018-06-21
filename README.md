@@ -24,6 +24,10 @@ This is based on the files `.travis.yml` and `Gemfile`.
 
 ## Useful stuff
 
+### Authoring posts & publishing drafts
+
+You can use [jekyll-compose](https://github.com/jekyll/jekyll-compose) to streamline some tasks.
+
 ### Images
 
 We use the kramdown parser engine and subsequently can use some [advanced syntax](http://kramdown.gettalong.org/syntax.html) (e.g. for named lists, [image resizing](http://kramdown.gettalong.org/syntax.html#images), quotes, and more).
