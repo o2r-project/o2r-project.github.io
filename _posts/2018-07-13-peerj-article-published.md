@@ -20,7 +20,7 @@ The article is an outcome of a collaboration around a at the AGILE conference, s
 Please [retweet](https://twitter.com/f_ostermann/status/1017673264334766080) and spread the word!
 [Your questions & feedback](https://peerj.com/articles/5072/#questions) are most welcome.
 
-Here is Daniel's attempt at a **[non-specialist summary](ttps://twitter.com/Protohedgehog/status/949315968903376896)**:
+Here is Daniel's attempt at a **[non-specialist summary](https://twitter.com/Protohedgehog/status/949315968903376896)**:
 
 > More and more research use data and algorithms to answer a question.
 > That makes it harder for researchers to understand a scientific publication, because you need more than just the text to understand what is really going on.
