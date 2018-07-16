@@ -16,7 +16,7 @@ Today a new journal article lead by o2r team member [Daniel](https://nordholmen.
 <br>
 <i class="editor">PeerJ. 2018.</i><strong>doi:&nbsp;<a href="https://doi.org/10.7717/peerj.5072">10.7717/peerj.5072</a></strong>
 
-The article is an outcome of a collaboration around a at the AGILE conference, see [http://o2r.info/reproducible-agile/](http://o2r.info/reproducible-agile/) for more information.
+The article is an outcome of a collaboration around the AGILE conference, see [http://o2r.info/reproducible-agile/](http://o2r.info/reproducible-agile/) for more information.
 Please [retweet](https://twitter.com/f_ostermann/status/1017673264334766080) and spread the word!
 [Your questions & feedback](https://peerj.com/articles/5072/#questions) are most welcome.
 
