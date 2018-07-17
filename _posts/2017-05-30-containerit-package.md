@@ -46,7 +46,7 @@ containers](https://en.wikipedia.org/wiki/Operating-system-level_virtualization)
 The R extension package `containerit` aims to facilitate the latter
 approach by making reproducible and archivable research with containers
 easier. The development is supported by the DFG-funded project Opening
-Reproducible Research (o2r, <http://o2r.info>). `containerit` relies on
+Reproducible Research (o2r, <https://o2r.info>). `containerit` relies on
 [Docker](http://docker.com/) and automatically generates a container
 manifest, or "recipe", with setup instructions to recreate a runtime
 environment based on a given R session, R script, R Markdown file or
@@ -676,7 +676,7 @@ on Ubuntu/Linux, which should be extended before releasing a stable
 version on CRAN.
 
 As part of the o2r project, it is planned to integrate `containerit` in
-a [web service](http://o2r.info/architecture) for creating archivable
+a [web service](https://o2r.info/architecture) for creating archivable
 research in form of [Executable Research Compendia
 (ERC)](https://doi.org/10.1045/january2017-nuest). Making `containerit`
 itself easier to use for end-users is a secondary but worthwhile goal, for example by

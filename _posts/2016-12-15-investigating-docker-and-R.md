@@ -117,7 +117,7 @@ The published image [`sevenbridges/sevenbridges-r`](https://hub.docker.com/r/sev
 
 A new solution to ease the creation of Docker containers for specific research environments is [**`containerit`**](https://github.com/o2r-project/containerit).
 It creates `Dockerfile`s (using Rocker base images) from R sessions, R scripts, R Markdown files or R workspace directories, including the required system dependencies.
-The package was [presented at useR!2017](http://o2r.info/2017/07/07/useR2017) and can currently only be installed from GitHub.
+The package was [presented at useR!2017](/2017/07/07/useR2017) and can currently only be installed from GitHub.
 
 While Docker is made for running tools and services, and providing user interfaces via web protocols (e.g. via a local port and a website opened in a browser, as with `rocker/rstudio` or Jupyter Notebook images), several activities exists that try to package **GUI applications in containers**.
 Daniel explores some alternatives for running RStudio in [this GitHub repository](https://github.com/nuest/x11rockerstudio), just for the fun of it.

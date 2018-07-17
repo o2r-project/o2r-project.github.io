@@ -14,9 +14,9 @@ author: 'Daniel Nüst'
 
 _Post updated on March 15 2018 to reflect simplified run commands._
 
-Our project is going into its final phase. We are [working on](https://github.com/o2r-project/erc-spec/pull/48) integrating our latest experiences and discussions into the [ERC specification](http://o2r.info/erc-spec) and constantly add new features to the [implementation of the reproducibility service](https://github.com/o2r-project).
+Our project is going into its final phase. We are [working on](https://github.com/o2r-project/erc-spec/pull/48) integrating our latest experiences and discussions into the [ERC specification](https://o2r.info/erc-spec) and constantly add new features to the [implementation of the reproducibility service](https://github.com/o2r-project).
 
-We also try to keep our [demo server](http://o2r.info/results/#implementation--demo) up to date.
+We also try to keep our [demo server](/results/#implementation--demo) up to date.
 _But what good is a reproducibility platform, when you can only try it online?_
 
 Inspired by the just passed [Open Access Week](http://www.openaccessweek.org/) ([#oaweek](https://twitter.com/hashtag/OAWeek?src=hash)), we've started [a new repository `reference-implementation`](https://github.com/o2r-project/reference-implementation/issues) to expose our developments, which have been open source from the start, to the interested public.

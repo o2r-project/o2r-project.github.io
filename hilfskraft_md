@@ -7,7 +7,7 @@ exclude_from_nav: true
 
 [**ENGLISH VERSION**](/public/download/student-assistant-o2r.pdf)
 
-Das Projekt Opening Reproducible Research ([o2r](http://o2r.info)) sucht zum nächstmöglichen Zeitpunkt **Studentische/Wissenschaftliche Hilfskräfte (m/w) zur Unterstützung unseres Entwicklerteams**.
+Das Projekt Opening Reproducible Research ([o2r](https://o2r.info)) sucht zum nächstmöglichen Zeitpunkt **Studentische/Wissenschaftliche Hilfskräfte (m/w) zur Unterstützung unseres Entwicklerteams**.
 
 o2r ist ein von der DFG gefördertes Forschungsprojekt und wird vom Institut für Geoinformatik (ifgi) und der Universitäts- und Landesbibliothek Münster (ulb) durchgeführt. Wir arbeiten an neuen Wegen zur Langzeitarchivierung von und Interaktion mit wissenschaftlichen Forschungsergebnissen und verwenden dafür aktuelle Technologien, wie zum Beispiel node.js, Docker, oder AngularJS. Unsere Software wird mit agilen Methoden entwickelt und als Open Source [auf GitHub](https://github.com/o2r-project) veröffentlicht.
 
