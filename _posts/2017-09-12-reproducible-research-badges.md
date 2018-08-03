@@ -77,7 +77,7 @@ For this reason, our goal is to explore sophisticated and novel badge types (con
 Advanced badges to answer the above questions are useful for literature research, because they open new ways of exploring research by allowing to quickly judge the relevance of a publication, and they can motivate efforts towards openness and reproducibility. Three questions remain: How can the required data for the badges be found, ideally automatically? How can the information be communicated? How can it be integrated across independent, even competitive, websites?
 
 Some questions on the data, such as the publication date, the peer review status and the open access status can already be answered by online research library APIs, for example those provided by [Crossref](https://www.crossref.org/) or [DOAJ](https://doaj.org/).
-The [o2r API](https://o2r.info/o2r-web-api/) can answer the remaining questions about reproducibility and location: Knowing if a publication is reproducible is a core part of the o2r project. Furthermore, the location on which a research paper focuses can be extracted from spatial files published with an Executable Research Compendium [[6](#nuest)]. The metadata extraction tool [o2r-meta](https://github.com/o2r-project/o2r-meta) provides the latter feature, while the [ERC specification](https://o2r.info/erc-spec) and [o2r-muncher](https://github.com/o2r-project/o2r-muncher) micro service enable the former.
+The [o2r API](https://o2r.info/api/) can answer the remaining questions about reproducibility and location: Knowing if a publication is reproducible is a core part of the o2r project. Furthermore, the location on which a research paper focuses can be extracted from spatial files published with an Executable Research Compendium [[6](#nuest)]. The metadata extraction tool [o2r-meta](https://github.com/o2r-project/o2r-meta) provides the latter feature, while the [ERC specification](https://o2r.info/erc-spec) and [o2r-muncher](https://github.com/o2r-project/o2r-muncher) micro service enable the former.
 
 _How can we integrate data from these different sources?_
 
@@ -113,7 +113,7 @@ The badge below is requested from the badger demo instance on the o2r server by 
 This URL requests a badge for the reproducibility status of the paper “Global Air Quality and Pollution” from *[Science](http://science.sciencemag.org/)* magazine identified by the DOI [`10.1126/science.1092666`](https://doi.org/10.1126/science.1092666). When the request is sent, the following steps happen in o2r-badger:
 
 1. The badger tries to find a reproducible research paper (called Executable Research Compendium ([ERC](https://o2r.info/erc-spec/spec/)) via the o2r API. Internally this searches the database for ERC connected to the given DOI.
-2. If if finds an ERC, it looks for a matching *[job](https://o2r.info/o2r-web-api/job/)*, a report of a reproduction analysis.
+2. If if finds an ERC, it looks for a matching *[job](https://o2r.info/api/job/)*, a report of a reproduction analysis.
 3. Depending on the reproduction result (`success`, `running`, or `failure`) specified in the job, the badger generates a green, yellow or red badge. The badge also contains text indicating the reproducibility of the specified research publication.
 4. The request is redirected to a [shields.io](https://shields.io/) URL link containing the color and textual information..
 
