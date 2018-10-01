@@ -17,7 +17,7 @@ We now decided to publish these workspaces on [our demo server](https://o2r.uni-
 
 The papers were originally published in <!--more--> [Journal of Statistical Software](https://www.jstatsoft.org/) or in a [Copernicus Publications](https://publications.copernicus.org/) journal under open licenses.
 We have created an R Markdown document for each paper based on the included data and code following the [ERC specification](https://o2r.info/erc-spec/spec/) for naming core files, but only included data, an R Markdown document and a HTML display file.
-The publication metadata, the runtime environment description (i.e. a `Dockerfile`), and the runtime image (i.e. a Docker image tarball) were all created during the ERC creation process without any human interaction (see the used [R code for upload](https://github.com/o2r-project/erc-examples/blob/master/corpus/showcases.Rmd)), since required metadata were included in the R Markdown document's frontmatter.
+The publication metadata, the runtime environment description (i.e. a `Dockerfile`), and the runtime image (i.e. a Docker image tarball) were all created during the ERC creation process without any human interaction (see the used [R code for upload](https://github.com/o2r-project/erc-examples/blob/master/corpus/showcases.Rmd)), since required metadata were included in the R Markdown document's front matter.
 
 The documents include selected figures or in some cases the whole paper, if runtime is not extremely long.
 While the paper's authors are correctly linked in the workspace metadata (see right hand side in _Screenshot 1_), the "o2r author" of all papers is o2r team member Daniel since he made the uploads.
@@ -36,4 +36,7 @@ Here are some examples of the power of a reproducible research service and publi
 - The [ERC for "A question driven socio-hydrological modeling process" by Garcia et al.](https://o2r.uni-muenster.de/#!/erc/Z4Hci) "fails" due to differences in the created figure. A human can now judge if these differences are minor, or the author can try to tweak rendering parameters to fix this. <bf />![o2r screenshot 3: image difference example](/public/images/2018-08-14-demo/o2r-demo-imagediff.jpg "Screenshot 3: image difference example of "failed" replication"){:width="400"}
 - A [demo ERC with randomised output](https://o2r.uni-muenster.de/#!/erc/IKnWD) shows how things can really go wrong. Feel free to click "Run Analysis" and see how the differences changes with each execution.
 
-We welcome _your feedback_ [on Twitter](), in the [reference implementation GitHub project](https://github.com/o2r-project/reference-implementation/issues/13), or in the comments below.
+If you want to go through the creation process yourself, register on the platform (this requires a short manual interaction by us) and upload one of selected workspaces, which you can find in our public demo share at [https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA](https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA) (just look for zip files starting with `corpus_..`).
+Please take care to choose appropriate licenses and be aware that we might remove compendia from the demo platform without prior notice.
+
+We welcome _your feedback_ [on Twitter](https://twitter.com/o2r_project/status/1029293814756851712), in the [reference implementation GitHub project](https://github.com/o2r-project/reference-implementation/issues/13), or in the comments below.
