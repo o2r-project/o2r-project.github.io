@@ -62,12 +62,20 @@ $(document).ready(function(){
                     var crisId = value._id;
                     var attributes = value.attribute;
 
-                    var title, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments, badge_url;
+                    var title, reviewed, venue, subtitle, journalName, pubYear, authors, pubType, seriesTitle, editor, isbn, doi, url, comments, badge_url;
 
                     $(attributes).each(function(index, value) {
                         switch(value._name) {
                             case "Title":
                                 title = value.data;
+                                break;
+                            case "Peer reviewed":
+                                if(value.data === "1570") {
+                                    reviewed = true;
+                                }
+                                if(value.data === "1571") {
+                                    reviewed = false;
+                                }
                                 break;
                             case "Venue":
                                 venue = value.data;
@@ -97,14 +105,12 @@ $(document).ready(function(){
                                         break;
                                     case "570":
                                         pubType = "Article(conference)";
-                                        badge_url = "https://img.shields.io/badge/article-peer--reviewed-brightgreen.svg";
                                         break;
                                     case "1567":
                                         pubType = "Abstract(poster)";
                                         break;
                                     case "210":
                                         pubType = "Article(journal)";
-                                        badge_url = "https://img.shields.io/badge/article-peer--reviewed-brightgreen.svg";
                                         break;
                                     case "1566":
                                         pubType = "Article";
@@ -150,11 +156,15 @@ $(document).ready(function(){
                         }
                     });
 
-                    if(pubType === "Other"
+                    if((pubType === "Other" || pubType.includes("Article"))
                         && (url.includes("arxiv")
                             || journalName.toLowerCase().includes("preprint")
                             || seriesTitle.toLowerCase().includes("preprint"))) {
                         badge_url = "https://img.shields.io/badge/article-preprint-ff69b4.svg";
+                    }
+
+                    if(pubType.includes("Article") && reviewed) {
+                        badge_url = "https://img.shields.io/badge/article-peer--reviewed-brightgreen.svg";
                     }
 
                     var view = {
