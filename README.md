@@ -26,7 +26,11 @@ This is based on the files `.travis.yml` and `Gemfile`.
 
 ### Authoring posts & publishing drafts
 
-You can use [jekyll-compose](https://github.com/jekyll/jekyll-compose) to streamline some tasks.
+You can use [jekyll-compose](https://github.com/jekyll/jekyll-compose) to streamline some tasks, e.g.
+
+```bash
+bundle exec jekyll draft "My new draft"
+```
 
 ### Images
 
