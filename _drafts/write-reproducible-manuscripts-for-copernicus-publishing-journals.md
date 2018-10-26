@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Writing reproducible manuscripts for Copernicus Publishing's journals
+title: Writing reproducible manuscripts for journals of Copernicus Publications
 categories:
   - "open science"
   - "reproducible research"
   - "Copernicus"
-  - "Copernicus Publishing"
+  - "Copernicus Publications"
+  - "EGU"
+  - "preproducibility"
   - "suppdata"
   - "rticles"
 author: 'Daniel Nüst'
@@ -40,7 +42,7 @@ It is easy to write, allows you to [manage your bibliography](https://rmarkdown.
 
 The [`rticles`](https://cran.r-project.org/package=rticles) extension package for R provides a number of templates for popular journals and publishers.
 Since version `0.6` ([published Oct 9 2018](https://github.com/rstudio/rticles/releases/tag/v0.6)) these templates include the [Copernicus Publications Manuscript preparations guidelines for authors](https://publications.copernicus.org/for_authors/manuscript_preparation.html).
-The Copernicus Publication staff was kind enough to give a test document a quick review and all seems in order, though of course any problems and questions shall be directed to the software's vibrant community and not the publishers.
+The Copernicus Publications staff was kind enough to give a test document a quick review and all seems in order, though of course any problems and questions shall be directed to the software's vibrant community and not the publishers.
 
 The following code snippet and screen shot demonstrate the workflow.
 Lines starting with `#` are code comments and explain the steps.
@@ -57,7 +59,7 @@ rmarkdown::render("MyArticle/MyArticle.Rmd")
 
 ![](/public/images/2018-10_rmd-pdf-example.png)
 
-The commands created a directory with the Copernicus Publishing template's files, including an R Markdown (`.Rmd`) file ready to be edited by you (left-hand side of the screenshot), a [LaTeX](https://en.wikipedia.org/wiki/LaTeX) (`.tex`) file for submission to the publisher, and a `.pdf` file for inspecting the final results and sharing with your colleagues (right hand side of the screenshot).
+The commands created a directory with the Copernicus Publications template's files, including an R Markdown (`.Rmd`) file ready to be edited by you (left-hand side of the screenshot), a [LaTeX](https://en.wikipedia.org/wiki/LaTeX) (`.tex`) file for submission to the publisher, and a `.pdf` file for inspecting the final results and sharing with your colleagues (right hand side of the screenshot).
 You can see how simple it is to format text, insert citations, chemical formulas, or equations, and add figures, and how they are rendered into a high-quality output file.
 
 All of these steps may also be completed with user-friendly forms when using [RStudio](https://en.wikipedia.org/wiki/RStudio), a popular development and authoring environment available for all operating systems.
@@ -107,7 +109,7 @@ You can even use this approach in sample code within your paper to make reproduc
 
 ## Main takeaways
 
-Writing submission-ready manuscripts for Copernicus Publishing's journals just got a lot easier.
+Writing submission-ready manuscripts for journals of Copernicus Publications just got a lot easier.
 Everybody who can write manuscripts with a word processor can learn quickly R Markdown and benefit from a preproducible data science workflow.
 Digital notebooks not only improve day-to-day research habits, but are suitable for authoring high-quality scholarly manuscripts and graphics.
 The interaction with the publisher is smooth thanks to the LaTeX submission format, but you never have to write any LaTeX.
@@ -118,7 +120,7 @@ The road to effective & transparent research begins with a first step - [take it
 
 ## Acknowledgements
 
-The software updates were contributed by [Daniel Nüst](https://orcid.org/0000-0002-0024-5046) from the project [Opening Reproducible Research](https://o2r.info) (o2r) at the Institute for Geoinformatics, University of Münster, Germany, but would not be able without the support of Copernicus Publishing, the software maintainers most notably [Yihui Xie](https://yihui.name/) and [Will Pearse](htttp://www.pearselab.com/), and the general awesomeness of the R, R-spatial, Open Science, and Reproducible Research communities. Thank you!
+The software updates were contributed by [Daniel Nüst](https://orcid.org/0000-0002-0024-5046) from the project [Opening Reproducible Research](https://o2r.info) (o2r) at the Institute for Geoinformatics, University of Münster, Germany, but would not be able without the support of Copernicus Publications, the software maintainers most notably [Yihui Xie](https://yihui.name/) and [Will Pearse](htttp://www.pearselab.com/), and the general awesomeness of the R, R-spatial, Open Science, and Reproducible Research communities. Thank you!
 
 ## References
 
