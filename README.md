@@ -6,7 +6,8 @@ The design is based on [Hyde](https://github.com/poole/hyde) by Mark Otto.
 
 ## Building the site
 
-Follow the [instructions](https://github.com/poole/poole) for Poole to install the required software. Then run the site locally with
+Follow the [instructions](https://github.com/poole/poole) for Poole to install the required software.
+Then run the site locally with
 
 ```
 bundle exec jekyll serve
