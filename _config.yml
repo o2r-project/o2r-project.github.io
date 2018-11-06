@@ -31,7 +31,7 @@ author:
   name:           'o2r Team'
   url:            https://o2r.info
 
-paginate:         3
+paginate:         5
 
 github:
   org:           https://github.com/o2r-project
@@ -46,8 +46,7 @@ ribbon:
   text:   'Call for workspaces'
   url:    '/almost'
 
-# https://github.com/poole/poole/issues/112
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
