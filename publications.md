@@ -6,12 +6,12 @@ categories:
   - publications
 ---
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.js"></script>
+<script type="text/javascript" src="{{ '/public/js/jquery.js' | absolute_url }}"></script><!-- //cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js -->
+<script type="text/javascript" src="{{ '/public/js/xml2json.min.js' | absolute_url }}"></script><!-- //cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js -->
+<script type="text/javascript" src="{{ '/public/js/mustache.js' | absolute_url }}"></script><!-- //cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.js -->
 
-<script src="//cdn.jsdelivr.net/jquery.webui-popover/2.1.15/jquery.webui-popover.min.js"></script>
-<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.webui-popover/2.1.15/jquery.webui-popover.min.css">
+<script type="text/javascript" src="{{ '/public/js/jquery.webui-popover.min.js' | absolute_url }}"></script><!-- //cdn.jsdelivr.net/jquery.webui-popover/2.1.15/jquery.webui-popover.min.js -->
+<link rel="stylesheet" href="{{ '/public/css/jquery.webui-popover.min.css' | absolute_url }}"><!-- //cdn.jsdelivr.net/jquery.webui-popover/2.1.15/jquery.webui-popover.min.css -->
 
 <script id="templatePublication" type="x-tmpl-mustache">
 {% raw %}

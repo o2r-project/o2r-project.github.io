@@ -33,7 +33,7 @@ Already in the project proposal, we set a clear agenda on the question of softwa
 
 > All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g., Apache 2.0). Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script type="text/javascript" src="{{ '/public/js/jquery.js' | absolute_url }}"></script><!-- //cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js -->
 <script type="text/javascript">
 $(document).ready(function(){
     // get repo count
