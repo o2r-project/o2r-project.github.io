@@ -88,9 +88,12 @@ And in case you decide last minute to submit to a different journal, [`rticles` 
 ## Sustainable access to supplemental data
 
 Scholarly articles receive a digital object identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) for long-term identification and availability.
-However, a DOI is not suitable for direct data access, since it points to a [landing](https://support.crossref.org/hc/en-us/articles/214669863-Your-landing-page) [page](https://support.datacite.org/docs/datacite-doi-display-guidelines#section-applying-the-guidelines) about the identified object designed to be read by humans but not by computers.
+Many publishers allow to store supplemental information as part of an article.
+However, a DOI is not suitable for direct access of supplemental files, because it points to a [landing](https://support.crossref.org/hc/en-us/articles/214669863-Your-landing-page) [page](https://support.datacite.org/docs/datacite-doi-display-guidelines#section-applying-the-guidelines) about the identified object.
+This page is designed to be read by humans but not by computers.
 The R package [`suppdata`](https://cran.r-project.org/package=suppdata) [closes this gap](#pearse).
 It supports downloading supplemental information using the article DOI, and in the latest version the [supported publishers](https://github.com/ropensci/suppdata#supported-publishers-and-repositories) include Copernicus Publications.
+As the [Copernicus Publications data policy](https://publications.copernicus.org/services/data_policy.html) points out, data published today [_should_](http://www.copdess.org/enabling-fair-data-project/commitment-to-enabling-fair-data-in-the-earth-space-and-environmental-sciences/) be published and properly cited using appropriate [research data repositories](https://www.re3data.org/) following the [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples), but `suppdata` enables reproducible data access when this is not possible (anymore) or desired.
 
 The following example code downloads a data file for the article ["Divergence of seafloor elevation and sea level rise in coral reef ecosystems"](https://doi.org/10.5194/bg-14-1739-2017) by Yates et al. published in _Biogeosciences_ in 2017.
 
@@ -126,7 +129,7 @@ dev.off()
 
 ![](/public/images/2018-10_suppdata-example-plot.png)
 
-You can even use this approach in sample code within your paper to make reproductions by reviewers and readers easy and stable, because a publisher can [mint](https://www.helmholtz-berlin.de/zentrum/locations/bibliothek/dokumentationhaupt/veroeffentlichungsverzeichnis-kopie/doi-vergabe_en.html) a DOI before publication and it will always stay the same.
+You can even use this approach in sample code within your paper to make reproductions by readers easy and stable, because a publisher can [mint](https://www.helmholtz-berlin.de/zentrum/locations/bibliothek/dokumentationhaupt/veroeffentlichungsverzeichnis-kopie/doi-vergabe_en.html) a DOI before publication and it will always stay the same.
 
 ## Main takeaways
 
@@ -134,7 +137,7 @@ Authoring submission-ready manuscripts for journals of Copernicus Publications j
 Everybody who can write manuscripts with a word processor can learn quickly R Markdown and benefit from a preproducible data science workflow.
 Digital notebooks not only improve day-to-day research habits, but are suitable for authoring high-quality scholarly manuscripts and graphics.
 The interaction with the publisher is smooth thanks to the LaTeX submission format, but you never have to write any LaTeX.
-The workflow is based on an established [Free and Open Source](https://en.wikipedia.org/wiki/Free_and_Open-Source_Software) software stack and embraces the principles of [Open Science](https://en.wikipedia.org/wiki/Open_science) practices.
+The workflow is based on an established [Free and Open Source](https://en.wikipedia.org/wiki/Free_and_Open-Source_Software) software stack and embraces the idea of preproducibility and the principles of [Open Science](https://en.wikipedia.org/wiki/Open_science).
 The software is maintained by an active, growing, and welcoming community of researchers and developers with a [strong connection](https://www.r-spatial.org/) to the geospatial sciences.
 Because of the complete and consistent notebook, [you](#markowetz), a colleague, or a student can easily pick up the work at a later time.
 The road to effective & transparent research begins with a first step - [take it](https://vickysteeves.gitlab.io/repro-papers/)!
