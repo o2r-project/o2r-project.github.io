@@ -56,16 +56,22 @@ The Copernicus Publications staff was kind enough to give a test document a quic
 
 The following code snippet and screen shot demonstrate the workflow.
 Lines starting with `#` are code comments and explain the steps.
+Code examples provided here are ready to use and only lack the installation commands for required packages.
 
-```r
-# load required extension packages:
+~~~
+# load required R extension packages:
 library("rticles")
 library("rmarkdown")
+
 # create a new document using a template:
-rmarkdown::draft("MyArticle.Rmd", template = "copernicus_article", package = "rticles", edit = FALSE)
+rmarkdown::draft(file = "MyArticle.Rmd",
+                 template = "copernicus_article",
+                 package = "rticles", edit = FALSE)
+
 # render the source of the document to the default output format:
-rmarkdown::render("MyArticle/MyArticle.Rmd")
-```
+rmarkdown::render(input = "MyArticle/MyArticle.Rmd")
+~~~
+{: .language-r}
 
 ![](/public/images/2018-10_rmd-pdf-example.png)
 
@@ -88,20 +94,25 @@ It supports downloading supplemental information using the article DOI, and in t
 
 The following example code downloads a data file for the article ["Divergence of seafloor elevation and sea level rise in coral reef ecosystems"](https://doi.org/10.5194/bg-14-1739-2017) by Yates et al. published in _Biogeosciences_ in 2017.
 
-```r
-# load required extension package:
+~~~
+# load required R extension package:
 library("suppdata")
-# download a specific supplemental information (SI) file for an article
-csv_file <- suppdata::suppdata("10.5194/bg-14-1739-2017",
+
+# download a specific supplemental information (SI) file
+# for an article using the article's DOI:
+csv_file <- suppdata::suppdata(
+  x = "10.5194/bg-14-1739-2017",
   si = "Table S1 v2 UFK FOR_PUBLICATION.csv")
+supplemental
 # read the data and plot it (toy example!):
 my_data <- read.csv(file = csv_file, skip = 3)
 plot(x = my_data$NAVD88_G03, y = my_data$RASTERVALU,
-  xlab = "Historical elevation (NAVD88 GEOID03))",
-  ylab = "LiDAR elevation (NAVD88 GEOID03)",
-  main = "A data plot for article 10.5194/bg-14-1739-2017",
-  pch = 20, cex = 0.5)
-```
+     xlab = "Historical elevation (NAVD88 GEOID03))",
+     ylab = "LiDAR elevation (NAVD88 GEOID03)",
+     main = "A data plot for article 10.5194/bg-14-1739-2017",
+     pch = 20, cex = 0.5)
+~~~
+{: .language-r}
 
 <!--
 png(file = "public/images/2018-10_suppdata-example-plot.png", width = 512, height = 512, bg = "white")
