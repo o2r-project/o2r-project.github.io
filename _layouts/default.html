@@ -27,6 +27,10 @@
     {% include anchors.html %}
     {% include tracking.html %}
 
+    {% if page.content contains "<code>" %}
+      {% include clipping.html %}
+    {% endif %}
+
   </body>
 
 </html>
