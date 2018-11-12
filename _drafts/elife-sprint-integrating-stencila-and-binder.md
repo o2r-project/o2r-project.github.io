@@ -171,7 +171,7 @@ However, the big announcement was still not made, since some things were still h
 ### The last mile
 
 In October, Daniel took on the final tasks of writing this blog post and fixing the R installation, including the automatic detection of the required execution contexts of a given Dar document.
-This included some [housekeeping](https://github.com/minrk/nbstencilaproxy/pull/18) in `nbstencilaproxy` and more importantly new [contributions to `repo2docker`](https://github.com/jupyter/repo2docker/pull/457) to (i) properly detect the languages used in a Stencila document, (ii) extend the R build pack to install R if it is used in a Stencila document, and (iii) add documentation and tests.
+This included some [housekeeping](https://github.com/minrk/nbstencilaproxy/pull/18) in `nbstencilaproxy` and more importantly new [contributions to `repo2docker`](https://github.com/jupyter/repo2docker/pull/457) (thanks to [Tim](https://github.com/betatim) for review and help) to (i) properly detect the languages used in a Stencila document, (ii) extend the R build pack to install R if it is used in a Stencila document, and (iii) add documentation and tests.
 `repo2docker` now detects Dar documents based on their `manifest.xml` files and uses the location of the first discovered one as the base directory to start Stencila.
 If a Dar manifest is found, then `nbstencilaproxy` is installed and the languages are extracted from code cells from the document.
 Authors can install extra dependencies using the [repo2docker's existing mechanisms](https://repo2docker.readthedocs.io/en/latest/config_files.html).
@@ -197,6 +197,11 @@ The following repositories contain single or multiple Stencila documents with co
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-multi/master?urlpath=stencila)
 
 In each case you can see the available execution environments by clicking on the icon in the bottom right corner.
+
+One of the cool features of Stencila are the reactive cells, as demonstrated in a tweet following the feature release:
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/nordholmen?ref_src=twsrc%5Etfw">@nordholmen</a> working on <a href="https://twitter.com/stencila?ref_src=twsrc%5Etfw">@stencila</a> support for <a href="https://t.co/Zlj6FrYgBw">https://t.co/Zlj6FrYgBw</a> you now have reactive cells with Python code on <a href="https://twitter.com/mybinderteam?ref_src=twsrc%5Etfw">@mybinderteam</a>! Give it a go <a href="https://t.co/ToIuQPq0Fy">https://t.co/ToIuQPq0Fy</a> <a href="https://t.co/Wjyf1kiH9B">pic.twitter.com/Wjyf1kiH9B</a></p>&mdash; Tim Head (@betatim) <a href="https://twitter.com/betatim/status/1062004432806785024?ref_src=twsrc%5Etfw">12. November 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Summary and outlook
 
