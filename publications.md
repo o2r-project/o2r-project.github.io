@@ -4,6 +4,7 @@ title: Publications
 description: Publications in the context of the project Opening Reproducible Research (o2r)
 categories:
   - publications
+exclude_from_all_pages: true
 ---
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
