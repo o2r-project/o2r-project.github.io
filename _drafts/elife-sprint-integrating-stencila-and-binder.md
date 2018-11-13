@@ -180,19 +180,19 @@ Daniel also created a few **example repositories** to provide a starting point f
 Thankfully the binder team generously welcomed [the changes to mybinder.org]() and and the examples to the [binder examples organisation](https://github.com/binder-examples/) on GitHub.
 The following repositories contain single or multiple Stencila documents with code chunks in different programming languages.
 
-**https://github.com/binder-examples/stencila-py** contains Python code cells, using both the Jupyter and plain Python execution contexts:
+**[https://github.com/binder-examples/stencila-py](https://github.com/binder-examples/stencila-py)** contains Python code cells, using both the Jupyter and plain Python execution contexts:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-py/master?urlpath=stencila)
 
 ![Binder + Stencila screenshot: Python](/public/images/2018-11_nbstencilaproxy-example-stencila-py.png)
 
-**https://github.com/binder-examples/stencila-r** contains R code cells and two plots:
+**[https://github.com/binder-examples/stencila-r](https://github.com/binder-examples/stencila-r)** contains R code cells and two plots:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-r/master?urlpath=stencila)
 
 ![Binder + Stencila screenshot: R](/public/images/2018-11_nbstencilaproxy-example-stencila-r.png)
 
-**https://github.com/binder-examples/stencila-multi** demonstrates how to access specific Dar projects if multiple are found within a repository.
+**[https://github.com/binder-examples/stencila-multi](https://github.com/binder-examples/stencila-multi)** demonstrates how to access specific Dar projects if multiple are found within a repository.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-multi/master?urlpath=stencila)
 
