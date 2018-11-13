@@ -47,7 +47,7 @@ ribbon:
   url:    '/almost'
 
 # https://github.com/poole/poole/issues/112
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
