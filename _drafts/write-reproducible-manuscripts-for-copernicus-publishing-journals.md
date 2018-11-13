@@ -141,7 +141,7 @@ Everybody who can write manuscripts with a word processor can learn quickly R Ma
 Digital notebooks not only improve day-to-day research habits, but the same workflow is suitable for authoring high-quality scholarly manuscripts and graphics.
 The interaction with the publisher is smooth thanks to the LaTeX submission format, but you never have to write any LaTeX.
 The workflow is based on an established [Free and Open Source](https://en.wikipedia.org/wiki/Free_and_Open-Source_Software) software stack and embraces the idea of preproducibility and the principles of [Open Science](https://en.wikipedia.org/wiki/Open_science).
-The software is maintained by an active, growing, and welcoming community of researchers and developers with a [strong connection](https://www.r-spatial.org/) to the geospatial sciences.
+The software is maintained by an [active](https://stackoverflow.com/questions/tagged/r), [growing](https://stackoverflow.blog/2017/10/10/impressive-growth-r/), and welcoming community of researchers and developers with a [strong connection](https://www.r-spatial.org/) to [the](https://gis.stackexchange.com/questions/tagged/r) [geospatial](https://geocompr.github.io/) [sciences](https://asdar-book.org/).
 Because of the complete and consistent notebook, [you](#markowetz), a colleague, or a student can easily pick up the work at a later time.
 The road to effective & transparent research begins with a first step - [take it](https://vickysteeves.gitlab.io/repro-papers/)!
 
