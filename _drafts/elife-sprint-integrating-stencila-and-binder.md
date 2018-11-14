@@ -10,7 +10,7 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_This article reports on a project started at the eLife Innovation Sprint 2018. It is cross posted on multiple blogs and we welcome comments and feedback on any of them!_
+_This article reports on a project, integrating Stencila and Binder, which started at the eLife Innovation Sprint 2018. It is cross posted on multiple blogs and we welcome comments and feedback on any of them!_
 
 [eLife](https://elifesciences.org/), an open science journal published by the non-profit organisation eLife Sciences Publications from the UK, hosted the first [eLife Innovation Sprint 2018](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-2018-project-roundup) as part of their [Innovation Initiative](https://elifesciences.org/about/innovation) in Cambridge, UK:
 _"[..] a two-day gathering of 62 researchers, designers, developers, technologists, science communicators and more, with the goal of developing prototypes of innovations that bring cutting-edge technology to open research communication."_
@@ -18,7 +18,7 @@ One of the [13](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-
 
 This article reports on the project's inception, building blocks, achievements at the sprint weekend, and work conducted in the months following the sprint.
 **Today, Binder has first class Stencila support.**
-You can open Stencila documents from any online code repository on [mybinder.org](https://mybinder.org/) with the click of a single button:
+You can open Stencila documents from any online code repository on [mybinder.org](https://mybinder.org/) with the click of a single button. Just try out the example below:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-py/master?urlpath=stencila)
 
@@ -36,14 +36,13 @@ They were joined remotely by [Nokome](https://github.com/nokome), the initiator 
 
 ## The building blocks
 
-**Stencila** is an [office suite for reproducible research documents](https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research).
-It provides an intuitive known word processor and spreadsheet user interface to scientists.
-Not all scientists are software developers ("coders"), or have the resources for learning all complex technologies which underpin today's software set-ups, nor should they be.
-Instead they apply established software to answer important research questions, and Stencila makes reproducible research more accessible to them.
-Stencila is built upon [Texture](https://github.com/substance/texture/), a tool set for scientific content, which uses the [Dar](https://github.com/substance/dar) file format.
-Dar is designed for [reproducible research publications](https://elifesciences.org/labs/7dbeb390/reproducible-document-stack-supporting-the-next-generation-research-article), serving both the workflows of researchers using computational methods for data, and publishers using digital workflows for publication and preservation of scholarly journals.
+**Stencila Desktop** is an [office suite for reproducible research documents](https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research).
+It allows scientists to use languages like R and Python within familiar and intuitive word processor and spreadsheet user interfaces.
+By doing so, it aims to lower the barriers to reproducible research for those with little or no software development skills. 
+At the same time, Stencila aims to make it easy for researchers versed in software development to collaborate with their colleagues without having to switch from R or Python.
+Stencila Desktop is built upon [Texture](https://github.com/substance/texture/), an editor for scientific content, which uses the [Dar](https://github.com/substance/dar) file format. Dar is an extension of the JATS publishing format which has been designed for [reproducible research publications](https://elifesciences.org/labs/7dbeb390/reproducible-document-stack-supporting-the-next-generation-research-article). It aims to serve researchers using computational methods for data, and publishers using digital workflows for publication and preservation of scholarly journals.
 
-A **Binder** makes it simple to generate reproducible computing environments from online repositories.
+**Binder** makes it simple to generate reproducible computing environments from code repositories.
 The online service [mybinder.org](https://mybinder.org/) is he most prominent example for a platform based on the Binder project, a part of [Project Jupyter](https://jupyter.org/).
 A user can run a [Jupyter Notebook](https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook) and other environments for their research projects, which are published in online repositories (e.g. GitHub or GitLab, see [binder examples](https://github.com/binder-examples/)).
 In the [spirit of the Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy), Binder combines several Open Source tools to achieve this goal: [repo2docker](https://repo2docker.readthedocs.io/), for generating `Dockerfile`s and building Docker images from a software projects, [JupyterHub](https://z2jh.jupyter.org/) for executing a Docker image and user-facing web portal in a cloud environment, and [BinderHub](https://binderhub.readthedocs.org/) for gluing the above together.
@@ -90,11 +89,11 @@ He wrote a hard-wired proxy using [Python](https://github.com/minrk/nbstencilapr
 
 #### Connecting Stencila to Jupyter kernels
 
-Stencila has "execution contexts" (the equivalent of Jupyter's "kernels") for R, Python, SQL, Javascript (in the browser), and Node.js. Execution contexts differ from kernels in a number of ways including local execution and dependency analysis of cells. Both of these are necessary for the reactive, functional execution model of Stencila Articles and Sheets.
+Stencila has "execution contexts" (the equivalent of Jupyter's "kernels") for R, Python, SQL, Javascript (in the browser), and Node.js. Execution contexts differ from kernels in a number of ways including code dependency analysis and returning execution results as data values. Both of these are necessary for the reactive, functional execution model of Stencila.
 
 We could install these execution contexts in the Docker image.
 However, Stencila also has a `JupyterContext` which acts as a bridge between Stencila's API and Jupyter kernels.
-So, since the base `jupyter/minimal-notebook` image already has a Jupyter kernel for Python installed it we decided to use that.
+So, since the base `jupyter/minimal-notebook` image already has a Jupyter kernel for Python installed, we decided to use that.
 This did mean however, that some of the reactive aspects of the Stencila UI won't work as expected.
 
 We included the [`stencila-node`](https://www.npmjs.com/package/stencila-node) Node.js package in the Docker image which provides the `JupyterContext` as well as a `NodeContext` (for executing Javascript) and a `SqliteContext` (for executing SQL) .
@@ -112,7 +111,7 @@ Relevant path configurations comprised the local storage path _as well as_ the U
 But the interactive execution of code cells did not work yet :-/.
 
 Thanks to an international time-zone-difference-powered "overnight" contribution, Min and Daniel got a big surprise on Friday morning:
-Nokome [added the Stencila Node.js host for Jupyter execution context support](https://github.com/minrk/nbstencilaproxy/pull/5), so that Python cells could be executed by connecting to the Jupyter Kernel, which of course are already there.
+Nokome [added the Stencila Node.js host for Jupyter execution context support](https://github.com/minrk/nbstencilaproxy/pull/5), so that Python cells could be executed by connecting to the Jupyter Kernel (which of course was already there in the container).
 In doing so, he returned the "surprise" he had [when learning about the project](https://community.stenci.la/t/stencila-in-binder/142).
 The added "host" provides the single gateway for code cell contents to be forwarded to the respective execution contexts.
 Nokome showed everything works with the obligatory screenshot:
