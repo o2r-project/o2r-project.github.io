@@ -126,7 +126,7 @@ Since you can run any commit in a Binder, you can also try out that particular s
 These updates could not simply be thrown upon mybinder.org, so Min set up a test server for the demonstrations at the sprint's final day.
 Daniel continued his work on supporting R code cells, but albeit [small contributions](https://github.com/stencila/r/pull/22) to the Stencila codebase, he could not complete this task in time.
 
-The sprint ended with [presentations by all projects](https://bit.ly/sprint-time-to-shine), some of which are still going strong today, for example [Appstract](https://appstract.pub/), [Citation Gecko](http://citationgecko.com/), or [PREreview](https://www.prereview.org/).
+The sprint ended with [presentations by all projects](https://bit.ly/sprint-time-to-shine), some of which are still continuing today, for example [Appstract](https://appstract.pub/), [Citation Gecko](http://citationgecko.com/), [PREreview](https://www.prereview.org/), or [Octopus](http://sciencepublishing.online/).
 The results were truly awesome, ranging from ambitious concepts, case studies, design concepts, completely new tools with great UX design, to technical demonstrators.
 It's an easy guess where on the spectrum our project can be placed...
 You're invited to catch a glimpse of the sprint, its results, and the people behind all of it on Twitter under the hashtag [`#eLifeSprint`](https://twitter.com/hashtag/eLifeSprint?src=hash) and read the [project roundup](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-2018-project-roundup).
