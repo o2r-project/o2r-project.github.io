@@ -111,7 +111,7 @@ Relevant path configurations comprised the local storage path _as well as_ the U
 But the interactive execution of code cells did not work yet :-/.
 
 Thanks to an international time-zone-difference-powered "overnight" contribution, Min and Daniel got a big surprise on Friday morning:
-Nokome [added the Stencila Node.js host for Jupyter execution context support](https://github.com/minrk/nbstencilaproxy/pull/5), so that Python cells could be executed by connecting to the Jupyter Kernel (which of course are already there in the container).
+Nokome [added the Stencila Node.js host for Jupyter execution context support](https://github.com/minrk/nbstencilaproxy/pull/5), so that Python cells could be executed by connecting to the Jupyter Kernel (which of course was already there in the container).
 In doing so, he returned the "surprise" he had [when learning about the project](https://community.stenci.la/t/stencila-in-binder/142).
 The added "host" provides the single gateway for code cell contents to be forwarded to the respective execution contexts.
 Nokome showed everything works with the obligatory screenshot:
