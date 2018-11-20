@@ -10,7 +10,7 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_This article reports on a project, integrating Stencila and Binder, which started at the eLife Innovation Sprint 2018. It is cross posted on multiple blogs and we welcome comments and feedback on any of them!_
+_This article reports on a project, integrating Stencila and Binder, which started at the eLife Innovation Sprint 2018. It is cross posted on multiple blogs ([eLife Labs](https://elifesciences.org/labs/d42fe2b9/integrating-binder-and-stencila-the-building-blocks-to-increased-open-communication-and-transparency), [Stencila](#), ) and we welcome comments and feedback on any of them!_
 
 [eLife](https://elifesciences.org/), an open science journal published by the non-profit organisation eLife Sciences Publications from the UK, hosted the first [eLife Innovation Sprint 2018](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-2018-project-roundup) as part of their [Innovation Initiative](https://elifesciences.org/about/innovation) in Cambridge, UK:
 _"[..] a two-day gathering of 62 researchers, designers, developers, technologists, science communicators and more, with the goal of developing prototypes of innovations that bring cutting-edge technology to open research communication."_
