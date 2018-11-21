@@ -14,7 +14,7 @@ _This article reports on a project, integrating Stencila and Binder, which start
 
 [eLife](https://elifesciences.org/), an open science journal published by the non-profit organisation eLife Sciences Publications from the UK, hosted the first [eLife Innovation Sprint 2018](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-2018-project-roundup) as part of their [Innovation Initiative](https://elifesciences.org/about/innovation) in Cambridge, UK:
 _"[..] a two-day gathering of 62 researchers, designers, developers, technologists, science communicators and more, with the goal of developing prototypes of innovations that bring cutting-edge technology to open research communication."_
-One of the [13](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-2018-project-roundup) projects at the [excellently organised event](https://elifesciences.org/inside-elife/b4ed92e1/innovation-collaboration-and-creativity-at-the-heart-of-the-elife-innovation-sprint-2018) was an **integration of [Binder](https://mybinder.readthedocs.io/) and [Stencila](https://stenci.la/)**<!--more-->.
+One of the [13](https://elifesciences.org/labs/bdd4c9aa/elife-innovation-sprint-2018-project-roundup) projects at the [excellently organised event](https://elifesciences.org/inside-elife/b4ed92e1/innovation-collaboration-and-creativity-at-the-heart-of-the-elife-innovation-sprint-2018) was an **integration of [Binder](https://mybinder.readthedocs.io/) and [Stencila](https://stenci.la/)**.<!--more-->
 
 This article reports on the project's inception, building blocks, achievements at the sprint weekend, and work conducted in the months following the sprint.
 **Today, Binder has first class Stencila support.**
