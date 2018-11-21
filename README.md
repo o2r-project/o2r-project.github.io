@@ -31,6 +31,7 @@ You can use [jekyll-compose](https://github.com/jekyll/jekyll-compose) to stream
 
 ```bash
 bundle exec jekyll draft "My new draft"
+bundle exec jekyll publish _drafts/my-new-draft.md
 ```
 
 ### Images
