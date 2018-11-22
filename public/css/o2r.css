@@ -115,3 +115,10 @@ img.center {
   width: 21px;
   height: 25px;
 }
+
+.no_menu {
+  margin-left: 1em;
+  margin-right: 1em;
+  width: auto;
+  max-width: 100%;
+}

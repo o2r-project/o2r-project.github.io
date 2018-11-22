@@ -1,18 +1,34 @@
 # o2r
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1485438.svg)](https://doi.org/10.5281/zenodo.1485438)
+
 This is the project website of the DFG-funded research project "Opening Reproducible Research" by Institute for Geoinformatics (ifgi) and University and Regional Library (ULB), University of Münster, Germany
 
 The design is based on [Hyde](https://github.com/poole/hyde) by Mark Otto.
 
 ## Building the site
 
-Follow the [instructions](https://github.com/poole/poole) for Poole to install the required software. Then run the site locally with
+Follow the [instructions](https://github.com/poole/poole) for Poole to install the required software.
+Then run the site locally with
 
 ```
 bundle exec jekyll serve
 ```
 
 Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the draft posts.
+
+## Publishing site PDF on Zenodo
+
+After each new blog post is published (or manually), a [Zenodo deposit](https://zenodo.org/api/deposit/depositions/1485438) with a PDF of all blog posts and relevant pages is updated automatically.
+The PDF file `o2r_project_website_and_blog.pdf` is generated from a special page at [http://127.0.0.1:4000/all_content/](http://127.0.0.1:4000/all_content/) (file `all_content.md`) using [`wkhtmltopdf`](https://wkhtmltopdf.org/) and then published to Zenodo with the [Zenodo API](http://developers.zenodo.org/) in the file `zenodo_release_pdf.py`.
+The environment variable `ZENODO_TOKEN` must have a valid API key for Zenodo (or for Zenodo Sandbox for testing).
+
+The process is controlled with the make targets `create_pdf` and `update_pdf_on_zenodo`.
+You can also just run the upload to Zenodo with
+
+```bash
+ZENODO_TOKEN=... python3 ./zenodo_release_pdf.py
+```
 
 ## Site testing
 
@@ -30,6 +46,7 @@ You can use [jekyll-compose](https://github.com/jekyll/jekyll-compose) to stream
 
 ```bash
 bundle exec jekyll draft "My new draft"
+bundle exec jekyll publish _drafts/my-new-draft.md
 ```
 
 ### Images
