@@ -15,18 +15,22 @@ author: 'Daniel Nüst'
 
 _[This article is cross posted-on the [EGU GeoLog]().]_
 
-Contemporary science faces challenges due to increased usage of data & digital technologies and heightened demands of scholarly communication.
+Contemporary science faces many challenges in publishing results that are reproducible.
+This is due to increased usage of data and digital technologies as well as heightened demands for scholarly communication.
 These challenges have led to widespread [calls](#munafo) for more research transparency, accessibility, and reproducibility from the science community.
-This article presents current findings and solutions, including recent new software that makes writing submission-ready manuscripts for journals of _[Copernicus Publications](https://www.copernicus.org/)_ a lot easier.
+This article presents current findings and solutions to these problems, including recent new software that makes writing submission-ready manuscripts for journals of _[Copernicus Publications](https://www.copernicus.org/)_ a lot easier.
 <!--more-->
 While it can be debated if science really faces a [reproducibility](#baker) [crisis](#fanelli), the challenges of computer-based research have sparked numerous articles on new [good](#wilson) [research](#gil) [practices](#sandve) and their [evaluation](#hardwicke).
-The challenges have also driven researchers to develop infrastructure and tools to help scientists effectively write articles, publish data & code for computations, and communicate their findings in a reproducible way, for example [Jupyter](#jupyter), [ReproZip](#reprozip) and [research compendia](https://research-compendium.science/).
+The challenges have also driven researchers to develop infrastructure and tools to help scientists effectively write articles, publish data, share code for computations, and communicate their findings in a reproducible way, for example [Jupyter](#jupyter), [ReproZip](#reprozip) and [research compendia](https://research-compendium.science/).
 
 [Recent](#konkol) [studies](#nuest) [showed](#ostermann) that the geosciences and geographic information science are not beyond issues with reproducibility, just like other domains.
 Therefore, more and more [journals](https://www.nature.com/authors/policies/availability.html) have [adopted policies](#stodden) on sharing data and code.
 However, it is equally important that scientists foster an [open research culture](#nosek) and teach researchers how they adopt more transparent and reproducible workflows, for example at skill-building workshops at conferences offered by fellow researchers, such as the EGU short courses, community-led non-profit organisations such as the [Carpentries](https://carpentries.org/), [open courses for students](#toelch), small discussion groups at research labs, or individual efforts of self-learning.
 In the light of prevailing [issues of a common definition](#barba) of reproducibility, [Philip Stark](#stark), a statistics professor and associate dean of mathematical and physical sciences at the University of California, Berkeley, recently coined the term [_preproducibility_](#stark): _"An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it."_
 The neologism intends to reduce confusion and also to embrace a positive attitude for more openness, honesty, and helpfulness in scholarly communication processes.
+
+<!-- image here! -->
+[![](/public/images/2018-11_showme-nottrustme-nature.png)](https://twitter.com/NatureNews/status/999715421208104960)
 
 In the spirit of these activities, this article describes a modern workflow made possible by recent software releases.
 The new features allow the EGU community to write preproducible manuscripts for submission to the large variety of academic journals published by [_Copernicus Publications_](https://www.copernicus.org/).
@@ -36,16 +40,19 @@ An open and reproducible workflow enables researchers to build on others' and ow
 
 ## Reproducible research manuscripts
 
-[Open](https://en.wikipedia.org/wiki/Open-notebook_science) digital [notebooks](https://arxiv.org/abs/1804.05492), which [interweave data and code](https://en.wikipedia.org/wiki/Literate_programming) and can be exported to different output formats such as PDF for reading, are powerful means to improve transparency and preproducibility of research.
-[Jupyter Notebook](https://jupyter.org/), [Stencila](http://stenci.la/) and [R Markdown](https://rmarkdown.rstudio.com/) let researchers combine long-form text of a publication and source code for analysis & visualisation in a single document.
+[Open](https://en.wikipedia.org/wiki/Open-notebook_science) digital [notebooks](https://arxiv.org/abs/1804.05492), which [interweave data and code](https://en.wikipedia.org/wiki/Literate_programming) and can be exported to different output formats such as PDF, are powerful means to improve transparency and preproducibility of research.
+[Jupyter Notebook](https://jupyter.org/), [Stencila](http://stenci.la/) and [R Markdown](https://rmarkdown.rstudio.com/) let researchers combine long-form text of a publication and source code for analysis and visualisation in a single document.
 Having text and code side-by-side makes them easier to grasp and ensures consistency, because each rendering of the document executes the whole workflow using the original data.
 Caching for long-lasting computations is possible, and researchers working with supercomputing infrastructures or huge datasets may limit the executed code to purposes of visualisation using processed data as input.
 Authors can transparently expose specific code snippets to readers but also publish the complete source code of the document openly for collaboration and review.
 
 The popular notebook formats are plain text-based, like [Markdown](https://en.wikipedia.org/wiki/Markdown) in case of R Markdown.
 Therefore an R Markdown document can be managed with [version control software](https://en.wikipedia.org/wiki/Version_control), which are programs for managing multiple versions and contributions, even by different people, to the same documents.
-Version control provide traceability of authorship, a time machine for going back to any previous "working" version, and online collaboration such as on [GitLab](https://en.wikipedia.org/wiki/GitLab).
+Version control provides traceability of authorship, a time machine for going back to any previous "working" version, and online collaboration such as on [GitLab](https://en.wikipedia.org/wiki/GitLab).
 This kind of workflow also stops [the madness of using file names for versions](http://phdcomics.com/comics/archive_print.php?comicid=1531) yet still lets authors use [awesome file names](https://speakerdeck.com/jennybc/how-to-name-files) and apply domain-specific [guidelines for packaging research](#marwick).
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Final.doc <a href="https://t.co/YXJaSacHWu">https://t.co/YXJaSacHWu</a> <a href="https://t.co/4bBDzn7TXt">pic.twitter.com/4bBDzn7TXt</a></p>&mdash; PHD Comics (@PHDcomics) <a href="https://twitter.com/PHDcomics/status/826861642507882496?ref_src=twsrc%5Etfw">1. Februar 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 R Markdown supports [different programming languages](https://rmarkdown.rstudio.com/lesson-5.html) besides the popular namesake [R](https://www.r-project.org/) and is a sensible solution even if you do not analyse data with scripts nor have any code in your scholarly manuscript.
 It is easy to write, allows you to [manage your bibliography](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) effectively, can be used for websites, [books](https://bookdown.org/) or [blogs](https://bookdown.org/yihui/blogdown/), but most importantly _it does not fall short when it is time to submit a manuscript article to a journal_.
@@ -75,11 +82,11 @@ rmarkdown::render(input = "MyArticle/MyArticle.Rmd")
 
 ![](/public/images/2018-10_rmd-pdf-example.png)
 
-The commands created a directory with the Copernicus Publications template's files, including an R Markdown (`.Rmd`) file ready to be edited by you (left-hand side of the screenshot), a [LaTeX](https://en.wikipedia.org/wiki/LaTeX) (`.tex`) file for submission to the publisher, and a `.pdf` file for inspecting the final results and sharing with your colleagues (right hand side of the screenshot).
-You can see how simple it is to format text, insert citations, chemical formulas, or equations, and add figures, and how they are rendered into a high-quality output file.
+The commands created a directory with the Copernicus Publications template's files, including an R Markdown (`.Rmd`) file ready to be edited by you (left-hand side of the screenshot), a [LaTeX](https://en.wikipedia.org/wiki/LaTeX) (`.tex`) file for submission to the publisher, and a `.pdf` file for inspecting the final results and sharing with your colleagues (right-hand side of the screenshot).
+You can see how simple it is to format text, insert citations, chemical formulas or equations, and add figures, and how they are rendered into a high-quality output file.
 
 All of these steps may also be completed with user-friendly forms when using [RStudio](https://en.wikipedia.org/wiki/RStudio), a popular development and authoring environment available for all operating systems.
-The left hand side of the following screenshot shows the form for creating a new document based on a template, and the right-hand shows side the menu for rendering, called "knitting" with R Markdown because code and text are combined into one document like threads in a garment.
+The left-hand side of the following screenshot shows the form for creating a new document based on a template, and the right-hand shows side the menu for rendering, called "knitting" with R Markdown because code and text are combined into one document like threads in a garment.
 
 ![](/public/images/2018-10_rstudio-ui-example.png)
 
@@ -143,7 +150,7 @@ The interaction with the publisher is smooth thanks to the LaTeX submission form
 The workflow is based on an established [Free and Open Source](https://en.wikipedia.org/wiki/Free_and_Open-Source_Software) software stack and embraces the idea of preproducibility and the principles of [Open Science](https://en.wikipedia.org/wiki/Open_science).
 The software is maintained by an [active](https://stackoverflow.com/questions/tagged/r), [growing](https://stackoverflow.blog/2017/10/10/impressive-growth-r/), and welcoming community of researchers and developers with a [strong connection](https://www.r-spatial.org/) to [the](https://gis.stackexchange.com/questions/tagged/r) [geospatial](https://geocompr.github.io/) [sciences](https://asdar-book.org/).
 Because of the complete and consistent notebook, [you](#markowetz), a colleague, or a student can easily pick up the work at a later time.
-The road to effective & transparent research begins with a first step - [take it](https://vickysteeves.gitlab.io/repro-papers/)!
+The road to effective and transparent research begins with a first step - [take it](https://vickysteeves.gitlab.io/repro-papers/)!
 
 ## Acknowledgements
 
