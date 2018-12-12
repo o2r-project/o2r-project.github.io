@@ -113,7 +113,7 @@ The o2r project is connected to external partners since its inception, and the g
 - [<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="100" alt="Elsevier Logo" />](http://elsevier.com/)[Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) (Director of Product Management, Enriched Content at Elsevier; previously [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141), Head of Content Innovation, Elsevier)
 - [<img src="https://www.copernicus.org/logo_copernicus_publications_rgb.png" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
 - [<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)[Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
-- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)[<img src="http://spatial.ucsb.edu/wp-content/uploads/spatial-logo.jpg" style="float:right;" height="50" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/)
+- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)[<img src="/public/images/spatial-ucsb-logo.jpg" style="float:right;" height="50" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/)
 
 <div style="clear: both;"></div>
 
