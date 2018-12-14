@@ -84,7 +84,7 @@ o2r team members, supporting university staff, and external advisory board membe
 - [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
-- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
+- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi) - _technical support_: `daniel.nuest@uni-muenster.de`
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
@@ -119,6 +119,6 @@ The o2r project is connected to external partners since its inception, and the g
 
 ## Funding
 
-This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](http://gepris.dfg.de/gepris/projekt/274927273) @ DFG GEPRIS) is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE 1632/10-1, KR 3930/3-1 and TR 864/6-1.
+This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](http://gepris.dfg.de/gepris/projekt/274927273) @ DFG GEPRIS) was funded from 2016/01 to 2018/06 by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE 1632/10-1, KR 3930/3-1 and TR 864/6-1.
 
 [<img src="/public/images/dfg_logo_schriftzug_schwarz.png" alt="DFG Logo" />](http://www.dfg.de)
