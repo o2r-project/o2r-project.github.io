@@ -28,6 +28,7 @@ Email: schwering@uni-muenster.de
 
 ## Privacy Notice
 
+{% comment %}
 We use our own [Matomo](https://matomo.org/) server to collect anonymous user statistics in a configuration that is [conform with German privacy laws](https://www.datenschutzzentrum.de/uploads/projekte/verbraucherdatenschutz/20110315-webanalyse-piwik.pdf) and the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).
 **We collect no personal data and do not share the visitor statistics with any third party.**
 We only collect anonymised IPs (masking 3 bytes, e.g. `192.xxx.xxx.xxx`) to learn about the number of visitors on our site.
@@ -36,6 +37,7 @@ The tracker honors the [Do Not Track (DNT)](https://en.wikipedia.org/wiki/Do_Not
 If you do not want the pages you visit to be tracked _by the o2r team_ at all, please use the option below.
 
 <iframe frameborder="no" width="600px" height="200px" src="https://o2r.uni-muenster.de/piwik/index.php?module=CoreAdminHome&action=optOut"></iframe>
+{% endcomment %}
 
 This website embeds [DISQUS](https://disqus.com/) for the **discussions** of blog articles.
 Please check their [article on privacy and GDPR compliance](https://blog.disqus.com/update-on-privacy-and-gdpr-compliance) if you have any concerns about your data.
