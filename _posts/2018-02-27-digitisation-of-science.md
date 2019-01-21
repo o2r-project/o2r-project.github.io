@@ -21,7 +21,7 @@ o2r Team member [Daniel](htts://nordholmen.net) was invited by the university's 
 The video is now [available online in German](https://www.uni-muenster.de/news/view.php?cmdid=9388) (embedded below) and [with English subtitles](https://www.uni-muenster.de/news/view.php?cmdid=9395).
 You can also watch it [on Facebook](https://www.facebook.com/wwumuenster/videos/10156084978130350/) or in the [WWU video portal](https://www.uni-muenster.de/videoportal/digitalisierung.html#nuest).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/07qp9xHYknY" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/07qp9xHYknY" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 Daniel wrote a brief summary for our blog and shares his experience:
 

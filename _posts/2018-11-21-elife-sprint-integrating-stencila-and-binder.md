@@ -139,7 +139,7 @@ The code is re-run on the server and the figure updated.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/minrk/nbstencilaproxy/d3271fe66951f15caf30a0cd90ca9dce9f626921)
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/nK27j5DA5k0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nK27j5DA5k0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 You can view the Python example document by appending `?archive=py-jupyter` to the URL of Stencila in the Binder, e.g. `https://hub.mybinder.org/.../stencila/?archive=py-jupyter`.
 
