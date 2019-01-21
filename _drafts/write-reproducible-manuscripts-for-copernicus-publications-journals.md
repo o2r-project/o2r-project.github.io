@@ -96,15 +96,15 @@ And in case you decide last minute to submit to a different journal, [`rticles` 
 
 Data published today [should](http://www.copdess.org/enabling-fair-data-project/commitment-to-enabling-fair-data-in-the-earth-space-and-environmental-sciences/) be published and properly cited using appropriate [research data repositories](https://www.re3data.org/) following the [FAIR data](https://en.wikipedia.org/wiki/FAIR_data) [principles](https://www.force11.org/group/fairgroup/fairprinciples).
 Journals require authors to follow these principles, see for example the [Copernicus Publications data policy](https://publications.copernicus.org/services/data_policy.html) or a recent [announcement by _Nature_](#nature).
-At the same time publishers offer to store supplemental information (SI) as part of an article such as dataset files, extra figures, or extensive descriptions of experimental procedures.
+Other publishers required, or still do today, to store supplemental information (SI), such as dataset files, extra figures, or extensive descriptions of experimental procedures, as part of the article.
 Usually only the article itself receives a digital object identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) for long-term identification and availability.
 The DOI [minted](https://www.helmholtz-berlin.de/zentrum/locations/bibliothek/dokumentationhaupt/veroeffentlichungsverzeichnis-kopie/doi-vergabe_en.html) by the publisher is not suitable for direct access to supplemental files, because it points to a [landing](https://support.crossref.org/hc/en-us/articles/214669863-Your-landing-page) [page](https://support.datacite.org/docs/datacite-doi-display-guidelines#section-applying-the-guidelines) about the identified object.
 This landing page is designed to be read by humans but not by computers.
 
-The R package [`suppdata`](https://cran.r-project.org/package=suppdata) [closes this gap](#pearse).
+The R package [`suppdata`](https://github.com/ropensci/suppdata) [closes this gap](#pearse).
 It supports downloading supplemental information using the article's DOI.
 This way `suppdata` enables long-term reproducible data access when data was published as SI in the past or in exceptional cases today, for example if you write about a reproduction of a published article.
-In the latest version the [supported publishers](https://github.com/ropensci/suppdata#supported-publishers-and-repositories) include Copernicus Publications.
+In the latest version available [from GitHub](https://github.com/ropensci/suppdata/blob/master/README.md) (suppdata is [on its way](https://github.com/ropensci/suppdata/issues/31) to [CRAN](https://cran.r-project.org/package=suppdata)) the [supported publishers](https://github.com/ropensci/suppdata#supported-publishers-and-repositories) include Copernicus Publications.
 The following example code downloads a data file for the article ["Divergence of seafloor elevation and sea level rise in coral reef ecosystems"](https://doi.org/10.5194/bg-14-1739-2017) by Yates et al. published in _Biogeosciences_ in 2017.
 The code then creates a mostly meaningless plot shown below.
 
@@ -155,7 +155,8 @@ The road to effective and transparent research begins with a first step - [take 
 ## Acknowledgements
 
 The software updates were contributed by [Daniel Nüst](https://orcid.org/0000-0002-0024-5046) from the project [Opening Reproducible Research](https://o2r.info) (o2r) at the Institute for Geoinformatics, University of Münster, Germany, but would not be able without the support of Copernicus Publications, the software maintainers most notably [Yihui Xie](https://yihui.name/) and [Will Pearse](http://www.pearselab.com/), and the general awesomeness of the R, R-spatial, Open Science, and Reproducible Research communities.
-The blog text was greatly improved with feedback by EGU's [Olivia](http://oliviatrani.org/) [Trani](https://twitter.com/oliviatrani) and Copernicus Publications' [Xenia](https://twitter.com/XeniavanEdig) [van Edig](https://www.copernicus.org/contact_us.html). Thank you!
+The blog text was greatly improved with feedback by EGU's [Olivia](http://oliviatrani.org/) [Trani](https://twitter.com/oliviatrani) and Copernicus Publications' [Xenia](https://twitter.com/XeniavanEdig) [van Edig](https://www.copernicus.org/contact_us.html).
+Thank you!
 
 ## References
 
