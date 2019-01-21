@@ -95,7 +95,7 @@ And in case you decide last minute to submit to a different journal, [`rticles` 
 ## Sustainable access to supplemental data
 
 Data published today [should](http://www.copdess.org/enabling-fair-data-project/commitment-to-enabling-fair-data-in-the-earth-space-and-environmental-sciences/) be published and properly cited using appropriate [research data repositories](https://www.re3data.org/) following the [FAIR data](https://en.wikipedia.org/wiki/FAIR_data) [principles](https://www.force11.org/group/fairgroup/fairprinciples).
-Journals require authors to follow these principles, see for example the [Copernicus Publications data policy](https://publications.copernicus.org/services/data_policy.html).
+Journals require authors to follow these principles, see for example the [Copernicus Publications data policy](https://publications.copernicus.org/services/data_policy.html) or a recent [announcement by _Nature_](#nature).
 At the same time publishers offer to store supplemental information (SI) as part of an article such as dataset files, extra figures, or extensive descriptions of experimental procedures.
 Usually only the article itself receives a digital object identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) for long-term identification and availability.
 The DOI [minted](https://www.helmholtz-berlin.de/zentrum/locations/bibliothek/dokumentationhaupt/veroeffentlichungsverzeichnis-kopie/doi-vergabe_en.html) by the publisher is not suitable for direct access to supplemental files, because it points to a [landing](https://support.crossref.org/hc/en-us/articles/214669863-Your-landing-page) [page](https://support.datacite.org/docs/datacite-doi-display-guidelines#section-applying-the-guidelines) about the identified object.
@@ -159,8 +159,9 @@ The blog text was greatly improved with feedback by EGU's [Olivia](http://olivia
 
 ## References
 
-<!-- https://crosscite.org/ has a style copernicus-publications -->
+<!-- https://crosscite.org/ has a style "copernicus-publications" -->
 
+- <a name="nature"></a>[Announcement: FAIR data in Earth science](https://doi.org/10.1038/d41586-019-00075-3), Nature, 565(7738), 134–134, doi:10.1038/d41586-019-00075-3, 2019.
 - <a name="baker"></a>Baker, M.: [1,500 Scientists Lift the Lid on Reproducibility](https://doi.org/10.1038/533452a), Nature, 533(7604), 452–454, doi:10.1038/533452a, 2016. 
 - <a name="barba"></a>Barba, L. A.: [Terminologies for Reproducible Research](http://arxiv.org/abs/1802.03311), ArXiv:1802.03311 [Cs], February 9, 2018.
 - <a name="fanelli"></a>Fanelli, D.: [Opinion: Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?](https://doi.org/10.1073/pnas.1708272114), and do we need it to?, Proceedings of the National Academy of Sciences, 115(11), 2628–2631, doi:10.1073/pnas.1708272114, 2018.
