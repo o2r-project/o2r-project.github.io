@@ -11,12 +11,13 @@ serve_drafts:
 
 clean:
 	bundle exec jekyll clean;
-	rm -f o2r_project_website_and_blog.pdf
+	rm -f o2r_project_website_and_blog.pdf;
+	rm -f o2r_project_website_and_blog_git-repository.zip;
 
 build: clean
 	bundle exec jekyll build
 
-capture_pdf:
+save_all_content_to_pdf:
 	wkhtmltopdf \
 	--outline \
 	--javascript-delay 10000 --no-stop-slow-scripts \
@@ -25,11 +26,14 @@ capture_pdf:
 	--footer-html http://127.0.0.1:4000/public/pdf_footer.html \
 	toc http://127.0.0.1:4000/all_content/ o2r_project_website_and_blog.pdf
 
-create_pdf: clean
-	make serve & ( sleep 10 && make capture_pdf ; echo "Captured PDF"; )
+capture_pdf:
+	make serve & ( sleep 5 && make save_all_content_to_pdf ; echo "Captured PDF"; )
 
-update_pdf_on_zenodo: create_pdf
-	python3 ./zenodo_release_pdf.py;
+capture_zip:
+	zip -r o2r_project_website_and_blog_git-repository.zip .
+
+update_zenodo_deposit: build capture_pdf capture_zip
+	python3 $(shell pwd)/zenodo_release.py;
 	pkill -f jekyll;
 
-.PHONY: update_pdf_on_zenodo
+.PHONY: update_zenodo_deposit

@@ -33,46 +33,7 @@ Already in the project proposal, we set a clear agenda on the question of softwa
 
 > All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g., Apache 2.0). Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
 
-<script type="text/javascript" src="{{ '/public/js/jquery.js' | absolute_url }}"></script><!-- //cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js -->
-<script type="text/javascript">
-$(document).ready(function(){
-    // get repo count
-    $.ajax({
-        type: "get",
-        url: "https://api.github.com/orgs/o2r-project",
-        success: function(data) {
-            var repo_count = data.public_repos;
-            $("#gh-stats-repo-count").html(repo_count);
-        },
-        error: function(err, status) {
-            console.log("Error getting repo count from GitHub API: " + err);
-        }
-    });
-
-    // get languages and forks
-    $.ajax({
-        type: "get",
-        url: "https://api.github.com/users/o2r-project/repos?sort=pushed&per_page=100",
-        success: function(data) {
-            let languages = new Set();
-            let forks = 0;
-            data.forEach(function(item) {
-                languages.add(item.language);
-                forks += item.forks_count;
-            });
-            $("#gh-stats-languages-count").html(languages.size);
-            $("#gh-stats-forks-count").html(forks);
-        },
-        error: function(err, status) {
-            console.log("Error getting repo details from GitHub API: " + err);
-        }
-    });
-});
-</script>
-
-Learn more about our projects on [Open Hub](https://www.openhub.net/orgs/o2r) and [GitHub](https://github.com/o2r-project) (currently <span id="gh-stats-repo-count">[NA]</span> repos having <span id="gh-stats-forks-count">[NA]</span> forks using <span id="gh-stats-languages-count">[NA]</span> languages).
-
-<script type="text/javascript" src="https://www.openhub.net/orgs/o2r/widgets/portfolio_projects_activity?format=js"></script>
+See our [results](/results) page for more information about all software projects.
 
 ## People
 
@@ -84,7 +45,7 @@ o2r team members, supporting university staff, and external advisory board membe
 - [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
-- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
+- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi) - _technical support_: `daniel.nuest@uni-muenster.de`
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
@@ -113,12 +74,12 @@ The o2r project is connected to external partners since its inception, and the g
 - [<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="100" alt="Elsevier Logo" />](http://elsevier.com/)[Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) (Director of Product Management, Enriched Content at Elsevier; previously [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141), Head of Content Innovation, Elsevier)
 - [<img src="https://www.copernicus.org/logo_copernicus_publications_rgb.png" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
 - [<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)[Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
-- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)[<img src="http://spatial.ucsb.edu/wp-content/uploads/spatial-logo.jpg" style="float:right;" height="50" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/)
+- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)[<img src="/public/images/spatial-ucsb-logo.jpg" style="float:right;" height="50" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/)
 
 <div style="clear: both;"></div>
 
 ## Funding
 
-This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](http://gepris.dfg.de/gepris/projekt/274927273) @ DFG GEPRIS) is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE 1632/10-1, KR 3930/3-1 and TR 864/6-1.
+This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](http://gepris.dfg.de/gepris/projekt/274927273) @ DFG GEPRIS) was funded from 2016/01 to 2018/06 by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE 1632/10-1, KR 3930/3-1 and TR 864/6-1.
 
 [<img src="/public/images/dfg_logo_schriftzug_schwarz.png" alt="DFG Logo" />](http://www.dfg.de)

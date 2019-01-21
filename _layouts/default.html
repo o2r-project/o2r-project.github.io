@@ -24,14 +24,14 @@
       </div>
 
       <div class="attribution">
-          <p>Cite this blog post as
-            <code>{{ page.author }}. "{{ page.title }}" in Opening Reproducible Research: a research project website and blog. Daniel Nüst, Marc Schutzeichel, Markus Konkol (eds). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.1485437">10.5281/zenodo.1485437</a></code>
+          <p>Cite this blog post or page as
+            <code>{% if page.author %}{{ page.author }}.{% endif %}"{{ page.title }}" in Opening Reproducible Research: a research project website and blog. Daniel Nüst, Marc Schutzeichel, Markus Konkol (eds). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.1485437">10.5281/zenodo.1485437</a></code>
           </p>
         </div>
     </div>
 
     {% include anchors.html %}
-    {% include tracking.html %}
+    {% comment %}{% include tracking.html %}{% endcomment %}
 
     {% if page.content contains "<code>" %}
       {% include clipping.html %}
