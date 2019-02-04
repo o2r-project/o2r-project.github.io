@@ -19,24 +19,22 @@ Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the dra
 
 ## Publishing site repository and PDF on Zenodo
 
-After each new blog post is published, a [Zenodo deposit](https://zenodo.org/api/deposit/depositions/1485438) with a PDF of all blog posts and relevant pages is updated ~~automatically~~ manually (automatic update pending [Zenodo #1447](https://github.com/zenodo/zenodo/issues/1447)).
+After each new blog post is published, a [Zenodo deposit](https://zenodo.org/api/deposit/depositions/1485438) with a PDF of all blog posts and relevant pages is updated automatically updated, see `.travis.yml` for details.
 
 The PDF file `o2r_project_website_and_blog.pdf` is generated from a special page at [http://127.0.0.1:4000/all_content/](http://127.0.0.1:4000/all_content/) (file `all_content.md`) using [`wkhtmltopdf`](https://wkhtmltopdf.org/).
 A zip archive of this project is created with `zip`, file `o2r_project_website_and_blog_git-repository.zip`.
 
 Both these files are then published to Zenodo with the [Zenodo API](http://developers.zenodo.org/) by the file `zenodo_release.py`.
-You must _manually_ install the required dependencies, see imports in the file.
 The environment variable `ZENODO_TOKEN` must have a valid API key for Zenodo (or for Zenodo Sandbox for testing).
 
-The process is controlled with the make targets `update_zenodo_deposit`.
-You can also just run the upload to Zenodo with
+The process is controlled with the make target `update_zenodo_deposit`.
+
+You can also just run the upload to Zenodo manually with
 
 ```bash
 ZENODO_TOKEN=... python3 zenodo_release.py
-# increassing logging output for testing with LOGLEVEL=DEBUG
+# increase logging output for testing with LOGLEVEL=DEBUG
 ```
-
-**You must then login to Zenodo and open the new draft to manually update the version string to the current day (e.g. `2018-12-17`) and publish the new version.**
 
 ## Site testing
 
