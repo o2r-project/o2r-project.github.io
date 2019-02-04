@@ -13,7 +13,7 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_[This article is cross posted-on the [EGU GeoLog]().]_
+_[This article is cross posted-on the [EGU GeoLog](https://blogs.egu.eu/geolog/2019/02/01/reproducibility-and-transparency-in-research/).]_
 
 Contemporary science faces many challenges in publishing results that are reproducible.
 This is due to increased usage of data and digital technologies as well as heightened demands for scholarly communication.
