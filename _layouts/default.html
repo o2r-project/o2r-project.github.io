@@ -15,12 +15,12 @@
       {{ content }}
       
       <div class="attribution">
-            <div style="float: left; margin: 3px;">
-                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-                  <img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-                </a>
-            </div>
-            <div>Except where otherwise noted site content created by the o2r project is licensed under a Creative Commons Attribution 4.0 International License.</div>
+           <div style="float: left; margin: 3px;">
+              <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+                <img alt="Creative Commons Licence" src="{{ '/public/images/88x31.png' | absolute_url }}" />
+              </a>
+           </div>
+           <div>Except where otherwise noted site content created by the o2r project is licensed under a Creative Commons Attribution 4.0 International License.</div>
       </div>
 
       <div class="attribution">
@@ -32,6 +32,10 @@
 
     {% include anchors.html %}
     {% comment %}{% include tracking.html %}{% endcomment %}
+
+    {% if page.content contains "<code>" %}
+      {% include clipping.html %}
+    {% endif %}
 
   </body>
 

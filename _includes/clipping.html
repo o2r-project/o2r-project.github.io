@@ -1,0 +1,23 @@
+<script src="{{ '/public/js/jquery.js' | absolute_url }}"></script>
+<script src="{{ '/public/js/clipboard.min.js' | absolute_url }}"></script>
+
+<script>
+    $(document).ready(function () {
+        // based on https://stackoverflow.com/a/48078807/261210
+
+        // get all <code> elements
+        var allCodeBlocksElements = $("pre > code");
+
+        allCodeBlocksElements.each(function (i) {
+            // add different id for each code block target	
+            var currentId = "codeblock" + (i + 1);
+            $(this).attr('id', currentId);
+
+            //trigger
+            var clipButton = '<button class="clip-btn" data-clipboard-target="#' + currentId + '" title="Copy code to clipboard">&nbsp;</button>';
+            $(this).before(clipButton);
+        });
+
+        new ClipboardJS('.clip-btn');
+    });
+</script>

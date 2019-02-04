@@ -106,6 +106,16 @@ img.center {
   margin: -0.3em 0.5em 0 0;
 }
 
+.clip-btn {
+  float: right;
+  border: 0;
+  background-color: white;
+  background: url(../images/clippy.svg);
+  background-size: cover;
+  width: 21px;
+  height: 25px;
+}
+
 .no_menu {
   margin-left: 1em;
   margin-right: 1em;
