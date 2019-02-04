@@ -1,22 +1,31 @@
 # based on https://jekyllrb.com/docs/continuous-integration/travis-ci/
-sudo: false
+sudo: true
 language: ruby
 rvm:
   - 2.4.1
 addons:
   apt:
+    sources:
+      - sourceline: 'ppa:ubuntu-sdk-team/ppa'
     packages:
       - python3-pip
       - libcurl4-openssl-dev
+      - xfonts-base
+      - xfonts-75dpi
+      - xvfb
+      - qt5-default
 
 script:
   - bundle exec jekyll build
 
 after_script:
+  - wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+  - sudo dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
   - pip3 install --user --upgrade pip
   - pip3 install --user requests
   - pip3 install --user coloredlogs
-  - make update_zenodo_deposit
+  - export DISPLAY=localhost:1.0
+  - xvfb-run make update_zenodo_deposit
 
 cache: bundler
 

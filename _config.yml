@@ -46,7 +46,6 @@ ribbon:
   text:   'Call for workspaces'
   url:    '/almost'
 
-# https://github.com/poole/poole/issues/112
 plugins:
   - jekyll-sitemap
   - jekyll-gist
