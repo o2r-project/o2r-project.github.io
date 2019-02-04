@@ -46,7 +46,7 @@ ribbon:
   text:   'Call for workspaces'
   url:    '/almost'
 
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
