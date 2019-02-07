@@ -3,6 +3,7 @@ layout: page
 title: Blogroll
 description: "Blogroll of the project Opening Reproducible Research: Docker, R, and reproducible research"
 exclude_from_all_pages: true
+no_citation: true
 ---
 
 <p class="message">
