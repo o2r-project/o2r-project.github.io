@@ -10,11 +10,11 @@ no_license: true
 Das Projekt Opening Reproducible Research ([o2r](https://o2r.info)) sucht zum nächstmöglichen Zeitpunkt **Studentische/Wissenschaftliche Hilfskräfte (m/w/d) zur Unterstützung unseres Teams**.
 
 o2r ist ein von der DFG gefördertes Forschungsprojekt und wird vom Institut für Geoinformatik (ifgi) und der Universitäts- und Landesbibliothek Münster (ulb) durchgeführt.
-Wir arbeiten an neuen Wegen zur Archivierung von und Interaktion mit wissenschaftlichen Forschungsergebnissen.
+Wir arbeiten an neuen Wegen wissenschaftliche Forschungsergebnisse zu veröffentlichen und zu präsentieren.
 Dazu entwickeln wir freie und Quelloffene Software [auf GitHub](https://github.com/o2r-project) und arbeiten mit international anerkannten Verlagen zusammen.
 Gemeinsam mit diesen Verlagen werden Sonderausgaben von wissenschaftlichen Zeitschriften veröffentlicht, die neben dem eigentlichen Text noch eine interaktive Komponente enthalten, sogenannte ausführbare Forschungskompendien (Executable Research Compendia - ERC), die Gutachtern und Lesern ein tieferes Verstehen des eingereichten bzw. veröffentlichten Artikels ermöglichen.
 
-Zu den Aufgaben gehören die Unterstützung und Beratung von Autoren beim Erstellen von ERC, das Testen der vom o2r Team enwickelten Software, und die Durchführung von Begleitstudien.
+Zu den Aufgaben gehören die Unterstützung und Beratung von Autoren beim Erstellen von ERCs, das Testen der vom o2r Team enwickelten Software, und die Durchführung von Begleitstudien.
 Bei Interesse ist auch eine Mitarbeit an der Neu- und Weiterentwicklung von Software, zum Beispiel in R, JavaScript, oder Python möglich.
 Der wöchentliche Arbeitsumfang beträgt 9 bis 19 Stunden.
 
