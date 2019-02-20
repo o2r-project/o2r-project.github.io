@@ -21,7 +21,7 @@ Der wöchentliche Arbeitsumfang beträgt 9 bis 19 Stunden.
 
 ## Profil & Bewerbung
 
-- Student_in der Geoinformatik ab dem 3. Semester (siehe Stellenauschreibung für [Geographie/Geowissenschaften/Landschaftsökologie](../hilfskraft-geolok))
+- Student_in der Geoinformatik/Informatik ab dem 3. Semester (siehe Stellenauschreibung für [Geographie/Geowissenschaften/Landschaftsökologie](../hilfskraft-geolok))
 - Erste Programmiererfahrungen (z.B. mit JavaScript, R, Python, oder objekt-orientierte Programmiersprachen wie Java, C#, oder golang), aber hauptsächlich Lust sich als Programmierer_in weiter zu entwickeln
 - Optional: Erfahrung mit Linux und Docker
 - Gute Englischkenntnisse in Wort und Schrift
