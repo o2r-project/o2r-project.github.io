@@ -15,18 +15,19 @@ addons:
       - xvfb
       - qt5-default
       - xkb-data
-      - xkeyboard-config
+      - x11-xkb-utils
 
 script:
   - bundle exec jekyll build
 
 after_script:
-  - wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
-  - sudo dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+  - wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
+  - sudo dpkg -i wkhtmltox_0.12.5-1.trusty_amd64.deb
   - pip3 install --user --upgrade pip
   - pip3 install --user requests
   - pip3 install --user coloredlogs
   - export DISPLAY=localhost:1.0
+  - export QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb
   - xvfb-run make update_zenodo_deposit
 
 cache: bundler
