@@ -30,13 +30,18 @@ class prettylog():
         return pprint.pformat(self.obj)
 
 # get the version of the current deposition and compare it with the latest blog post
-r_deposition = requests.get('%s?access_token=%s' % (deposition_url, token))
-deposition = json.loads(r_deposition.text)
-logging.debug('Current deposition:\n%s' % prettylog(deposition))
-if not 'version' in deposition['metadata']:
+r_main_deposition = requests.get('%s?access_token=%s' % (deposition_url, token))
+main_deposition = json.loads(r_main_deposition.text)
+logging.debug('Main deposition:\n%s' % prettylog(main_deposition))
+if not 'version' in main_deposition['metadata']:
     logging.error('Current deposition has no version, aborting.')
     sys.exit(0)
-published_version = time.strptime(deposition['metadata']['version'], '%Y-%m-%d')
+
+r_latest_deposition = requests.get('%s?access_token=%s' % (main_deposition['links']['latest'], token))
+latest_deposition = json.loads(r_latest_deposition.text)
+logging.debug('Latest deposition:\n%s' % prettylog(latest_deposition))
+
+published_version = time.strptime(latest_deposition['metadata']['version'], '%Y-%m-%d')
 post_dates = [time.strptime(x[:10], '%Y-%m-%d') for x in os.listdir('_posts')]
 newer_posts = [date for date in post_dates if date > published_version]
 if(len(newer_posts) < 1):
