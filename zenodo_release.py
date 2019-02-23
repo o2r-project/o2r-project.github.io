@@ -134,10 +134,10 @@ logging.info('Updated Metadata!\n%s' % (prettylog(json.loads(r_update.text))))
 #input('Go to https://zenodo.org/deposit/%s, set the version to >>> %s <<< and then publish it.' % (draft_url.rsplit('/', 1)[-1], date_string))
 
 # publish the updated deposit
-logging.info('Publishing deposition %s' % (draft_url))
-r_publish = requests.post('%s/actions/publish' % (draft_url), params = {'access_token': token})
-if r_publish.status_code != 202:
-    logging.critical('Error publishing new version: %s', r_publish.text)
-    sys.exit()
-logging.debug('Publishing response:\n%s' % (prettylog(json.loads(r_publish.text))))
-logging.info('Published! Go to %s' % (json.loads(r_publish.text)['links']['record_html']))
+#logging.info('Publishing deposition %s' % (draft_url))
+#r_publish = requests.post('%s/actions/publish' % (draft_url), params = {'access_token': token})
+#if r_publish.status_code != 202:
+#    logging.critical('Error publishing new version: %s', r_publish.text)
+#    sys.exit()
+#logging.debug('Publishing response:\n%s' % (prettylog(json.loads(r_publish.text))))
+#logging.info('Published! Go to %s' % (json.loads(r_publish.text)['links']['record_html']))
