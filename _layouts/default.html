@@ -14,20 +14,24 @@
     <div class="content container">
       {{ content }}
       
+      {% unless page.no_license %}
       <div class="attribution">
-           <div style="float: left; margin: 3px;">
-              <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-                <img alt="Creative Commons Licence" src="{{ '/public/images/88x31.png' | absolute_url }}" />
-              </a>
-           </div>
-           <div>Except where otherwise noted site content created by the o2r project is licensed under a Creative Commons Attribution 4.0 International License.</div>
-      </div>
-
-      <div class="attribution">
-          <p>Cite this blog post or page as
-            <code>{% if page.author %}{{ page.author }}.{% endif %}"{{ page.title }}" in Opening Reproducible Research: a research project website and blog. Daniel Nüst, Marc Schutzeichel, Markus Konkol (eds). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.1485437">10.5281/zenodo.1485437</a></code>
-          </p>
+        <div style="float: left; margin: 3px;">
+          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+            <img alt="Creative Commons Licence" src="{{ '/public/images/88x31.png' | absolute_url }}" />
+          </a>
         </div>
+        <div>Except where otherwise noted site content created by the o2r project is licensed under a Creative Commons Attribution 4.0 International License.</div>
+      </div>
+      {% endunless %}
+
+      {% unless page.no_citation %}
+      <div class="attribution">
+        <p>Cite this blog post or page as
+          <code>{% if page.author %}{{ page.author }}.{% endif %}"{{ page.title }}" in Opening Reproducible Research: a research project website and blog. Daniel Nüst, Marc Schutzeichel, Markus Konkol (eds). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.1485437">10.5281/zenodo.1485437</a></code>
+        </p>
+      </div>
+      {% endunless %}
     </div>
 
     {% include anchors.html %}
