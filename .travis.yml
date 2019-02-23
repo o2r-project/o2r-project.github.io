@@ -21,6 +21,7 @@ script:
   - bundle exec jekyll build
 
 after_script:
+  # TODO use patched qt with alpha release of wkhtmltopdf for outline to work
   - wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
   - sudo dpkg -i wkhtmltox_0.12.5-1.trusty_amd64.deb
   - pip3 install --user --upgrade pip
