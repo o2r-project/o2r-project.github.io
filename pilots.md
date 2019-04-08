@@ -30,3 +30,8 @@ Want to learn more? Join our public pilots chat: [![Gitter](https://badges.gitte
 ### We are looking for journals to participate in the Copernicus Publications Virtual Special Issue
 
 See the [Open Call for Participation in Virtual Special Issue for Reproducible Research](/public/download/o2r-vsi_editors-wanted_EGU2019.pdf).
+
+[![EGU 2019 Logo](https://contentmanager.copernicus.org/237990/600/ssl)](https://meetingorganizer.copernicus.org/EGU2019/session/34565)
+
+_Are you a journal editor and at the EGU General Assembly 2019?_
+Join the information session UMI17 [Inter-journal special issue for reproducible research using R](https://meetingorganizer.copernicus.org/EGU2019/session/34565) in room 3.29 on Thursday, 11 April, 15:45-16:30 hrs.
