@@ -22,7 +22,7 @@ exclude_from_all_pages: true
     <br />
     <i class="editor">{{publicationType}} {{journalName}} {{editor}}</i><i class="editor"> {{seriesTitle}} {{venue}} {{publicationYear}}</i>
     {{#hasISBN}}ISBN:&nbsp;{{isbn}};{{/hasISBN}}
-    {{#hasDoi}}<strong>doi:&nbsp;<a href="https://doi.org/{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
+    {{#hasDoi}}<strong>doi:&nbsp;<a href="{{#hasNoDoiUrl}}https://doi.org/{{/hasNoDoiUrl}}{{doi}}">{{doi}}</a></strong>;{{/hasDoi}}
     {{#hasURL}}<br><a href="{{url}}">{{url}}</a>{{/hasURL}}
 </li>
 {% endraw %}
@@ -193,6 +193,9 @@ parsePublications = function(data) {
                 isbn: isbn,
                 hasDoi: function() {
                     return doi.length != 0;
+                },
+                hasNoDoiUrl: function() {
+                    return !doi.includes('doi.org');
                 },
                 doi: doi,
                 hasURL: function() {
