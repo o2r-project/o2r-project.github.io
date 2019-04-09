@@ -41,14 +41,20 @@ o2r team members, supporting university staff, and external advisory board membe
 
 ### Team
 
+- Philipp Glahe (student assistant, 2019-04 to ..)
+- Nick Jakuschona (student assistant, 2019-04 to ..)
 - Dr. Stephanie Klötgen (ULB)
 - [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
-- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi) - _technical support_: `daniel.nuest@uni-muenster.de`
+- Tom Niers (student assistant, 2019-04 to ..)
+- [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
+- Qousef Qamaz (student assistant, 2019-05 to ..)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
+
+**Contact**: [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
 
 [<img src="/public/images/ulblogo.svg" height="80" style="float: left" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
 
