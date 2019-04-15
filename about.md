@@ -48,6 +48,7 @@ o2r team members, supporting university staff, and external advisory board membe
 ### Team
 
 - Philipp Glahe (student assistant, 2019-04 to ..)
+- Laura Goulier (student assistant, 2019-06 to ..)
 - Nick Jakuschona (student assistant, 2019-04 to ..)
 - Dr. Stephanie Klötgen (ULB)
 - [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
@@ -58,6 +59,7 @@ o2r team members, supporting university staff, and external advisory board membe
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
 - Qousef Qamaz (student assistant, 2019-05 to ..)
+- Saad Sarfraz (student assistant, 2019-06 to ..)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
 
 **Contact**: [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
