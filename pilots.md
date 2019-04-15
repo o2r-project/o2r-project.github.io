@@ -28,6 +28,7 @@ _The pilots will provide crucial data to learn about the costs and benefits of E
 Want to learn more? Join our public pilots chat: [![Gitter](https://badges.gitter.im/o2r-project/pilots.svg)](https://gitter.im/o2r-project/pilots?utm_source=badge&utm_medium=badge)
 
 ### We are looking for journals to participate in the Copernicus Publications Virtual Special Issue
+<a name="copernicus">
 
 See the [Open Call for Participation in Virtual Special Issue for Reproducible Research](/public/download/o2r-vsi_editors-wanted_EGU2019.pdf).
 
