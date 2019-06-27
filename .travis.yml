@@ -1,0 +1,38 @@
+# based on https://jekyllrb.com/docs/continuous-integration/travis-ci/
+sudo: true
+language: ruby
+rvm:
+  - 2.4.1
+addons:
+  apt:
+    sources:
+      - sourceline: 'ppa:ubuntu-sdk-team/ppa'
+    packages:
+      - python3-pip
+      - libcurl4-openssl-dev
+      - xfonts-base
+      - xfonts-75dpi
+      - xvfb
+      - qt5-default
+      - xkb-data
+      - x11-xkb-utils
+
+script:
+  - bundle exec jekyll build
+
+after_script:
+  # TODO use patched qt with alpha release of wkhtmltopdf for outline to work
+  - wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
+  - sudo dpkg -i wkhtmltox_0.12.5-1.trusty_amd64.deb
+  - pip3 install --user --upgrade pip
+  - pip3 install --user requests
+  - pip3 install --user coloredlogs
+  - export DISPLAY=localhost:1.0
+  - export QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb
+  - xvfb-run make update_zenodo_deposit
+
+cache: bundler
+
+env:
+  global:
+    - secure: "KfPoMcJAq74UEb9g5FJ0aRWKOFqYC76HgyObxRg3d/ZQAnb1zu7iytPU0MBOzn0YocTe/e07yJyL9TH7nVjSVI+BfRK5ibm74yEAiyHJxVEDBjC/XAjVEchawI3LnEDsox+dRFgaGF98/0zxA/nGIAaB3YYpedNj7QLis2stMq2O69+aR6aJo9gdbsbH/P58hoE70D4py5rMAyzEUY37Bk3y7FAbl/TvrD1ZyOYDAleN7OJ9PEsta1d7lRQ+2sNFFoiYRJF5LI/OmXKY2/9fADk3vFct3x0K8OtAf2ZMlhE1M94htqewyhuMQ0aGzYaFRjF9bY0kCQC2ECfC4/8jm+0sMVF1fyFI9E3DWCkyA3s/PuruKNpWK6YM8OQ4Wrinw606cw+6DqN0aZ8Om6MMlWv6RiHGXrop+ylTOLDkHVUP3ifJ/lFi0d9CeGpCjhkX8vumd2M/G3FzKLORZGgTD2kVfFyM8DZw+szD34pN9lGFJz6Q0NglULbi/u+V78SjlJ8WQb8/iHNT6l7IL24+5PDk4vMMkclCAykHKhaaVbacbUrpt7j6Csqu8kDARM6KHl9+7B1GmuClBTTcGG2vs4qoWzz6SPZKLHoUNdJNb4P21TA3kqa7WmSaN1IcraLcVPt35YJJti+RCmV2dXpHizCiWn7tRoKWTqL5UGIUPC0="

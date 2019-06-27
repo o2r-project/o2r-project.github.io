@@ -21,7 +21,7 @@ See the [full session description](http://meetingorganizer.copernicus.org/EGU201
 
 _Please register for the short course for free_ by filling in your name and email in this Doodle poll: [http://doodle.com/poll/2yvi7y9tine2x3pf](http://doodle.com/poll/2yvi7y9tine2x3pf).
 
-Earlier this year we also announced a [call for a session on reproducibility at EGU general assembly](http://o2r.info/2016/11/09/egu-ga-session-call/).
+Earlier this year we also announced a [call for a session on reproducibility at EGU general assembly](/2016/11/09/egu-ga-session-call/).
 The contributions to this session was merged with other sessions to create the session **IE2.4/ESSI3.10 Open Data, Reproducible Research, and Open Science**, see [session description in the EGU GA programme](http://meetingorganizer.copernicus.org/EGU2017/session/23924).
 
 The session programme will be published March 1st, 2017, so stay tuned for the official announcements.
