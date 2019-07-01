@@ -6,6 +6,7 @@ categories:
   - AGILE
   - workshop
   - conference
+  - Lund
 author: 'Daniel Nüst'
 disable_excerpt: true
 ---
