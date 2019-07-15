@@ -25,10 +25,10 @@ Once researchers found a suitable paper, they can continue with inspecting it. P
 #### Manipulation
 Many results in scientific papers are based on computational analyses. These calculations often include parameters which were set in a specific way by the author of the article. For example, a model that computes the damage costs caused by a flood strongly depends on the flow velocity (see [Dottori et al., 2016](https://doi.org/10.5194/nhess-16-2577-2016)) of the water. It is difficult to show in static papers, how changes to the flow velocity affect the final damage costs. One idea to solve this issue is an interactive figure. Readers and Reviewers can, for example, use a slider to change the parameter value interactively.
 
-![](https://media.giphy.com/media/2YpQm0zBnv0I86uAa6/giphy.gif)
-
 #### Substitution
 Finally, other researchers can substitute, for instance, the original dataset by an own compatible dataset. This opportunity not only makes other researchers' life easier as they can reuse existing materials, but might also bring citations, co-authorships, and cooperations for the original author.
+
+![](https://media.giphy.com/media/2YpQm0zBnv0I86uAa6/giphy.gif)
 
 #### +1
 So who is this workflow steps’ +1?
