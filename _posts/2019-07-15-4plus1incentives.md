@@ -39,4 +39,4 @@ In the paper, we argue that each of the steps contribute to a reader’s underst
 
 You think that this was nice to read but difficult to realize? Correct, it is. And that is why the o2r team works hard to make the five incentives easier to achieve and received funding for two more years.
 
-[![workflow](../public/images/workflow.jpeg)](/public/images/workflow.jpeg)
+[![workflow](/public/images/workflow.jpeg)](/public/images/workflow.jpeg)
