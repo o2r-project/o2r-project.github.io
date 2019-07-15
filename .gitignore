@@ -47,3 +47,4 @@ Gemfile.lock
 .vscode/settings.json
 
 o2r_project_website_and_blog\.pdf
+.Rhistory
