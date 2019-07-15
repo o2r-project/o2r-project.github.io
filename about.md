@@ -85,13 +85,19 @@ o2r team members, supporting university staff, and external advisory board membe
 The o2r project is connected to external partners since its inception, and the group has been extended since then.
 They come from different disciplines and provide valuable feedback on project plans and decisions.
 
-- [<img src="https://www.copernicus.org/logo_copernicus_publications_rgb.png" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
-- [<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)[Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
-- [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)[<img src="/public/images/spatial-ucsb-logo.jpg" style="float:right;" height="40" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/)
-- [<img src="http://www.ojs-de.net/_design_media/logo_ojs_de_720.png" style="float:right;" width="60" alt="OJS-de.net Logo" />](http://www.ojs-de.net/) Dr. Albert Geukes, [CeDIS](https://www.cedis.fu-berlin.de/), FU Berlin, Germany & [OJS-de.net](http://www.ojs-de.net/)
-- [<img src="https://www.uu.nl/medewerkers/static/img/logo.27b569c.svg" style="float:right;" width="100" alt="Universiteit Utrecht Logo" />](https://www.uu.nl/)[Dr. Simon Scheider](https://www.uu.nl/staff/SScheider/Profile), Department of Human Geography and Spatial Planning, Universiteit Utrecht, The Netherlands
-- [<img src="https://www.zib.de/sites/all/themes/zib/images/zib_logo_header.png" style="float:right; background: #04879F;" height="50" alt="ZIB Logo" />](https://www.zib.de)[Dr. Wolfgang Peters-Kottig](https://www.zib.de/members/peters-kottig), Konrad-Zuse-Zentrum für Informationstechnik, Berlin, Germany
-- Laura Hassink, Senior Vice President Publishing Transformation at RELX (previously [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) - Director of Product Management, Enriched Content at Elsevier; [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) - Head of Content Innovation, Elsevier) [<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="80" alt="Elsevier Logo" />](http://elsevier.com/)
+[<img src="https://www.copernicus.org/logo_copernicus_publications_rgb.png" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
+
+[<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)[Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
+
+[<img src="/public/images/spatial-ucsb-logo.jpg" style="float:right;" height="40" alt="Spatial@UCSB Logo" />](http://spatial.ucsb.edu/) [Prof. Dr. Werner Kuhn](http://geog.ucsb.edu/~kuhn/) (Center for Spatial Studies, University of California Santa Barbara, Santa Barbara, CA)
+
+[<img src="https://www.ojs-de.net/fileadmin/logos/logo-ojs-deDOTnet.svg" style="float:right;" width="60" alt="OJS-de.net Logo" />](http://www.ojs-de.net/) Dr. Albert Geukes, [CeDIS](https://www.cedis.fu-berlin.de/), FU Berlin, Germany & [OJS-de.net](http://www.ojs-de.net/)
+
+[<img src="https://www.uu.nl/medewerkers/static/img/logo.27b569c.svg" style="float:right;" width="100" alt="Universiteit Utrecht Logo" />](https://www.uu.nl/)[Dr. Simon Scheider](https://www.uu.nl/staff/SScheider/Profile), Department of Human Geography and Spatial Planning, Universiteit Utrecht, The Netherlands
+
+[<img src="https://www.zib.de/sites/all/themes/zib/images/zib_logo_header.png" style="float:right; background: #04879F;" height="50" alt="ZIB Logo" />](https://www.zib.de)[Dr. Wolfgang Peters-Kottig](https://www.zib.de/members/peters-kottig), Konrad-Zuse-Zentrum für Informationstechnik, Berlin, Germany
+
+[<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="80" alt="Elsevier Logo" />](http://elsevier.com/) Laura Hassink, Senior Vice President Publishing Transformation at RELX (previously [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) - Director of Product Management, Enriched Content at Elsevier; [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) - Head of Content Innovation, Elsevier)
 
 <div style="clear: both;"></div>
 
