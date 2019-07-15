@@ -1,10 +1,9 @@
 ---
 layout: page
-title: ERC Pilots
+title: Pilots
 categories:
   - pilots
   - o2r2
-exclude_from_nav: true
 ---
 
 The first objective of the second phase of Opening Reproducible Research (o2r) is _"Use ERCs for actual scientific publications"_.
@@ -26,6 +25,10 @@ The pilots are accompanied by monitoring and user studies.
 _The pilots will provide crucial data to learn about the costs and benefits of ERC-based research publications._
 
 Want to learn more? Join our public pilots chat: [![Gitter](https://badges.gitter.im/o2r-project/pilots.svg)](https://gitter.im/o2r-project/pilots?utm_source=badge&utm_medium=badge)
+
+### We are looking for journals to participate in an Elsevier Virtual Special Issue
+
+See the [informative leaflet for a virtual special issue for Elsevier journals based on containers and R](/public/download/o2r-vsi_elsevier-pilot.pdf).
 
 ### We are looking for journals to participate in the Copernicus Publications Virtual Special Issue
 <a name="copernicus">

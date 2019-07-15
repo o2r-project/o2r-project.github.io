@@ -122,3 +122,7 @@ img.center {
   width: auto;
   max-width: 100%;
 }
+
+blockquote.abstract {
+  display:none;
+}
