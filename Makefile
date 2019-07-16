@@ -20,7 +20,7 @@ build: clean
 save_all_content_to_pdf:
 	wkhtmltopdf \
 	--outline \
-	--javascript-delay 10000 --no-stop-slow-scripts \
+	--javascript-delay 20000 --no-stop-slow-scripts \
 	--margin-top 20mm \
 	--margin-bottom 20mm \
 	--footer-html http://127.0.0.1:4000/public/pdf_footer.html \
