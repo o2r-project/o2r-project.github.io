@@ -6,6 +6,7 @@ categories:
   - presentation
   - video
   - slides
+author: 'Daniel Nüst'
 ---
 
 In the last two days o2r team member [Daniel](https://nordholmen.net) participated in a workshop organized by the project "Data and Software Preservation Open Science" ([DASPOS](https://daspos.crc.nd.edu)) at the University of Notre Dame, USA.

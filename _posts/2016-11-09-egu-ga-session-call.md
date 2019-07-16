@@ -5,6 +5,7 @@ categories:
   - conference
   - EGU
   - call
+author: 'Daniel Nüst'
 ---
 
 We are happy to announce that a session convened by o2r team member [Edzer Pebesma](http://orcid.org/0000-0001-8049-7069) along with co-conveners [Yolanda Gil](http://orcid.org/0000-0001-8465-8341), [Kerstin Lehnert](http://www.ldeo.columbia.edu/user/lehnert), [Jens Klump](http://orcid.org/0000-0001-5911-6022), [Martin Hammitzsch](https://www.linkedin.com/in/martinhammitzsch), and [Daniel Nüst](http://orcid.org/0000-0002-0024-5046) was accepted at [next year's European Geosciences Union General Assembly](http://egu2017.eu).

@@ -5,6 +5,7 @@ categories:
   - implementation
   - orcid
   - node.js
+author: 'Daniel Nüst, Jan Koppe'
 ---
 
 With the University in a rather calm state during summer, the o2r team continues to work on the first prototypes for testing and demonstrating our ideas. This is the first post on a technical topic, and we will occasionally write about topics that are not related to the scientific work but either kept us busy for some time or might be useful to others.
