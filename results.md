@@ -4,7 +4,7 @@ title: Results
 description: Project results
 ---
 
-_Please find a complete list of publications and presentations on the [publications page](/publications)_.
+_Please find a complete list of publications, talks and posters on the [publications page](/publications) and respective files in the [o2r community on Zenodo](https://zenodo.org/communities/o2r/)_.
 
 ## Specifications & documentation
 
