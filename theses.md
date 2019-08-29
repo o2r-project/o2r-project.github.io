@@ -11,6 +11,7 @@ categories:
   - BSc
   - MSc
   - GeoTech
+exclude_from_all_pages: true
 ---
 
 <script type="text/javascript" src="{{ '/public/js/jquery.js' | absolute_url }}"></script>

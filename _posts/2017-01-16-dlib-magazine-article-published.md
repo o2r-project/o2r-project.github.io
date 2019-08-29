@@ -7,6 +7,7 @@ categories:
   - open access
   - workshop
 disable_excerpt: true
+author: 'Daniel Nüst'
 ---
 
 ![article cover screenshot](/public/images/2017-01_d-lib-magazine-cover.jpg "screenshot of article at D-Lib Magazine website"){:width="300" .img.rightfloat}

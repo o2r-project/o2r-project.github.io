@@ -5,6 +5,7 @@ categories:
   - survey
 disable_excerpt: true
 disable_comments: true
+author: 'Markus Konkol'
 ---
 
 Getting user input and evaluating our ideas is a crucial part of the project. Therefore, starting today, we run an **[online questionnaire][surveylink]** investigating user interaction in the context of reproducible research. The survey is also advertised [this week at the EGU General Assembly]({% post_url 2016-04-08-o2r-at-EGU %}).

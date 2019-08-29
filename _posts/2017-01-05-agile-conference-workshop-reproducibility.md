@@ -7,6 +7,7 @@ categories:
   - GIScience
   - call
   - conference
+author: 'Daniel Nüst'
 ---
 
 We are happy to announce that a pre-conference workshop ["Reproducible Computational Geosciences"](https://o2r.info/agile-2017/) at the [20th AGILE International Conference on Geographic Information Science](https://agile-online.org/index.php/home-2017) will be held on May 9 2017 in Wageningen, The Netherlands.

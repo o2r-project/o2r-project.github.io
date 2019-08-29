@@ -5,6 +5,7 @@ categories:
   - workshop
   - partners
   - report
+author: 'Daniel Nüst, Markus Konkol, Marc Schutzeichel'
 ---
 
 Yesterday the [o2r team](/about) met [for the second time](/2016/06/07/workshop-external-partners/) with a group of experts to request feedback on the state of the project.
