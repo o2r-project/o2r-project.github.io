@@ -391,7 +391,7 @@ $(document).ready(function(){
 <div id="publications">
     <ul id="publicationlist">
         <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
-        <li>If loading does not work, please visit <strong><a href="https://www.uni-muenster.de/forschungaz/project/9520">https://www.uni-muenster.de/forschungaz/project/9520</a></strong> and <strong><a href="https://www.uni-muenster.de/forschungaz/project/12343">https://www.uni-muenster.de/forschungaz/project/12343</a></strong>.</li>
+        <li>If loading the publications does not work, please check your adblockers and privacy plug-ins - they must allow requests to o2r.uni-muenster.de. Alternatively visit <strong><a href="https://www.uni-muenster.de/forschungaz/project/9520">https://www.uni-muenster.de/forschungaz/project/9520</a></strong> and <strong><a href="https://www.uni-muenster.de/forschungaz/project/12343">https://www.uni-muenster.de/forschungaz/project/12343</a></strong>.</li>
     </ul>
 </div>
 
@@ -401,7 +401,7 @@ $(document).ready(function(){
 <div id="talks">
     <ul id="talklist">
         <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
-        <li>If loading does not work, please visit <strong><a href="https://www.uni-muenster.de/forschungaz/project/9520">https://www.uni-muenster.de/forschungaz/project/9520</a></strong> and <strong><a href="https://www.uni-muenster.de/forschungaz/project/12343">https://www.uni-muenster.de/forschungaz/project/12343</a></strong>.</li>
+        <li>If loading the talks does not work, please check your adblockers and privacy plug-ins - they must allow requests to o2r.uni-muenster.de. Alternatively visit <strong><a href="https://www.uni-muenster.de/forschungaz/project/9520">https://www.uni-muenster.de/forschungaz/project/9520</a></strong> and <strong><a href="https://www.uni-muenster.de/forschungaz/project/12343">https://www.uni-muenster.de/forschungaz/project/12343</a></strong>.</li>
     </ul>
 </div>
 
