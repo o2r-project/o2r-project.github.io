@@ -47,7 +47,7 @@ Join the information session UMI17 [Inter-journal special issue for reproducible
 ### We are open for collaboration around OJS journals
 <a name="ojs">
 
-The first plans for self-hosted pilot based on OJS are described in this blog post: [https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/](https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/)
+The first plans for the self-hosted pilot based on OJS are described in this blog post: [https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/](https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/)
 
 The self-hosted pilot will be used to investigate the impact of ERCs on understanding by preparing articles used in education as an ERC as a replacement or complement to reading material in a geoinformatics seminar.
 
