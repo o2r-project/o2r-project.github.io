@@ -4,6 +4,9 @@ title: Pilots
 categories:
   - pilots
   - o2r2
+  - OJS
+  - Elsevier
+  - Copernicus
 ---
 
 The first objective of the second phase of Opening Reproducible Research (o2r) is _"Use ERCs for actual scientific publications"_.
@@ -27,6 +30,7 @@ _The pilots will provide crucial data to learn about the costs and benefits of E
 Want to learn more? Join our public pilots chat: [![Gitter](https://badges.gitter.im/o2r-project/pilots.svg)](https://gitter.im/o2r-project/pilots?utm_source=badge&utm_medium=badge)
 
 ### We are looking for journals to participate in an Elsevier Virtual Special Issue
+<a name="elsevier">
 
 See the [informative leaflet for a virtual special issue for Elsevier journals based on containers and R](/public/download/o2r-vsi_elsevier-pilot.pdf).
 
@@ -39,3 +43,12 @@ See the [Open Call for Participation in Virtual Special Issue for Reproducible R
 
 _Are you a journal editor and at the EGU General Assembly 2019?_
 Join the information session UMI17 [Inter-journal special issue for reproducible research using R](https://meetingorganizer.copernicus.org/EGU2019/session/34565) in room 3.29 on Thursday, 11 April, 15:45-16:30 hrs.
+
+### We are open for collaboration around OJS journals
+<a name="ojs">
+
+The first plans for self-hosted pilot based on OJS are described in this blog post: [https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/](https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/)
+
+The self-hosted pilot will be used to investigate the impact of ERCs on understanding by preparing articles used in education as an ERC as a replacement or complement to reading material in a geoinformatics seminar.
+
+_We are looking for feedback on these plans and are open for collaboration with OJS developers and OJS journal maintainers who are interested in enhanced publications powered by OJS._
