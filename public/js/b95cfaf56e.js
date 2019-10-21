@@ -6,10 +6,8 @@ window.FontAwesomeCdnConfig = {
     enabled: false,
   },
   reporting: {
-    
-    enabled: true,
+    enabled: false,
     domains: "localhost, *.dev"
-    
   },
   useUrl: "use.fontawesome.com",
   faCdnUrl: "https://cdn.fontawesome.com:443",
