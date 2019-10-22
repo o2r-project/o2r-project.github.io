@@ -143,7 +143,5 @@ As you may have noticed, some of the features we plan to implement for ERCs migh
 We can imagine several plug-ins could be extracted from the ERC plugin [as described above](#procedure), depending on time left in our schedule and interest by other OJS users/developers.
 _What do you think?_
 
-Please do not hesitate to comment on this blogpost with your ideas and questions.
-We would be pleased about any feedback. 
-
-
+Please do not hesitate to comment on this blogpost with your ideas and questions, either below or in a [related thread in the PKP Community Forum](https://forum.pkp.sfu.ca/t/opening-reproducible-research-with-ojs-plug-in/56336).
+We would be pleased to learn about your ideas and receive your feedback.
