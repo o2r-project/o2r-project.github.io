@@ -6,3 +6,14 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 </div>
+
+{% unless page.no_citation %}
+  {% assign current_year = page.date | date: "%Y" %}
+  {% if current_year == "" or current_year == nil %}
+    {% assign current_year = "2019" %}
+  {% endif %}
+  <div class="attribution">
+    <p>Cite this page as <code>{% if page.author %}{{ page.author }}. {% endif %}"{{ page.title }}" ({{ current_year }}) in Opening Reproducible Research: a research project website and blog. Daniel Nüst, Marc Schutzeichel, Markus Konkol (eds). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.1485437">10.5281/zenodo.1485437</a></code>
+    </p>
+  </div>
+{% endunless %}
