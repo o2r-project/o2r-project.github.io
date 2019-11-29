@@ -21,19 +21,7 @@
             <img alt="Creative Commons Licence" src="{{ '/public/images/88x31.png' | absolute_url }}" />
           </a>
         </div>
-        <div>Except where otherwise noted site content created by the o2r project is licensed under a Creative Commons Attribution 4.0 International License.</div>
-      </div>
-      {% endunless %}
-
-      {% unless page.no_citation %}
-      {% assign current_year = page.date | date: "%Y" %}
-      {% if current_year == "" or current_year == nil %}
-        {% assign current_year = "2019" %}
-      {% endif %}
-      <div class="attribution">
-        <p>Cite this blog post or page as
-          <code>{% if page.author %}{{ page.author }}. {% endif %}"{{ page.title }}" ({{ current_year }}) in Opening Reproducible Research: a research project website and blog. Daniel Nüst, Marc Schutzeichel, Markus Konkol (eds). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.1485437">10.5281/zenodo.1485437</a></code>
-        </p>
+        <div>Except where otherwise noted site content created by the o2r project is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
       </div>
       {% endunless %}
     </div>

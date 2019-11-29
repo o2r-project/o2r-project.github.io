@@ -9,7 +9,12 @@ categories:
 author: 'Daniel Nüst'
 ---
 
-_This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**. Last update: 11 Jan 2018._
+<div style="border: 2px solid #CE5100; background-color: #ffe2d4; padding: 1em; margin: 1em 0;">
+<em>This post</em> used to be <em>updated regularly with new packages and projects.</em>
+But it is not anymore, because a collaborative paper is under development, see <a href="https://github.com/nuest/rockerverse-paper/" title="Rockerverse paper repository on GitHub">https://github.com/nuest/rockerverse-paper/</a>.
+</div>
+
+_~~This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**.~~ Last update: 11 Jan 2018._
 
 Docker and R: How are they used and could they be used together?
 That is the question that we regularly ask ourself.
