@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshop zum Thema offene reproduzierbare Forschung
+title: Workshop
 description: Workshop on open reproducible research at the university of Muenster
 ---
 
