@@ -15,12 +15,12 @@ Das Team des Projekts **o2r** (Offene Reproduzierbare Forschung, Opening Reprodu
 Viele wissenschaftliche Artikel sind nicht reproduzierbar. Häufig fehlen der Quelltext oder die Daten.
 Und selbst wenn beides zugänglich ist, kann es an technischen Schwierigkeiten scheitern.
 Das wird spätestens dann zum Problem, wenn Gutachter\*innen eine Analyse verfizieren möchten oder andere Forscher\*innen auf bereits existierenden Materialien aufbauen möchten.
-Im Projekt o2r veruschen wir seit 2016 Lösungen zu entwickeln, um Wissenschaftler\*innen dabei zu unterstützen, ihre Forschungsmaterialen reproduzierbar zu veröffentlichen.
+Im Projekt o2r versuchen wir seit 2016 Lösungen zu entwickeln, um Wissenschaftler\*innen dabei zu unterstützen, ihre Forschungsmaterialen reproduzierbar zu veröffentlichen.
 Für die Weiterentwicklung und -verbreitung unserer Ideen ist ein enger Austausch mit unserer Zielgruppe essenziell.
 
 ## Wer
 
-Wir möchten mit diesem Workshop vor allem _Professoren\*innen und Postdocs_ ansprechen, die sich über den aktuellen Stand der Technik und existierenden Infrastrukturen informieren.
+Wir möchten mit diesem Workshop vor allem _Professoren\*innen und Postdocs_ ansprechen, die sich über den aktuellen Stand der Technik und existierenden Infrastrukturen informieren möchten.
 Wir sind aber auch sehr an einem generellen Austausch zum Thema Reproduzierbarkeit interessiert.
 Auch möchten wir die Gelegenheit nutzen, gemeinsame Ziele für die WWU zu definieren und Möglichkeiten der Zusammenarbeit zu finden.
 
