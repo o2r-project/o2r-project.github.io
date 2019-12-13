@@ -2,8 +2,8 @@
 layout: page
 title: WWU Workshop<br /><em>"Reproduzierbare computer-basierte Forschung"</em>
 description: Workshop on open reproducible research at the university of Muenster
-exclude_from_all_pages: true
 no_citation: true
+exclude_from_nav: true
 ---
 
 ## Was
