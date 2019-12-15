@@ -14,6 +14,12 @@ author: 'Lukas Lohoff, Daniel Nüst'
 
 *This blog post presents work based on the study project [Badges for computational geoscience containers](https://zivgitlab.uni-muenster.de/geocontainer-badges) at [ifgi](https://www.uni-muenster.de/Geoinformatics/). We thank the [project team](https://github.com/o2r-project/o2r-badger#contributors) for their valuable contributions!*
 
+<div style="padding: 1em; border: 2px solid #008643; background: #f3f5f7;">
+This blog post was extended and presented and published as a peer-reviewed short paper at the <a href="https://agile-online.org//conference-2019">AGILE Conference 2019</a>. <b>Find the article <a title="article on EarthArXiv" href="https://eartharxiv.org/xtsqh/">here on EarthArXiv</a> and the presentation <a title="paper presentation slides" href="https://osf.io/549a6/">here on OSF</a></b>. The citation is
+
+<pre>Nüst, Daniel, Lukas Lohoff, Lasse Einfeldt, Nimrod Gavish, Marlena Götza, Shahzeib T. Jaswal, Salman Khalid, et al. 2019. “Guerrilla Badges for Reproducible Geospatial Data Science (AGILE 2019 Short Paper).” EarthArXiv. June 19. doi:10.31223/osf.io/xtsqh.</pre>
+</div>
+
 ## Introduction
 
 Today badges are widely used in open source software repositories. They have a high recognition value and consequently provide an easy and efficient way to convey up-to-date metadata. Version numbers, download counts, test coverage or container image size are just a few examples. The website [Shields.io](https://shields.io) provides many types of such badges. It also has an API to generate custom ones.
