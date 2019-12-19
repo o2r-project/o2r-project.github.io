@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WWU Workshop<br /><em>"Reproduzierbare computer-basierte Forschung"</em>
+title: WWU Workshop<br /><em>"Reproduzierbare Forschung"</em>
 description: Workshop on open reproducible research at the university of Muenster
 no_citation: true
 exclude_from_nav: true
@@ -8,63 +8,56 @@ exclude_from_nav: true
 
 ## Was
 
-Das Team des Projekts **o2r** (Offene Reproduzierbare Forschung, Opening Reproducible Research, [o2r.info](https://o2r.info)) organisiert einen Workshop zum Thema Reproduzierbarkeit von Analysen, die auf Quellcode (z.B. in R oder Python) und Daten basieren. 
+Das Team des Projekts **o2r** (Offene Reproduzierbare Forschung, Opening Reproducible Research, [o2r.info](https://o2r.info)) organisiert einen Workshop zum Thema Reproduzierbarkeit von Analysen, die auf Software und Daten basieren. 
  
 ## Warum
 
-Viele wissenschaftliche Artikel sind nicht reproduzierbar. Häufig fehlen der Quelltext oder die Daten.
+Viele wissenschaftliche Artikel sind nicht reproduzierbar.
+Häufig fehlen der Quelltext oder die Daten.
 Und selbst wenn beides zugänglich ist, kann es an technischen Schwierigkeiten scheitern.
 Das wird spätestens dann zum Problem, wenn Gutachter\*innen eine Analyse verfizieren möchten oder andere Forscher\*innen auf bereits existierenden Materialien aufbauen möchten.
+Diese Problematik führt dazu, dass auch Fördermittel nicht mehr bewilligt werden ohne dass Anträge klare Pläne zu Datenveröffentlichung und Softwareveröffentlichung beinhalten.
+
 Im Projekt o2r versuchen wir seit 2016 Lösungen zu entwickeln, um Wissenschaftler\*innen dabei zu unterstützen, ihre Forschungsmaterialen reproduzierbar zu veröffentlichen.
-Für die Weiterentwicklung und -verbreitung unserer Ideen ist ein enger Austausch mit unserer Zielgruppe essenziell.
+Unser Wissen und unsere Erfahrungen wollen wir nutzen um die Reproduzierbarkeit und damit die Qualität und Konkurrenzfähigkeit von Forschungsvorhaben aller Fachrichtungen an der WWU positiv zu beeinflussen.
 
 ## Wer
 
-Wir möchten mit diesem Workshop vor allem _Professoren\*innen und Postdocs_ ansprechen, die sich über den aktuellen Stand der Technik und existierenden Infrastrukturen informieren möchten.
-Wir sind aber auch sehr an einem generellen Austausch zum Thema Reproduzierbarkeit interessiert.
-Auch möchten wir die Gelegenheit nutzen, gemeinsame Ziele für die WWU zu definieren und Möglichkeiten der Zusammenarbeit zu finden.
+Wir möchten mit diesem Workshop vor allem _Professoren\*innen und Postdocs_ ansprechen, die sich zum einen über den aktuellen Stand der Technik und existierenden Infrastrukturen informieren möchten, zum anderen aber auch an einem generellen Austausch zum Thema Reproduzierbarkeit interessiert sind und über gemeinsame Ideen und Herausforderungen neue Projektideen und Projektpartner entdecken wollen.
 
-_Wir freuen uns über Ihre Idee und ihren Beitrag zum Workshop!_
+_Wir freuen uns auch auf Ihre Idee für einen Beitrag zum Workshop!_
 
 ## Wann und Wo
 
-Der Workshop wird am Dienstag, den **11.02.2020** stattfinden und Mittags beginnen.
+Der Workshop wird am Dienstag, den **11.02.2020**, im _GEO I_, Heisenbergstr. 2, stattfinden und Mittags beginnen.
 
-Die genau Uhrzeit, die Agenda, und der Veranstaltungsort werden hier zu Jahresbeginn bekannt gegeben sobald erste Abschätzungen der Teilnehmerzahl vorliegen.
+Die genau Uhrzeit, die Agenda, und der Raum werden hier Mitte Januar bekannt gegeben sobald die Teilnehmerzahl vorliegt.
 
 ## Anmeldung
 
-Damit wir die weitere Planung organisieren können, möchten wir alle Interessierten bitten, sich bis Ende Dezember 2019 unverbindlich anzumelden:
+Damit wir die weitere Planung organisieren können, möchten wir alle Interessierten bitten, sich bis zum 15. Januar 2019 unverbindlich anzumelden:
 
 [**Online-Anmeldung**](https://terminplaner4.dfn.de/udHaoCTmfBClDscmqixgjwQi/admin)
 
 ## Vorläufiger Ablaufplan
 
-1. Einstieg 
-  - Anlass/Motivation
-  - Semantik und Begriffe
-2. Open research infrastructure geoinformatics
-3. State of the art
-  - Executible Research Compendia
-  - Binder
-  - GitLab + CI
-  - R Markdown
-  - Jupyter
-4. Kurzvorträge
-  - Reproduzierbarkeit an der WWU - Krise oder Chance?  
-  - Reproduzierbarkeit im Alltag
-  - Research Software Engineering
-  - Perspektive eines Partnerverlags (Copernicus Publications)
-  - Transparenz und Effektivität
-  - Preregistration und Open review
-5. Fragen und Diskussion
-  - Bedarfe
-  - Pläne
-6. Podiumsdikussion
-   _**Reproduzierbarkeit an der WWU in 10 Jahren - wo wollen wir stehen?**_
-7. Ausklang 
-  - nächste Schritte
-  - Feedback
+Beginn: 13 Uhr
+
+1. **Einführung** (Anlass, Motivation, Semantik und Begriffe, Reproduzierbarkeit - Krise oder Chance?)
+1. **Praktische Reproduzierbarkeit** - State of the art
+  - o2r's Executable Research Compendia und Fallstudie _Open Research Infrastructure Geoinformatics_
+  - Interaktive Notebooks (R Markdown, Jupyter)
+  - Offene Infrastrukturen (Binder, Git{Hub,Lab}, OSF, ...)
+  - Reproduzierbarkeit im Alltag - _"Transparenz = Effektivität"_
+  - Infrastruktur an der WWU
+  - Reproduzierbarkeit im Peer Review
+1. Pause
+1. **Förderstrategische Diskussion** (ca. 15 Uhr)
+  - Keine erfolgreichen Projekte ohne Reproduzierbarkeit!?
+  - Anforderungen von Förderinstitutionen und Zeitschriften
+  - Ansatzpunkte für Individuen - Was kann ich tun?
+  - _Reproduzierbarkeit an der WWU in 10 Jahren - wo wollen wir stehen?_
+1. **Ideenentwicklung für gemeinsame Anträge**
 
 Ende: 18 Uhr
 

@@ -97,7 +97,7 @@ They come from different disciplines and provide valuable feedback on project pl
 
 [<img src="https://www.zib.de/sites/all/themes/zib/images/zib_logo_header.png" style="float:right; background: #04879F;" height="50" alt="ZIB Logo" />](https://www.zib.de)[Dr. Wolfgang Peters-Kottig](https://www.zib.de/members/peters-kottig), Konrad-Zuse-Zentrum für Informationstechnik, Berlin, Germany
 
-[<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="80" alt="Elsevier Logo" />](http://elsevier.com/) Laura Hassink, Senior Vice President Publishing Transformation at RELX (previously [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) - Director of Product Management, Enriched Content at Elsevier; [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) - Head of Content Innovation, Elsevier)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Elsevier.svg/218px-Elsevier.svg.png" style="float:right;" width="80" alt="Elsevier Logo" />](http://elsevier.com/) Laura Hassink, Senior Vice President Publishing Transformation at RELX (previously [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) - Director of Product Management, Enriched Content at Elsevier; [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) - Head of Content Innovation, Elsevier)
 
 <div style="clear: both;"></div>
 
