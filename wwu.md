@@ -35,7 +35,7 @@ Die genau Uhrzeit, die Agenda, und der Raum werden hier Mitte Januar bekannt geg
 
 ## Anmeldung
 
-Damit wir die weitere Planung organisieren können, möchten wir alle Interessierten bitten, sich bis zum 22. Januar 2019 unverbindlich anzumelden:
+Damit wir die weitere Planung organisieren können, möchten wir alle Interessierten bitten, sich bis zum 22. Januar 2020 unverbindlich anzumelden:
 
 [**Online-Anmeldung**](https://terminplaner4.dfn.de/udHaoCTmfBClDscmqixgjwQi/admin)
 
