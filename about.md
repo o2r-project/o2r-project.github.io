@@ -4,6 +4,14 @@ title: About
 description: Project description and team members of the project Opening Reproducible Research
 ---
 
+Opening Reproducible Research (o2r) is a project by the Institute for Geoinformatics (ifgi) and University and Regional Library (ULB) at the University of Münster, Germany.
+
+<div style="display: flex; justify-content:space-between;">
+  <a href="https://www.uni-muenster.de/Geoinformatics/" title="ifgi website"><img src="/public/images/ifgilogo.svg" height="80" alt="ifgi Logo" /></a>
+  <a href="https://www.ulb.uni-muenster.de/" title="ULB website"><img src="/public/images/ulblogo.svg" height="80" alt="ULB Logo" /></a>
+  <a href="https://www.uni-muenster.de/" title="WWU website"><img src="/public/images/wwulogo.svg" height="80" alt="WWU Logo" /></a>
+</div>
+
 ## Goals
 
 Open access is not only a form of publishing such that research papers become available to the large public free of charge, it also refers to a trend in science that the act of doing research becomes more open and transparent when it comes to data and methods.

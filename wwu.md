@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WWU Workshop<br /><em>"Reproduzierbare Forschung"</em>
+title: WWU Workshop "Reproduzierbare Forschung"
 description: Workshop on open reproducible research at the university of Muenster
 no_citation: true
 exclude_from_nav: true
@@ -8,8 +8,15 @@ exclude_from_nav: true
 
 ## Was
 
-Das Team des Projekts **o2r** (Offene Reproduzierbare Forschung, Opening Reproducible Research, [o2r.info](https://o2r.info)) organisiert einen Workshop zum Thema Reproduzierbarkeit von Analysen, die auf Software und Daten basieren. 
- 
+Das Team des Projekts **o2r** (Offene Reproduzierbare Forschung, Opening Reproducible Research, [o2r.info](https://o2r.info)) organisiert einen Workshop zum Thema Reproduzierbarkeit von Analysen, die auf Software und Daten basieren.
+o2r ist ein DFG-gefördetes Forschungsprojekt des [Instituts für Geoinformatik (ifgi)](https://www.uni-muenster.de/Geoinformatics/) und der [Universitäts- und Landesbibliothek (ULB)](https://www.ulb.uni-muenster.de/).
+
+<div style="display: flex; justify-content:space-between;">
+  <a href="https://www.uni-muenster.de/" title="WWU website"><img src="/public/images/wwulogo.svg" height="80" alt="WWU Logo" /></a>
+  <a href="https://www.uni-muenster.de/Geoinformatics/" title="ifgi website"><img src="/public/images/ifgilogo.svg" height="80" alt="ifgi Logo" /></a>
+  <a href="https://www.ulb.uni-muenster.de/" title="ULB website"><img src="/public/images/ulblogo.svg" height="80" alt="ULB Logo" /></a>
+</div>
+
 ## Warum
 
 Viele wissenschaftliche Artikel sind nicht reproduzierbar.
