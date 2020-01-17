@@ -55,7 +55,8 @@ o2r team members, supporting university staff, and external advisory board membe
 
 ### Team
 
-- Philipp Glahe (student assistant, 2019-04 to ..)
+- Juan Sebastian Garzon (student assistant, 2020-01 to ..)
+- Philipp Glahe (student assistant, 2019-04 to 2019-09)
 - Laura Goulier (student assistant, 2019-06 to ..)
 - Nick Jakuschona (student assistant, 2019-04 to ..)
 - Dr. Stephanie Klötgen (ULB)
