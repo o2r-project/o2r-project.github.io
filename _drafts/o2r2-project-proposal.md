@@ -13,7 +13,7 @@ categories:
 ![o2r2 work programme and objectives](/public/images/2020-01_o2r2-proposal-titlepage.png){:width="300" .img.rightfloat}
 
 [Nine months ago](/2019/04/15/o2r2-and-egu/), we announced the o2r project received funding for a second project phase.
-Today we publish our project proposal on Zenodo: **[doi url](doi url)**
+Today we publish our project proposal on the University of Münster's institutional repository MIAMI: **[https://doi.org/10.17879/42149626934](https://doi.org/10.17879/42149626934)** ([urn:nbn:de:hbz:6-42149629066](https://nbn-resolving.org/urn:nbn:de:hbz:6-42149629066))
 
 We hope this publication of our proposal serves several purposes: it<!--more--> encourages fellow researchers to also share their plans openly (both funded and rejected), it motivates us to achieve the ambitious goals, and (we have to admit) the proposal's indexing in search engines hopefuly leads to some attention for the o2r project and subsequent new contacts and collaborations.
 Science reinvents the wheel much too often, and the o2r project team wants not only to [reduce closeness and intransparency in research workflows](/about) but also in the bigger picture of research funding and building of research infrastructures.
