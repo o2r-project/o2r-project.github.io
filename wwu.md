@@ -43,7 +43,7 @@ Das Ende der Veranstaltung ist für 18 Uhr geplant.
   (Teilnehmer, Motivation, Begriffsklärung; M. Konkol)
 1. **Reproduzierbarkeit**
   - Konzepte & Werkzeuge (D. Nüst)
-  - eScience WWU (H. Prybytzin)
+  - eScience WWU (H. Przibytzin)
   - Finanzierung nachhaltiger Software (S. Rave)
   - Reproduzierbarkeit in der Phylogenetik (B. Stöver)
   - Opening Reproducible Research - das Projekt _o2r_ (M. Konkol)
