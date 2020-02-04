@@ -301,6 +301,15 @@ $(document).ready(function(){
     var publications = [];
     var talks = [];
 
+    // https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+    function uniqByKeepFirst(a, key) {
+        let seen = new Set();
+        return a.filter(item => {
+            let k = key(item);
+            return seen.has(k) ? false : seen.add(k);
+        });
+    }
+
     $.when(
         $.ajax({
             type: "get",
@@ -359,6 +368,11 @@ $(document).ready(function(){
             // to get a value that is either negative, positive, or zero.
             return new Date(b.date) - new Date(a.date);
         });
+
+        // if the article and preprint have precisely the same title, the article
+        // should be newer and earlier in the list after sorting
+        publications = uniqByKeepFirst(publications, pub => pub.title);
+        talks = uniqByKeepFirst(talks, talk => talk.title);
 
         var pubList = $("#publicationlist");
         var talkList = $("#talklist");
