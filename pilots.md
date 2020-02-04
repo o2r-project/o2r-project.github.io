@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pilots
+title: 🚀 Pilots
 categories:
   - pilots
   - o2r2

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Results
+title: ⚙️ Results
 description: Project results
 ---
 

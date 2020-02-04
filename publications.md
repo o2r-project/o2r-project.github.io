@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: 📄 Publications
 description: Publications in the context of the project Opening Reproducible Research (o2r)
 categories:
   - publications
