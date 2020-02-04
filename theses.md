@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theses
+title: 📖 Theses
 categories:
   - o2r
   - o2r2
