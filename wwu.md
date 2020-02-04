@@ -32,44 +32,32 @@ Unser Wissen und unsere Erfahrungen wollen wir nutzen um die Reproduzierbarkeit 
 
 Wir möchten mit diesem Workshop vor allem _Professoren\*innen und Postdocs_ ansprechen, die sich zum einen über den aktuellen Stand der Technik und existierenden Infrastrukturen informieren möchten, zum anderen aber auch an einem generellen Austausch zum Thema Reproduzierbarkeit interessiert sind und über gemeinsame Ideen und Herausforderungen neue Projektideen und Projektpartner entdecken wollen.
 
-_Wir freuen uns auch auf Ihre Idee für einen Beitrag zum Workshop!_
-
 ## Wann und Wo
 
-Der Workshop wird am Dienstag, den **11.02.2020**, im _GEO I_, Heisenbergstr. 2, stattfinden und Mittags beginnen.
+Der Workshop wird am Dienstag, den **11.02.2020**, im [_GEO I_, Heisenbergstr. 2](https://www.openstreetmap.org/way/114602267), um **13 Uhr im Raum 242** stattfinden.
+Das Ende der Veranstaltung ist für 18 Uhr geplant.
 
-Die genau Uhrzeit, die Agenda, und der Raum werden hier Mitte Januar bekannt gegeben sobald die Teilnehmerzahl vorliegt.
+## Ablaufplan
 
-## Anmeldung
-
-Damit wir die weitere Planung organisieren können, möchten wir alle Interessierten bitten, sich bis zum 22. Januar 2020 unverbindlich anzumelden:
-
-[**Online-Anmeldung**](https://terminplaner4.dfn.de/udHaoCTmfBClDscmqixgjwQi/admin)
-
-## Vorläufiger Ablaufplan
-
-Beginn: 13 Uhr
-
-1. **Einführung** (Anlass, Motivation, Semantik und Begriffe, Reproduzierbarkeit - Krise oder Chance?)
-1. **Praktische Reproduzierbarkeit** - State of the art
-  - o2r's Executable Research Compendia und Fallstudie _Open Research Infrastructure Geoinformatics_
-  - Interaktive Notebooks (R Markdown, Jupyter)
-  - Offene Infrastrukturen (Binder, Git{Hub,Lab}, OSF, ...)
-  - Reproduzierbarkeit im Alltag - _"Transparenz = Effektivität"_
-  - Infrastruktur an der WWU
-  - Reproduzierbarkeit im Peer Review
+1. **Einleitung & Vorstellung**
+  (Teilnehmer, Motivation, Begriffsklärung; M. Konkol)
+1. **Reproduzierbarkeit**
+  - Konzepte & Werkzeuge (D. Nüst)
+  - eScience WWU (H. Prybytzin)
+  - Finanzierung nachhaltiger Software (S. Rave)
+  - Reproduzierbarkeit in der Phylogenetik (B. Stöver)
+  - Opening Reproducible Research - das Projekt _o2r_ (M. Konkol)
 1. Pause
-1. **Förderstrategische Diskussion** (ca. 15 Uhr)
-  - Keine erfolgreichen Projekte ohne Reproduzierbarkeit!?
-  - Anforderungen von Förderinstitutionen und Zeitschriften
-  - Ansatzpunkte für Individuen - Was kann ich tun?
-  - _Reproduzierbarkeit an der WWU in 10 Jahren - wo wollen wir stehen?_
-1. **Ideenentwicklung für gemeinsame Anträge**
-
-Ende: 18 Uhr
+1. **Förderstrategische Gruppendiskussionen** (ca. 15 Uhr)
+  (Probleme, Ideen, Anknüpfungspunkte)
+1. Kurze Pause
+1. Plenardiskussion: **Vision Reproduzierbarkeit WWU 2030** (ca. 16:45 Uhr)
+1. Abschluss
 
 ## Kontakt
 
 Bei Fragen stehen wir natürlich gerne zur Verfügung.
 
 **[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)**
+
+Tel.: 0251 31-31962
