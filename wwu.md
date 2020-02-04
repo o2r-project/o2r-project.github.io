@@ -48,8 +48,7 @@ Das Ende der Veranstaltung ist für 18 Uhr geplant.
   - Reproduzierbarkeit in der Phylogenetik (B. Stöver)
   - Opening Reproducible Research - das Projekt _o2r_ (M. Konkol)
 1. Pause
-1. **Förderstrategische Gruppendiskussionen** (ca. 15 Uhr)
-  (Probleme, Ideen, Anknüpfungspunkte)
+1. **Förderstrategische Gruppendiskussionen** (ca. 15 Uhr; Probleme, Ideen, Anknüpfungspunkte)
 1. Kurze Pause
 1. Plenardiskussion: **Vision Reproduzierbarkeit WWU 2030** (ca. 16:45 Uhr)
 1. Abschluss
