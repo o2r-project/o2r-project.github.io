@@ -6,6 +6,19 @@ no_citation: true
 exclude_from_nav: true
 ---
 
+------
+
+## Rückblick
+
+Einen kurzen Rückblick auf den Workshop finden sie im Blog des Projekt's o2r: [{{ '/2020/02/19/wwu-workshop/' | absolute_url }}]({{ '/2020/02/19/wwu-workshop/' | absolute_url }}).
+Die _Pressemitteilung_ über den Workshop gibt es auf [Deutsch](https://www.uni-muenster.de/news/view.php?cmdid=10846&lang=de) und [Englisch](https://www.uni-muenster.de/news/view.php?cmdid=10847&lang=en).
+
+## Material
+
+**Notizen** inklusive Links zu den Präsentationen: [https://docs.google.com/document/d/e/2PACX-1vSZYH9Uezaeyt3pGQAnAXAaEx0-ALipTHB42yJLV2bXNkeNM33b064gY-AO_B_YnnIws6ncPINnt9uT/pub](https://docs.google.com/document/d/e/2PACX-1vSZYH9Uezaeyt3pGQAnAXAaEx0-ALipTHB42yJLV2bXNkeNM33b064gY-AO_B_YnnIws6ncPINnt9uT/pub)
+
+------
+
 ## Was
 
 Das Team des Projekts **o2r** (Offene Reproduzierbare Forschung, Opening Reproducible Research, [o2r.info](https://o2r.info)) organisiert einen Workshop zum Thema Reproduzierbarkeit von Analysen, die auf Software und Daten basieren.
