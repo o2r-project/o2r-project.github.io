@@ -409,8 +409,9 @@ $(document).ready(function(){
     </ul>
 </div>
 
-<h1>Talks</h1>
-<p>(newest first)</p>
+# 🗣️ Talks
+
+(newest first)
 
 <div id="talks">
     <ul id="talklist">
