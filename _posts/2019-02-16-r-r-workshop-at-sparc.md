@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R&R Workshop at SPARC"
+title: "R&amp;R Workshop at SPARC"
 categories:
   - "open science"
   - "reproducible research"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Container Strategies for Data & Software Preservation that Promote Open Science (DASPOS workshop)
+title: Container Strategies for Data &amp; Software Preservation that Promote Open Science (DASPOS workshop)
 categories:
   - workshop
   - presentation
