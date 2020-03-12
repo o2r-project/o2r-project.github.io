@@ -28,7 +28,12 @@ It evaluates the creation and inspection process for ERCs outside of a prototypi
 
 We are developing author guidelines for creating ERCs and are setting up a support infrastructure.
 Until then, the [ERC specification](https://o2r.info/erc-spec/) gives you an impression of the technical details, and the [demo server](https://o2r.uni-muenster.de/) let's you try out the current software prototype.
-If you have any questions, send us an email at **[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)** or join our [public pilots chat room](https://gitter.im/o2r-project/pilots) on Gitter: [![Gitter]( {{ 'public/images/gitter-pilots.svg' | absolute_url }})](https://gitter.im/o2r-project/pilots)
+
+If you have any questions you can contact us in different ways:
+
+- Ask a question on [Stackoverflow](https://stackoverflow.com) using the tag [`erc`](https://stackoverflow.com/questions/tagged/erc) or [`executable-research-compendium`](https://stackoverflow.com/questions/tagged/executable-research-compendium).
+- Send us an email to **[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)** if you have specific questions you prefer not to share publicly.
+- Join our [public pilots chat room](https://gitter.im/o2r-project/pilots) on Gitter: [![Gitter]( {{ 'public/images/gitter-pilots.svg' | absolute_url }})](https://gitter.im/o2r-project/pilots)
 
 #### We are looking for journals to participate in an Elsevier Virtual Special Issue
 <a name="elsevier">
