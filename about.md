@@ -67,7 +67,6 @@ o2r team members, supporting university staff, and external advisory board membe
 - [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
-- Yousef Qamaz (student assistant, 2019-06 to ..)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
 
 **Contact**: [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
@@ -86,6 +85,7 @@ o2r team members, supporting university staff, and external advisory board membe
 - Torben Kraft (ifgi, student assistant, 2017-01 to 2017-12)
 - Timm Kühnel (ifgi, student assistant, 2017-01 to 2018-06)
 - Lukas Lohoff (ULB, student assistant, 2016-12 to 2018-03)
+- Yousef Qamaz (ifgi, student assistant, 2019-06 to 2020-03)
 - Dr. Marc Schutzeichel (ULB, research associate, 2016-02 to 2018-01)
 - Jan Suleiman (ifgi, student assistant, 2016-04 to 2017-12)
 
