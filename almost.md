@@ -34,10 +34,15 @@ You write your papers in [Sweave](https://www.statistik.lmu.de/~leisch/Sweave/) 
 
 Instead we look forward to work with _your workspace directory as it is_. This way we learn more about people's workflows and practices, be they good, bad, or just pragmatic. Trust us that you are not the only one for whom living up to her/his standards and expertise is a challenge in day-to-day research.
 
-*This is an open call*
+📢 *This is an open call* 📢
 
 Please forward this website to any of your colleagues who might fit the profile, and don't hesitate to get in touch if you have any questions. Thank you in advance!
 
-**Submit workspace**
+## Submit workspace
 
 Please send an email to <a href="mailto:daniel.nuest@uni-muenster.de" title="submission email address">daniel.nuest@uni-muenster.de</a> or tweet <a href="https://twitter.com/o2r_project" title="o2r on Twitter">@o2r_project</a> with a link to your paper and any supplemental material, e.g. as a link to a shared online folder.
+
+## Participate in the pilots
+
+If you have a reproducible paper, you can participate in the [o2r pilot studies](/pilots), where we collaborate with publishers on virtual special issues featuring executable research compendia for _real_ research manuscripts in peer review.
+Check out [the pilots page](/pilots) if a suitable journal from your domain is in the pilot, or [get in touch](/pilots#get-help) otherwise.
