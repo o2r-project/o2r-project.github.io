@@ -43,7 +43,7 @@ Please also check below information for specific aspects for the different virtu
 
 ### 🕵️ Information for reviewers
 
-The o2r team develops [_Reviewer Guidelines for Creating ERCs_](https://docs.google.com/document/d/1skV3niWpQDYrtLWHob3UbP-Ejgbx1sG6opLcJ1WjZng/edit?usp=sharing).
+The o2r team develops [_Reviewer Guidelines for Creating ERCs_](https://docs.google.com/document/d/1oXmg-V62UWCoHHstclDisrtNYZmjr2E1YuHxMw7O6dk/edit?usp=sharing).
 Please also check below information for specific aspects for the different virtual special issues (see below) and [contact us with any questions](#get-help).
 
 ### Copernicus Publications Virtual Special Issue
