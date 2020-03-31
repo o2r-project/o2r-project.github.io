@@ -18,9 +18,8 @@ By extending [Open Journal Systems](https://pkp.sfu.ca/ojs/) (OJS), we make the 
 The pilots are supported by operating infrastructure and we will support authors, reviewers, and readers to enhance their scholarly communication with ERCs.
 
 Together, the three pilots cover current publication practices from large scale publishers to independent journals.
-All pilots require the integration of o2r services and tools in existing, established IT systems and organisational workflows - _we thank the collaborating publishers and editors for their participation and open-mindedness!
-The pilots are accompanied by monitoring and user studies.
-_The pilots will provide crucial data to learn about the costs and benefits of ERC-based research publications._
+The pilots are accompanied by monitoring and user studies and thereby provide crucial data to learn about the costs and benefits of ERC-based research publications.
+All pilots require the integration of o2r services and tools in existing, established IT systems and organisational workflows - _we thank the collaborating publishers and editors as well as all authors and editors for their participation and open-mindedness!_
 
 ------
 
