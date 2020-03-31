@@ -39,7 +39,7 @@ If you have any questions please do not hesitate to contact us:
 ### ✍️ Information for authors
 
 The o2r team develops [_Author Guidelines for Creating ERCs_](https://docs.google.com/document/d/1skV3niWpQDYrtLWHob3UbP-Ejgbx1sG6opLcJ1WjZng/edit?usp=sharing).
-Please also check below information for specific aspects for the different virtual special issues (see below) and [contact us with any questions](#get-help).
+Please also check below information for specific aspects for the different virtual special issues (see below), see our [call for almost reproducible papers](/almost) if you have doubts, and [contact us with any questions](#get-help).
 
 ### 🕵️ Information for reviewers
 
@@ -51,7 +51,7 @@ Please also check below information for specific aspects for the different virtu
 
 **Status:** First review started with loose integration or ERC (communication of ERC URL via coverletter and handling editor)
 
-**Participating journals**
+**Participating journals:**
 
 - [ESSD](https://www.earth-syst-sci-data.net/)
 
