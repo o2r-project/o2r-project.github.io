@@ -1,10 +1,23 @@
-# Introducing geoextent
+---
+layout: post
+title: Introducing geoextent
+categories:
+  - introduction
+  - meta
+  - description
+author: 'Yousef Qamaz'
+---
 
 geoextent is an easy to use library for extracting the geospatial extent from data files with multiple data formats.
 
 Take a look at the [source code on GitHub](https://github.com/o2r-project/geoextent.git), [library on PyPI](https://pypi.org/project/geoextent/) and the [documentation website](https://o2r.info/geoextent/).
 
-Here is a small example how to use `geoextent`.
+You can view and test geoextent implementation through interactive notebooks on [mybinder.org](https://mybinder.org) with a click on the following binder.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/o2r-project/geoextent/master)
+
+
+Here is a small example how to use `geoextent`. Input file obtained from [Zenodo](https://sandbox.zenodo.org/record/256820#.XeGcJJko85k).
 ```
 geoextent -b -t -input= 'cities_NL.csv'
 ```
@@ -19,7 +32,7 @@ The output will show the bbox, time interval and crs extracted from file data, a
 
 [OpenStreetMap](https://www.openstreetmap.org/export#map=8/52.347/5.446) showing the area of extracted bbox. 
 
-![](https://i.imgur.com/E5BR9ta.png)
+![](https://i.imgur.com/3JICNjd.png)
 
 
 You can get quick usage help instructions on the command line, too:
@@ -85,7 +98,7 @@ We roughly followed these steps:
 - Set up [tests on Travis CI](https://travis-ci.org/github/o2r-project/geoextent/)
 - Publication of library [on PyPI](https://pypi.org/project/geoextent/)
 - Writing library documentation using [Sphinx](https://www.sphinx-doc.org/en/master/) and render it as part of the Travis CI process
-- Adding introduction Notebook for easy testing with [MyBinder](TODO)
+- Adding introduction Notebooks for easy testing with [MyBinder](https://mybinder.org/v2/gh/o2r-project/geoextent/master)
 
 ## Current features
 
