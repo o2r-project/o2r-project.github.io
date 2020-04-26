@@ -5,45 +5,43 @@ categories:
   - introduction
   - meta
   - description
-author: 'Yousef Qamaz'
+author: 'Yousef Qamaz, Daniel Nüst'
 ---
 
-# Introducing geoextent
+`geoextent` is an easy to use library for extracting the geospatial extent from data files with multiple data formats.
 
-geoextent is an easy to use library for extracting the geospatial extent from data files with multiple data formats.
-
-Take a look at the [source code on GitHub](https://github.com/o2r-project/geoextent.git), [library on PyPI](https://pypi.org/project/geoextent/) and the [documentation website](https://o2r.info/geoextent/).
-
+Take a look at the [source code on GitHub](https://github.com/o2r-project/geoextent.git), the [library on PyPI](https://pypi.org/project/geoextent/) and the [documentation website](https://o2r.info/geoextent/).
 You can view and test geoextent implementation through interactive notebooks on [mybinder.org](https://mybinder.org) with a click on the following binder.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/o2r-project/geoextent/master)
 
+Here is a small example how to use `geoextent`.
 
-Here is a small example how to use `geoextent`. Input file obtained from [Zenodo](https://sandbox.zenodo.org/record/256820#.XeGcJJko85k).
-```
+```bash
 geoextent -b -t -input= 'cities_NL.csv'
 ```
-The output will show the bbox, time interval and crs extracted from file data, as follow: 
 
-```
+The output will show the rectangular bounding box, time interval and crs extracted from file data, as follow: 
+
+```bash
 {'format': 'text/csv',
  'crs': '4326',
  'tbox': ['30.09.2018', '30.09.2018'],
  'bbox': [4.3175, 51.434444, 6.574722, 53.217222]}
 ```
 
-[OpenStreetMap](https://www.openstreetmap.org/export#map=8/52.347/5.446) showing the area of extracted bbox. 
+The input file used above was obtained from [Zenodo](https://sandbox.zenodo.org/record/256820#.XeGcJJko85k).
+The map below<!--more--> based on [OpenStreetMap](https://www.openstreetmap.org/export#map=8/52.347/5.446) shows the area of extracted bounding box. 
 
 ![](https://i.imgur.com/3JICNjd.png)
 
-
 You can get quick usage help instructions on the command line, too:
 
-```
+```bash
 geoextent --help
 ```
-Output:
-```
+
+```bash
 geoextent is a Python library for extracting geospatial and temporal extents of a file or a directory of multiple geospatial data formats.
 
 usage: geoextent [-h] [-formats] [-b] [-t] [-input= '[filepath|input file]']
