@@ -16,7 +16,7 @@ We work on new ways to preserve geoscientific research by improving computationa
 The o2r team develops new tools as free and open source software on GitHub and uses current technologies, such as JavaScript/Node.js or containerisation with Docker.
 Your tasks will be implementation and extension of software for reproducible geosciences.
 The weekly flexible work time is 9 to 19 hours.
- 
+
 **Profile**
 
 You should have some programming experience (e.g., JavaScript, R, Python, or another object oriented language) and must be motivated to extend your skills as a software developer in an agile scientific environment.
