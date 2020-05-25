@@ -7,7 +7,7 @@ no_citation: true
 no_license: true
 ---
 
-[**ENGLISH VERSION**](/public/download/student-assistant-o2r.pdf)
+[**🇺🇸🇬🇧 ENGLISH VERSION**](/hilfskraft-en)
 
 Das Projekt Opening Reproducible Research ([o2r](https://o2r.info)) sucht zum nächstmöglichen Zeitpunkt **Studentische/Wissenschaftliche Hilfskräfte (m/w/d) zur Unterstützung unseres Entwicklerteams**.
 
@@ -22,7 +22,7 @@ Der wöchentliche Arbeitsumfang beträgt 9 bis 19 Stunden.
 ## Profil & Bewerbung
 
 - Student_in der Geoinformatik/Informatik ab dem 3. Semester (siehe Stellenauschreibung für [Geographie/Geowissenschaften/Landschaftsökologie](../hilfskraft-geolok))
-- Erste Programmiererfahrungen (z.B. mit JavaScript, R, Python, oder objekt-orientierte Programmiersprachen wie Java, C#, oder golang), aber hauptsächlich Lust sich als Programmierer_in weiter zu entwickeln
+- Erste Programmiererfahrungen (z.B. mit JavaScript, R, Python, oder einer anderen objekt-orientierten Programmiersprache), aber hauptsächlich Lust sich als Programmierer_in weiter zu entwickeln
 - Optional: Erfahrung mit Linux und Docker
 - Gute Englischkenntnisse in Wort und Schrift
 - Selbstständige Arbeitsweise
@@ -31,17 +31,19 @@ Der wöchentliche Arbeitsumfang beträgt 9 bis 19 Stunden.
 In der praktischen Arbeitsteilung sind Schwerpunkte als Frontend- oder Backend-Entwickler_in möglich.
 
 _Interesse?_
-Dann sende bitte ein kurzes Anschreiben in dem Du auf die genannten Profilaspekte eingehst und (falls vorhanden) Quellcode von bisher durchgeführten Softwareentwicklungen (bevorzugt als Link zu GitHub) per E-Mail an die unten genannten Adressen.
+Dann sende bitte ein kurzes Anschreiben in dem Du auf die genannten Profilaspekte eingehst und (falls vorhanden) Quellcode von bisher durchgeführten Softwareentwicklungen (bevorzugt als Link zu GitHub) _per E-Mail [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)_.
 
 Die WWU Münster tritt für die Geschlechtergerechtigkeit ein und strebt eine Erhöhung des Anteils von Frauen in Forschung und Lehre an.
 Bewerbungen von Frauen sind daher ausdrücklich erwünscht; Frau­en werden bei gleicher Eignung, Befähigung und fachlicher Leistung bevorzugt berücksichtigt, sofern nicht in der Person eines Mitbewerbers liegende Gründe überwiegen.
 Schwerbehinderte werden bei gleicher Qualifikation bevorzugt eingestellt.
 
-Solltest Du noch Fragen haben, dann melde dich gerne telefonisch oder per E-Mail. 
+Solltest Du noch Fragen haben, dann melde dich gerne telefonisch oder per E-Mail.
 **Wir freuen uns auf Deine Bewerbung!**
 
 ## Kontakt
 
-- Daniel Nüst > daniel.nuest@uni-muenster.de
-- Markus Konkol > m_konk01@uni-muenster.de
-- Telefon: 0251 83-31962
+Daniel Nüst & Markus Konkol
+
+[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
+
+Telefon: 0251 83-31962
