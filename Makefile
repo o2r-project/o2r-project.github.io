@@ -7,7 +7,7 @@ debug:
 	bundle exec jekyll serve --draft --verbose
 
 serve_drafts:
-	bundle exec jekyll serve --draft
+	bundle exec jekyll serve --draft --unpublished
 
 clean:
 	bundle exec jekyll clean;

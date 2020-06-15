@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Results
+title: ⚙️ Results
 description: Project results
 ---
 
-_Please find a complete list of publications, talks and posters on the [publications page](/publications) and respective files in the [o2r community on Zenodo](https://zenodo.org/communities/o2r/)_.
+## Publications & theses
+
+Please find a complete list of publications, talks and posters on the [📄&nbsp;publications&nbsp;page](/publications) and respective files in the [o2r community on Zenodo](https://zenodo.org/communities/o2r/).
+
+The [📖&nbsp;theses&nbsp;page](/theses) presents all BSc and MSc theses with a relation to o2r project goals and tasks.
 
 ## Specifications & documentation
 

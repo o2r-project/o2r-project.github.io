@@ -8,7 +8,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}">🏠 Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage.
@@ -29,6 +29,8 @@
       <a class="sidebar-nav-item" href="{{ site.twitter.url }}"><i class="fa fa-twitter" style="margin-right: 0.3em;" aria-hidden="true"></i>{{ site.twitter.handle }}</a>
 
     </nav>
+    
+    <p class="small"><a href="{{ '/all' | absolute_url }}" title="List of all blog posts">List of all blog posts</a></p>
 
     <p class="small"><a href="{{ '/imprint' | absolute_url }}" title="Imprint | Impressum">Imprint&nbsp;/&nbsp;Privacy Info<br /></a>&copy;&nbsp;{{ site.time | date: '%Y' }}&nbsp;o2r&nbsp;project<br />Theme based on <a href="https://github.com/poole/hyde">Hyde</a></p>
   </div>

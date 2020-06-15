@@ -10,8 +10,12 @@ author: 'Daniel Nüst'
 ---
 
 <div style="border: 2px solid #CE5100; background-color: #ffe2d4; padding: 1em; margin: 1em 0;">
-<em>This post</em> used to be <em>updated regularly with new packages and projects.</em>
-But it is not anymore, because a collaborative paper is under development, see <a href="https://github.com/nuest/rockerverse-paper/" title="Rockerverse paper repository on GitHub">https://github.com/nuest/rockerverse-paper/</a>.
+<p>📢 PREPRINT PUBLISHED 🎉</p>
+
+<p><a href="https://arxiv.org/abs/2001.10641" title="Link to arXiv"><strong>The Rockerverse: Packages and Applications<br/>for Containerization with R</strong></a><br/>
+Daniel Nüst, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daroczi, Mark Edmondson, Colin Fay, Ellis Hughes, Sean Lopp, Ben Marwick, Heather Nolis, Jacqueline Nolis, Hong Ooi, Karthik Ram, Noam Ross, Lori Shepherd, Nitesh Turaga, Craig Willis, Nan Xiao, Charlotte Van Petegem. 2020. <a href="https://arxiv.org/abs/2001.10641" title="Link to arXiv">arXiv:2001.10641</a> [cs.SE]</p>
+
+<p><em>This post gave the idea for the paper above. It will not be updated anymore.</em></p>
 </div>
 
 _~~This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**.~~ Last update: 11 Jan 2018._

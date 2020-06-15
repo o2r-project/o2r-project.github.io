@@ -43,8 +43,8 @@ exclude: [README.md, CNAME, "Gemfile", "Gemfile.lock", "README.md", "Makefile", 
 # ribbon itself by https://github.com/simonwhitaker/github-fork-ribbon-css
 ribbon:
   show:   true
-  text:   'Call for workspaces'
-  url:    '/almost'
+  text:   'Join the pilots! 🚀'
+  url:    '/pilots'
 
 plugins:
   - jekyll-sitemap

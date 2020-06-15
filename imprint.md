@@ -15,8 +15,7 @@ D-48149 Münster
 
 Phone: +49 (251) 83-33 962
 
-Email: daniel.nuest@uni-muenster.de
-
+Email: o2r.team@uni-muenster.de
 
 ## Responsible for the content
 

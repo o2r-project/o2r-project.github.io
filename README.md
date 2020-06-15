@@ -89,3 +89,7 @@ Testing footnotes[^2] for *Opening Reproducible Research*[^1].
 [^1]: would be useful!
 [^2]: yes, no promises on results...
 ```
+
+## License
+
+Except where otherwise noted site content created by the o2r project in this repository is licensed under [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

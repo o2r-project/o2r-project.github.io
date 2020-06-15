@@ -1,8 +1,16 @@
 ---
 layout: page
-title: About
+title: 🔓 About
 description: Project description and team members of the project Opening Reproducible Research
 ---
+
+Opening Reproducible Research (o2r) is a project by the Institute for Geoinformatics (ifgi) and University and Regional Library (ULB) at the University of Münster, Germany.
+
+<div style="display: flex; justify-content:space-between;">
+  <a href="https://www.uni-muenster.de/Geoinformatics/" title="ifgi website"><img src="/public/images/ifgilogo.svg" height="80" alt="ifgi Logo" /></a>
+  <a href="https://www.ulb.uni-muenster.de/" title="ULB website"><img src="/public/images/ulblogo.svg" height="80" alt="ULB Logo" /></a>
+  <a href="https://www.uni-muenster.de/" title="WWU website"><img src="/public/images/wwulogo.svg" height="80" alt="WWU Logo" /></a>
+</div>
 
 ## Goals
 
@@ -47,18 +55,18 @@ o2r team members, supporting university staff, and external advisory board membe
 
 ### Team
 
-- Philipp Glahe (student assistant, 2019-04 to ..)
+- Juan Sebastian Garzon (student assistant, 2020-01 to ..)
+- Philipp Glahe (student assistant, 2019-04 to 2019-09)
 - Laura Goulier (student assistant, 2019-06 to ..)
 - Nick Jakuschona (student assistant, 2019-04 to ..)
 - Dr. Stephanie Klötgen (ULB)
-- [Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
+- [Dr. Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
 - Tom Niers (student assistant, 2019-04 to ..)
 - [Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
-- Yousef Qamaz (student assistant, 2019-06 to ..)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
 
 **Contact**: [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
@@ -77,6 +85,7 @@ o2r team members, supporting university staff, and external advisory board membe
 - Torben Kraft (ifgi, student assistant, 2017-01 to 2017-12)
 - Timm Kühnel (ifgi, student assistant, 2017-01 to 2018-06)
 - Lukas Lohoff (ULB, student assistant, 2016-12 to 2018-03)
+- Yousef Qamaz (ifgi, student assistant, 2019-06 to 2020-03)
 - Dr. Marc Schutzeichel (ULB, research associate, 2016-02 to 2018-01)
 - Jan Suleiman (ifgi, student assistant, 2016-04 to 2017-12)
 
@@ -85,7 +94,7 @@ o2r team members, supporting university staff, and external advisory board membe
 The o2r project is connected to external partners since its inception, and the group has been extended since then.
 They come from different disciplines and provide valuable feedback on project plans and decisions.
 
-[<img src="https://www.copernicus.org/logo_copernicus_publications_rgb.png" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
+[<img src="{{ 'public/images/logo_copernicus_publications_rgb.png' | relative_url }}" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
 
 [<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)[Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
 
@@ -97,7 +106,7 @@ They come from different disciplines and provide valuable feedback on project pl
 
 [<img src="https://www.zib.de/sites/all/themes/zib/images/zib_logo_header.png" style="float:right; background: #04879F;" height="50" alt="ZIB Logo" />](https://www.zib.de)[Dr. Wolfgang Peters-Kottig](https://www.zib.de/members/peters-kottig), Konrad-Zuse-Zentrum für Informationstechnik, Berlin, Germany
 
-[<img src="https://www.elsevier.de/wp-content/uploads/2016/09/Elsevier_Logo.png" style="float:right;" width="80" alt="Elsevier Logo" />](http://elsevier.com/) Laura Hassink, Senior Vice President Publishing Transformation at RELX (previously [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) - Director of Product Management, Enriched Content at Elsevier; [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) - Head of Content Innovation, Elsevier)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Elsevier.svg/218px-Elsevier.svg.png" style="float:right;" width="80" alt="Elsevier Logo" />](http://elsevier.com/) Laura Hassink, Senior Vice President Publishing Transformation at RELX (previously [Maarten Cleeren](https://www.linkedin.com/in/maarten-cleeren-3bb39032/) - Director of Product Management, Enriched Content at Elsevier; [Dr. Hylke Koers](https://www.linkedin.com/in/hylke-koers-b826141) - Head of Content Innovation, Elsevier)
 
 <div style="clear: both;"></div>
 
