@@ -1,0 +1,28 @@
+I":<p><em>This article is cross-posted in German on the <a href="https://sensebox.de/blog/2018-01-12-Offene-Forschung">senseBox blog</a>.</em></p>
+
+<p>It’s the time of the year to make resolutions and to see beyond one’s own nose.
+For o2r team member Daniel, this meant to explore what he could do with his brand new <em><a href="https://sensebox.de/de/products">senseBox:home</a></em> and the awesome <em><a href="https://binderhub.readthedocs.io">BinderHub</a></em> instead of putting it on the back burner.</p>
+
+<p><a href="https://media.giphy.com/media/l49JRjO65S0WQ1Kyk/giphy.gif"><img src="https://media.giphy.com/media/l49JRjO65S0WQ1Kyk/giphy.gif" alt="screencast of senseBox-Binder analysis in RStudio running on mybinder.org" /></a></p>
+
+<p><a href="http://mybinder.org/v2/gh/nuest/sensebox-binder/master"><img src="http://mybinder.org/badge.svg" alt="Binder" /></a></p>
+
+<p>Building on a deep stack of Open Hardware, Free and Open Source Software, and Open Data, he created <!--more-->a fully open analysis of particulate measurements at New Year’s Eve in Münster.
+With just a few clicks you can open the exact computational environment which he utilized to retrieve historic sensor data from the openSenseMap API, and to analyse and visualise it with R.
+And all that without installing any software to your computer, all you need is a web browser.</p>
+
+<p>The following screenshots show the RStudio and Jupyter Notebook renderings of the workflow.</p>
+
+<p><a href="/public/images/2018-01_sensebox-binder-rstudio-screenshot.png"><img src="/public/images/2018-01_sensebox-binder-rstudio-screenshot.png" alt="screenshot of senseBox-Binder analysis in RStudio" /></a></p>
+
+<p><a href="/public/images/2018-01_sensebox-binder-jupyter-screenshot.png"><img src="/public/images/2018-01_sensebox-binder-jupyter-screenshot.png" alt="screenshot of senseBox-Binder analysis in Jupyter Notebook" /></a></p>
+
+<p>And of course he worried about reproducibility and put in several layers of backup! Learn all about it at the GitHub repository:</p>
+
+<p><strong><a href="https://github.com/nuest/sensebox-binder/">https://github.com/nuest/sensebox-binder/</a></strong></p>
+
+<p>Or get a peak at the output of the analysis here: <a href="https://nuest.github.io/sensebox-binder/sensebox-analysis.html">https://nuest.github.io/sensebox-binder/sensebox-analysis.html</a></p>
+
+<p>And we were not the only ones taking a look at particulate matter in Germany using R.
+<a href="https://johannesfriedrich.github.io/">Johannes Friedrich</a>, researcher at <a href="http://www.lumi.uni-bayreuth.de/">University of Bayreuth</a>, used his R package <a href="https://github.com/JohannesFriedrich/senseBox">senseBox</a> to download and plot data of over 400 senseBoxes. See <a href="https://johannesfriedrich.github.io/2018-01-11-particular-matter-new-year/">his blog</a> for his findings.</p>
+:ET

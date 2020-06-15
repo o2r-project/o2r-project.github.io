@@ -1,0 +1,103 @@
+I"P<p>Last week <a href="http://egu2018.eu/">EGU General Assembly (GA) 2018</a> took place in Vienna, Austria, and it was packed with interesting sessions and inspiring presentations.
+The o2r team humbly tried to contribute to a massive conference: 15075 participants from <a href="https://egu2018.eu/#CountryStatistics">106</a> countries gave 17323 presentations in 666 sessions (it’s been reported the programme committee briefly discussed adding a session…), taught 68 short courses, and collaborated in 294 side events.
+Let’s go through the events with o2r participation in chronological order.</p>
+
+<p><img src="/public/images/egu2018-banner.png" alt="EGU 2018 conference banner" width="100%" /></p>
+<p class="attributionInlineImage">Image courtesy of EGU website.</p>
+
+<p>On <em>Monday</em>, <a href="https://orcid.org/0000-0002-0024-5046">Daniel</a> joined the first ever<!--more--> <strong><a href="http://eartharxiv.org/">EarthArXiv</a> <a href="https://meetingorganizer.copernicus.org/EGU2018/session/29063">townhall meeting</a></strong>.
+He was happy to share <a href="https://www.generosity.com/community-fundraising/ten-thousand-eartharxiv-preprint-service-stickers">his stickers</a> with a small but engaged crowd and experienced an open-minded discussion about the young community-led EarthArXiv (already over 300 pre- and postprints after a little over 6 months), preprints, postprints, and the bigger picture of Open Access in the context of the two large conferences in the geosciences, EGU GA and the <a href="https://fallmeeting.agu.org">AGU Fall Meeting</a>. AGU’s cooperation with <a href="https://www.essoar.org/">ESSOAr</a> on abstracts and poster publications was presented at the meeting by <a href="https://orcid.org/0000-0001-6230-7145">Brooks Hanson</a>.
+The event went really well and it was fun to meet fellow Open Science enthusiasts <a href="https://ethz.academia.edu/FriedrichHawemann">Friedrich Hawemann</a> and <a href="https://about.me/geo.fernandez-blanco">David Fernandez-Blanco</a> (the mastermind behind the gif-loaden entertaining tweets by <a href="https://twitter.com/EarthArXiv">@EarthArXiv</a>).</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Friedrich Hawemann making the case for preprints at the <a href="https://twitter.com/EarthArXiv?ref_src=twsrc%5Etfw">@EarthArXiv</a> Townhall at <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> <a href="https://twitter.com/hashtag/preprint?src=hash&amp;ref_src=twsrc%5Etfw">#preprint</a> <a href="https://twitter.com/hashtag/postprint?src=hash&amp;ref_src=twsrc%5Etfw">#postprint</a> <a href="https://twitter.com/hashtag/openaccess?src=hash&amp;ref_src=twsrc%5Etfw">#openaccess</a> <a href="https://t.co/TgfoPSVksD">pic.twitter.com/TgfoPSVksD</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/983392981834182657?ref_src=twsrc%5Etfw">9. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>On <em>Tuesday</em> the evening events continued with the always enjoyable <strong><a href="http://osgeo.org/">OSGeo</a> <a href="https://meetingorganizer.copernicus.org/EGU2018/session/29320">townhall meeting</a></strong>.
+Its theme was “Open Science demystified” and organiser <a href="http://www.drloewe.eu/">Peter Löwe</a> nicely connected the spirit and goals of an Open Source organisation with Open Science.
+As usual, it did not take long until newcomers could be helped with concrete advise on software, development, and transformation to <a href="https://en.wikipedia.org/wiki/Foss">FOSS</a> for organisations by the attending mix of FOSS users, developers, contributors, and old-timers.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">It&#39;s that time of year again: <a href="https://twitter.com/OSGeo?ref_src=twsrc%5Etfw">@OSGeo</a>  townhall meeting at <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> <a href="https://twitter.com/EuroGeosciences?ref_src=twsrc%5Etfw">@EuroGeosciences</a><a href="https://twitter.com/drpeterloewe?ref_src=twsrc%5Etfw">@drpeterloewe</a> continous his tremendous outreach activity (4th time convening?) and connects <a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;ref_src=twsrc%5Etfw">#OpenScience</a> with <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> - OSGeo is not limited to the latter! <a href="https://t.co/UuFe0fAdxZ">pic.twitter.com/UuFe0fAdxZ</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/983753702803673089?ref_src=twsrc%5Etfw">10. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>On <em>Wednesday</em> Daniel had to shift his attention to the early morning.
+In the PICO session <a href="https://meetingorganizer.copernicus.org/EGU2018/session/27584">IE4.4</a>, <strong>“R and the benefit of low-cost solutions - democratic participation to face challenges in Earth science”</strong>, he demonstrated the usefulness of <a href="https://www.rocker-project.org/images/"><code class="highlighter-rouge">rocker/geospatial</code></a> for science with a number of showcases in a PICO presentation slot packed with exciting projects and software presentation.</p>
+
+<ul>
+  <li>Abstract: <a href="https://meetingorganizer.copernicus.org/EGU2018/EGU2018-8500-1.pdf">https://meetingorganizer.copernicus.org/EGU2018/EGU2018-8500-1.pdf</a></li>
+  <li>Slides: <a href="https://doi.org/10.5281/zenodo.1217911">https://doi.org/10.5281/zenodo.1217911</a></li>
+  <li>Thanks: <a href="https://twitter.com/nordholmen/status/983730200373612544">showcase authors</a></li>
+</ul>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">PICO uploaded! Don&#39;t get to bed too late today or you&#39;ll miss &quot;rocker/geospatial: a flexible runtime environment for geoscientific data analysis&quot; at <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> - PICO spot 4 tomorrow at 08:30 hrs. I showcase the community work headed by <a href="https://twitter.com/cboettig?ref_src=twsrc%5Etfw">@cboettig</a> &amp; <a href="https://twitter.com/eddelbuettel?ref_src=twsrc%5Etfw">@eddelbuettel</a> for R in <a href="https://twitter.com/Docker?ref_src=twsrc%5Etfw">@Docker</a> <a href="https://t.co/F8KK453fFx">pic.twitter.com/F8KK453fFx</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/983712891755991040?ref_src=twsrc%5Etfw">10. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>In the same session, <a href="http://orcid.org/0000-0001-8049-7069">Edzer</a> presented “R vector and raster data cubes for openEO”, his latest work to continue the evolution for spatial data handling in R and connecting it to <a href="http://openeo.org/">openEO</a>.
+Both o2r team members could welcome many interested scientists at their PICO screens and had to stay until the very end answering questions and discussing the depths of the respective implementations.</p>
+
+<ul>
+  <li>Abstract: <a href="https://meetingorganizer.copernicus.org/EGU2018/EGU2018-8198.pdf">https://meetingorganizer.copernicus.org/EGU2018/EGU2018-8198.pdf</a></li>
+  <li><code class="highlighter-rouge">stars</code> R package: <a href="https://r-spatial.github.io/stars/">https://r-spatial.github.io/stars/</a></li>
+</ul>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Steadily growing crowd gathering at <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> session on <a href="https://twitter.com/hashtag/R?src=hash&amp;ref_src=twsrc%5Etfw">#R</a> and the benefit if low-cost solutions - democratic participation to face challenges in Earth sciences <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/PICO?src=hash&amp;ref_src=twsrc%5Etfw">#PICO</a> <a href="https://twitter.com/EuroGeosciences?ref_src=twsrc%5Etfw">@EuroGeosciences</a> <a href="https://twitter.com/hashtag/rspatial?src=hash&amp;ref_src=twsrc%5Etfw">#rspatial</a> <a href="https://t.co/MdgpJLnu4y">pic.twitter.com/MdgpJLnu4y</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/983957403581415424?ref_src=twsrc%5Etfw">11. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>On <em>Thursday afternoon</em> Daniel was joined by <a href="https://orcid.org/0000-0001-6651-0976">Markus</a> and good friends of o2r from New York, <a href="https://vickysteeves.com/">Vicky</a> and <a href="http://remirampin.com/">Remi</a> from <a href="https://datascience.nyu.edu/">NYU Center for Data Science</a> and <a href="http://reprozip.org/">ReproZip</a>, to <a href="/2017/05/03/egu-short-course-recap/">continue the collaboration</a> on teaching tools for Open Science and Reproducible Research at EGU.
+They welcomed a large audience (70+ people) to the <a href="http://meetingorganizer.copernicus.org/EGU2018/session/28650">short course</a> <strong>“Writing reproducible geoscience papers using R Markdown, Docker, and GitLab”</strong>.
+The course was hands-on, so participants worked with their own laptops.
+Hopefully most of them arrived safely home with a working research environment for <a href="http://r-project.org/">R</a> and <a href="http://git-scm.com/">git</a>.
+The course’s contents and speed are adjusted to accommodate the diverse previous knowledge from a multidisciplinary conference such as EGU.
+Inspired by the great <a href="https://carpentries.org/">Carpentry courses</a>, but considerably shorter and more dense, all conveners/teachers were active at the same time to lead through the instructions and help fixing the many little issues during software installations.
+We tried hard to leave no one hanging behind and albeit being confronted with an estimated number of 6 operating systems the <a href="https://www.rstudio.com/products/RStudio/">RStudio</a>-based instructions stood their ground excellently and we are glad to have received numerous positive feedbacks from participants.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Almost 70 people at our <a href="https://twitter.com/hashtag/egu18repro?src=hash&amp;ref_src=twsrc%5Etfw">#egu18repro</a> <a href="https://twitter.com/hashtag/egu18?src=hash&amp;ref_src=twsrc%5Etfw">#egu18</a> session!! So many folks eager to learn about best practices for reproducible research in geoscience! <a href="https://t.co/XSxc0s53uk">https://t.co/XSxc0s53uk</a></p>&mdash; Vicky Steeves (joinmastodon.org) (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/984422094095208448?ref_src=twsrc%5Etfw">12. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>The <em>course material</em> is available openly online at <a href="https://vickysteeves.gitlab.io/repro-papers/"><strong>https://vickysteeves.gitlab.io/repro-papers/</strong></a> and if you could not be there, be sure to try and check out the Twitter hashtag <a href="https://twitter.com/hashtag/egu18repro?src=hash"><strong>#egu18repro</strong></a> for some impressions.
+The course is roughly split in two sessions à 90 minutes:</p>
+
+<ul>
+  <li>Introduction to Open Science, using git and GitLab</li>
+  <li>R Markdown for reproducible papers and rendering of R Markdown manuscripts with GitLab CI</li>
+</ul>
+
+<p>We sincerely thank the attendees for the useful questions and the positive atmosphere at the course!
+People were helping each other and showed patience when little breaks had to be taken to solve individual issues.
+We welcome comments, ideas and suggestions in the <a href="https://gitlab.com/VickySteeves/repro-papers">GitLab repository of the course</a>.
+We hope it’s not the last time we can use the material ourselves but also invite everybody to use it.
+It contains numerous links to more detailed courses and we thank the R and Open Science communities for the breadth of existing tutorials and the inspiration they provide.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Our short course on writing reproducible geoscience papers is DONE! <a href="https://twitter.com/hashtag/egu18repro?src=hash&amp;ref_src=twsrc%5Etfw">#egu18repro</a> <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> <a href="https://t.co/V3vwojpk11">pic.twitter.com/V3vwojpk11</a></p>&mdash; Vicky Steeves (joinmastodon.org) (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/984454491176136704?ref_src=twsrc%5Etfw">12. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>The <em>evening</em> belonged to yet another townhall meeting: <strong><a href="http://meetingorganizer.copernicus.org/EGU2018/session/29539">“Research Software Engineers in the Geosciences”</a></strong>.
+Daniel initiated this meeting to bring together researchers developing software, or software developers doing research, to get to know the existing national chapters and initiatives as well as each other.
+A diverse group came together from different countries and <a href="https://www.egu.eu/structure/divisions/">scientific divisions</a> to share their experiences and to discuss how to improve the situation for RSEs in the geosciences (see <a href="http://www.de-rse.org/en/aims.html">de-RSE’s objectives</a>).
+A more detailed report from the townhall will follow in due course on the <a href="http://www.de-rse.org/en/blog.html">de-RSE Blog</a>, until then see <a href="https://twitter.com/nordholmen/status/984484030031843328">Daniel’s full thread on Twitter</a>.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">First research software engineers meeting at the EGU just started. Great to see people engaging with the role behind a crucial part of science. <a href="https://twitter.com/hashtag/rse?src=hash&amp;ref_src=twsrc%5Etfw">#rse</a> <a href="https://twitter.com/hashtag/RSEng?src=hash&amp;ref_src=twsrc%5Etfw">#RSEng</a> <a href="https://twitter.com/SoftwareSaved?ref_src=twsrc%5Etfw">@SoftwareSaved</a> <a href="https://twitter.com/RSE_de?ref_src=twsrc%5Etfw">@RSE_de</a> <a href="https://twitter.com/nordic_rse?ref_src=twsrc%5Etfw">@nordic_rse</a> <a href="https://twitter.com/nl_rse?ref_src=twsrc%5Etfw">@nl_rse</a> <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> <a href="https://twitter.com/EGU_ESSI?ref_src=twsrc%5Etfw">@EGU_ESSI</a> <a href="https://t.co/Y0lDsAtaae">pic.twitter.com/Y0lDsAtaae</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/984479316699381760?ref_src=twsrc%5Etfw">12. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>On <em>Friday</em> it was time for PICOs and posters. Daniel and Markus presented <a href="https://meetingorganizer.copernicus.org/EGU2018/EGU2018-17461.pdf">“Open Environmental Data Analysis”</a> and <a href="https://meetingorganizer.copernicus.org/EGU2018/EGU2018-19295-1.pdf">“Reproducible research bindings”</a> respectively in <a href="https://meetingorganizer.copernicus.org/EGU2018/session/28036">the session</a> <strong>“Open Data, Reproducible Research, and Open Science”</strong>.
+Again we enjoyed fruitful discussions and missed out on the interesting other presentations as we were fortunate enough to be visited by interested people throughout the whole viewing time.</p>
+
+<ul>
+  <li>Daniel’s slides: <a href="https://doi.org/10.5281/zenodo.1217912"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1217912.svg" alt="DOI" /></a></li>
+</ul>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Last day at <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> and what a great week it has been so far <a href="https://twitter.com/EGU_ESSI?ref_src=twsrc%5Etfw">@EGU_ESSI</a> <a href="https://twitter.com/EuroGeosciences?ref_src=twsrc%5Etfw">@EuroGeosciences</a>. Now at PICO spot 1 in session <a href="https://twitter.com/hashtag/OpenData?src=hash&amp;ref_src=twsrc%5Etfw">#OpenData</a> <a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;ref_src=twsrc%5Etfw">#OpenScience</a> and <a href="https://twitter.com/hashtag/ReproducibleResearch?src=hash&amp;ref_src=twsrc%5Etfw">#ReproducibleResearch</a> incl. presentation by <a href="https://twitter.com/thomas_barto?ref_src=twsrc%5Etfw">@thomas_barto</a> and me on open env. analysis w/ <a href="https://twitter.com/openSenseMap?ref_src=twsrc%5Etfw">@openSenseMap</a> &amp; <a href="https://twitter.com/SenseBox_De?ref_src=twsrc%5Etfw">@SenseBox_De</a> <a href="https://t.co/tRglBkhiMv">pic.twitter.com/tRglBkhiMv</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/984680761549901825?ref_src=twsrc%5Etfw">13. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr"><a href="https://twitter.com/MarkusKonkol?ref_src=twsrc%5Etfw">@MarkusKonkol</a> presents results from <a href="https://twitter.com/o2r_project?ref_src=twsrc%5Etfw">@o2r_project</a> : reproducible research bindings, increasing research transparency and understanding. <a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;ref_src=twsrc%5Etfw">#OpenScience</a> <a href="https://twitter.com/hashtag/reproducibleresearch?src=hash&amp;ref_src=twsrc%5Etfw">#reproducibleresearch</a> <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> <a href="https://twitter.com/hashtag/EGU18ESSI?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18ESSI</a> <a href="https://t.co/UY7PqU4sA2">pic.twitter.com/UY7PqU4sA2</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/984689770474426368?ref_src=twsrc%5Etfw">13. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Later that morning Edzer presented a poster on “openEO: an open API for cloud-based big Earth Observation processing platforms” (<a href="https://meetingorganizer.copernicus.org/EGU2018/EGU2018-8198.pdf">abstract</a>) in the session <a href="https://meetingorganizer.copernicus.org/EGU2018/session/28035">“Data cubes of Big Earth Data - a new paradigm for accessing and processing Earth Science Data”</a>.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Drawing a big crowd at <a href="https://twitter.com/EGU_ESSI?ref_src=twsrc%5Etfw">@EGU_ESSI</a> poster session: <a href="https://twitter.com/edzerpebesma?ref_src=twsrc%5Etfw">@edzerpebesma</a> presenting <a href="https://twitter.com/open_EO?ref_src=twsrc%5Etfw">@open_EO</a> project, an open API for Earth observation data and processing. <a href="https://twitter.com/hashtag/EGU18?src=hash&amp;ref_src=twsrc%5Etfw">#EGU18</a> <a href="https://twitter.com/hashtag/DataCubes?src=hash&amp;ref_src=twsrc%5Etfw">#DataCubes</a> <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://t.co/1rDoexZgPJ">pic.twitter.com/1rDoexZgPJ</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/984725790133751808?ref_src=twsrc%5Etfw">13. April 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>We are happy to thank the great people from <a href="https://meetings.copernicus.org/">Copernicus</a>, the organisers of the conference and a great supporter of Open Science as well as a <a href="/about">partner of o2r</a>, who we got to meet and catch up with.
+The conference has been great and here we only scratch the surface of fun, entertaining and educational experiences where o2r team members presented or convened and lack the many times we met <a href="https://twitter.com/nordholmen/status/984768359244890117">new people and communities</a>, colleagues, and friends to talk science.</p>
+
+<p><em>Thanks for reading!</em></p>
+:ET

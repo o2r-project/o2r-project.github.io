@@ -1,0 +1,34 @@
+I"3<p>We’ve been working on demonstrating our <a href="/results">reference-implementation</a> during spring an managed to create a number of example workspaces.
+We now decided to publish these workspaces on <a href="https://o2r.uni-muenster.de/">our demo server</a>.</p>
+
+<p><a href="https://o2r.uni-muenster.de/"><img src="/public/images/2018-08-14-demo/o2r-demo-listing.jpg" alt="o2r screenshot 1: listing of compendia" title="Screenshot 1: o2r reference implementation listing of published ERC" width="600" /></a></p>
+<p class="attributionInlineImage">Screenshot 1: o2r reference implementation <em>listing of published Executable Research Compendia</em>. The right-hand side shows a metadata summary including original authors.</p>
+
+<p>The papers were originally published in <!--more--> <a href="https://www.jstatsoft.org/">Journal of Statistical Software</a> or in a <a href="https://publications.copernicus.org/">Copernicus Publications</a> journal under open licenses.
+We have created an R Markdown document for each paper based on the included data and code following the <a href="https://o2r.info/erc-spec/spec/">ERC specification</a> for naming core files, but only included data, an R Markdown document and a HTML display file.
+The publication metadata, the runtime environment description (i.e. a <code class="highlighter-rouge">Dockerfile</code>), and the runtime image (i.e. a Docker image tarball) were all created during the ERC creation process without any human interaction (see the used <a href="https://github.com/o2r-project/erc-examples/blob/master/corpus/showcases.Rmd">R code for upload</a>), since required metadata were included in the R Markdown document’s front matter.</p>
+
+<p>The documents include selected figures or in some cases the whole paper, if runtime is not extremely long.
+While the paper’s authors are correctly linked in the workspace metadata (see right hand side in <em>Screenshot 1</em>), the “o2r author” of all papers is o2r team member Daniel since he made the uploads.
+You can find all publications on his author page (this is the link you definitely want to try out!):</p>
+
+<p>❗ <strong><a href="https://o2r.uni-muenster.de/#!/author/0000-0002-0024-5046">https://o2r.uni-muenster.de/#!/author/0000-0002-0024-5046</a></strong> ❗</p>
+
+<p><img src="/public/images/2018-08-14-demo/o2r-demo-compendium.jpg" alt="o2r screenshot 2: example compendium view" title="Screenshot 2: o2r reference implementation display of a single ERC" width="600" /></p>
+<p class="attributionInlineImage">Screenshot 2: o2r reference implementation <em>ERC detail page</em> for compendium [SLVlQ](https://o2r.uni-muenster.de/#!/erc/5LVlQ). The link "Article" in the top left corner leads to the original article, the "magnifying glass" button takes you to a core feature: the reproduction result.</p>
+
+<p>You can get to the original publication by clicking the “Article” button in the top left corner (see <em>Screenshot 2</em>).
+The workspaces demonstrate a variety of issues and are a great source for future work on architecture and implementation.
+Here are some examples of the power of a reproducible research service and publishing platform:</p>
+
+<ul>
+  <li>The <a href="https://o2r.uni-muenster.de/#!/erc/N4Jzp">ERC for “Tidy Data” by Hadley Wickham</a> completes the reproduction successfully, so no differences between the uploaded and reproduced HTML file were found! You can even download the image tarball (just bear with our demo - not production - server it it takes some time).</li>
+  <li>The <a href="https://o2r.uni-muenster.de/#!/erc/Z4Hci">ERC for “A question driven socio-hydrological modeling process” by Garcia et al.</a> “fails” due to differences in the created figure. A human can now judge if these differences are minor, or the author can try to tweak rendering parameters to fix this. <bf></bf><img src="/public/images/2018-08-14-demo/o2r-demo-imagediff.jpg" alt="o2r screenshot 3: image difference example" title="Screenshot 3: image difference example of &quot;failed&quot; replication" width="400" /></li>
+  <li>A <a href="https://o2r.uni-muenster.de/#!/erc/IKnWD">demo ERC with randomised output</a> shows how things can really go wrong. Feel free to click “Run Analysis” and see how the differences changes with each execution.</li>
+</ul>
+
+<p>If you want to go through the creation process yourself, register on the platform (this requires a short manual interaction by us) and upload one of selected workspaces, which you can find in our public demo share at <a href="https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA">https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA</a> (just look for zip files starting with <code class="highlighter-rouge">corpus_..</code>).
+Please take care to choose appropriate licenses and be aware that we might remove compendia from the demo platform without prior notice.</p>
+
+<p>We welcome <em>your feedback</em> <a href="https://twitter.com/o2r_project/status/1029293814756851712">on Twitter</a>, in the <a href="https://github.com/o2r-project/reference-implementation/issues/13">reference implementation GitHub project</a>, or in the comments below.</p>
+:ET

@@ -1,0 +1,77 @@
+I"�<p>As everyone is slowly coming back to work, the o2r team wishes <em>Happy New Year</em>. What better way to start the year with planning some fun trips? Here are our recommendations for upcoming events:</p>
+
+<ul>
+  <li><a href="/2018/01/05/events-2018/#open-science-r-and-foss-sessions-at-egu-general-assembly-2018">EGU sessions on Reproducible Research, R, and FOSS</a></li>
+  <li><a href="/2018/01/05/events-2018/#short-course-on-reproducible-papers-at-egu-general-assembly-2018">EGU short course “Writing reproducible geoscience papers”</a></li>
+  <li><a href="/2018/01/05/events-2018/#reproducible-research-publications-at-agile-2018">AGILE pre-conference workshop “Reproducible Research Publications”</a></li>
+</ul>
+
+<p><em>Please share this information with potentially interested parties (and <a href="https://twitter.com/o2r_project/status/949296239589449729">retweet</a>).</em>
+<!--more--> <em>Thanks!</em></p>
+
+<p><strong>Update!</strong> Added two more sessions and the OSGeo Townhall.</p>
+
+<p><img src="/public/images/egu2018-banner.png" alt="EGU 2018 conference banner" width="100%" /></p>
+<p class="attributionInlineImage">Image courtesy of EGU website.</p>
+
+<h2 id="open-science-r-and-foss-sessions-at-egu-general-assembly-2018">Open Science, R, and FOSS sessions at EGU General Assembly 2018</h2>
+
+<p>The European Geophysical Union’s General Assembly (EGU GA) takes place once more in April in Vienna - <a href="https://twitter.com/search?q=%23egu18">#EGU18</a>.
+The deadline for abstracts is 10 Jan 2018, 13:00 CET, so don’t delay, <strong><a href="https://egu2018.eu/information/deadlines_and_milestones.html">submit your abstract today</a></strong> to one of the following sessions:</p>
+
+<ul>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/28036">Open Data, Reproducible Research, and Open Science</a> (ESSI3.5)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/27584">R’s deliberate role in Earth sciences (PICO Session)</a> (IE4.4/GM2.8/AS5.8/BG1.17/CL5.28/GD10.10/GMPV10.5/HS3.5/SSS13.77/TS11.12)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/26511">Free and Open Source Software (FOSS) for Geoinformatics and Geosciences</a> (PICO Session, ESSI3.1)</li>
+</ul>
+
+<p>Other sessions without o2r team members convening, but looking very interesting are</p>
+
+<ul>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/28043">Leveraging data-driven workflows to accelerate Earth Science research</a> (ESSI3.3)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/28030">Data science, Analytics and Visualization: The challenges and opportunities for Earth and Space Science</a> (ESSI4.3)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/26942">Future of (hydrological) publishing (PICO session)</a> (HS1.16)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/28034">Web-based Exchange and Processing of Environmental Data</a> (ESSI2.6)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/28668">Emerging Computational Technology</a> (PICO session, IE4.2/AS5.5/BG1.32/CL5.17)</li>
+  <li><a href="http://meetingorganizer.copernicus.org/EGU2018/session/26510">Virtual Research Environments: creating online collaborative environments to support research in the Earth Sciences and beyond</a> (co-organised with American Geophysical Union, ESSI2.4)</li>
+</ul>
+
+<p>After our <a href="/2016/05/02/egu-review/">previous</a> <a href="/2017/05/04/o2r-at-EGU/">participations</a> we look forward to yet another event with interesting presentations and great conversations.
+If you’re going, too, make sure to join the <a href="http://meetingorganizer.copernicus.org/EGU2018/session/29320"><strong>OSGeo Townhall</strong>: Open Science demystified</a> (TM8, on Tuesday) and the townhall meetings <a href="http://meetingorganizer.copernicus.org/EGU2018/session/29539"><strong>“Research Software Engineers in the Geosciences”</strong></a> (TM13, room L8 on Thursday) and <a href="http://meetingorganizer.copernicus.org/EGU2018/session/29063"><strong>“EarthArXiv - a preprint server for the Earth Sciences”</strong></a> (TM4, room L2 on Monday).</p>
+
+<p><em>See you at EGU!</em></p>
+
+<h2 id="short-course-on-reproducible-papers-at-egu-general-assembly-2018">Short course on reproducible papers at EGU General Assembly 2018</h2>
+
+<p>After organising a <a href="/2017/05/03/egu-short-course-recap/">workshop on reproducible computational research in the publication cycle</a> last year, o2r is teaming up again with <a href="https://reprozip.org/">ReproZip</a> to help geoscientists tackling the challenges of reproducible papers.
+This year we organise the short course <a href="http://meetingorganizer.copernicus.org/EGU2018/session/28650"><em>SC1.13 - Writing reproducible geoscience papers using R Markdown, Docker, and GitLab</em></a>.
+We plan to go guide participants through the steps of writing an Open Science publication and managing its rendering, publication, and archival by using free and open online platforms.</p>
+
+<p>Let us know you’re interested to join with only two clicks: <strong><a href="https://doodle.com/poll/ngn9fqvhfkp3haui">https://doodle.com/poll/ngn9fqvhfkp3haui</a></strong></p>
+
+<p>Other short courses without o2r participation, but looking promising (they both use <strong>R</strong>!), are</p>
+
+<ul>
+  <li>SC1.34 - <a href="http://meetingorganizer.copernicus.org/EGU2018/session/29054">Improving statistical evaluations in the geosciences</a></li>
+  <li>SC1.17 - <a href="http://meetingorganizer.copernicus.org/EGU2018/session/28648">Using R for natural hazard risk modelling, with applications to wildfire risk forecasting</a></li>
+</ul>
+
+<h2 id="reproducible-research-publications-at-agile-2018">Reproducible Research Publications at AGILE 2018</h2>
+
+<p>We are happy to announce another <a href="/2017/05/10/o2r-at-AGILE/">continuation</a>, a pre-conference workshop at the <a href="http://agile-online.org/index.php/conference/conference-2018">21st AGILE International Conference on Geographic Information Science</a> in Lund, Sweden: <strong><a href="https://o2r.info/reproducible-agile/">“Reproducible Research Publications”</a></strong></p>
+
+<blockquote>
+  <p>The half day workshop attempts to provides a hands-on introduction to reproducible research by reproducing a provided real-world publication. Together with the instructors they create a reproducible document from text, code, and data of a scholarly publication and publish it in a data repository.</p>
+</blockquote>
+
+<p>The workshop is accepted and will be announced <a href="https://agile-online.org/index.php/programme-2018/agile-workshops-2018">on the conference website</a> soon.
+Please also check the <a href="https://o2r.info/reproducible-agile/">workshop website</a> for detailed information on registration and scheduling.</p>
+
+<p><img src="https://agile-online.org/images/conference_2018/images/slogan-agile18-7.jpg" alt="agile conference banner" /></p>
+<p class="attributionInlineImage">Image courtesy of AGILE website.</p>
+
+<p>Submit your registration <em>both</em> at the <a href="https://agile-online.org/index.php/registration-2018">conference website</a> (will open soon!) and the workshop repository (see <a href="https://o2r.info/reproducible-agile/#registration">instructions</a>): <a href="https://github.com/o2r-project/reproducible-agile/issues/new">https://github.com/o2r-project/reproducible-agile/issues/new</a></p>
+
+<p>The workshop is co-organized by o2r team members and Frank Osterman (ITC, Enschede), Barbara Hofer (Z_GIS), Carlos Granell (Jaume I), Valentina Cerutti (ITC), and Rusne Sileryte (OTB, TU Delft).
+<em>We look forward to your registration!</em></p>
+:ET

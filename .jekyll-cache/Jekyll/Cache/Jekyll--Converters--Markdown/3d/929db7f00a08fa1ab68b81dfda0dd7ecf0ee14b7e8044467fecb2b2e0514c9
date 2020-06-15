@@ -1,0 +1,169 @@
+I"Pm<p><em>[This article is cross posted-on the <a href="https://blogs.egu.eu/geolog/2019/02/01/reproducibility-and-transparency-in-research/">EGU GeoLog</a>.]</em></p>
+
+<p>Contemporary science faces many challenges in publishing results that are reproducible.
+This is due to increased usage of data and digital technologies as well as heightened demands for scholarly communication.
+These challenges have led to widespread <a href="#munafo">calls</a> for more research transparency, accessibility, and reproducibility from the science community.
+This article presents current findings and solutions to these problems, including recent new software that makes writing submission-ready manuscripts for journals of <em><a href="https://www.copernicus.org/">Copernicus Publications</a></em> a lot easier.
+<!--more-->
+While it can be debated if science really faces a <a href="#baker">reproducibility</a> <a href="#fanelli">crisis</a>, the challenges of computer-based research have sparked numerous articles on new <a href="#wilson">good</a> <a href="#gil">research</a> <a href="#sandve">practices</a> and their <a href="#hardwicke">evaluation</a>.
+The challenges have also driven researchers to develop infrastructure and tools to help scientists effectively write articles, publish data, share code for computations, and communicate their findings in a reproducible way, for example <a href="#jupyter">Jupyter</a>, <a href="#reprozip">ReproZip</a> and <a href="https://research-compendium.science/">research compendia</a>.</p>
+
+<p><a href="#konkol">Recent</a> <a href="#nuest">studies</a> <a href="#ostermann">showed</a> that the geosciences and geographic information science are not beyond issues with reproducibility, just like other domains.
+Therefore, more and more <a href="https://www.nature.com/authors/policies/availability.html">journals</a> have <a href="#stodden">adopted policies</a> on sharing data and code.
+However, it is equally important that scientists foster an <a href="#nosek">open research culture</a> and teach researchers how they adopt more transparent and reproducible workflows, for example at skill-building workshops at conferences offered by fellow researchers, such as the EGU short courses, community-led non-profit organisations such as the <a href="https://carpentries.org/">Carpentries</a>, <a href="#toelch">open courses for students</a>, small discussion groups at research labs, or individual efforts of self-learning.
+In the light of prevailing <a href="#barba">issues of a common definition</a> of reproducibility, <a href="#stark">Philip Stark</a>, a statistics professor and associate dean of mathematical and physical sciences at the University of California, Berkeley, recently coined the term <a href="#stark"><em>preproducibility</em></a>: <em>“An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it.”</em>
+The neologism intends to reduce confusion and also to embrace a positive attitude for more openness, honesty, and helpfulness in scholarly communication processes.</p>
+
+<!-- image here! -->
+<p><a href="https://twitter.com/NatureNews/status/999715421208104960"><img src="/public/images/2018-11_showme-nottrustme-nature.png" alt="" /></a></p>
+
+<p>In the spirit of these activities, this article describes a modern workflow made possible by recent software releases.
+The new features allow the EGU community to write preproducible manuscripts for submission to the large variety of academic journals published by <a href="https://www.copernicus.org/"><em>Copernicus Publications</em></a>.
+The new workflow might require hard-earned adjustments for some researchers, but it pays off because of an increase in transparency and effectivity.
+This is especially the case for early career scientists.
+An open and reproducible workflow enables researchers to build on others’ and own previous work and better collaborate on solving the societal challenges of today.</p>
+
+<h2 id="reproducible-research-manuscripts">Reproducible research manuscripts</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Open-notebook_science">Open</a> digital <a href="https://arxiv.org/abs/1804.05492">notebooks</a>, which <a href="https://en.wikipedia.org/wiki/Literate_programming">interweave data and code</a> and can be exported to different output formats such as PDF, are powerful means to improve transparency and preproducibility of research.
+<a href="https://jupyter.org/">Jupyter Notebook</a>, <a href="http://stenci.la/">Stencila</a> and <a href="https://rmarkdown.rstudio.com/">R Markdown</a> let researchers combine long-form text of a publication and source code for analysis and visualisation in a single document.
+Having text and code side-by-side makes them easier to grasp and ensures consistency, because each rendering of the document executes the whole workflow using the original data.
+Caching for long-lasting computations is possible, and researchers working with supercomputing infrastructures or huge datasets may limit the executed code to purposes of visualisation using processed data as input.
+Authors can transparently expose specific code snippets to readers but also publish the complete source code of the document openly for collaboration and review.</p>
+
+<p>The popular notebook formats are plain text-based, like <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> in case of R Markdown.
+Therefore an R Markdown document can be managed with <a href="https://en.wikipedia.org/wiki/Version_control">version control software</a>, which are programs for managing multiple versions and contributions, even by different people, to the same documents.
+Version control provides traceability of authorship, a time machine for going back to any previous “working” version, and online collaboration such as on <a href="https://en.wikipedia.org/wiki/GitLab">GitLab</a>.
+This kind of workflow also stops <a href="http://phdcomics.com/comics/archive_print.php?comicid=1531">the madness of using file names for versions</a> yet still lets authors use <a href="https://speakerdeck.com/jennybc/how-to-name-files">awesome file names</a> and apply domain-specific <a href="#marwick">guidelines for packaging research</a>.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Final.doc <a href="https://t.co/YXJaSacHWu">https://t.co/YXJaSacHWu</a> <a href="https://t.co/4bBDzn7TXt">pic.twitter.com/4bBDzn7TXt</a></p>&mdash; PHD Comics (@PHDcomics) <a href="https://twitter.com/PHDcomics/status/826861642507882496?ref_src=twsrc%5Etfw">1. Februar 2017</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>R Markdown supports <a href="https://rmarkdown.rstudio.com/lesson-5.html">different programming languages</a> besides the popular namesake <a href="https://www.r-project.org/">R</a> and is a sensible solution even if you do not analyse data with scripts nor have any code in your scholarly manuscript.
+It is easy to write, allows you to <a href="https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html">manage your bibliography</a> effectively, can be used for websites, <a href="https://bookdown.org/">books</a> or <a href="https://bookdown.org/yihui/blogdown/">blogs</a>, but most importantly <em>it does not fall short when it is time to submit a manuscript article to a journal</em>.</p>
+
+<p>The <a href="https://cran.r-project.org/package=rticles"><code class="highlighter-rouge">rticles</code></a> extension package for R provides a number of templates for popular journals and publishers.
+Since version <code class="highlighter-rouge">0.6</code> (<a href="https://github.com/rstudio/rticles/releases/tag/v0.6">published Oct 9 2018</a>) these <a href="https://github.com/rstudio/rticles/pull/172">templates include</a> the <a href="https://publications.copernicus.org/for_authors/manuscript_preparation.html">Copernicus Publications Manuscript preparations guidelines for authors</a>.
+The Copernicus Publications staff was kind enough to give a test document a quick review and all seems in order, though of course any problems and questions shall be directed to the software’s vibrant community and not the publishers.</p>
+
+<p>The following code snippet and screen shot demonstrate the workflow.
+Lines starting with <code class="highlighter-rouge">#</code> are code comments and explain the steps.
+Code examples provided here are ready to use and only lack the installation commands for required packages.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># load required R extension packages:</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="s2">"rticles"</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="s2">"rmarkdown"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># create a new document using a template:</span><span class="w">
+</span><span class="n">rmarkdown</span><span class="o">::</span><span class="n">draft</span><span class="p">(</span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"MyArticle.Rmd"</span><span class="p">,</span><span class="w">
+                 </span><span class="n">template</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"copernicus_article"</span><span class="p">,</span><span class="w">
+                 </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"rticles"</span><span class="p">,</span><span class="w"> </span><span class="n">edit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># render the source of the document to the default output format:</span><span class="w">
+</span><span class="n">rmarkdown</span><span class="o">::</span><span class="n">render</span><span class="p">(</span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"MyArticle/MyArticle.Rmd"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/public/images/2018-10_rmd-pdf-example.png" alt="" /></p>
+
+<p>The commands created a directory with the Copernicus Publications template’s files, including an R Markdown (<code class="highlighter-rouge">.Rmd</code>) file ready to be edited by you (left-hand side of the screenshot), a <a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a> (<code class="highlighter-rouge">.tex</code>) file for submission to the publisher, and a <code class="highlighter-rouge">.pdf</code> file for inspecting the final results and sharing with your colleagues (right-hand side of the screenshot).
+You can see how simple it is to format text, insert citations, chemical formulas or equations, and add figures, and how they are rendered into a high-quality output file.</p>
+
+<p>All of these steps may also be completed with user-friendly forms when using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a>, a popular development and authoring environment available for all operating systems.
+The left-hand side of the following screenshot shows the form for creating a new document based on a template, and the right-hand shows side the menu for rendering, called “knitting” with R Markdown because code and text are combined into one document like threads in a garment.</p>
+
+<p><img src="/public/images/2018-10_rstudio-ui-example.png" alt="" /></p>
+
+<p>And in case you decide last minute to submit to a different journal, <a href="https://github.com/rstudio/rticles#overview"><code class="highlighter-rouge">rticles</code> supports many publishers</a> so you only have to adjust the template while the whole content stays the same.</p>
+
+<h2 id="sustainable-access-to-supplemental-data">Sustainable access to supplemental data</h2>
+
+<p>Data published today <a href="http://www.copdess.org/enabling-fair-data-project/commitment-to-enabling-fair-data-in-the-earth-space-and-environmental-sciences/">should</a> be published and properly cited using appropriate <a href="https://www.re3data.org/">research data repositories</a> following the <a href="https://en.wikipedia.org/wiki/FAIR_data">FAIR data</a> <a href="https://www.force11.org/group/fairgroup/fairprinciples">principles</a>.
+Journals require authors to follow these principles, see for example the <a href="https://publications.copernicus.org/services/data_policy.html">Copernicus Publications data policy</a> or a recent <a href="#nature">announcement by <em>Nature</em></a>.
+Other publishers required, or still do today, to store supplemental information (SI), such as dataset files, extra figures, or extensive descriptions of experimental procedures, as part of the article.
+Usually only the article itself receives a digital object identifier (<a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a>) for long-term identification and availability.
+The DOI <a href="https://www.helmholtz-berlin.de/zentrum/locations/bibliothek/dokumentationhaupt/veroeffentlichungsverzeichnis-kopie/doi-vergabe_en.html">minted</a> by the publisher is not suitable for direct access to supplemental files, because it points to a <a href="https://support.crossref.org/hc/en-us/articles/214669863-Your-landing-page">landing</a> <a href="https://support.datacite.org/docs/datacite-doi-display-guidelines#section-applying-the-guidelines">page</a> about the identified object.
+This landing page is designed to be read by humans but not by computers.</p>
+
+<p>The R package <a href="https://github.com/ropensci/suppdata"><code class="highlighter-rouge">suppdata</code></a> <a href="#pearse">closes this gap</a>.
+It supports downloading supplemental information using the article’s DOI.
+This way <code class="highlighter-rouge">suppdata</code> enables long-term reproducible data access when data was published as SI in the past or in exceptional cases today, for example if you write about a reproduction of a published article.
+In the latest version available <a href="https://github.com/ropensci/suppdata/blob/master/README.md">from GitHub</a> (suppdata is <a href="https://github.com/ropensci/suppdata/issues/31">on its way</a> to <a href="https://cran.r-project.org/package=suppdata">CRAN</a>) the <a href="https://github.com/ropensci/suppdata#supported-publishers-and-repositories">supported publishers</a> include Copernicus Publications.
+The following example code downloads a data file for the article <a href="https://doi.org/10.5194/bg-14-1739-2017">“Divergence of seafloor elevation and sea level rise in coral reef ecosystems”</a> by Yates et al. published in <em>Biogeosciences</em> in 2017.
+The code then creates a mostly meaningless plot shown below.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># load required R extension package:</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="s2">"suppdata"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># download a specific supplemental information (SI) file</span><span class="w">
+</span><span class="c1"># for an article using the article's DOI:</span><span class="w">
+</span><span class="n">csv_file</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">suppdata</span><span class="o">::</span><span class="n">suppdata</span><span class="p">(</span><span class="w">
+  </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"10.5194/bg-14-1739-2017"</span><span class="p">,</span><span class="w">
+  </span><span class="n">si</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Table S1 v2 UFK FOR_PUBLICATION.csv"</span><span class="p">)</span><span class="w">
+</span><span class="n">supplemental</span><span class="w">
+
+</span><span class="c1"># read the data and plot it (toy example!):</span><span class="w">
+</span><span class="n">my_data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">csv_file</span><span class="p">,</span><span class="w"> </span><span class="n">skip</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span><span class="p">)</span><span class="w">
+</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_data</span><span class="o">$</span><span class="n">NAVD88_G03</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_data</span><span class="o">$</span><span class="n">RASTERVALU</span><span class="p">,</span><span class="w">
+     </span><span class="n">xlab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Historical elevation (NAVD88 GEOID03))"</span><span class="p">,</span><span class="w">
+     </span><span class="n">ylab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"LiDAR elevation (NAVD88 GEOID03)"</span><span class="p">,</span><span class="w">
+     </span><span class="n">main</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"A data plot for article 10.5194/bg-14-1739-2017"</span><span class="p">,</span><span class="w">
+     </span><span class="n">pch</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">20</span><span class="p">,</span><span class="w"> </span><span class="n">cex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<!--
+png(file = "public/images/2018-10_suppdata-example-plot.png", width = 512, height = 512, bg = "white")
+plot(x = my_data$NAVD88_G03, y = my_data$RASTERVALU,
+  xlab = "Historical elevation (NAVD88 GEOID03))",
+  ylab = "LiDAR elevation (NAVD88 GEOID03)",
+  main = "A silly plot for article 10.5194/bg-14-1739-2017",
+  pch = 20, cex = 0.5)
+dev.off()
+-->
+
+<p><img src="/public/images/2018-10_suppdata-example-plot.png" alt="" /></p>
+
+<h2 id="main-takeaways">Main takeaways</h2>
+
+<p>Authoring submission-ready manuscripts for journals of Copernicus Publications just got a lot easier.
+Everybody who can write manuscripts with a word processor can learn quickly R Markdown and benefit from a preproducible data science workflow.
+Digital notebooks not only improve day-to-day research habits, but the same workflow is suitable for authoring high-quality scholarly manuscripts and graphics.
+The interaction with the publisher is smooth thanks to the LaTeX submission format, but you never have to write any LaTeX.
+The workflow is based on an established <a href="https://en.wikipedia.org/wiki/Free_and_Open-Source_Software">Free and Open Source</a> software stack and embraces the idea of preproducibility and the principles of <a href="https://en.wikipedia.org/wiki/Open_science">Open Science</a>.
+The software is maintained by an <a href="https://stackoverflow.com/questions/tagged/r">active</a>, <a href="https://stackoverflow.blog/2017/10/10/impressive-growth-r/">growing</a>, and welcoming community of researchers and developers with a <a href="https://www.r-spatial.org/">strong connection</a> to <a href="https://gis.stackexchange.com/questions/tagged/r">the</a> <a href="https://geocompr.github.io/">geospatial</a> <a href="https://asdar-book.org/">sciences</a>.
+Because of the complete and consistent notebook, <a href="#markowetz">you</a>, a colleague, or a student can easily pick up the work at a later time.
+The road to effective and transparent research begins with a first step - <a href="https://vickysteeves.gitlab.io/repro-papers/">take it</a>!</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>The software updates were contributed by <a href="https://orcid.org/0000-0002-0024-5046">Daniel Nüst</a> from the project <a href="https://o2r.info">Opening Reproducible Research</a> (o2r) at the Institute for Geoinformatics, University of Münster, Germany, but would not be able without the support of Copernicus Publications, the software maintainers most notably <a href="https://yihui.name/">Yihui Xie</a> and <a href="http://www.pearselab.com/">Will Pearse</a>, and the general awesomeness of the R, R-spatial, Open Science, and Reproducible Research communities.
+The blog text was greatly improved with feedback by EGU’s <a href="http://oliviatrani.org/">Olivia</a> <a href="https://twitter.com/oliviatrani">Trani</a> and Copernicus Publications’ <a href="https://twitter.com/XeniavanEdig">Xenia</a> <a href="https://www.copernicus.org/contact_us.html">van Edig</a>.
+Thank you!</p>
+
+<h2 id="references">References</h2>
+
+<!-- https://crosscite.org/ has a style "copernicus-publications" -->
+
+<ul>
+  <li><a name="nature"></a><a href="https://doi.org/10.1038/d41586-019-00075-3">Announcement: FAIR data in Earth science</a>, Nature, 565(7738), 134–134, doi:10.1038/d41586-019-00075-3, 2019.</li>
+  <li><a name="baker"></a>Baker, M.: <a href="https://doi.org/10.1038/533452a">1,500 Scientists Lift the Lid on Reproducibility</a>, Nature, 533(7604), 452–454, doi:10.1038/533452a, 2016.</li>
+  <li><a name="barba"></a>Barba, L. A.: <a href="http://arxiv.org/abs/1802.03311">Terminologies for Reproducible Research</a>, ArXiv:1802.03311 [Cs], February 9, 2018.</li>
+  <li><a name="fanelli"></a>Fanelli, D.: <a href="https://doi.org/10.1073/pnas.1708272114">Opinion: Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?</a>, Proceedings of the National Academy of Sciences, 115(11), 2628–2631, doi:10.1073/pnas.1708272114, 2018.</li>
+  <li><a name="gil"></a>Gil, Y., David, C. H., Demir, I., Essawy, B. T., Fulweiler, R. W., Goodall, J. L., Karlstrom, L., Lee, H., Mills, H. J., Oh, J.-H., Pierce, S. A., Pope, A., Tzeng, M. W., Villamizar, S. R. and Yu, X.: <a href="https://doi.org/10.1002/2015EA000136">Towards the Geoscience Paper of the Future: Best Practices for Documenting and Sharing Research from Data to Software to Provenance</a>, Earth and Space Science, 3(10), 388–415, doi:10.1002/2015ea000136, 2016.</li>
+  <li><a name="hardwicke"></a>Hardwicke, T. E., Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B. and Frank, M. C.: <a href="https://doi.org/10.1098/rsos.180448">Data availability, reusability, and analytic reproducibility: evaluating the impact of a mandatory open data policy at the journal Cognition</a>, Royal Society Open Science, 5(8), 180448, doi:10.1098/rsos.180448, 2018.</li>
+  <li><a name="konkol-cgis"></a>Konkol, M. and Kray, C.: <a href="https://doi.org/10.1080/15230406.2018.1512421">In-depth examination of spatiotemporal figures in open reproducible research</a>, Cartography and Geographic Information Science, 1–16, doi:10.1080/15230406.2018.1512421, 2018.</li>
+  <li><a name="konkol-ijgis"></a>Konkol, M., Kray, C. and Pfeiffer, M.: <a href="https://doi.org/10.1080/13658816.2018.1508687">Computational reproducibility in geoscientific papers: Insights from a series of studies with geoscientists and a reproduction study</a>, International Journal of Geographical Information Science, 1–22, doi:10.1080/13658816.2018.1508687, 2018.</li>
+  <li><a name="markowetz"></a>Markowetz, F.: <a href="https://doi.org/10.1186/s13059-015-0850-7">Five selfish reasons to work reproducibly</a>, Genome Biology, 16(1), doi:10.1186/s13059-015-0850-7, 2015.</li>
+  <li><a name="marwick"></a>Marwick, B., Boettiger, C. and Mullen, L.: <a href="https://doi.org/10.1080/00031305.2017.1375986">Packaging Data Analytical Work Reproducibly Using R (and Friends)</a>, The American Statistician, 72(1), 80–88, doi:10.1080/00031305.2017.1375986, 2017.</li>
+  <li><a name="munafo"></a>Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J. and Ioannidis, J. P. A.: <a href="https://doi.org/10.1038/s41562-016-0021">A manifesto for reproducible science, Nature Human Behaviour</a>, 1(1), 21, doi:10.1038/s41562-016-0021, 2017.</li>
+  <li><a name="nuest"></a>Nüst, D., Granell, C., Hofer, B., Konkol, M., Ostermann, F. O., Sileryte, R. and Cerutti, V.: <a href="https://doi.org/10.7717/peerj.5072">Reproducible research and GIScience: an evaluation using AGILE conference papers</a>, PeerJ, 6, e5072, doi:10.7717/peerj.5072, 2018.</li>
+  <li><a name="ostermann"></a>Ostermann, F. O. and Granell, C.: <a href="https://doi.org/10.1111/tgis.12195">Advancing Science with VGI: Reproducibility and Replicability of Recent Studies using VGI</a>, Transactions in GIS, 21(2), 224–237, doi:10.1111/tgis.12195, 2016.</li>
+  <li><a name="pearse"></a>Pearse, W. D. and A Chamberlain, S.: <a href="https://doi.org/10.21105/joss.00721">Suppdata: Downloading Supplementary Data from Published Manuscripts</a>, Journal of Open Source Software, 3(25), 721, doi:10.21105/joss.00721, 2018.</li>
+  <li><a name="repozip"></a><a href="https://osf.io/vc72z/">ReproZip: Computational Reproducibility With Ease</a>, F. Chirigati, R. Rampin, D. Shasha, and J. Freire. In Proceedings of the 2016 ACM SIGMOD International Conference on Management of Data (SIGMOD), pp. 2085-2088, 2016</li>
+  <li><a name="sandve"></a>Sandve, G. K., Nekrutenko, A., Taylor, J. and Hovig, E.: <a href="https://doi.org/10.1371/journal.pcbi.1003285">Ten Simple Rules for Reproducible Computational Research</a>, edited by P. E. Bourne, PLoS Computational Biology, 9(10), e1003285, doi:10.1371/journal.pcbi.1003285, 2013.</li>
+  <li><a name="stark"></a>Stark, P. B.: <a href="https://doi.org/10.1038/d41586-018-05256-0">Before reproducibility must come preproducibility</a>, Nature, 557(7707), 613–613, doi:10.1038/d41586-018-05256-0, 2018.</li>
+  <li><a name="toelch"></a>Toelch, U. and Ostwald, D.: <a href="https://doi.org/10.1371/journal.pbio.2006022">Digital open science—Teaching digital tools for reproducible and transparent research</a>, PLOS Biology, 16(7), e2006022, doi:10.1371/journal.pbio.2006022, 2018.</li>
+  <li><a name="jupyter"></a>Jupyter, P., Bussonnier, M., Forde, J., Freeman, J., Granger, B., Head, T., Holdgraf, C., Kelley, K., Nalvarte, G., Osheroff, A., Pacer, M., Panda, Y., Perez, F., Ragan-Kelley, B. and Willing, C.: <a href="http://conference.scipy.org/proceedings/scipy2018/pdfs/project_jupyter.pdf">Binder 2.0 - Reproducible, interactive, sharable environments for science at scale</a>, in Proceedings of the 17th Python in Science Conference, SciPy., 2018.</li>
+  <li><a name="wilson"></a>Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L. and Teal, T. K.: <a href="https://doi.org/10.1371/journal.pcbi.1005510">Good enough practices in scientific computing</a>, PLOS Computational Biology, 13(6), e1005510, doi:10.1371/journal.pcbi.1005510, 2017.</li>
+  <li><a name="yates"></a>Yates, K. K., Zawada, D. G., Smiley, N. A. and Tiling-Range, G.: <a href="https://doi.org/10.5194/bg-14-1739-201">Divergence of seafloor elevation and sea level rise in coral reef ecosystems</a>, Biogeosciences, 14(6), 1739–1772, doi:10.5194/bg-14-1739-2017, 2017.</li>
+</ul>
+:ET

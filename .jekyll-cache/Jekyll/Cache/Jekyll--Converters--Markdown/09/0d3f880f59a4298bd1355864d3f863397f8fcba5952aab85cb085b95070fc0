@@ -1,0 +1,16 @@
+I"�	<p>The Open Access movement has improved the foundation for research reproducibility in that it has greatly advanced the accessibility of research data and text. This year’s theme for the <a href="http://www.openaccessweek.org/">International Open Access Week</a> is “Open in Action”. The o2r team joins in by creating <a href="https://www.uni-muenster.de/Publizieren/open-access/">local awareness</a> for what may come beyond Open Access.</p>
+
+<p><img src="/public/images/2016-10-24_oaweek.png" alt="OA week logo" width="600" /></p>
+<p class="attributionInlineImage">Image by <a href="http://openaccessweek.org" title="Open Access Week">openaccessweek.org</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International">CC BY 4.0 Int.</a></p>
+
+<p>To transform access into action, the o2r team is working towards the implementation of a simple technical solution. A <a href="http://pebesma.staff.ifgi.de/epic.pdf">“one click reproduce”</a> button is one of the extremes within the continuum of reproducibility.
+It enables the user to recreate the original results of a study with only a mouse click. In order to realize that, a new format for the publication of research findings has to be created and integrated into the publication cycle.</p>
+
+<p>In o2r we envision a container format that implements the <em>executable research compendium</em> (<a href="http://presentations.copernicus.org/EGU2016-7396_presentation.pdf">ERC</a>) to encapsulate any information relevant to constitutating a complete set of research data, code, text and UI. This includes any necessary specification of the working and run time environments.</p>
+
+<p>Towards the other end of the continuum of reproducibility we find examples of published code and data that are openly accessible and yet fail to be rebuild easily by another scholar. By being dependent on other software, vanished packages and specific versions or environments, such cases leave it to the user to reconstruct the individual computational dependency architectures.
+This strongly increases the efforts to rebuild, run, or compile the code and thus effectively blocks <em>Open Action</em>.</p>
+
+<p>With the use of ERCs such obstacles can be resolved: The orginial analysis underlying a scientific publication becomes fully reproducible for independent researchers and anyone interested.
+Opening reproducibility is where we see the biggest need for Open Action in science.</p>
+:ET

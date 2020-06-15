@@ -1,0 +1,25 @@
+I"�<p><strong>Update</strong>: A video recoriding of the presentation is now published on the TIB AV-Portal: <a href="http://dx.doi.org/10.5446/20330">http://dx.doi.org/10.5446/20330</a></p>
+
+<iframe width="560" height="315" scrolling="no" src="//av.tib.eu/player/20330" frameborder="0" allowfullscreen=""></iframe>
+
+<p>o2r team member <a href="https://twitter.com/nordholmen">Daniel Nüst</a> recently participated in the worlds largest conference for geospatial open source software. The <a href="http://2016.foss4g.org">FOSS4G 2016</a> was hosted by the Open Source Geospatial Foundation (<a href="http://www.osgeo.org/">OSGeo</a>) and took place close to home, namely in Bonn. Therefore Daniel was extremely happy that <!--more--> his <a href="http://2016.foss4g.org/talks.html#146">talk</a> “An overview of Docker images for geospatial applications” was voted to be presented by the OSGeo community. Daniel presented an evaluation into the existing containers for FOSS4G software. After an introduction into Docker and some live demos, the takeaway was that everybody should use Docker more, and many different application scenarios (development, demos, training, cloud deployment) exist.</p>
+
+<p>The presentation was very well attended (~ 120 people), albeit taking place in the first session on Friday morning after the conference dinner the night before. <a href="https://twitter.com/search?q=foss4g%20docker&amp;src=typd">Reactions on Twitter</a> were also quite positive, several <a href="https://twitter.com/foss4g/status/769081504718852119">good question</a>s were asked, and great discussions followed throughout the day.</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Much interest in Docker containerization, <a href="https://twitter.com/hashtag/foss4g?src=hash">#foss4g</a> <a href="https://t.co/i55KphJwKv">pic.twitter.com/i55KphJwKv</a></p>&mdash; michael GOULD (@0mgould) <a href="https://twitter.com/0mgould/status/769075459225219072">August 26, 2016</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>The main part of the work is published in the OSGeo wiki: a comprehensive list of Docker containers published by projects or third parties to use a large variety of tools, libraries, or Desktop applications in Docker containers. Check out the list at <strong><a href="https://wiki.osgeo.org/wiki/DockerImages">https://wiki.osgeo.org/wiki/DockerImages</a></strong>. Contributions are welcome!</p>
+
+<p><em>How is this related to the o2r project?</em> The expertise build up around Docker should be shared with the communities we know. And more concretely, many applications in the geospatial world are build upon services and APIs, so scientific work building upon these APIs will require to archive such services, too. This is a topic we will experiment on in the second year of o2r.</p>
+
+<p><img src="http://geocontainers.org/img/geocontainers-logo.png" alt="geocontainers logo" title="geocontainers logo" width="100" class="img rightfloat" />As some popular projects surprisingly did not have Docker images yet, Daniel started a new independent project <a href="https://github.com/geocontainers/">on GitHub</a> to provide a place for FOSS4G-related containers and to expand the knowledge and application of containers for geospatial applications: <strong><a href="http://geocontainers.org/">geocontainers</a></strong>. Inspired by <a href="http://biodocker.org/">Biodocker</a>, geocontainers is intended to be a place to experiment and collaborate on containers without any initial rules or guidelines.</p>
+
+<p>All of this is described in detail in <a href="http://www.slideshare.net/nuest/docker-foss4g-2016-bonn-public">his presentation</a>, which is also available as a <a href="http://ftp5.gwdg.de/pub/misc/openstreetmap/FOSS4G-2016/foss4g-2016-1146-an_overview_of_docker_images_for_geospatial_applications-hd.mp4">video recording</a>. Feedback welcome!</p>
+
+<p><a href="http://ftp5.gwdg.de/pub/misc/openstreetmap/FOSS4G-2016/foss4g-2016-1146-an_overview_of_docker_images_for_geospatial_applications-hd.mp4"><img src="/public/images/2016-08_foss4g-video-docker.jpg" alt="presentation video screenshot" title="presentation video screenshot" width="600" /></a></p>
+
+<p>The conference was excellently organized in <a href="http://www.worldccbonn.com/en/history.html">a great venue</a> which includes the former Plenary Chambers of the Bundestag. Indeed a very special place to meet the people behind the projects of Free and Open Source Software for Geospatial.</p>
+
+<p><img src="/public/images/2016-09_foss4g-plenary-chamber.jpg" alt="FOSS4G keynote in Bundestag's old Plenary Chamber" title="FOSS4G keynote in Bundestag's old Plenary Chamber" width="600" /></p>
+:ET

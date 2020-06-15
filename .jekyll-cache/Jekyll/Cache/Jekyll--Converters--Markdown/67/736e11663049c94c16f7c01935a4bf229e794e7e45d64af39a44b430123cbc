@@ -1,0 +1,51 @@
+I"�<p><em>The o2r project’s journey continues.</em></p>
+
+<p><img src="/public/images/o2r2-logo.png" alt="o2r2 logo" width="300" class="img rightfloat" />
+On April 1st 2019 the o2r team started into a new phase (<em>“o2r2”</em>).
+In the next 30 months we plan to put our prototypes to the test with <em>real articles</em>, of course not without considerably improving them beforehand.</p>
+
+<p>As detailed in the University of Münster’s press releases (<a href="https://www.uni-muenster.de/news/view.php?cmdid=10183&amp;lang=en">English</a>, <a href="https://www.uni-muenster.de/news/view.php?cmdid=10182">German</a>), we are<!--more-->fortunate to collaborate with publishers to achieve the following objectives:</p>
+
+<ul>
+  <li>Use ERCs for actual scientific publications in <strong><a href="/pilots">pilot studies</a></strong> with original research manuscripts in a scholarly peer review</li>
+  <li><strong>Eliminate barriers</strong> for using ERCs as part of a publishing process</li>
+  <li><strong>Evaluate</strong> concept and pilots with user studies and monitoring to understand the costs and benefits of ERC-based authoring, publishing, and reading</li>
+</ul>
+
+<p><a href="/public/images/2019-04-15_platform-pr.png"><img src="/public/images/2019-04-15_platform-pr.png" alt="o2r platform mockup" /></a></p>
+<p class="attributionInlineImage">
+This is how a scientific publication can be presented in the future: on the left is the original publication, on the right the readers can work with the research data themselves. © o2r - based on <a href="https://doi.org/10.5194/nhess-16-2577-2016">F. Dottori et al./ Nat. HazardsEarth Syst. Sci.</a>
+</p>
+
+<p>As the official press statement was edited for brevity, we’d like to use the opportunity to extend on it here:</p>
+
+<blockquote>
+  <p>The project “Opening Reproducible Research II” (o2r2) will be supported by the German Research Foundation (<a href="https://www.dfg.de/en/">DFG</a>) under the umbrella of the programme for Library Services and Information Systems (<a href="https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/index.html">LIS</a>).
+Building on the results of the predecessor project, it will test, evaluate, and further develop solutions for improving reproducibility of research results in practice over the next 30 months.
+The o2r project will conduct three pilot studies.
+The Open Access publisher <a href="https://publications.copernicus.org/"><em>Copernicus Publications</em></a> and a large commercial publisher could be won for the project to conduct two pilot studies in the form of special issues for scientific journals, in which classic articles will be enriched with interactive and transparent analyses.
+In a third pilot, an open source software for the publication of scientific journals, Open Journal Systems by the Public Knowledge Project (<a href="https://pkp.sfu.ca/ojs/">OJS by PKP</a>), which is widely used in the scientific community, will be connected to the o2r reproducibility service and piloted at the ULB Münster together with researchers and students from the geosciences.
+Developments for OJS will be contributed to the global and national communities, including <a href="http://www.ojs-de.net/">OJS-de.net</a>.
+These pilots will be accompanied by various evaluations: with the help of authors, reviewers, and students, the transformation potential of reproducible scientific articles will be investigated.
+A focus lies on analyses based on geospatial data and the programming language R.
+Futhermore, the operation provides relevant insights into the costs and efforts for contemporary publishing of and interaction with data-based scientific research.
+All specifications and tools of o2r2 are published under free licenses and where possible are realised as contributions to existing Open Source projects.
+The project’s developments and results provide building blocks and concepts for a future infrastructure for enhanced scholarly communication and academic publications.</p>
+</blockquote>
+
+<p>We realise these goals are ambitious, but look forward confidently to work with the Open Science and Open Source communities to make them reality.</p>
+
+<hr />
+
+<p>As a first action, o2r team member Daniel attended the <a href="https://egu2019.eu/">EGU General Assembly in Vienna last week</a> to start the conversation about the pilot with EGU journals with journal editors.
+With the support of Copernicus staff, we distributed flyers about the planned Virtual Special Issue to journal editors of the Copernicus journals.
+You can read more about the plans <a href="/pilots/#copernicus">on the Pilots page</a>.
+Since we are very early in the project, it comes only as a little setback that Daniel could only speak to a handful of editors.
+We plan to intensify our outreach to journals and editors later this year, when the first working prototypes can tell the story much more convincing than a paper leaflet can - <em>isn’t that what executable interactive publications are all about?</em></p>
+
+<p>Besides reaching out to editors, discussing <a href="https://twitter.com/EarthArXiv/status/1115700257856397313">Open Access &amp; preprints</a>, and putting <a href="https://twitter.com/search?q=%23egu19rse">research software</a> on the map, Daniel also presented <a href="https://doi.org/10.5281/zenodo.2630482">a poster</a> on <em>packaging research</em>, with many fun interactions and discussions.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">One more (hopefully) <a href="https://twitter.com/hashtag/betterposter?src=hash&amp;ref_src=twsrc%5Etfw">#betterposter</a>  at <a href="https://twitter.com/hashtag/EGU19?src=hash&amp;ref_src=twsrc%5Etfw">#EGU19</a> on advantages on packaging research using containers and community standards, powered by <a href="https://twitter.com/o2r_project?ref_src=twsrc%5Etfw">@o2r_project</a> Find poster and abstract at <a href="https://t.co/fKjQ57uuhp">https://t.co/fKjQ57uuhp</a> <a href="https://t.co/tjeJ582ZRq">pic.twitter.com/tjeJ582ZRq</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/1116682650910064640?ref_src=twsrc%5Etfw">12. April 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+:ET

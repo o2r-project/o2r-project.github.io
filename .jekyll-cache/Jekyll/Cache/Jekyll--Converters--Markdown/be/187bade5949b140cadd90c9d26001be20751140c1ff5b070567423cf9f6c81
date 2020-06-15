@@ -1,0 +1,27 @@
+I"�<p>Today o2r team member <a href="https://orcid.org/0000-0002-0024-5046">Daniel</a> had the pleasure to present work from the o2r project at the two day <a href="https://www.software.ac.uk/c4rr">Docker Containers for Reproducible Research Workshop</a> held in Cambridge, UK.</p>
+
+<p>It was a full packed <a href="https://www.software.ac.uk/c4rr/agenda">two days of talks and demos</a> (see also <a href="https://twitter.com/hashtag/C4RR?src=hash">#C4RR</a>).
+People from a large <a href="https://www.software.ac.uk/c4rr/talks">variety of disciplines</a> shared how they use containers for making research transparent, scalable, transferable, and reproducible.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Getting ready for two exciting days at <a href="https://twitter.com/hashtag/C4RR?src=hash">#C4RR</a> workshop in Cambridge. <a href="https://twitter.com/nordholmen">@nordholmen</a> presenting o2r tomorrow afternoon. <a href="https://twitter.com/SoftwareSaved">@SoftwareSaved</a> <a href="https://t.co/IhYqmjddPD">pic.twitter.com/IhYqmjddPD</a></p>&mdash; o2r (@o2r_project) <a href="https://twitter.com/o2r_project/status/879632038126661632">27. Juni 2017</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Unlike the workshop’s title, Docker was not the only container solution. <a href="http://singularity.lbl.gov/">Singularity</a> made some important appearances, especially with the different groups working with clusters of thousands of nodes in HPC (high performance computing) and GPGPUs (general processing on graphical processing units). Further topics included deep learning, statistical reports by governments, using containers for teaching, scientific workflows in the cloud, virtual clusters and “best before” dates for software.</p>
+
+<p>Daniel had the hard job of giving the final presentation. After all the previous talks, which comprises many different aspects of reproducible research also somehow part of o2r, this was a threatening task and felt a bit like like “imposters syndrome”. However, the commonalities in motivation, challenges, and ideas are also a sign of the increasing popularity for using containers across <a href="https://www.software.ac.uk/c4rr/who-is-attending">diverse domains</a>. Eventually it is a very positive fact an event such as C4RR took place in Europe and had more than 50 people in attendance!</p>
+
+<p>Take a look and Daniel’s slides and a video recording below.</p>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/qYhO5hTorgqPcu" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="">
+</iframe>
+<div style="margin-bottom: 10px; font-size: 80%;"> <strong> <a href="//www.slideshare.net/nuest/creating-executable-research-compendia-to-improve-reproducibility-in-the-geosciences" title="Creating Executable Research Compendia to Improve Reproducibility in the Geosciences" target="_blank">Creating Executable Research Compendia to Improve Reproducibility in the Geosciences</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/nuest">Daniel Nüst</a></strong>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cJ1Vehh3J88?rel=0" frameborder="0" allowfullscreen=""></iframe>
+
+<p>The workshop was a great experience and very well organized by the <a href="https://www.software.ac.uk/">Software Sustainability Institute</a>. We learned about both related and quite similar projects, but also acknowledged that o2r’s focus on “Desktop-sized” data and computing as well as supporting the geosciences domain does set us apart.</p>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="de"><p lang="en" dir="ltr">Thanks for a great workshop to <a href="https://twitter.com/SoftwareSaved">@SoftwareSaved</a>  <a href="https://twitter.com/rgaiacs">@rgaiacs</a> <a href="https://twitter.com/StephenEglen">@StephenEglen</a> Taking home stickers and many new ideas <a href="https://twitter.com/hashtag/C4RR?src=hash">#C4RR</a> <a href="https://twitter.com/hashtag/reproducibleresearch?src=hash">#reproducibleresearch</a> <a href="https://t.co/tEMG34drgp">pic.twitter.com/tEMG34drgp</a></p>&mdash; o2r (@o2r_project) <a href="https://twitter.com/o2r_project/status/880115594116440067">28. Juni 2017</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+:ET

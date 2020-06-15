@@ -1,0 +1,73 @@
+I"-<hr />
+
+<h2 id="rückblick">Rückblick</h2>
+
+<p>Einen kurzen Rückblick auf den Workshop finden sie im Blog des Projekt’s o2r: <a href="http://localhost:4000/2020/02/19/wwu-workshop/">http://localhost:4000/2020/02/19/wwu-workshop/</a>.
+Die <em>Pressemitteilung</em> über den Workshop gibt es auf <a href="https://www.uni-muenster.de/news/view.php?cmdid=10846&amp;lang=de">Deutsch</a> und <a href="https://www.uni-muenster.de/news/view.php?cmdid=10847&amp;lang=en">Englisch</a>.</p>
+
+<h2 id="material">Material</h2>
+
+<p><strong>Notizen</strong> inklusive Links zu den Präsentationen: <a href="https://docs.google.com/document/d/e/2PACX-1vSZYH9Uezaeyt3pGQAnAXAaEx0-ALipTHB42yJLV2bXNkeNM33b064gY-AO_B_YnnIws6ncPINnt9uT/pub">https://docs.google.com/document/d/e/2PACX-1vSZYH9Uezaeyt3pGQAnAXAaEx0-ALipTHB42yJLV2bXNkeNM33b064gY-AO_B_YnnIws6ncPINnt9uT/pub</a></p>
+
+<hr />
+
+<h2 id="was">Was</h2>
+
+<p>Das Team des Projekts <strong>o2r</strong> (Offene Reproduzierbare Forschung, Opening Reproducible Research, <a href="https://o2r.info">o2r.info</a>) organisiert einen Workshop zum Thema Reproduzierbarkeit von Analysen, die auf Software und Daten basieren.
+o2r ist ein DFG-gefördetes Forschungsprojekt des <a href="https://www.uni-muenster.de/Geoinformatics/">Instituts für Geoinformatik (ifgi)</a> und der <a href="https://www.ulb.uni-muenster.de/">Universitäts- und Landesbibliothek (ULB)</a>.</p>
+
+<div style="display: flex; justify-content:space-between;">
+  <a href="https://www.uni-muenster.de/" title="WWU website"><img src="/public/images/wwulogo.svg" height="80" alt="WWU Logo" /></a>
+  <a href="https://www.uni-muenster.de/Geoinformatics/" title="ifgi website"><img src="/public/images/ifgilogo.svg" height="80" alt="ifgi Logo" /></a>
+  <a href="https://www.ulb.uni-muenster.de/" title="ULB website"><img src="/public/images/ulblogo.svg" height="80" alt="ULB Logo" /></a>
+</div>
+
+<h2 id="warum">Warum</h2>
+
+<p>Viele wissenschaftliche Artikel sind nicht reproduzierbar.
+Häufig fehlen der Quelltext oder die Daten.
+Und selbst wenn beides zugänglich ist, kann es an technischen Schwierigkeiten scheitern.
+Das wird spätestens dann zum Problem, wenn Gutachter*innen eine Analyse verfizieren möchten oder andere Forscher*innen auf bereits existierenden Materialien aufbauen möchten.
+Diese Problematik führt dazu, dass auch Fördermittel nicht mehr bewilligt werden ohne dass Anträge klare Pläne zu Datenveröffentlichung und Softwareveröffentlichung beinhalten.</p>
+
+<p>Im Projekt o2r versuchen wir seit 2016 Lösungen zu entwickeln, um Wissenschaftler*innen dabei zu unterstützen, ihre Forschungsmaterialen reproduzierbar zu veröffentlichen.
+Unser Wissen und unsere Erfahrungen wollen wir nutzen um die Reproduzierbarkeit und damit die Qualität und Konkurrenzfähigkeit von Forschungsvorhaben aller Fachrichtungen an der WWU positiv zu beeinflussen.</p>
+
+<h2 id="wer">Wer</h2>
+
+<p>Wir möchten mit diesem Workshop vor allem <em>Professoren*innen und Postdocs</em> ansprechen, die sich zum einen über den aktuellen Stand der Technik und existierenden Infrastrukturen informieren möchten, zum anderen aber auch an einem generellen Austausch zum Thema Reproduzierbarkeit interessiert sind und über gemeinsame Ideen und Herausforderungen neue Projektideen und Projektpartner entdecken wollen.</p>
+
+<h2 id="wann-und-wo">Wann und Wo</h2>
+
+<p>Der Workshop wird am Dienstag, den <strong>11.02.2020</strong>, im <a href="https://www.openstreetmap.org/way/114602267"><em>GEO I</em>, Heisenbergstr. 2</a>, um <strong>13 Uhr im Raum 242</strong> stattfinden.
+Das Ende der Veranstaltung ist für 18 Uhr geplant.</p>
+
+<h2 id="ablaufplan">Ablaufplan</h2>
+
+<ol>
+  <li><strong>Einleitung &amp; Vorstellung</strong>
+  (Teilnehmer, Motivation, Begriffsklärung; M. Konkol)</li>
+  <li><strong>Reproduzierbarkeit</strong>
+    <ul>
+      <li>Konzepte &amp; Werkzeuge (D. Nüst)</li>
+      <li>eScience WWU (H. Przibytzin)</li>
+      <li>Finanzierung nachhaltiger Software (S. Rave)</li>
+      <li>Reproduzierbarkeit in der Phylogenetik (B. Stöver)</li>
+      <li>Opening Reproducible Research - das Projekt <em>o2r</em> (M. Konkol)</li>
+    </ul>
+  </li>
+  <li>Pause</li>
+  <li><strong>Förderstrategische Gruppendiskussionen</strong> (ca. 15 Uhr; Probleme, Ideen, Anknüpfungspunkte)</li>
+  <li>Kurze Pause</li>
+  <li>Plenardiskussion: <strong>Vision Reproduzierbarkeit WWU 2030</strong> (ca. 16:45 Uhr)</li>
+  <li>Abschluss</li>
+</ol>
+
+<h2 id="kontakt">Kontakt</h2>
+
+<p>Bei Fragen stehen wir natürlich gerne zur Verfügung.</p>
+
+<p><strong><a href="mailto:o2r.team@uni-muenster.de">o2r.team@uni-muenster.de</a></strong></p>
+
+<p>Tel.: 0251 31-31962</p>
+:ET

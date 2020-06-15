@@ -1,0 +1,47 @@
+I"<p>In the project, we have discussed extensively what reproducibility means. We debated what a reproducible paper should allow us to do. A crucial aspect to further develop these ideas for us are practical evaluations. That is where <strong>you</strong> come into the picture.</p>
+
+<p><em>Do you have an almost reproducible paper?</em></p>
+
+<p>We are looking for scientific publications that we can use to test our approach. We have been in touch with former and current colleagues and collaborators, but we would like to reach beyond our immediate circles. Our “test corpus” of publications must cover a certain breadth of topics, data formats, used tooles/packages et cetera.</p>
+
+<p><em>What are we looking for?</em></p>
+
+<ul>
+  <li>Published open access journal article (peer reviewed) or work-in-progress you are able to share with us</li>
+  <li>Data, text, and scripts/code are available publicly
+    <ul>
+      <li>data size &lt; 1 GB</li>
+      <li>code or main script in <a href="http://www.r-project.org/">R</a> (no worries about code quality - <em>what works is good!</em>)</li>
+      <li>data, method or visualisations have a spatial or spatio-temporal component, or other “geo” aspect</li>
+    </ul>
+  </li>
+  <li>Interest in open and reproducible research and willing to engage in a dialog with the o2r team</li>
+</ul>
+
+<p><em>What do you get?</em></p>
+
+<ul>
+  <li>Your paper will become part of our test publication corpus</li>
+  <li><em>We</em> will work hard to make it reproducible <em>for you</em> and even give feedback on your code, if you wish</li>
+  <li>In the long run, you contributed to a process that intends to make the creation of a reproducible publication a piece of cake, for you and for your fellow scientists</li>
+</ul>
+
+<p><strong>But I neither need nor want your help!</strong></p>
+
+<p>You write your papers in <a href="https://www.statistik.lmu.de/~leisch/Sweave/">Sweave</a> or <a href="http://rmarkdown.rstudio.com/">RMarkdown</a>, and amend them with an R package including the data and code? Then you are on track for a reproducible workflow. <em>Congratulations!</em> We would really enjoy packaging your workflow in a reproducible way, becaues it will not be too hard. <em>But</em> we don’t just want such apparently simple cases. We are well aware that journals might ask for very different looking submissions, even if authors want to use literate programming solutions.</p>
+
+<p>Instead we look forward to work with <em>your workspace directory as it is</em>. This way we learn more about people’s workflows and practices, be they good, bad, or just pragmatic. Trust us that you are not the only one for whom living up to her/his standards and expertise is a challenge in day-to-day research.</p>
+
+<p>📢 <em>This is an open call</em> 📢</p>
+
+<p>Please forward this website to any of your colleagues who might fit the profile, and don’t hesitate to get in touch if you have any questions. Thank you in advance!</p>
+
+<h2 id="submit-workspace">Submit workspace</h2>
+
+<p>Please send an email to <a href="mailto:daniel.nuest@uni-muenster.de" title="submission email address">daniel.nuest@uni-muenster.de</a> or tweet <a href="https://twitter.com/o2r_project" title="o2r on Twitter">@o2r_project</a> with a link to your paper and any supplemental material, e.g. as a link to a shared online folder.</p>
+
+<h2 id="participate-in-the-pilots">Participate in the pilots</h2>
+
+<p>If you have a reproducible paper, you can participate in the <a href="/pilots">o2r pilot studies</a>, where we collaborate with publishers on virtual special issues featuring executable research compendia for <em>real</em> research manuscripts in peer review.
+Check out <a href="/pilots">the pilots page</a> if a suitable journal from your domain is in the pilot, or <a href="/pilots#get-help">get in touch</a> otherwise.</p>
+:ET
