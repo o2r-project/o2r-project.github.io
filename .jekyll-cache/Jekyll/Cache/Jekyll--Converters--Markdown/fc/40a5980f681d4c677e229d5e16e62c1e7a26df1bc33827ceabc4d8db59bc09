@@ -1,0 +1,25 @@
+I"s<p>With the University in a rather calm state during summer, the o2r team continues to work on the first prototypes for testing and demonstrating our ideas. This is the first post on a technical topic, and we will occasionally write about topics that are not related to the scientific work but either kept us busy for some time or might be useful to others.</p>
+
+<p>Last week o2r team member Jan struggled with the implementation of the <strong>login feature</strong> for a <a href="https://nodejs.org/en">Node.js</a> <a href="https://en.wikipedia.org/wiki/Microservices">microservice</a>. <em>Why would we bother with that?</em>
+<!--more-->Because we want to share our prototypes publicly and invite you to try them out, but at the same time not have to worry about one of your most valuable possessions: your password.</p>
+
+<p>Therefore we decided early on to rely on <a href="http://oauthbible.com/#oauth-2-three-legged">three legged <strong>OAuth 2.0</strong></a> for handling user authentication. We opted for <a href="http://orcid.org/"><strong>ORCID</strong></a> as the authorization server because it is the most widespread identification for researchers today<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, and because of the potential for useful integrations in the future<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>.</p>
+
+<p>The solution<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> required to dig a bit deeper into the code of the used libraries, namely <a href="http://passportjs.org/">passport.js</a> with the plugin <a href="https://github.com/jaredhanson/passport-oauth2">passport-oauth2</a>. Jan summarizes everything nicely <a href="https://gist.github.com/JanKoppe/1491e37d1022c77a286087e6c81d6092">in <strong>this Gist</strong></a> and the working implementation is part of our component <a href="https://github.com/o2r-project/o2r-bouncer">o2r-bouncer</a>. The ORCID support team was even so kind to include our solution on their <a href="https://members.orcid.org/api/code-examples">code examples page</a> and we shared it with the <a href="https://groups.google.com/forum/#!topic/orcid-api-users/RRyhC-2L64U">ORCID API Users mailing list</a> in the hope that future developers will find this information helpful.</p>
+
+<p>So in the end, a full day of work to figure out two missing lines of code, but still many days saved on bullet-proofing standalone authentication and password storage.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>The used libraries would allow us to quickly add more authorization services, such as Google or GitHub. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Wouldn’t you like to have a research container be automatically added to your publication list? <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>In a nutshell, the <code class="highlighter-rouge">passReqToCallback</code> option must be enabled when creating the <code class="highlighter-rouge">OAuth2Strategy</code> and the <a href="https://github.com/o2r-project/o2r-bouncer/blob/dd3416e8a349aaa4a57ab8b061fe1556dd6d7041/index.js#L47">used callback function</a> must include 6 arguments. Only then the <a href="https://github.com/jaredhanson/passport-oauth2/blob/1eb4f22d5f6ca8bc6b08856f91779f67e5082fe0/lib/strategy.js#L184">function with the largest number of arguments</a> is used and the content of the accessToken-request answer, which includes the ORCID id and user name, is accessible in your own code. They can be found in the <code class="highlighter-rouge">params</code> parameter of the function, not as part of <code class="highlighter-rouge">profile</code> as one is used to with other OAuth servers. This seems to be a slight deviation from the standard by the ORCID folks. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

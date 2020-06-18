@@ -1,0 +1,44 @@
+I"�<!-- Tweet gif: https://giphy.com/gifs/kochstrasse-cute-sweet-plazahelden-JpLh4diVtbClvZCP70 -->
+
+<p>This week, the o2r team was <em>on tour</em>.
+We put our o2r tasks aside for a few days to interact with and contribute to the awesome Open Science/publishing/research community.</p>
+
+<p>Markus and Daniel were two of the fortunate few who<!--more--> were invited to participate in the <strong><a href="https://sprint.elifesciences.org/">eLife Innovation Sprint 2019</a></strong>.
+Thanks eLife!
+eLife is a non-profit Open Access publisher <a href="https://elifesciences.org/about/innovation">with a mission to innovate</a> and push scholarly communication, peer review, and publication of reproducible articles to new heights.
+The <a href="https://twitter.com/hashtag/eLifeSprint"><code class="highlighter-rouge">#eLifeSprint</code></a> is a two-day event and brings together scientists, developers, designers, architects, thinkers, community leaders, publishers, and early career researchers to come up with relevant challenges and promising ideas for the scientific community.
+It took place for the second time in Cambridge, UK, where eLife’s headquarter is located, in the welcoming <a href="https://www.junction.co.uk/">Cambridge Junction</a>.
+Just like last year, the event was excellently organised and run by eLife staff.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">And that&#39;s a wrap for <a href="https://twitter.com/hashtag/eLifeSprint?src=hash&amp;ref_src=twsrc%5Etfw">#eLifeSprint</a> 2019! 🎬<br /><br />A huge thank you to everyone involved for making this event so productive and fun! You&#39;ve all been amazing! ✨❤️😁 <a href="https://t.co/lAwi3pgaNY">pic.twitter.com/lAwi3pgaNY</a></p>&mdash; eLife Innovation (@eLifeInnovation) <a href="https://twitter.com/eLifeInnovation/status/1169641663549059072?ref_src=twsrc%5Etfw">September 5, 2019</a></blockquote>
+
+<p>After introductions and pitching ideas, the participants formed into project groups and spent ~1.5 days on realising a first prototype.
+You can learn about the results in the <a href="https://docs.google.com/presentation/d/1dGERl3b68Crsnc2wptFjzTNkgmcYNUs6kyUqeZN48GE/edit#slide=id.g3d962427da_0_0">“time to shine”</a> presentation and on social media under <a href="https://twitter.com/search?q=%23eLifeSprint%20%23TimeToShine"><code class="highlighter-rouge">#eLifeSprint #timetoshine</code></a>: an Open Science card game, a user interface for generating citation files for software, extracting data from text such as the used instruments, a prototype for discovering preprints from authors with underrepresented backgrounds, or a template project for running a journal on GitHub, to name just a few.
+Daniel and Markus really enjoyed the event and contributed with their developer skills (containers, UI development, eating cake) to several projects.</p>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/TimeToShine?src=hash&amp;ref_src=twsrc%5Etfw">#TimeToShine</a>: Ankit, Stephen, Daniel have made a UI prototype on GitHub and Docker Hub, worked on UI development for Binder, written case studies and more principles for CODECHECK, as well as helping others with Docker projects at the <a href="https://twitter.com/hashtag/eLifeSprint?src=hash&amp;ref_src=twsrc%5Etfw">#eLifeSprint</a> <a href="https://t.co/YJWrsvqWkN">pic.twitter.com/YJWrsvqWkN</a></p>&mdash; eLife Innovation (@eLifeInnovation) <a href="https://twitter.com/eLifeInnovation/status/1169624391442997249?ref_src=twsrc%5Etfw">September 5, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Team <a href="https://twitter.com/hashtag/SoftwareCitation?src=hash&amp;ref_src=twsrc%5Etfw">#SoftwareCitation</a> ready for <a href="https://twitter.com/hashtag/TimeToShine?src=hash&amp;ref_src=twsrc%5Etfw">#TimeToShine</a> <a href="https://twitter.com/hashtag/eLifeSprint?src=hash&amp;ref_src=twsrc%5Etfw">#eLifeSprint</a> <a href="https://twitter.com/eLifeInnovation?ref_src=twsrc%5Etfw">@eLifeInnovation</a> <a href="https://twitter.com/MarkusKonkol?ref_src=twsrc%5Etfw">@MarkusKonkol</a> Sarthak, me <a href="https://twitter.com/eScienceCenter?ref_src=twsrc%5Etfw">@eScienceCenter</a> Jen <a href="https://twitter.com/ELIXIREurope?ref_src=twsrc%5Etfw">@ELIXIREurope</a> , Melissa <a href="https://twitter.com/eLife?ref_src=twsrc%5Etfw">@eLife</a> , Sarala <a href="https://twitter.com/datacite?ref_src=twsrc%5Etfw">@datacite</a> <a href="https://t.co/jxjCDLFRIs">pic.twitter.com/jxjCDLFRIs</a></p>&mdash; Mateusz Kuzak (@matkuzak) <a href="https://twitter.com/matkuzak/status/1169625245302579201?ref_src=twsrc%5Etfw">September 5, 2019</a></blockquote>
+
+<p>While it was a little disappointing that Markus’ idea of a JavaScript image comparison library (hopefully more on that soon!) did gain attention but did not end up in a team, the sprint was a great occasion to give back to the community, to broaden the horizon beyond the o2r project, to make new acquaintances, and to get to know potential collaborators.
+<em>And we did all that!</em></p>
+
+<hr />
+
+<p>After the #eLifeSprint, Daniel hopped on a plane to Oslo, Norway, to participate in a <strong><a href="https://binderhub.readthedocs.io/en/latest/">Binder/BinderHub</a>/<a href="https://mybinder.org/">MyBinder.org</a>/<a href="https://jupyter.org/hub">JupyterHub</a></strong> event generously organised by <a href="https://www.simula.no/">Simula</a>.
+The event allowed long-term collaborators to meet in person, some for the first time, for some effective joint work.
+Participants happily hacked away on their own or formed discussion groups on specific topics for a few hours before taking on a new challenge.
+Ten to twelve developers of diverse backgrounds filled a hotel meeting room and turned coffee and delicious catering into pull requests, issues, and hackpads with new ideas and solutions in the Binder/Jupyter universe. 
+It was a great experience to get to know the friendly faces and delightful personalities behind GitHub usernames.
+Daniel enjoyed participating in the discussions and picking the brains of the core developers of BinderHub and repo2docker, and the maintainers of mybinder.org.
+He was able to contribute a <a href="https://github.com/jupyter/repo2docker/pull/788">few</a> <a href="https://github.com/jupyter/repo2docker/pull/778">pull</a> <a href="https://github.com/jupyter/repo2docker/pull/785">request</a> to <a href="https://repo2docker.readthedocs.io/en/latest/">repo2docker</a> and enjoyed the discussions on future directions of the core tool in the Binderverse, such as a new user interface (a must to make BinderHub even more like magic), pinning the repo2docker version (a must for reproducibility) and re-enabling composability for all <a href="https://repo2docker.readthedocs.io/en/latest/config_files.html">supported configurations</a> (a must for many users).</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My kind of crowd 🙇‍♂️🙇‍♀️! <a href="https://t.co/q8fvImQnEL">https://t.co/q8fvImQnEL</a></p>&mdash; Binder Team (@mybinderteam) <a href="https://twitter.com/mybinderteam/status/1170740818442956800?ref_src=twsrc%5Etfw">September 8, 2019</a></blockquote>
+
+<p><em>Thanks to all participants for making the meeting so much fun and educational.</em>
+Daniel’s participation will surely help to pave the way for a Binder-powered scalable infrastructure for the <a href="https://o2r.info/pilots/">o2r pilots</a> and for <a href="https://codecheck.org.uk/">CODE CHECK</a>.
+You can learn more about the numerous tasks tackled in the sprint in this HackMD pad: <a href="https://hackmd.io/N-uffNhvRdOgt1OvTuoq5w?view">https://hackmd.io/N-uffNhvRdOgt1OvTuoq5w?view</a></p>
+
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+:ET

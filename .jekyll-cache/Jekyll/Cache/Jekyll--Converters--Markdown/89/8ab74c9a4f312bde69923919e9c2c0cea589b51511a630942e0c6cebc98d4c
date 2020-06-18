@@ -1,0 +1,10 @@
+I"
+<p>Data and software are crucial components of research.
+They go well beyond the workflows one would call <em>Data Science</em> today. Only openly available building blocks can ensure transparency, reproducibility, and reusability of computer-based research outputs.
+More and more researchers rely on small or large datasets and use analysis tools to analyse variables, create figures, and derive conclusions.
+That is why the project Opening Reproducible Research (<a href="https://o2r.info/"><em>o2r</em></a>) implements the concept of the Executable Research Compendium (<a href="https://o2r.info/erc-spec/">ERC</a>) to capture all bits and pieces underlying a research article.
+In a <a href="/pilots">pilot study</a>, we plan to connect the Open Journal Systems (<a href="https://pkp.sfu.ca/ojs/">OJS</a>) with the ERC.
+On the one hand this connection enables submission, review, and publishing of <a href="http://research-compendium.science/">research compendia</a> and ERC.
+On the other hand while it leverages the publishing capabilities and workflow management of OJS.
+We will implement this integration in form of an <a href="https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins">OJS plug-in</a> so it becomes readily available for all maintainers of OJS instances.</p>
+:ET
