@@ -17,7 +17,7 @@ Today we publish our project proposal on the University of Münster's institutio
 
 We hope this publication of our proposal serves several purposes: it<!--more--> encourages fellow researchers to also share their plans openly (both funded and rejected), it motivates us to achieve the ambitious goals, and (we have to admit) the proposal's indexing in search engines hopefuly leads to some attention for the o2r project and subsequent new contacts and collaborations.
 Science reinvents the wheel much too often, and the o2r project team wants not only to [increase openness, transparency and reusability of research workflows](/about) but also in the bigger picture of research funding and building of research infrastructures.
-Our perspective on the distinction between o2r and other projects described in the proposals is also the motivation behind our recent preprint on ArXiv: [_"Publishing computational research – A review of infrastructures for reproducible and transparent scholarly communication"_](https://arxiv.org/abs/2001.00484).
+Our perspective on the distinction between o2r and other projects described in the proposals is also the motivation behind our recent paper: [_"Publishing computational research - a review of infrastructures for reproducible and transparent scholarly communication"_](https://doi.org/10.1186/s41073-020-00095-y).
 
 --------
 
