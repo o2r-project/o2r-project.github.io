@@ -46,14 +46,15 @@ Please also check below information for specific aspects for the different virtu
 The o2r team develops [_Reviewer Guidelines for Creating ERCs_](https://docs.google.com/document/d/1oXmg-V62UWCoHHstclDisrtNYZmjr2E1YuHxMw7O6dk/edit?usp=sharing).
 Please also check below information for specific aspects for the different virtual special issues (see below) and [contact us with any questions](#get-help).
 
-### Copernicus Publications Virtual Special Issue
+### <img src="https://www.copernicus.org/favicon_copernicus_128x128_.png" height="20" alt="Copernicus favicon/logo" style="display: inline; margin: 0;"> Copernicus Publications Virtual Special Issue
 <a name="copernicus">
 
-**Status:** First review started with loose integration or ERC (communication of ERC URL via coverletter and handling editor)
+**Status:** First review started with loose integration or ERC (communication of ERC URL via coverletter and handling editor); we're collecting more showcases before deciding how to proceed.
 
-**Participating journals:**
+**Participating journals** and papers:
 
-- [ESSD](https://www.earth-syst-sci-data.net/)
+- [**Earth System Science Data**](https://www.earth-syst-sci-data.net/) (ESSD)
+  - [_Deep-sea sediments of the global ocean_ by Markus Diesing]( https://doi.org/10.5194/essd-2020-22) (preprint under review; see RC1 for ERC information)
 
 **Next steps:**
 
