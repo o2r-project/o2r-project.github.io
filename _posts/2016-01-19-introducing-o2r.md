@@ -5,6 +5,7 @@ categories:
   - introduction
   - meta
   - description
+author: 'Daniel Nüst, Markus Konkol'
 ---
 
 Welcome to the new website of the research project *Opening Reproducible Research*.
