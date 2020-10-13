@@ -39,10 +39,6 @@ If you do not want the pages you visit to be tracked _by the o2r team_ at all, p
 <iframe frameborder="no" width="600px" height="200px" src="https://o2r.uni-muenster.de/piwik/index.php?module=CoreAdminHome&action=optOut"></iframe>
 {% endcomment %}
 
-This website embeds [DISQUS](https://disqus.com/) for the **discussions** of blog articles.
-Please check their [article on privacy and GDPR compliance](https://blog.disqus.com/update-on-privacy-and-gdpr-compliance) if you have any concerns about your data.
-We have disabled [anonymous cookie targeting](https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings) for our site's visitors.
-
 ## Notice of Liability
 
 Although we check the content carefully, we cannot accept responsibility for the content of external links. The linked sites' carriers are responsible for their sites' content.
