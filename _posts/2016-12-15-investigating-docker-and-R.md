@@ -10,12 +10,10 @@ author: 'Daniel Nüst'
 ---
 
 <div style="border: 2px solid #CE5100; background-color: #ffe2d4; padding: 1em; margin: 1em 0;">
-<p>📢 PREPRINT PUBLISHED 🎉</p>
+<p><em>This post gave the idea for the following 📢 PUBLISHED PAPER 🎉. It will not be updated anymore.</em></p>
 
-<p><a href="https://arxiv.org/abs/2001.10641" title="Link to arXiv"><strong>The Rockerverse: Packages and Applications<br/>for Containerization with R</strong></a><br/>
-Daniel Nüst, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daroczi, Mark Edmondson, Colin Fay, Ellis Hughes, Sean Lopp, Ben Marwick, Heather Nolis, Jacqueline Nolis, Hong Ooi, Karthik Ram, Noam Ross, Lori Shepherd, Nitesh Turaga, Craig Willis, Nan Xiao, Charlotte Van Petegem. 2020. <a href="https://arxiv.org/abs/2001.10641" title="Link to arXiv">arXiv:2001.10641</a> [cs.SE]</p>
-
-<p><em>This post gave the idea for the paper above. It will not be updated anymore.</em></p>
+<p><a href="https://doi.org/10.32614/RJ-2020-007" title="Link to article"><strong>The Rockerverse: Packages and Applications<br/>for Containerisation with R</strong></a><br/>
+Daniel Nüst, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daróczi, Mark Edmondson, Colin Fay, Ellis Hughes, Lars Kjeldgaard, Sean Lopp, Ben Marwick, Heather Nolis, Jacqueline Nolis, Hong Ooi, Karthik Ram, Noam Ross, Lori Shepherd, Péter Sólymos, Tyson Lee Swetnam, Nitesh Turaga, Charlotte Van Petegem, Jason Williams, Craig Willis and Nan Xiao. <em>The R Journal</em> (2020) 12:1, pages 437-461. doi:<a href="https://doi.org/10.32614/RJ-2020-007">10.32614/RJ-2020-007</a></p>
 </div>
 
 _~~This post is regularly updated (cf. [GH issue](https://github.com/o2r-project/o2r-project.github.io/issues/10)) and available under the URL **[http://bit.ly/docker-r](http://bit.ly/docker-r)**.~~ Last update: 11 Jan 2018._
