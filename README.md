@@ -69,10 +69,6 @@ The file `index.html` contains some logic trying to do a clever handling of the 
 - If the number of paragraphs in the post's excerpt is the same as the number of paragraphs of the post content, then see above. This is so that no "Read more" link is put on pages with no further text.
 - In any other case, show the excerpt and add a "Read more" link. You can set the length of the excerpt manually by using Jekyll's default tag `<!--more-->`.
 
-### Comments
-
-We use [DISQUS](https://disqus.com/) for comments, based on their [Jekyll Installation Instructions](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions), though not quite: Instead of enabling comments for each post, you must add  `disable_comments: true` to the frontmatter to disable them explicitly. Data privacy issues are mentioned on the imprint page.
-
 ### Ribbon
 
 A generic "Fork me" ribbon has been added and can be configured (text, link) in the file `_config.yml`. The color is configured in `public/css/o2r.css`. The ribbon appears on all pages via `_layouts/default.html`, and stylesheets are included in `_includes/head_default.html` if enabled.
