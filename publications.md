@@ -402,6 +402,8 @@ $(document).ready(function(){
 });
 </script>
 
+[Skip to the 🗣️ Talks below](#%EF%B8%8F-talks).
+
 <div id="publications">
     <ul id="publicationlist">
         <li><img alt="loading image" class="center" src="/public/images/loading.gif" width="32" /></li>
@@ -412,6 +414,8 @@ $(document).ready(function(){
 # 🗣️ Talks
 
 (newest first)
+
+Go up to the [📄 Publications](#📄-publications).
 
 <div id="talks">
     <ul id="talklist">
