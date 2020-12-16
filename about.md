@@ -55,10 +55,10 @@ o2r team members, supporting university staff, and external advisory board membe
 
 ### Team
 
-- Juan Sebastian Garzon (student assistant, 2020-01 to ..)
+- Fabian Fermazin (student assistant, 2020-10 to ..)
+- Juan Sebastian Garzon (student assistant, 2020-02 to ..)
 - Nick Jakuschona (student assistant, 2019-04 to ..)
 - Dr. Stephanie Klötgen (ULB)
-- [Dr. Markus Konkol](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/125/Markus_Konkol) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
 - Tom Niers (student assistant, 2019-04 to ..)
@@ -77,6 +77,7 @@ o2r team members, supporting university staff, and external advisory board membe
 
 ### Former team members
 
+- [Dr. Markus Konkol](https://orcid.org/0000-0001-6651-0976) (ifgi, 2016-2020)
 - Rehan Chaudhary (ifgi, intern, 2017-01 to 2017-07)
 - Philipp Glahe (student assistant, 2019-04 to 2019-09)
 - Laura Goulier (student assistant, 2019-06 to 2020-05)
