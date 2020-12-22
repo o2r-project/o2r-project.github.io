@@ -29,6 +29,15 @@ jobs:
             pip3 install --user --upgrade pip
             pip3 install --user requests
             pip3 install --user coloredlogs
+
+      #- name: Cache gems
+      #  uses: actions/cache@preview
+      #  with:
+      #    path: vendor/bundle
+      #    key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile') }}
+      #    restore-keys: |
+      #      ${{ runner.os }}-gem-
+          
       - name: Install Jekyll and gems
         run: |
             echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
@@ -45,4 +54,14 @@ jobs:
         run: |
             export DISPLAY=localhost:1.0
             export QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb
-            xvfb-run make update_zenodo_deposit
+            xvfb-run make capture_pdf
+            pkill -f jekyll;
+
+      - name: Create archive of current repo
+        run: make capture_zip
+            
+      - name: Deposit on Zenodo
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: |
+          python3 zenodo_release.py;
