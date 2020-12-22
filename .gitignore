@@ -52,3 +52,4 @@ o2r_project_website_and_blog\.pdf
 *.deb
 vendor
 .bundle
+.jekyll-cache

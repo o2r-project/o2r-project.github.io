@@ -1,6 +1,6 @@
 # o2r
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1485438.svg)](https://doi.org/10.5281/zenodo.1485438)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1485437.svg)](https://doi.org/10.5281/zenodo.1485437)
 
 This is the project website of the DFG-funded research project "Opening Reproducible Research" by Institute for Geoinformatics (ifgi) and University and Regional Library (ULB), University of Münster, Germany
 
@@ -18,6 +18,8 @@ bundle exec jekyll serve
 Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the draft posts.
 
 ## Publishing site repository and PDF on Zenodo
+
+![Deposit new posts on Zenodo](https://github.com/o2r-project/o2r-project.github.io/workflows/Deposit%20new%20posts%20on%20Zenodo/badge.svg)
 
 After each new blog post is published, a [Zenodo deposit](https://doi.org/10.5281/zenodo.1485437) (first deposit `https://zenodo.org/record/1485438`) with a PDF of all blog posts and relevant pages is updated automatically using a GitHub action, see `Makefile` and `.github/workflows/deposit.yml` for details.
 For the automatic deployment, a Zenodo token with write access to the deposit above must be stored as a [Repository secret](https://github.com/o2r-project/o2r-project.github.io/settings/secrets/actions).
