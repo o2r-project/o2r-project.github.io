@@ -46,6 +46,8 @@ ribbon:
   text:   'Join the pilots! 🚀'
   url:    '/pilots'
 
+livereload_ignore: [ "*.pdf" ]
+
 plugins:
   - jekyll-sitemap
   - jekyll-gist
