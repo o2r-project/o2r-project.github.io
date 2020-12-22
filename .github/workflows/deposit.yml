@@ -37,6 +37,7 @@ jobs:
       #    key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile') }}
       #    restore-keys: |
       #      ${{ runner.os }}-gem-
+      # Add to below step: bundle config path vendor/bundle
           
       - name: Install Jekyll and gems
         run: |
