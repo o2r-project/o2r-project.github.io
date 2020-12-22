@@ -1,5 +1,6 @@
 # based on https://jekyllrb.com/docs/continuous-integration/travis-ci/
-sudo: true
+os: linux
+dist: xenial
 language: ruby
 rvm:
   - 2.4.1
