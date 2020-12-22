@@ -33,7 +33,7 @@ The output will show the rectangular bounding box, time interval and crs extract
 The input file used above was obtained from [Zenodo](https://sandbox.zenodo.org/record/256820#.XeGcJJko85k).
 The map below<!--more--> based on [OpenStreetMap](https://www.openstreetmap.org/export#map=8/52.347/5.446) shows the area of extracted bounding box. 
 
-![](https://i.imgur.com/3JICNjd.png)
+![screenshot of example map](/public/images/2020-04_geoextent-map.png)
 
 You can get quick usage help instructions on the command line, too:
 

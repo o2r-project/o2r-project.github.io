@@ -10,7 +10,7 @@ categories:
 author: 'Markus Konkol'
 ---
 
-![open science conference banner](https://www.open-science-conference.eu/wp-content/themes/science20/images/banner_2017.png){:width="500"}
+![open science conference banner](https://www.open-science-conference.eu/wp-content/uploads/2019/12/Open_Science_logo_600.png){:width="500"}
 <div style="font-size: 0.6em; color: rgba(67,69,83,1); margin: -1em 0 1em 0; padding: 0;">Foto: open-science-conference.eu</div>
 
 Due to the overall topic of our project, we felt the [Open Science Conference](https://www.open-science-conference.eu/) ([#osc2017](http://twitter.com/search?q=%23osc2017)) taking place this week in Berlin would be a great chance to share our ideas and meet like-minded folks. We were happy about the notification that our poster was accepted and even made it into the top ten (of altogether 57 submissions), which allowed o2r team member Markus to give a three-minute [lightning talk](https://www.open-science-conference.eu/wp-content/uploads/2016/02/04_Talk.pdf) and present a project [poster](https://www.open-science-conference.eu/wp-content/uploads/2017/03/04_Poster.pdf). Both days included interesting talks given by international speakers (see [full programme](https://www.open-science-conference.eu/programme/)) and in this post Markus reports on the trip.
