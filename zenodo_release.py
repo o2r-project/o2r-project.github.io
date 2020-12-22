@@ -15,8 +15,8 @@ logging.basicConfig(level=level)
 coloredlogs.install(level='DEBUG')
 
 # configuration
-#deposition_url = 'https://sandbox.zenodo.org/api/deposit/depositions/238796' # for testing, needs token from sandbox.zenodo.org
-deposition_url = 'https://zenodo.org/api/deposit/depositions/1485438'
+deposition_url = 'https://sandbox.zenodo.org/api/deposit/depositions/238796' # for testing, needs token from sandbox.zenodo.org
+#deposition_url = 'https://zenodo.org/api/deposit/depositions/1485438'
 pdf_file_name = 'o2r_project_website_and_blog.pdf'
 zip_file_name = 'o2r_project_website_and_blog_git-repository.zip'
 
