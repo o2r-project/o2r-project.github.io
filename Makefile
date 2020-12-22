@@ -30,7 +30,7 @@ capture_pdf:
 	make serve & ( sleep 5 && make save_all_content_to_pdf ; echo "Captured PDF"; )
 
 capture_zip:
-	zip -r o2r_project_website_and_blog_git-repository.zip . --exclude /vendor/* /.bundle/* \*.deb
+	git archive --format=zip HEAD -o o2r_project_website_and_blog_git-repository.zip
 
 update_zenodo_deposit: build capture_pdf capture_zip
 	python3 $(shell pwd)/zenodo_release.py;

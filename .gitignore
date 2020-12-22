@@ -46,5 +46,9 @@ Gemfile.lock
 .vscode/settings.json
 .vscode/settings.json
 
+# using git archive for the creation of Zenodo deposit, see Makefile
 o2r_project_website_and_blog\.pdf
 .Rhistory
+*.deb
+vendor
+.bundle
