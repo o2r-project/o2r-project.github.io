@@ -10,6 +10,8 @@ categories:
   - "Jekyll"
   - "archiving"
   - "Zenodo"
+  - "Travis CI"
+  - "GitHub action"
 author: "Daniel Nüst"
 ---
 
@@ -35,10 +37,11 @@ It goes like this:
 1. Run a Python script to upload the PDF and ZIP files to Zenodo using the [Zenodo API](http://developers.zenodo.org/), which includes several requests to retrieve the latest version metadata, check that there really is a new blog post, create a new deposit, remove the existing files in the deposit, upload the new files, and eventually publish the record.
 1. Kill the still running web server.
 
-For these steps to run automatically, the [Travis CI](https://travis-ci.org/) configuration file, [`.travis.yml`](https://github.com/o2r-project/o2r-project.github.io/blob/master/.travis.yml), installs the required software environment () to conduct all above steps during [each build](https://travis-ci.org/o2r-project/o2r-project.github.io/builds).
-It also includes a [encrypted environment variable](https://docs.travis-ci.com/user/encryption-keys/) with a Zenodo API key, so the build system provided by Travis CI can manipulate the record, the first version of which was created manually and included the record description, authors, tags, etc.
+For these steps to run automatically, the ~~[Travis CI](https://travis-ci.org/) configuration file, [`.travis.yml`](https://github.com/o2r-project/o2r-project.github.io/commit/5699871682178c500fe02fead163640cb480ea6f) (link to commit where Travis CI configuration was removed in favour of...)~~ the GitHub action configuration [`deposit.yml`](https://github.com/o2r-project/o2r-project.github.io/blob/master/.github/workflows/deposit.yml), installs the required software environment to conduct all above steps during each change to the main branch.
+A secure environment variable for the repository is used to store a Zenodo API key, so the build system can manipulate the record.
+The first version of this record, including its description, authors, tags, etc., was created manually.
 
-[![](/public/images/2019-02_zenodo-record-screenshot.png){:width="300" .img.rightfloat}](https://doi.org/10.5281/zenodo.1485437)
+[![Zenodo record screenshot](/public/images/2019-02_zenodo-record-screenshot.png){:width="300" .img.rightfloat}](https://doi.org/10.5281/zenodo.1485437)
 
 _So what is possible now?_
 As pointed out in the citation note at the bottom of pages and posts, the Digital Object Identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) allows referencing the whole website or specific posts (via pages in the PDF) in scholarly publications.

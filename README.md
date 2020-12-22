@@ -38,14 +38,6 @@ ZENODO_TOKEN=... python3 zenodo_release.py
 # increase logging output for testing with LOGLEVEL=DEBUG
 ```
 
-## Site testing
-
-[![Build Status](https://travis-ci.org/o2r-project/o2r-project.github.io.svg?branch=master)](https://travis-ci.org/o2r-project/o2r-project.github.io)
-
-The page is tested in the context of a Travis CI build: https://travis-ci.org/o2r-project/o2r-project.github.io
-
-This is based on the files `.travis.yml` and `Gemfile`.
-
 ## Useful stuff
 
 ### Authoring posts & publishing drafts
