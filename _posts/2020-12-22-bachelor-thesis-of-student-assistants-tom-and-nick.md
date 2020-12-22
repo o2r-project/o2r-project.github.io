@@ -18,7 +18,8 @@ categories:
 ---
 
 Two of the o2r student assistants have just finished successful their bachelor theses. Congratulations! 🎉
-<!--more-->
+
+This blog post introduces the excellent work by<!--more--> Tom and Nick - thank you for your dedication to advance Opening Reproducible Research.
 
 ## Geospatial Metadata for Discovery in Scholarly Publishing
 
