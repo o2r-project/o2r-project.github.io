@@ -95,7 +95,7 @@ o2r team members, supporting university staff, and external advisory board membe
 The o2r project is connected to external partners since its inception, and the group has been extended since then.
 They come from different disciplines and provide valuable feedback on project plans and decisions.
 
-[<img src="{{ 'public/images/logo_copernicus_publications_rgb.png' | relative_url }}" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
+[<img src="/public/images/logo_copernicus_publications_rgb.png" style="float:right;" height="30" alt="Copernicus Logo" />](https://www.copernicus.org/)[Dr. Xenia van Edig](http://www.copernicus.org/contact_us.html) (Business Development, Copernicus.org)
 
 [<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Aalto_University_School_of_Science.svg/137px-Aalto_University_School_of_Science.svg.png" style="float:right;" height="50" alt="Aalto University School of Science Logo" />](http://sci.aalto.fi/en/)[Dr. Tomi Kauppinen](http://www.kauppinen.net/tomi/) (Department of Computer Science, Aalto University School of Science, Finland)
 
