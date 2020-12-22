@@ -29,13 +29,14 @@ jobs:
             pip3 install --user --upgrade pip
             pip3 install --user requests
             pip3 install --user coloredlogs
-      - name: Install Jekyll
+      - name: Install Jekyll and gems
         run: |
             echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
             sudo gem install jekyll bundler
+            bundle install
             
       - name: Build page
         run: bundle exec jekyll build
