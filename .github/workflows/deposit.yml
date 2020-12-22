@@ -18,7 +18,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-            sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
             sudo apt-get update
             sudo apt-get install -y --no-install-recommends \
              python3-pip libcurl4-openssl-dev xfonts-base xfonts-75dpi xvfb qt5-default xkb-data x11-xkb-utils \
