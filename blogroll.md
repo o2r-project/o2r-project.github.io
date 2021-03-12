@@ -32,5 +32,6 @@ document.write("<a href='mailto:"+link+"'>Let us know</a>.")
 </script><noscript>Sorry, you need Javascript on to email us.</noscript>
 </p>
 
-- **[R-spatial.org](http://r-spatial.org/)**, also has a good [blogroll](http://r-spatial.org/blogroll/)
+- **[R-spatial.org](http://r-spatial.org/)** is the blog for everything geospatial and R (also has a good [blogroll](http://r-spatial.org/blogroll/))
 - **[R-bloggers](https://www.r-bloggers.com/)** is _the_ blog aggregator for R with [hundreds of blogs](https://www.r-bloggers.com/blogs-list/)
+- **[Generation R](https://genr.eu/wp/category/genr-blog/)** - exploring new ways to research, is an online platform for Open Science discourse
