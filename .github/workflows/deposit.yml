@@ -30,14 +30,13 @@ jobs:
             pip3 install --user requests
             pip3 install --user coloredlogs
 
-      #- name: Cache gems
-      #  uses: actions/cache@preview
-      #  with:
-      #    path: vendor/bundle
-      #    key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile') }}
-      #    restore-keys: |
-      #      ${{ runner.os }}-gem-
-      # Add to below step: bundle config path vendor/bundle
+      - name: Cache gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
           
       - name: Install Jekyll and gems
         run: |
@@ -46,6 +45,7 @@ jobs:
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
             sudo gem install jekyll bundler
+            bundle config path vendor/bundle
             bundle install
             
       - name: Build page
