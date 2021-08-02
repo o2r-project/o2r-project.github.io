@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "geoextent presented at the 2021 Earth Cube"
+title: "geoextent presented at the 2021 Earth Cube annual meeting"
 author: "Sebastian Garzón"
 categories:
   - geoextent
-  - geospatial 
-  - metadata 
-  - scholarly publishing 
+  - geospatial
+  - metadata
+  - scholarly publishing
   - reproducibility
 ---
 
@@ -20,7 +20,7 @@ In this blog post, student assistant Sebastian reports from the event.
 Notebooks as a scholarly object, database interoperability, FAIR workflows, connecting data and code, and tools for geosciences research are some of the topics discussed at the [2021 EarthCube annual meeting](https://www.earthcube.org/2021-earthcube-annual-meeting).
 At the event, o2r team members [Sebastian](https://orcid.org/0000-0002-8335-9312) and [Daniel](https://orcid.org/0000-0002-0024-5046) presented [geoextent](https://github.com/o2r-project/geoextent), a Python library designed to extract temporal and spatial extent from data files.
 
-We presented the librry as part of the [2nd call for Notebooks](https://www.earthcube.org/2021-earthcube-annual-meeting) for a digital proceedings of the EarthCube Annual Meeting following the increased interest of the geosciences research community on reproducible workflows. 
+We presented the librry as part of the [2nd call for Notebooks](https://www.earthcube.org/2021-earthcube-annual-meeting) for a digital proceedings of the EarthCube Annual Meeting following the increased interest of the geosciences research community on reproducible workflows.
 
 # Exploring Research Data Repositories with geoextent.
 
@@ -30,15 +30,15 @@ The [notebook](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD), 
 An initial exploration of Zenodo's API showed that spatial metadata is rarely available, difficulting data integration and discovery.
 The objective of our case study was to verify if we can increase the current percentage of repositories with geospatial information on [Zenodo](https://zenodo.org) by using geoextent.
 
-[![](../public/images/2021-06-30-geoextent-presented-at-the-2021-Earth-Cube-meeting/Screenshot-presentation-zenodo-api.png)](../public/images/2021-06-30-geoextent-presented-at-the-2021-Earth-Cube-meeting/Screenshot-presentation-zenodo-api.png)  
+[![](/public/images/2021-08-02-geoextent-presented-at-the-2021-earth-cube-meeting/screenshot-presentation-zenodo-api.png)](/public/images/2021-08-02-geoextent-presented-at-the-2021-earth-cube-meeting/screenshot-presentation-zenodo-api.png)
 
 *Screenshot of presentation showing the current state of spatial metadata in Zenodo*
 
-Our results suggest that geoextent could be used to increase spatial metadata of repositories by directly extracting information from the files deposited on them. 
+Our results suggest that geoextent could be used to increase spatial metadata of repositories by directly extracting information from the files deposited on them.
 However, we identified a series of challenges for this approach including geospatial information being stored in ambiguous formats (e.g., CSV and `.asc` files) or incorrectly georeferenced files in specialized formats (e.g., missing coordinate reference system or flipped coordinates).
-This case study also provide information for further development of geoextent to support more file formats and fix. 
+This case study also provide information for further development of geoextent to support more file formats and fix.
 
-[![](../public/images/2021-06-30-geoextent-presented-at-the-2021-Earth-Cube-meeting/Screenshot-presentation-results.png)](../public/images/2021-06-30-geoextent-presented-at-the-2021-Earth-Cube-meeting/Screenshot-presentation-results.png)
+[![](/public/images/2021-08-02-geoextent-presented-at-the-2021-earth-cube-meeting/screenshot-presentation-results.png)](/public/images/2021-08-02-geoextent-presented-at-the-2021-earth-cube-meeting/screenshot-presentation-results.png)
 
 *Screenshot of presentation showing the results of our case study with geoextent*
 
