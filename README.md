@@ -25,7 +25,7 @@ Run the site locally with
 $ bundle exec jekyll serve
 ```
 
-Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the draft posts.
+The website should be running at [localhost:4000](http://localhost:4000/).Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the draft posts.
 
 ## Publishing site repository and PDF on Zenodo
 
