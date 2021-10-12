@@ -16,7 +16,7 @@ $ gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
 Navigate to the root directory of the website (the one containing the Gemfile of the project) and run the following command:
 
 ```
-$ bundle exec jekyll serve
+$ bundle install
 ```
 
 Run the site locally with
