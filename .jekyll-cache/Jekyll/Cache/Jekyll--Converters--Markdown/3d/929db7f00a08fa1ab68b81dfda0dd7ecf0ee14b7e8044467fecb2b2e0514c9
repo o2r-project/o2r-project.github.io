@@ -1,4 +1,4 @@
-I"Pm<p><em>[This article is cross posted-on the <a href="https://blogs.egu.eu/geolog/2019/02/01/reproducibility-and-transparency-in-research/">EGU GeoLog</a>.]</em></p>
+I"�m<p><em>[This article is cross posted-on the <a href="https://blogs.egu.eu/geolog/2019/02/01/reproducibility-and-transparency-in-research/">EGU GeoLog</a>.]</em></p>
 
 <p>Contemporary science faces many challenges in publishing results that are reproducible.
 This is due to increased usage of data and digital technologies as well as heightened demands for scholarly communication.
@@ -42,12 +42,12 @@ This kind of workflow also stops <a href="http://phdcomics.com/comics/archive_pr
 <p>R Markdown supports <a href="https://rmarkdown.rstudio.com/lesson-5.html">different programming languages</a> besides the popular namesake <a href="https://www.r-project.org/">R</a> and is a sensible solution even if you do not analyse data with scripts nor have any code in your scholarly manuscript.
 It is easy to write, allows you to <a href="https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html">manage your bibliography</a> effectively, can be used for websites, <a href="https://bookdown.org/">books</a> or <a href="https://bookdown.org/yihui/blogdown/">blogs</a>, but most importantly <em>it does not fall short when it is time to submit a manuscript article to a journal</em>.</p>
 
-<p>The <a href="https://cran.r-project.org/package=rticles"><code class="highlighter-rouge">rticles</code></a> extension package for R provides a number of templates for popular journals and publishers.
-Since version <code class="highlighter-rouge">0.6</code> (<a href="https://github.com/rstudio/rticles/releases/tag/v0.6">published Oct 9 2018</a>) these <a href="https://github.com/rstudio/rticles/pull/172">templates include</a> the <a href="https://publications.copernicus.org/for_authors/manuscript_preparation.html">Copernicus Publications Manuscript preparations guidelines for authors</a>.
+<p>The <a href="https://cran.r-project.org/package=rticles"><code class="language-plaintext highlighter-rouge">rticles</code></a> extension package for R provides a number of templates for popular journals and publishers.
+Since version <code class="language-plaintext highlighter-rouge">0.6</code> (<a href="https://github.com/rstudio/rticles/releases/tag/v0.6">published Oct 9 2018</a>) these <a href="https://github.com/rstudio/rticles/pull/172">templates include</a> the <a href="https://publications.copernicus.org/for_authors/manuscript_preparation.html">Copernicus Publications Manuscript preparations guidelines for authors</a>.
 The Copernicus Publications staff was kind enough to give a test document a quick review and all seems in order, though of course any problems and questions shall be directed to the software’s vibrant community and not the publishers.</p>
 
 <p>The following code snippet and screen shot demonstrate the workflow.
-Lines starting with <code class="highlighter-rouge">#</code> are code comments and explain the steps.
+Lines starting with <code class="language-plaintext highlighter-rouge">#</code> are code comments and explain the steps.
 Code examples provided here are ready to use and only lack the installation commands for required packages.</p>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># load required R extension packages:</span><span class="w">
@@ -65,7 +65,7 @@ Code examples provided here are ready to use and only lack the installation comm
 
 <p><img src="/public/images/2018-10_rmd-pdf-example.png" alt="" /></p>
 
-<p>The commands created a directory with the Copernicus Publications template’s files, including an R Markdown (<code class="highlighter-rouge">.Rmd</code>) file ready to be edited by you (left-hand side of the screenshot), a <a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a> (<code class="highlighter-rouge">.tex</code>) file for submission to the publisher, and a <code class="highlighter-rouge">.pdf</code> file for inspecting the final results and sharing with your colleagues (right-hand side of the screenshot).
+<p>The commands created a directory with the Copernicus Publications template’s files, including an R Markdown (<code class="language-plaintext highlighter-rouge">.Rmd</code>) file ready to be edited by you (left-hand side of the screenshot), a <a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a> (<code class="language-plaintext highlighter-rouge">.tex</code>) file for submission to the publisher, and a <code class="language-plaintext highlighter-rouge">.pdf</code> file for inspecting the final results and sharing with your colleagues (right-hand side of the screenshot).
 You can see how simple it is to format text, insert citations, chemical formulas or equations, and add figures, and how they are rendered into a high-quality output file.</p>
 
 <p>All of these steps may also be completed with user-friendly forms when using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a>, a popular development and authoring environment available for all operating systems.
@@ -73,7 +73,7 @@ The left-hand side of the following screenshot shows the form for creating a new
 
 <p><img src="/public/images/2018-10_rstudio-ui-example.png" alt="" /></p>
 
-<p>And in case you decide last minute to submit to a different journal, <a href="https://github.com/rstudio/rticles#overview"><code class="highlighter-rouge">rticles</code> supports many publishers</a> so you only have to adjust the template while the whole content stays the same.</p>
+<p>And in case you decide last minute to submit to a different journal, <a href="https://github.com/rstudio/rticles#overview"><code class="language-plaintext highlighter-rouge">rticles</code> supports many publishers</a> so you only have to adjust the template while the whole content stays the same.</p>
 
 <h2 id="sustainable-access-to-supplemental-data">Sustainable access to supplemental data</h2>
 
@@ -84,9 +84,9 @@ Usually only the article itself receives a digital object identifier (<a href="h
 The DOI <a href="https://www.helmholtz-berlin.de/zentrum/locations/bibliothek/dokumentationhaupt/veroeffentlichungsverzeichnis-kopie/doi-vergabe_en.html">minted</a> by the publisher is not suitable for direct access to supplemental files, because it points to a <a href="https://support.crossref.org/hc/en-us/articles/214669863-Your-landing-page">landing</a> <a href="https://support.datacite.org/docs/datacite-doi-display-guidelines#section-applying-the-guidelines">page</a> about the identified object.
 This landing page is designed to be read by humans but not by computers.</p>
 
-<p>The R package <a href="https://github.com/ropensci/suppdata"><code class="highlighter-rouge">suppdata</code></a> <a href="#pearse">closes this gap</a>.
+<p>The R package <a href="https://github.com/ropensci/suppdata"><code class="language-plaintext highlighter-rouge">suppdata</code></a> <a href="#pearse">closes this gap</a>.
 It supports downloading supplemental information using the article’s DOI.
-This way <code class="highlighter-rouge">suppdata</code> enables long-term reproducible data access when data was published as SI in the past or in exceptional cases today, for example if you write about a reproduction of a published article.
+This way <code class="language-plaintext highlighter-rouge">suppdata</code> enables long-term reproducible data access when data was published as SI in the past or in exceptional cases today, for example if you write about a reproduction of a published article.
 In the latest version available <a href="https://github.com/ropensci/suppdata/blob/master/README.md">from GitHub</a> (suppdata is <a href="https://github.com/ropensci/suppdata/issues/31">on its way</a> to <a href="https://cran.r-project.org/package=suppdata">CRAN</a>) the <a href="https://github.com/ropensci/suppdata#supported-publishers-and-repositories">supported publishers</a> include Copernicus Publications.
 The following example code downloads a data file for the article <a href="https://doi.org/10.5194/bg-14-1739-2017">“Divergence of seafloor elevation and sea level rise in coral reef ecosystems”</a> by Yates et al. published in <em>Biogeosciences</em> in 2017.
 The code then creates a mostly meaningless plot shown below.</p>

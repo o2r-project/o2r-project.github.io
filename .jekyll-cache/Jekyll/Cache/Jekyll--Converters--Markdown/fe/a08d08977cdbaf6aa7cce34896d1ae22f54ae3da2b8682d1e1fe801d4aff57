@@ -1,0 +1,85 @@
+I"�<p>The primary objective of the second phase of the project <a href="https://o2r.info">Opening Reproducible Research</a> (o2r) is to use Executable Research Compendia (ERCs) for actual scientific publications.
+The o2r team is implementing pilots for several work packages:</p>
+
+<ul>
+  <li>In <a href="#collaboration-pilots"><em>collaboration pilots</em></a>, we work with publishers on Virtual Special Issues (VSIs).
+In these VSIs, submitted articles will have <a href="/results">ERCs</a> as supplemental material - an evolutionary use of ERCs.</li>
+  <li>In a <a href="#self-hosted-pilot"><em>self-hosted pilot</em></a>, we extend <a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> (OJS) to make the ERC itself the item under review in a demonstration journal.
+The pilots are supported by operating infrastructure and we will support authors, reviewers, and readers to enhance their scholarly communication with ERCs.</li>
+</ul>
+
+<p>The three pilots cover current publication practices from large scale publishers to independent journals.
+The pilots are accompanied user studies and monitoring, in order to gain insights about the costs and benefits of ERC-based research publications.
+All pilots require the integration of o2r services and tools in existing, established IT systems and organisational workflows - <em>we thank the collaborating publishers and editors as well as all authors and editors for their participation and open-mindedness!</em></p>
+
+<hr />
+
+<h2 id="collaboration-pilots">Collaboration pilots</h2>
+
+<p>The diversity of the VSIs, potentially covering journals from a variety of geoscience disciplines, allows to reach the broad authorship and readership of the involved journals.
+It evaluates the creation and inspection process for ERCs outside of a prototypical lab setting, so the technical infrastructure for ERCs is completely overhauled to support a growing number of users.</p>
+
+<h3 id="️-information-for-authors">✍️ <a href="https://docs.google.com/document/d/1skV3niWpQDYrtLWHob3UbP-Ejgbx1sG6opLcJ1WjZng/edit?usp=sharing">Information for authors</a></h3>
+
+<h3 id="-open-call-for-almost-reproducible-papers">📣 <a href="/almost">Open call for almost reproducible papers</a></h3>
+
+<h3 id="️-information-for-reviewers">🕵️ <a href="https://docs.google.com/document/d/1oXmg-V62UWCoHHstclDisrtNYZmjr2E1YuHxMw7O6dk/edit?usp=sharing">Information for reviewers</a></h3>
+
+<p>In case of questions, you can always <a href="#get-help">contact us</a>.</p>
+
+<h3 id="-copernicus-publications-virtual-special-issue"><img src="https://www.copernicus.org/favicon_copernicus_128x128_.png" height="20" alt="Copernicus favicon/logo" style="display: inline; margin: 0;" /> Copernicus Publications Virtual Special Issue</h3>
+<p><a name="copernicus"></a></p>
+
+<p><strong>Status:</strong> First review started with loose integration or ERC (communication of ERC URL via coverletter and handling editor). We are currently collecting more showcases.</p>
+
+<p><strong>Participating journals</strong> and papers:</p>
+
+<ul>
+  <li><a href="https://www.earth-syst-sci-data.net/"><strong>Earth System Science Data</strong></a> (ESSD)
+    <ul>
+      <li><a href="https://doi.org/10.5194/essd-2020-22"><em>Deep-sea sediments of the global ocean</em> by Markus Diesing</a> (preprint under review; see RC1 for ERC information)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Next steps:</strong></p>
+
+<ul>
+  <li><em>We are looking for more Copernicus journals to participate in the virtual special issue!</em> See the <a href="https://drive.google.com/file/d/1WltyoZQz7UpfTqU396JdZ3zVe0gZHZv1/view?usp=sharing">Open Call for Participation in Virtual Special Issue for Reproducible Research</a>.</li>
+  <li>Integration of <em>ERC form</em> field to submission forms and adding of extra reviewer questions to the review form.</li>
+  <li>Direct display of ERCs from the article reading page.</li>
+</ul>
+
+<h3 id="-elsevier-virtual-special-issue"><img src="https://static.semrush.com/power-pages/media/favicons/elsevier-com-favicon-c0e62f50.png" height="20" alt="Elsevier favicon/logo" style="display: inline; margin: 0;" /> Elsevier Virtual Special Issue</h3>
+<p><a name="elsevier"></a></p>
+
+<p><strong>Status:</strong> Looking for collaborating journals</p>
+
+<p>See the <a href="https://drive.google.com/file/d/1uIm6hA_Ke7bWmgiDYdaG2gsZAVwsArwB/view?usp=sharing">informative leaflet for a virtual special issue for Elsevier journals based on containers and R</a>.</p>
+
+<hr />
+
+<h2 id="self-hosted-pilot">Self-hosted pilot</h2>
+
+<p>The self-hosted pilot replaces the traditional paper with ERCs.
+It demonstrates ERCs’ potential to stakeholders and provides a platform for evaluation of ERCs in education.
+The self-hosted pilot is also used to investigate the impact of ERCs on understanding, complementing or even replacing traditional reading material in Geoinformatics courses. The students also have the opportunity of gaining first experiences as academic authors by submitting they final project report as an ERC.</p>
+
+<p><em>Example usage of the self-hosted pilot based on OJS  is described in this <a href="https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/">blog post</a>.</em></p>
+
+<h4 id="-we-are-open-for-collaborations-with-ojs-journals">👉 We are open for collaborations with OJS journals</h4>
+<p><a name="ojs"></a></p>
+
+<p><em>We are always looking for feedback and are open for collaboration with OJS developers and OJS journal maintainers who are interested in enhanced reviews and publications powered by ERC on OJS.</em></p>
+
+<h3 id="get-help">Get help</h3>
+
+<p>If you have any questions please do not hesitate to contact us:</p>
+
+<ul>
+  <li>❓ Ask a question on <a href="https://stackoverflow.com">Stackoverflow</a> using the tag <a href="https://stackoverflow.com/questions/tagged/erc"><code class="language-plaintext highlighter-rouge">erc</code></a> or <a href="https://stackoverflow.com/questions/tagged/executable-research-compendium"><code class="language-plaintext highlighter-rouge">executable-research-compendium</code></a>.</li>
+  <li>📨 Send us an email to <strong><a href="mailto:o2r.support@uni-muenster.de">o2r.support@uni-muenster.de</a></strong> if you have specific questions you prefer not to share publicly.</li>
+  <li>💬 Join our <a href="https://gitter.im/o2r-project/pilots">public pilots chat room</a> on Gitter: <a href="https://gitter.im/o2r-project/pilots"><img src="http://localhost:4000/public/images/gitter-pilots.svg" alt="Gitter" /></a></li>
+</ul>
+
+:ET

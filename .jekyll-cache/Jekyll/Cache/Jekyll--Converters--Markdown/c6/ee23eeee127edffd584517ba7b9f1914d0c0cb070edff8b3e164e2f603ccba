@@ -1,11 +1,11 @@
-I"p<p><em>Post updated on March 15 2018 to reflect simplified run commands.</em></p>
+I"�<p><em>Post updated on March 15 2018 to reflect simplified run commands.</em></p>
 
 <p>Our project is going into its final phase. We are <a href="https://github.com/o2r-project/erc-spec/pull/48">working on</a> integrating our latest experiences and discussions into the <a href="https://o2r.info/erc-spec">ERC specification</a> and constantly add new features to the <a href="https://github.com/o2r-project">implementation of the reproducibility service</a>.</p>
 
 <p>We also try to keep our <a href="/results/#implementation--demo">demo server</a> up to date.
 <em>But what good is a reproducibility platform, when you can only try it online?</em></p>
 
-<p>Inspired by the just passed <a href="http://www.openaccessweek.org/">Open Access Week</a> (<a href="https://twitter.com/hashtag/OAWeek?src=hash">#oaweek</a>), we’ve started <a href="https://github.com/o2r-project/reference-implementation/issues">a new repository <code class="highlighter-rouge">reference-implementation</code></a> to expose our developments, which have been open source from the start, to the interested public.</p>
+<p>Inspired by the just passed <a href="http://www.openaccessweek.org/">Open Access Week</a> (<a href="https://twitter.com/hashtag/OAWeek?src=hash">#oaweek</a>), we’ve started <a href="https://github.com/o2r-project/reference-implementation/issues">a new repository <code class="language-plaintext highlighter-rouge">reference-implementation</code></a> to expose our developments, which have been open source from the start, to the interested public.</p>
 
 <p><img src="/public/images/2017-10-31-refimpl/o2r-refimpl-ubuntu.jpg" alt="o2r screenshot: Ubuntu" title="Screenshot: o2r reference implementation on Ubuntu" width="600" /></p>
 <p class="attributionInlineImage">Screenshot: o2r reference implementation on <em>Ubuntu</em>.</p>
@@ -27,14 +27,14 @@ Eventually this repository will be the basis for a citable package of our softwa
 
 <p>We look forward to <a href="https://github.com/o2r-project/reference-implementation/issues">your feedback</a>!</p>
 
-<h2 id="tldr"><code class="highlighter-rouge">tl;dr</code></h2>
+<h2 id="tldr"><code class="language-plaintext highlighter-rouge">tl;dr</code></h2>
 
 <ol>
   <li>Install <a href="https://www.docker.com/get-docker">Docker</a> and <a href="https://docs.docker.com/compose/">docker-compose</a></li>
   <li>Download the o2r reference implementation repository and run it with with <br />
     <ul>
-      <li><code class="highlighter-rouge">git clone https://github.com/o2r-project/reference-implementation</code></li>
-      <li><code class="highlighter-rouge">docker-compose up</code></li>
+      <li><code class="language-plaintext highlighter-rouge">git clone https://github.com/o2r-project/reference-implementation</code></li>
+      <li><code class="language-plaintext highlighter-rouge">docker-compose up</code></li>
     </ul>
   </li>
 </ol>

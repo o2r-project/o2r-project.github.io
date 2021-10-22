@@ -1,4 +1,4 @@
-I"&<p>Some challenges of working on the next generation of research infrastructures can be solved most effectively by talking to other people.
+I"r<p>Some challenges of working on the next generation of research infrastructures can be solved most effectively by talking to other people.
 That is why o2r team members Tom and Daniel were happy to learn about the <a href="https://www.ojs-de.net/news-und-veranstaltungen/news/save-the-date-ojs-entwickler-workshop-am-20-21022020-in-heidelberg">announcement</a> of an <a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a> (OJS) <a href="https://journals.ub.uni-heidelberg.de/index.php/ojs/announcement/view/103">workshop organised by Heidelberg University Publising (heiUP)</a>.</p>
 
 <p>The o2r team was a little bit the odd one out.
@@ -15,7 +15,7 @@ This would allow to display the spatial area of articles on a map, and even brow
 <p>But Tom and Daniel also came with a mission: to jumpstart the struggling OJS developments with the help of some experiences OJS developers.
 None of our team has extensive experience with PHP, so getting control over the huge OJS codebase and setting up a proper <strong>OJS development environment with debugging</strong> was an important task they’ve been pushing aside since autumn last year.
 <em>And we got it!</em> 
-[Note to self: don’t forget to enable <code class="highlighter-rouge">remote_enable</code> and <code class="highlighter-rouge">remote_autostart</code> for Xdebug in the file <code class="highlighter-rouge">/etc/php/7.3/cli/conf.d/20-xdebug.ini</code> for debugging to work - then the default VSCode configuration with port <code class="highlighter-rouge">9000</code> will just work (-:].
+[Note to self: don’t forget to enable <code class="language-plaintext highlighter-rouge">remote_enable</code> and <code class="language-plaintext highlighter-rouge">remote_autostart</code> for Xdebug in the file <code class="language-plaintext highlighter-rouge">/etc/php/7.3/cli/conf.d/20-xdebug.ini</code> for debugging to work - then the default VSCode configuration with port <code class="language-plaintext highlighter-rouge">9000</code> will just work (-:].
 On top of that, Tom got a very <strong>helpful introduction to writing OJS plug-ins</strong>, and Daniel now has a good graps on the <a href="https://github.com/pkp/docker-ojs/">currently developed <strong>Docker images for OJS</strong></a>.
 The Docker images are not a simple project, since the PKP team plans to support multiple webserver implementations, multiple PHP versions, and all OJS versions still in production somewhere… phew!
 Daniel even <a href="https://github.com/pkp/docker-ojs/pull/14">opened a pull request</a> and suggests a different way to support both remotely and locally built images.

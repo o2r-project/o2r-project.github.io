@@ -1,0 +1,14 @@
+I")<p>All components of o2r are openly developed <a href="https://github.com/o2r-project">on GitHub</a>. The project’s findings manifest themselves in the following core specifications and documents, all of which are under development.</p>
+
+<ul>
+  <li><strong><a href="https://o2r.info/erc-spec">ERC specification</a></strong> (<a href="https://github.com/o2r-project/erc-spec">source</a>) formally defines the Executable Research Compendium and provides some background.</li>
+  <li><strong><a href="https://o2r.info/architecture/">Architecture</a></strong> (<a href="https://github.com/o2r-project/architecture">source</a>) describes multiple levels of architecture, from the relation of our reprocibility service with other platforms down to internal microservices.</li>
+  <li><strong><a href="https://o2r.info/api/">Web API</a></strong> (<a href="https://github.com/o2r-project/api">source</a>) defines a RESTful API for our reproducibility service, also used by our platform client.</li>
+</ul>
+
+<p>To cite the specifications and documentations please use</p>
+
+<blockquote>
+  <p>Nüst, Daniel, 2018. Reproducibility Service for Executable Research Compendia: Technical Specifications and Reference Implementation. Zenodo. doi:<a href="http://doi.org/10.5281/zenodo.2203844">10.5281/zenodo.2203844</a></p>
+</blockquote>
+:ET
