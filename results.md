@@ -1,14 +1,8 @@
 ---
 layout: page
-title: ⚙️ Results
+title: ⚙️ Deployment
 description: Project results
 ---
-
-## Publications & theses
-
-Please find a complete list of publications, talks and posters on the [📄&nbsp;publications&nbsp;page](/publications) and respective files in the [o2r community on Zenodo](https://zenodo.org/communities/o2r/).
-
-The [📖&nbsp;theses&nbsp;page](/theses) presents all BSc and MSc theses with a relation to o2r project goals and tasks.
 
 ## Specifications & documentation
 
@@ -17,6 +11,8 @@ o2r is an open project, so all our components are openly developed [on GitHub]({
 - **[ERC specification](https://o2r.info/erc-spec)** ([source](https://github.com/o2r-project/erc-spec)) formally defines the Executable Research Compendium and provides some background.
 - **[Architecture](https://o2r.info/architecture/)** ([source](https://github.com/o2r-project/architecture)) describes multiple levels of architecture, from the relation of our reprocibility service with other platforms down to internal microservices.
 - **[Web API](https://o2r.info/api/)** ([source](https://github.com/o2r-project/api)) defines a RESTful API for our reproducibility service, also used by our platform client.
+
+ <iframe src="https://github.com/o2r-project/erc-spec" title="ERC specifications"></iframe> 
 
 To cite the specifications and documentations please use
 

@@ -27,7 +27,7 @@ The o2r team collaborates with publishers to achieve the following goals:
 - Develop approach to reap the benefits of reproducible research
 - Implement platform that realises approach and test it
 
-Learn about the accomplishment of these goals on the **[results page](/results)** and stay updated [via Twitter](https://twitter.com/o2r_project).
+Learn about the accomplishment of these goals on the **[Deployment page](/results)** and stay updated [via Twitter](https://twitter.com/o2r_project).
 
 ## Why Open Access?
 
@@ -45,7 +45,7 @@ Already in the project proposal, we set a clear agenda on the question of softwa
 
 > All software developed by project staff will be distributed under a permissive open source license that allows reuse, modification and integration in commercial systems (e.g. Apache 2.0). Development happens openly at GitHub and all developments are visible directly instead of after the end of the project.
 
-See our [results](/results) page for more information about all software projects.
+See our [Deployment](/results) page for more information about all software projects.
 
 ## The team
 
