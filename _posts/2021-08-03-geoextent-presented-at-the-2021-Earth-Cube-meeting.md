@@ -24,7 +24,7 @@ We presented the librry as part of the [2nd call for Notebooks](https://www.eart
 
 ## Exploring research data repositories with geoextent
 
-> Sebastian Garzón and Nüst, Daniel. 2021. **Exploring Research Data Repositories with geoextent**. EarthCube annual meeting. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD)
+> Sebastian Garzón and Nüst, Daniel. 2021. **Exploring Research Data Repositories with geoextent**. EarthCube annual meeting. [DOI:](https://doi.org/10.5281/zenodo.5496311) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD)
 
 The [notebook](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD), accessible through [Binder](https://mybinder.org/), includes an introduction of geoextent's usage and a case study where we explored more than 300 [Zenodo](https://zenodo.org) repositories (over 25.000 files!) with geoextent.
 An initial exploration of Zenodo's API showed that spatial metadata is rarely available, difficulting data integration and discovery.
@@ -46,6 +46,7 @@ For more information about geoextent you can follow these links:
 
 - [geoextent repository](https://github.com/o2r-project/geoextent)
 - <a title="Exploring Research Data Repositories with geoextent - Binder" href="https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD"><img src="/public/images/my_binder.svg" style="display: inline-block; margin: 0; padding: 0; position-top: 3px;"></a>
+- [Exploring Research Data Repositories with geoextent notebook - Zenodo record](https://doi.org/10.5281/zenodo.5496311)
 - [Exploring Research Data Repositories with geoextent - presentation](https://doi.org/10.6084/m9.figshare.14786199)
 
 ## EarthCube meeting 2021
@@ -54,5 +55,5 @@ In addition to presenting geoextent, the participation in the event allowed us t
 Some of the reflections on the evolution of the guidelines, review process, and selected notebooks with respect to the first call were discussed in a [panel](https://www.youtube.com/watch?v=IV-4e3kxVas).
 In the same panel, representatives of the Jupyter, R&nbsp;Markdown, and Matlab communities presented different tools to share research results and how they could be integrated better within the context of scientific publications.
 
-Among the other [18 accepted notebooks](https://docs.google.com/document/d/1gkIGbqUtiy6AQ-OsnHq6xni2sA_8Hhn80VASPKW4uD8) we found interesting tools, for example *cf_xarray*, used to simplify the usage of Climate and Forecast (CF) compliant datasets by improving the metadata of files <a href="https://binder.pangeo.io/v2/gh/earthcube2021/ec21_cherian_etal/main?filepath=DC_01_cf-xarray.ipynb"><img src="/public/images/my_binder.svg" style="display: inline-block; margin: 0; padding: 0; position-top: 3px;"></a>, a methodology to access to OpenTopography’s Cloud Optimized GeoTIFF data for topography information <a href="https://mybinder.org/v2/gh/earthcube2021/ec21_beckley_etal/HEAD"><img src="/public/images/my_binder.svg" style="display: inline; margin: 0; padding: 0; position-top: 3px;"></a> or an educational platform to learn about glaciers <a href="https://mybinder.org/v2/gh/earthcube2021/ec21_maussion_etal/HEAD"><img src="/public/images/my_binder.svg" style="display: inline-block; margin: 0; padding: 0; position-top: 3px;"></a>.
+Among the other [18 accepted notebooks](https://earthcube2021.github.io/ec21_book/) we found interesting tools, for example *cf_xarray*, used to simplify the usage of Climate and Forecast (CF) compliant datasets by improving the metadata of files <a href="https://binder.pangeo.io/v2/gh/earthcube2021/ec21_cherian_etal/main?filepath=DC_01_cf-xarray.ipynb"><img src="/public/images/my_binder.svg" style="display: inline-block; margin: 0; padding: 0; position-top: 3px;"></a>, a methodology to access to OpenTopography’s Cloud Optimized GeoTIFF data for topography information <a href="https://mybinder.org/v2/gh/earthcube2021/ec21_beckley_etal/HEAD"><img src="/public/images/my_binder.svg" style="display: inline; margin: 0; padding: 0; position-top: 3px;"></a> or an educational platform to learn about glaciers <a href="https://mybinder.org/v2/gh/earthcube2021/ec21_maussion_etal/HEAD"><img src="/public/images/my_binder.svg" style="display: inline-block; margin: 0; padding: 0; position-top: 3px;"></a>.
 All of these studies give us a picture of different geosciences research questions and how they are presented in fully reproducible workflows.
