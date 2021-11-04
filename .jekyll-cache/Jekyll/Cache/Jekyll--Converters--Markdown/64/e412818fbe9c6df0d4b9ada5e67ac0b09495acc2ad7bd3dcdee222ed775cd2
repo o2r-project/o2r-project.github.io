@@ -1,4 +1,4 @@
-I"�<p><em>This post is the draft of the vignette for a new R package by o2r team members <a href="https://github.com/MatthiasHinz">Matthias</a> and <a href="https://github.com/nuest">Daniel</a>. Find the original file <a href="https://github.com/o2r-project/containerit/blob/master/vignettes/containerit.Rmd">in the package repository on GitHub</a>.</em></p>
+I"�<p><em>This post is the draft of the vignette for a new R package by o2r team members <a href="https://github.com/MatthiasHinz">Matthias</a> and <a href="https://github.com/nuest">Daniel</a>. Find the original file <a href="https://github.com/o2r-project/containerit/blob/master/vignettes/containerit.Rmd">in the package repository on GitHub</a>.</em></p>
 
 <ul>
   <li><a href="#introduction">1. Introduction</a></li>
@@ -33,15 +33,15 @@ in its original state, using <a href="https://en.wikipedia.org/wiki/Virtual_mach
 machines</a> or <a href="https://en.wikipedia.org/wiki/Operating-system-level_virtualization">software
 containers</a>.</p>
 
-<p>The R extension package <code class="highlighter-rouge">containerit</code> aims to facilitate the latter
+<p>The R extension package <code class="language-plaintext highlighter-rouge">containerit</code> aims to facilitate the latter
 approach by making reproducible and archivable research with containers
 easier. The development is supported by the DFG-funded project Opening
-Reproducible Research (o2r, <a href="https://o2r.info">https://o2r.info</a>). <code class="highlighter-rouge">containerit</code> relies on
+Reproducible Research (o2r, <a href="https://o2r.info">https://o2r.info</a>). <code class="language-plaintext highlighter-rouge">containerit</code> relies on
 <a href="http://docker.com/">Docker</a> and automatically generates a container
 manifest, or “recipe”, with setup instructions to recreate a runtime
 environment based on a given R session, R script, R Markdown file or
 workspace directory. The resulting
-<a href="https://docs.docker.com/engine/reference/builder/"><code class="highlighter-rouge">Dockerfile</code></a> can
+<a href="https://docs.docker.com/engine/reference/builder/"><code class="language-plaintext highlighter-rouge">Dockerfile</code></a> can
 not only be read and understood by humans, but also be interpreted by
 the Docker engine to create a software container containing all the R
 packages and their system dependencies. This way all requirements of an
@@ -53,15 +53,15 @@ Docker Hub</a>,
 <a href="http://dirk.eddelbuettel.com/blog/2014/10/23/#introducing_rocker">introduction</a>).
 Using the stack of version-stable Rocker images, it is possible to match
 the container’s R version with the local R installation or any R version
-the user requires. <code class="highlighter-rouge">containerit</code> executes the provided input workspace
+the user requires. <code class="language-plaintext highlighter-rouge">containerit</code> executes the provided input workspace
 or file first locally on the host machine in order to detect all
 dependencies. For determining external software dependencies of attached
-packages, <code class="highlighter-rouge">containerit</code> relies (a) on the <a href="https://sysreqs.r-hub.io/">sysreqs
+packages, <code class="language-plaintext highlighter-rouge">containerit</code> relies (a) on the <a href="https://sysreqs.r-hub.io/">sysreqs
 database</a> and makes use of the corresponding
 web API and R package, and (b) on internally defined rule sets for
 challenging configurations.</p>
 
-<p>The Dockerfile created by <code class="highlighter-rouge">containerit</code> can then be used to build a
+<p>The Dockerfile created by <code class="language-plaintext highlighter-rouge">containerit</code> can then be used to build a
 Docker image. Running the image will start an R session that closely
 resembles the creating systems runtime environment. The image can be
 shared and archived and works anywhere with a compatible Docker version.</p>
@@ -71,15 +71,15 @@ shared and archived and works anywhere with a compatible Docker version.</p>
 convenience functions for interacting with Docker images and containers.
 For concrete details on reading, loading, or installing the <em>exact</em>
 versions of R packages including their system dependencies/libraries,
-this project focuses on the geospatial domain. <code class="highlighter-rouge">containerit</code> uses the
+this project focuses on the geospatial domain. <code class="language-plaintext highlighter-rouge">containerit</code> uses the
 package
-<a href="https://cran.r-project.org/web/packages/futile.logger/"><code class="highlighter-rouge">futile.logger</code></a>
+<a href="https://cran.r-project.org/web/packages/futile.logger/"><code class="language-plaintext highlighter-rouge">futile.logger</code></a>
 to provide information to the user at a configurable level of detail,
 see <a href="https://cran.r-project.org/web/packages/futile.logger/README.html">futile.logger
 documentation</a>.</p>
 
 <p>In the remainder of this vignette, we first introduce the main usage
-scenarios for <code class="highlighter-rouge">containerit</code> and document current challenges as well as
+scenarios for <code class="language-plaintext highlighter-rouge">containerit</code> and document current challenges as well as
 directions for future work.</p>
 
 <h2 id="2-creating-a-dockerfile">2. Creating a Dockerfile</h2>
@@ -88,11 +88,11 @@ directions for future work.</p>
 
 <p>The easiest way to generate a Dockerfile is to run an analysis in an
 interactive R session and create a Dockerfile for this session by
-loading <code class="highlighter-rouge">containerit</code> and calling the <code class="highlighter-rouge">dockerfile()</code>- method with
+loading <code class="language-plaintext highlighter-rouge">containerit</code> and calling the <code class="language-plaintext highlighter-rouge">dockerfile()</code>- method with
 default parameters. As shown in the example below, the result can be
-pretty-printed and written to a file. If no <code class="highlighter-rouge">file</code> argument is supplied
-to <code class="highlighter-rouge">write()</code>, the Dockerfile is written to the current working directory
-as <code class="highlighter-rouge">./Dockerfile</code>, following the typical naming convention of Docker.</p>
+pretty-printed and written to a file. If no <code class="language-plaintext highlighter-rouge">file</code> argument is supplied
+to <code class="language-plaintext highlighter-rouge">write()</code>, the Dockerfile is written to the current working directory
+as <code class="language-plaintext highlighter-rouge">./Dockerfile</code>, following the typical naming convention of Docker.</p>
 
 <p>When packaging any resources, it is essential that the R working
 directory is the same as the build context, to which the Dockerfile
@@ -103,7 +103,7 @@ paths, e.g. for reading a file or sourcing another R script.</p>
 
 <h3 id="22-packaging-an-interactive-session">2.2 Packaging an interactive session</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library("containerit")
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library("containerit")
 
 ## 
 ## Attaching package: 'containerit'
@@ -133,9 +133,9 @@ dockerfile_object &lt;- dockerfile()
 </code></pre></div></div>
 
 <p>The representation of a Dockerfile in R is an instance of the S4 class
-<code class="highlighter-rouge">Dockerfile</code>.</p>
+<code class="language-plaintext highlighter-rouge">Dockerfile</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dockerfile_object
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dockerfile_object
 
 ## An object of class "Dockerfile"
 ## Slot "image":
@@ -214,7 +214,7 @@ follow a pre-defined order:</p>
   <li>set the working directory</li>
   <li>copy instructions and metadata labels (see examples in
 later sections)</li>
-  <li><code class="highlighter-rouge">CMD</code> instruction (final line) defines the default command when
+  <li><code class="language-plaintext highlighter-rouge">CMD</code> instruction (final line) defines the default command when
 running the container</li>
 </ol>
 
@@ -222,7 +222,7 @@ running the container</li>
 image are detected from the runtime environment, if not set to different
 values manually.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(dockerfile_object)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(dockerfile_object)
 
 FROM rocker/r-ver:3.4.0
 LABEL maintainer="daniel"
@@ -236,7 +236,7 @@ CMD ["R"]
 
 <p>Instead of printing out to the console, you can also write to a file:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>write(dockerfile_object, file = tempfile(fileext = ".dockerfile"))
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>write(dockerfile_object, file = tempfile(fileext = ".dockerfile"))
 
 ## INFO [2017-05-30 14:49:21] Writing dockerfile to /tmp/Rtmp25OKLi/file1a9726e56459.dockerfile
 </code></pre></div></div>
@@ -245,23 +245,23 @@ CMD ["R"]
 
 <p>Packaging an interactive session has the disadvantage that unnecessary
 dependencies might be added to the Dockerfile and subsequently to the
-container. For instance the package <code class="highlighter-rouge">futile.logger</code> is a dependency of
-<code class="highlighter-rouge">containerit</code>, and it will be added to the container because it was
+container. For instance the package <code class="language-plaintext highlighter-rouge">futile.logger</code> is a dependency of
+<code class="language-plaintext highlighter-rouge">containerit</code>, and it will be added to the container because it was
 loaded into the same session were the analyses was executed. It cannot
 be removed by default, because other packages in the session <em>might</em> use
 it as well (even unintentionally in case of generic methods). Therefore,
 it is safer not to tamper with the current session, but to run the
 analysis in an isolated <em>vanilla</em> session, which does not have
-<code class="highlighter-rouge">containerit</code> in it. The latter will batch-execute the commands in a
-seperate instance of R and retrieves an object of class <code class="highlighter-rouge">sessionInfo</code>.
-The session info is then used as input to <code class="highlighter-rouge">dockerfile()</code>. This is also
-how <code class="highlighter-rouge">dockerfile()</code> works internally when packaging either expressions,
+<code class="language-plaintext highlighter-rouge">containerit</code> in it. The latter will batch-execute the commands in a
+seperate instance of R and retrieves an object of class <code class="language-plaintext highlighter-rouge">sessionInfo</code>.
+The session info is then used as input to <code class="language-plaintext highlighter-rouge">dockerfile()</code>. This is also
+how <code class="language-plaintext highlighter-rouge">dockerfile()</code> works internally when packaging either expressions,
 scripts or R markdown files.</p>
 
 <p>The following code creates a Dockerfile for a list of expressions in a
 vanilla session.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exp &lt;- c(expression(library(sp)),
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exp &lt;- c(expression(library(sp)),
          expression(data(meuse)), 
          expression(mean(meuse[["zinc"]])))
 session &lt;- clean_session(exp, echo = TRUE)
@@ -287,13 +287,13 @@ CMD ["R"]
 <h3 id="24-packaging-an-r-script">2.4 Packaging an R script</h3>
 
 <p>R scripts are packaged by just supplying the file path or paths to the
-arguement <code class="highlighter-rouge">from</code> of <code class="highlighter-rouge">dockerfile()</code>. They are automatically copied into
+arguement <code class="language-plaintext highlighter-rouge">from</code> of <code class="language-plaintext highlighter-rouge">dockerfile()</code>. They are automatically copied into
 the container’s working directory. In order to run the R script on
 start-up, rather than an interactive R session, a CMD instruction can be
-added by providing the value of the helper function <code class="highlighter-rouge">CMD_Rscript()</code> as
-an argument to <code class="highlighter-rouge">cmd</code>.</p>
+added by providing the value of the helper function <code class="language-plaintext highlighter-rouge">CMD_Rscript()</code> as
+an argument to <code class="language-plaintext highlighter-rouge">cmd</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># create simple script file
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># create simple script file
 scriptFile &lt;- tempfile(pattern = "containerit_", fileext = ".R")
 writeLines(c('library(rgdal)',
              'nc &lt;- rgdal::readOGR(system.file("shapes/", package="maptools"), "sids", verbose = FALSE)',
@@ -322,18 +322,18 @@ CMD ["R", "--vanilla", "-f", "containerit_1a977e2dcdea.R"]
 
 <h3 id="25-packaging-an-r-markdown-file">2.5 Packaging an R Markdown file</h3>
 
-<p>Similarly to scripts, R Markdown files can be passed to the <code class="highlighter-rouge">from</code>
+<p>Similarly to scripts, R Markdown files can be passed to the <code class="language-plaintext highlighter-rouge">from</code>
 argument. In the following example, a vignette from the Simple Features
-package <code class="highlighter-rouge">sf</code> is packaged in a container. To render the document at
-startup, the Dockerfile’s <code class="highlighter-rouge">CMD</code> instruction must be changed. To do this,
-the <code class="highlighter-rouge">cmd</code> argument passed to <code class="highlighter-rouge">dockerfile()</code> is constructed using the
-function <code class="highlighter-rouge">CMD_Render</code>. Note that, as shown in the Dockerfile, the GDAL
-library has to be build from source for <code class="highlighter-rouge">sf</code> to work properly, because a
+package <code class="language-plaintext highlighter-rouge">sf</code> is packaged in a container. To render the document at
+startup, the Dockerfile’s <code class="language-plaintext highlighter-rouge">CMD</code> instruction must be changed. To do this,
+the <code class="language-plaintext highlighter-rouge">cmd</code> argument passed to <code class="language-plaintext highlighter-rouge">dockerfile()</code> is constructed using the
+function <code class="language-plaintext highlighter-rouge">CMD_Render</code>. Note that, as shown in the Dockerfile, the GDAL
+library has to be build from source for <code class="language-plaintext highlighter-rouge">sf</code> to work properly, because a
 quite recent version of GDAL is required. This adaptation of the
 installation instruction is based on an internal ruleset for the package
-<code class="highlighter-rouge">sf</code>.</p>
+<code class="language-plaintext highlighter-rouge">sf</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>response &lt;- file.copy(from = system.file("doc/sf3.Rmd",package = "sf"),
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>response &lt;- file.copy(from = system.file("doc/sf3.Rmd",package = "sf"),
                         to = temp_workspace, recursive = TRUE)
 vignette &lt;- "sf3.Rmd"
 
@@ -371,9 +371,9 @@ CMD ["R", "--vanilla", "-e", "rmarkdown::render(\"sf3.Rmd\", output_format = rma
 
 <h3 id="26-packaging-a-workspace-directory">2.6 Packaging a workspace directory</h3>
 
-<p>A typical case expected to be interesting for <code class="highlighter-rouge">containerit</code> users is
+<p>A typical case expected to be interesting for <code class="language-plaintext highlighter-rouge">containerit</code> users is
 packaging a local directory with a collection of data and code files. If
-providing a directory path to the <code class="highlighter-rouge">dockerfile()</code> function, the package
+providing a directory path to the <code class="language-plaintext highlighter-rouge">dockerfile()</code> function, the package
 searches for the first occurence of an R script, or otherwise the first
 occurence of an R markdown file. It then proceeds to package this file
 along with all other resources in the directory, as shown in the next
@@ -384,37 +384,37 @@ section.</p>
 <p>Analyses in R often rely on external files and resources that are
 located located in the workspace. When scripts or R markdown files are
 packaged, they are copied by default into the same location relative to
-the working directory. The argument <code class="highlighter-rouge">copy</code> influences how <code class="highlighter-rouge">dockefile()</code>
-behaves in this matter. It can either have the values <code class="highlighter-rouge">script</code> (default
-behaviour), <code class="highlighter-rouge">script_dir</code> (copies the complete directory in which the
+the working directory. The argument <code class="language-plaintext highlighter-rouge">copy</code> influences how <code class="language-plaintext highlighter-rouge">dockefile()</code>
+behaves in this matter. It can either have the values <code class="language-plaintext highlighter-rouge">script</code> (default
+behaviour), <code class="language-plaintext highlighter-rouge">script_dir</code> (copies the complete directory in which the
 input file is located), or a custom list of files and directories inside
 the current working directory</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">response</span> <span class="p">&lt;-</span> <span class="n">file</span><span class="p">.</span><span class="n">copy</span><span class="p">(</span><span class="k">from</span> <span class="p">=</span> <span class="nf">system</span><span class="p">.</span><span class="n">file</span><span class="p">(</span><span class="s2">"simple_test_script_resources/"</span><span class="p">,</span> 
-                                         <span class="k">package</span> <span class="p">=</span> <span class="s2">"containerit"</span><span class="p">),</span>
-                      <span class="k">to</span> <span class="p">=</span> <span class="n">temp_workspace</span><span class="p">,</span> <span class="n">recursive</span> <span class="p">=</span> <span class="nb">TRUE</span><span class="p">)</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>response &lt;- file.copy(from = system.file("simple_test_script_resources/", 
+                                         package = "containerit"),
+                      to = temp_workspace, recursive = TRUE)
 
 
-<span class="n">dockerfile_object</span> <span class="p">&lt;-</span> <span class="n">dockerfile</span><span class="p">(</span><span class="s2">"simple_test_script_resources/"</span><span class="p">,</span>
-              <span class="n">copy</span> <span class="p">=</span> <span class="s2">"script_dir"</span><span class="p">,</span>
-              <span class="n">cmd</span> <span class="p">=</span> <span class="n">CMD_Rscript</span><span class="p">(</span><span class="s2">"simple_test_script_resources/simple_test.R"</span><span class="p">))</span>
+dockerfile_object &lt;- dockerfile("simple_test_script_resources/",
+              copy = "script_dir",
+              cmd = CMD_Rscript("simple_test_script_resources/simple_test.R"))
 
-<span class="n">print</span><span class="p">(</span><span class="n">dockerfile_object</span><span class="p">)</span>
+print(dockerfile_object)
 
-<span class="k">FROM</span> <span class="n">rocker</span><span class="p">/</span><span class="n">r</span><span class="p">-</span><span class="n">ver</span><span class="p">:</span><span class="m">3.4.0</span>
-<span class="n">LABEL</span> <span class="n">maintainer</span><span class="p">=</span><span class="s2">"daniel"</span>
-<span class="n">WORKDIR</span> <span class="p">/</span><span class="n">payload</span><span class="p">/</span>
-<span class="n">COPY</span> <span class="p">[</span><span class="s2">"simple_test_script_resources"</span><span class="p">,</span> <span class="s2">"simple_test_script_resources/"</span><span class="p">]</span>
-<span class="n">CMD</span> <span class="p">[</span><span class="s2">"R"</span><span class="p">,</span> <span class="s2">"--vanilla"</span><span class="p">,</span> <span class="s2">"-f"</span><span class="p">,</span> <span class="s2">"simple_test_script_resources/simple_test.R"</span><span class="p">]</span>
+FROM rocker/r-ver:3.4.0
+LABEL maintainer="daniel"
+WORKDIR /payload/
+COPY ["simple_test_script_resources", "simple_test_script_resources/"]
+CMD ["R", "--vanilla", "-f", "simple_test_script_resources/simple_test.R"]
 </code></pre></div></div>
 
 <p>Including R objects works similar to resources, using the argument
-<code class="highlighter-rouge">save_image</code>. The argument can be set to <code class="highlighter-rouge">TRUE</code> to save <em>all</em> objects of
+<code class="language-plaintext highlighter-rouge">save_image</code>. The argument can be set to <code class="language-plaintext highlighter-rouge">TRUE</code> to save <em>all</em> objects of
 the current workspace to an .RData file, which is then copied to the
 container’s working directory and loaded on startup (based on
-<code class="highlighter-rouge">save.image()</code>).</p>
+<code class="language-plaintext highlighter-rouge">save.image()</code>).</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df &lt;- dockerfile(save_image = TRUE)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df &lt;- dockerfile(save_image = TRUE)
 print(df)
 
 FROM rocker/r-ver:3.4.0
@@ -444,9 +444,9 @@ CMD ["R"]
 </code></pre></div></div>
 
 <p>Alternatively, a object names as well as other arguments can be passed
-as a list, which then are passed to the <code class="highlighter-rouge">save()</code> function.</p>
+as a list, which then are passed to the <code class="language-plaintext highlighter-rouge">save()</code> function.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>require(fortunes)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>require(fortunes)
 
 ## Loading required package: fortunes
 
@@ -493,24 +493,24 @@ instructions</a>.
 Label instructions are key-value pairs of arbitrary content. A dublicate
 key overwrites existing ones. Although it is up to the user how many
 labels are created, it is recommended to bundle them into one Label
-instruction in the Dockerfile. Each use of the <code class="highlighter-rouge">Label()</code> function
+instruction in the Dockerfile. Each use of the <code class="language-plaintext highlighter-rouge">Label()</code> function
 creates a seperate instruction in the Dockerfile.</p>
 
 <p>As shown in section 2, the maintainer label is set by default to the top
 as the dockerfile and contains the username of the current host system.
-The maintainer can be changed with the <code class="highlighter-rouge">maintainer</code> argument of
-<code class="highlighter-rouge">dockerfile()</code>:</p>
+The maintainer can be changed with the <code class="language-plaintext highlighter-rouge">maintainer</code> argument of
+<code class="language-plaintext highlighter-rouge">dockerfile()</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>labeled_dockerfile &lt;- dockerfile(from = clean_session(), maintainer = "Jon_Doe@example.com")
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>labeled_dockerfile &lt;- dockerfile(from = clean_session(), maintainer = "Jon_Doe@example.com")
 </code></pre></div></div>
 
 <p>Labels can be applied to the existing Dockerfile object using the
-<code class="highlighter-rouge">addInstructions()</code> function, which adds any newly created instructions
-to the end of the Dockerfile but before the CMD statement. The <code class="highlighter-rouge">Label()</code>
+<code class="language-plaintext highlighter-rouge">addInstructions()</code> function, which adds any newly created instructions
+to the end of the Dockerfile but before the CMD statement. The <code class="language-plaintext highlighter-rouge">Label()</code>
 constructor can be used for creating labels of arbitrary content and
 works similar to creating named lists in R.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A simple label that occupies one line:
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A simple label that occupies one line:
 label1 &lt;- Label(key1 = "this", key2 = "that", otherKey = "content")
 addInstruction(labeled_dockerfile) &lt;- label1
 
@@ -525,23 +525,23 @@ addInstruction(labeled_dockerfile) &lt;- list(label2, label3)
 
 <p>Metadata according to the <a href="http://label-schema.org/rc1/">Label Schema</a>
 conventions can be created with a function constructed by the helper
-factory <code class="highlighter-rouge">LabelSchemaFactory()</code>.</p>
+factory <code class="language-plaintext highlighter-rouge">LabelSchemaFactory()</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Label_LabelSchema &lt;- LabelSchemaFactory()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Label_LabelSchema &lt;- LabelSchemaFactory()
 label &lt;- Label_LabelSchema(name = "ImageName", description = "Description of the image", build_date = Sys.time())
 addInstruction(labeled_dockerfile) &lt;- label
 </code></pre></div></div>
 
-<p>You can also put session information, using either base R or <code class="highlighter-rouge">devtools</code>,
+<p>You can also put session information, using either base R or <code class="language-plaintext highlighter-rouge">devtools</code>,
 into a label as plain text or as json:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>addInstruction(labeled_dockerfile) &lt;- Label_SessionInfo(session = clean_session())
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>addInstruction(labeled_dockerfile) &lt;- Label_SessionInfo(session = clean_session())
 addInstruction(labeled_dockerfile) &lt;- Label_SessionInfo(session = devtools::session_info(), as_json = TRUE)
 </code></pre></div></div>
 
 <p>The resulting Dockerfile with all the labels:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(labeled_dockerfile)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(labeled_dockerfile)
 
 FROM rocker/r-ver:3.4.0
 LABEL maintainer="Jon_Doe@example.com"
@@ -562,16 +562,16 @@ CMD ["R"]
 
 <h2 id="5-further-customization">5. Further customization</h2>
 
-<p>The <code class="highlighter-rouge">dockerfile()</code> function allows further customization regarding the R
+<p>The <code class="language-plaintext highlighter-rouge">dockerfile()</code> function allows further customization regarding the R
 version or the used base image (cf. Rocker stack). Note that while
 choosing an R version for the Dockerfile explicitly is possible, the
 session to generate the required information (i.e. which packages are
 attached etc.) is still running the R version of the generating machine.</p>
 
 <p>The following examples show usage of these options and the respective
-<code class="highlighter-rouge">FROM</code> statements in the Dockerfile.</p>
+<code class="language-plaintext highlighter-rouge">FROM</code> statements in the Dockerfile.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df_custom &lt;- dockerfile(from = NULL, r_version = "3.1.0", silent = TRUE)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df_custom &lt;- dockerfile(from = NULL, r_version = "3.1.0", silent = TRUE)
 print(df_custom@image)
 
 FROM rocker/r-ver:3.1.0
@@ -594,14 +594,14 @@ Linux based on <a href="https://github.com/docopt/docopt.R">docopt.R</a>. This
 allows integration into workflows and tools written in other programming
 languages than R.</p>
 
-<p>You can make the command <code class="highlighter-rouge">containerit</code> available on your maching by
+<p>You can make the command <code class="language-plaintext highlighter-rouge">containerit</code> available on your maching by
 linking the R script file delivered with the package as follows:</p>
 
-<p><code class="highlighter-rouge">ln -s $(Rscript -e "cat(system.file(\"cli/container_it.R\", package=\"containerit\"))") /usr/local/bin/containerit</code></p>
+<p><code class="language-plaintext highlighter-rouge">ln -s $(Rscript -e "cat(system.file(\"cli/container_it.R\", package=\"containerit\"))") /usr/local/bin/containerit</code></p>
 
 <p>CLI Examples:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  containerit --help
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  containerit --help
   
   # runs the first R markdown or R script file locally 
   # prints Dockerfile without writing a file
@@ -620,10 +620,10 @@ linking the R script file delivered with the package as follows:</p>
 
 <h2 id="7-challenges">7. Challenges</h2>
 
-<p>We encountered several challenges during <code class="highlighter-rouge">containerit</code>’s development.
+<p>We encountered several challenges during <code class="language-plaintext highlighter-rouge">containerit</code>’s development.
 First and foremost, a well known limitation is that R packages don’t
 define system dependencies and do not provide explicit versions for R
-package dependencies. The <code class="highlighter-rouge">sysreqs</code> package is a promising approach
+package dependencies. The <code class="language-plaintext highlighter-rouge">sysreqs</code> package is a promising approach
 towards handling system requirements, but so far lists package names but
 does not provide version information. The
 <a href="https://github.com/rstudio/shinyapps-package-dependencies">shinyapps-package-dependencies</a>
@@ -634,11 +634,11 @@ work well with each other.</p>
 <p>An unmet challenge so far is the installation of specific versions of
 external libraries (see
 <a href="https://github.com/o2r-project/containerit/issues/46">issue</a>). A
-package like <code class="highlighter-rouge">sf</code> relies on well-tested and powerful system libraries,
-see <code class="highlighter-rouge">sf::sf_extSoftVersion()</code>, which ideally should be matched in the
+package like <code class="language-plaintext highlighter-rouge">sf</code> relies on well-tested and powerful system libraries,
+see <code class="language-plaintext highlighter-rouge">sf::sf_extSoftVersion()</code>, which ideally should be matched in the
 created container.</p>
 
-<p>And of course users may do things that <code class="highlighter-rouge">containerit</code> cannot capture from
+<p>And of course users may do things that <code class="language-plaintext highlighter-rouge">containerit</code> cannot capture from
 the session state “after the analysis is completed”, such as detaching
 packages or removing relevant files, and unknown side-effects might
 occur.</p>
@@ -651,7 +651,7 @@ locally.</p>
 
 <h2 id="8-conclusions-and-future-work">8. Conclusions and future work</h2>
 
-<p><code class="highlighter-rouge">containerit</code> alows to create and costumize Dockerfiles with minimal
+<p><code class="language-plaintext highlighter-rouge">containerit</code> alows to create and costumize Dockerfiles with minimal
 effort, which are suitable for packaging R analyses in the persistant
 runtime environment of a software container. So far, we were able to
 reproduce complete R sessions regarding loaded and attached packages and
@@ -680,14 +680,14 @@ Docker images from scratch, we are restricted to this setup.</p>
 publication on CRAN is a goal, it should be preceded by feedback from
 the user community and ideally be accompanied by related packages, such
 as <a href="https://github.com/wch/harbor/issues/5">harbor</a>, being available on
-CRAN, too. The prototype of <code class="highlighter-rouge">containerit</code> was developed and tested only
+CRAN, too. The prototype of <code class="language-plaintext highlighter-rouge">containerit</code> was developed and tested only
 on Ubuntu/Linux, which should be extended before releasing a stable
 version on CRAN.</p>
 
-<p>As part of the o2r project, it is planned to integrate <code class="highlighter-rouge">containerit</code> in
+<p>As part of the o2r project, it is planned to integrate <code class="language-plaintext highlighter-rouge">containerit</code> in
 a <a href="https://o2r.info/architecture">web service</a> for creating archivable
 research in form of <a href="https://doi.org/10.1045/january2017-nuest">Executable Research Compendia
-(ERC)</a>. Making <code class="highlighter-rouge">containerit</code>
+(ERC)</a>. Making <code class="language-plaintext highlighter-rouge">containerit</code>
 itself easier to use for end-users is a secondary but worthwhile goal, for example by
 building a graphical user interface for metadata creation. Country
 locales are also not supported yet. We may want to support other
@@ -703,7 +703,7 @@ GitHub</a> or
 
 <h2 id="metadata">Metadata</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sessionInfo()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sessionInfo()
 
 ## R version 3.4.0 (2017-04-21)
 ## Platform: x86_64-pc-linux-gnu (64-bit)

@@ -1,4 +1,4 @@
-I"�w<p><em>This blog post presents work based on the study project <a href="https://zivgitlab.uni-muenster.de/geocontainer-badges">Badges for computational geoscience containers</a> at <a href="https://www.uni-muenster.de/Geoinformatics/">ifgi</a>. We thank the <a href="https://github.com/o2r-project/o2r-badger#contributors">project team</a> for their valuable contributions!</em></p>
+I"~x<p><em>This blog post presents work based on the study project <a href="https://zivgitlab.uni-muenster.de/geocontainer-badges">Badges for computational geoscience containers</a> at <a href="https://www.uni-muenster.de/Geoinformatics/">ifgi</a>. We thank the <a href="https://github.com/o2r-project/o2r-badger#contributors">project team</a> for their valuable contributions!</em></p>
 
 <div style="padding: 1em; border: 2px solid #008643; background: #f3f5f7;">
 This blog post was extended and presented and published as a peer-reviewed short paper at the <a href="https://agile-online.org//conference-2019">AGILE Conference 2019</a>. <b>Find the article <a title="article on EarthArXiv" href="https://eartharxiv.org/xtsqh/">here on EarthArXiv</a> and the presentation <a title="paper presentation slides" href="https://osf.io/549a6/">here on OSF</a></b>. The citation is
@@ -87,7 +87,7 @@ The <a href="https://o2r.info/api/">o2r API</a> can answer the remaining questio
   <li><em>peerreview</em>: if and by which process the publication was peer reviewed</li>
 </ul>
 
-<p>The API can be queried with URLs following the pattern <code class="highlighter-rouge">/api/1.0/badge/:type/:doi</code>. <code class="highlighter-rouge">:type</code> is one of the aforementioned types, and <code class="highlighter-rouge">:doi</code> is a publication’s <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital object identifier</a> (DOI).</p>
+<p>The API can be queried with URLs following the pattern <code class="language-plaintext highlighter-rouge">/api/1.0/badge/:type/:doi</code>. <code class="language-plaintext highlighter-rouge">:type</code> is one of the aforementioned types, and <code class="language-plaintext highlighter-rouge">:doi</code> is a publication’s <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital object identifier</a> (DOI).</p>
 
 <p>The badger currently provides badges using two methods: internally created SVG-based badges, and redirects to <a href="https://shields.io/">shields.io</a>.
 The redirects construct a simple shields.io URL.
@@ -101,19 +101,19 @@ The SVG-based badges are called <em>extended</em> badges and contain more detail
 <p><img src="https://img.shields.io/badge/licence-open-44cc11.svg" alt="shields.io badge" /></p>
 <p class="attributionInlineImage">Figure 6: An shields.io based small badge, based on the URL <a href="https://img.shields.io/badge/licence-open-44cc11.svg">https://img.shields.io/badge/licence-open-44cc11.svg</a>.</p>
 
-<p>They excel at applications where space is important, for example search engines listing many research articles. They are generated on the fly when a URL is requested (e.g. <code class="highlighter-rouge">https://img.shields.io/badge/licence-open-44cc11.svg</code>) which specifies the text (e.g. <code class="highlighter-rouge">licence</code> and <code class="highlighter-rouge">open</code>) and the color (<code class="highlighter-rouge">44cc11</code> is a <a href="http://html-color-codes.info/">HTML color code</a> for green).</p>
+<p>They excel at applications where space is important, for example search engines listing many research articles. They are generated on the fly when a URL is requested (e.g. <code class="language-plaintext highlighter-rouge">https://img.shields.io/badge/licence-open-44cc11.svg</code>) which specifies the text (e.g. <code class="language-plaintext highlighter-rouge">licence</code> and <code class="language-plaintext highlighter-rouge">open</code>) and the color (<code class="language-plaintext highlighter-rouge">44cc11</code> is a <a href="http://html-color-codes.info/">HTML color code</a> for green).</p>
 
 <p>Let’s look at another example of an <em>executable</em> badge and how it is created.
-The badge below is requested from the badger demo instance on the o2r server by providing the DOI of the publication for the <code class="highlighter-rouge">:doi</code> element in the above routes:</p>
+The badge below is requested from the badger demo instance on the o2r server by providing the DOI of the publication for the <code class="language-plaintext highlighter-rouge">:doi</code> element in the above routes:</p>
 
-<p><a href="https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666"><code class="highlighter-rouge">https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666</code></a></p>
+<p><a href="https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666"><code class="language-plaintext highlighter-rouge">https://o2r.uni-muenster.de/api/1.0/badge/executable/10.1126%2Fscience.1092666</code></a></p>
 
-<p>This URL requests a badge for the reproducibility status of the paper “Global Air Quality and Pollution” from <em><a href="http://science.sciencemag.org/">Science</a></em> magazine identified by the DOI <a href="https://doi.org/10.1126/science.1092666"><code class="highlighter-rouge">10.1126/science.1092666</code></a>. When the request is sent, the following steps happen in o2r-badger:</p>
+<p>This URL requests a badge for the reproducibility status of the paper “Global Air Quality and Pollution” from <em><a href="http://science.sciencemag.org/">Science</a></em> magazine identified by the DOI <a href="https://doi.org/10.1126/science.1092666"><code class="language-plaintext highlighter-rouge">10.1126/science.1092666</code></a>. When the request is sent, the following steps happen in o2r-badger:</p>
 
 <ol>
   <li>The badger tries to find a reproducible research paper (called Executable Research Compendium (<a href="https://o2r.info/erc-spec/spec/">ERC</a>) via the o2r API. Internally this searches the database for ERC connected to the given DOI.</li>
   <li>If if finds an ERC, it looks for a matching <em><a href="https://o2r.info/api/job/">job</a></em>, a report of a reproduction analysis.</li>
-  <li>Depending on the reproduction result (<code class="highlighter-rouge">success</code>, <code class="highlighter-rouge">running</code>, or <code class="highlighter-rouge">failure</code>) specified in the job, the badger generates a green, yellow or red badge. The badge also contains text indicating the reproducibility of the specified research publication.</li>
+  <li>Depending on the reproduction result (<code class="language-plaintext highlighter-rouge">success</code>, <code class="language-plaintext highlighter-rouge">running</code>, or <code class="language-plaintext highlighter-rouge">failure</code>) specified in the job, the badger generates a green, yellow or red badge. The badge also contains text indicating the reproducibility of the specified research publication.</li>
   <li>The request is redirected to a <a href="https://shields.io/">shields.io</a> URL link containing the color and textual information..</li>
 </ol>
 

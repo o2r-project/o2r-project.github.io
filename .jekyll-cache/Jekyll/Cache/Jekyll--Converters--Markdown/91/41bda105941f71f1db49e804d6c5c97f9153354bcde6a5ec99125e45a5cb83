@@ -1,0 +1,84 @@
+I"�(<p>The o2r project has its primary goals in providing tools to enhance scholarly communication.
+We build technology to help solving relevant problems.
+With the Executable Research Compendium and supporting software, we provide a different, more holistic take on how research output should look like in the future, especially if data and software are involved in the scientific workflow.
+However, tech is not all we do and o2r team members actively work with the GIScience community and the broader scientific community.
+This blog post briefly introduces two recent collaborations that are less about technology and more about community, culture, and people.
+<!--more--></p>
+<h2 id="1-citable-and-preserved-agile-short-papers">1. Citable and preserved AGILE short papers</h2>
+
+<p>We’re a big fan of the AGILE conference: we have <a href="/2017/05/10/o2r-at-AGILE/">organised</a> <a href="/2018/06/21/agile-2018-pre-conference-workshop-report/">several</a> <a href="/2019/07/01/AGILE-2019-Limassol/">workshops</a>, contributed to <a href="https://doi.org/10.7717/peerj.5072">stocktacking the reproducibility of AGILE conference publications</a>, and co-authored the <a href="https://doi.org/10.17605/OSF.IO/CB7Z8">AGILE Reproducible Paper Guidelines</a>.
+These activites are collected under the umbrella of <a href="https://reproducible-agile.github.io/"><em>Reproducible AGILE</em></a>:</p>
+
+<p><a href="https://reproducible-agile.github.io/"><img src="https://reproducible-agile.github.io/public/images/reproducible-AGILE-logo-square.svg" alt="Reproducible AGILE logo" width="200px" /></a></p>
+
+<p>The AGILE conference features a full paper and a short paper track.
+The <em>full paper proceedings 2020</em> are <a href="https://www.agile-giscience-series.net/">published as Open Access (yay!) with Copernicus</a>, which is a huge step towards more accessibility and openness in the community.
+Because of the cancellation of the conference, there are no <em>short paper proceedings</em> in 2020.</p>
+
+<p>However, the <strong>short papers</strong> up to 2019 are published as so called <a href="https://en.wikipedia.org/wiki/Open_access#Bronze_OA">“bronze Open Access”</a>, meaning that they are published on a website and can be downloaded, but the license is unclear.
+The the question of preservation is not properly answered either, and referencing AGILE short papers is not possible up to today’s standards because they lack a unique identifier.
+This is a huge shame, because, having published a few AGILE short papers, I know that the peer review process is solid and very helpful especially for ideas in an early stage.
+Furthermore, short papers are often written by early career researchs (in fact, my first ever scientific publication as first author was <a href="https://eartharxiv.org/jq5df/">at AGILE 2010</a>).</p>
+
+<p>That is why I reached out to the <a href="https://agile-online.org/agile-community/council">AGILE council</a> and suggested to add a statement to the <a href="https://agile-online.org/conference/proceedings">AGILE proceedings website</a>, which clearly gives authors the permission to re-publish or <a href="https://en.wikipedia.org/wiki/Self-archiving">“self-archive”</a> the short paper PDFs in a proper repository.
+My initiative was triggered by a concrete event: one of my AGILE short papers was not accepted by my favourite preprint server <a href="https://eartharxiv.org/">EarthArXiv</a> (which also hosts postprints, see also <a href="https://en.wikipedia.org/wiki/EarthArXiv">on Wikipedia</a>) because it was not clear I had permission to submit a paper that was previously published elsewhere.
+This is a very reasonable <a href="https://eartharxiv.github.io/moderation.html">moderation policy</a>, and the interaction with EarthArXiv advisory council member <a href="https://www.unb.ca/faculty-staff/directory/science-fr-earth/enright-allison.html">Allison Enright</a> in the matter was extremely nice and helpful.
+After providing some good arguments via email and some endurance, I was very happy to learn that the council followed my suggestion and added the following statement to <a href="https://agile-online.org/conference/proceedings/">the proceedings website</a>:</p>
+
+<blockquote>
+  <p><em>Authors have permission to deposit AGILE short papers, published in the proceedings below and available as PDFs on the server https://agile-online.org, in a public repository, such as a preprint server or institutional repositories.</em>
+<em>Authors may only use repositories that provide a DOI for the published record.</em></p>
+
+  <p><em>Authors are strongly encouraged, and may be required by repositories e.g. EarthArXiv (https://eartharxiv.org/), to add a cover page to the uploaded PDF.</em>
+<em>The cover page should include name, time and place of the conference, the URL to the conference website, and a statement that the short paper is peer reviewed.</em>
+<em>If possible, authors should add the tags or keywords ‘AGILE short paper’ and ‘AGILEGIS’ and configure the recommended citation to include year and name of the conference.</em></p>
+</blockquote>
+
+<p>How this all played out confirmed my trust and apprecciation for the EarthArXiv and AGILE communities.</p>
+
+<p><strong>Did you author an AGILE short paper in the past?</strong>
+Please help to preserve the knowledge of the GIScience community.
+You can do it today!
+Find step-by-step instructions and some more background here: <strong><a href="https://reproducible-agile.github.io/short-paper-postprints/">https://reproducible-agile.github.io/short-paper-postprints/</a></strong>
+It really just takes 5 minutes.</p>
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">AGILE <a href="https://twitter.com/hashtag/AGILEGIS?src=hash&amp;ref_src=twsrc%5Etfw">#AGILEGIS</a> short papers can now be self-archived/deposited in institutional repositories or preprint servers (recommendation:👉<a href="https://twitter.com/EarthArXiv?ref_src=twsrc%5Etfw">@EarthArXiv</a> ♥️🌎🌍🌏♥️):<a href="https://t.co/FiRd5YWEDJ">https://t.co/FiRd5YWEDJ</a><br /><br />Preserve your work now! (and ensure others can cite you properly...) <a href="https://twitter.com/hashtag/postprint?src=hash&amp;ref_src=twsrc%5Etfw">#postprint</a> <a href="https://twitter.com/hashtag/OpenAccess?src=hash&amp;ref_src=twsrc%5Etfw">#OpenAccess</a> <a href="https://t.co/j3lNAMC8tU">pic.twitter.com/j3lNAMC8tU</a></p>&mdash; Daniel Nüst (@nordholmen) <a href="https://twitter.com/nordholmen/status/1273642585639333889?ref_src=twsrc%5Etfw">June 18, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="2-codecheck">2. CODECHECK</h2>
+
+<p>o2r has an <a href="/about/">approach and goals</a> grounded in the belief that technology can help to reduce barriers for reproducibility and make benefits of reproducible publications more readily available to the broad diversity of geoscientific researchers.
+Our focus lies in packaging code (scripts, runtime environment), data, and documentation together (the <a href="/erc-spec/">ERC</a>) and integrate it into peer review and the scholarly publication process (our <a href="/pilots/">pilots</a>).</p>
+
+<p>While these goals and approach are true, and start to come to fruition, one can also take a completely different approach.
+Enter <a href="https://codecheck.org.uk/"><em>CODECHECK</em></a>.</p>
+
+<p><a href="https://codecheck.org.uk/"><img src="https://codecheck.org.uk/img/codecheck_logo.svg" alt="" width="200px" /></a></p>
+
+<p>CODECHECK is a joint initiative by Daniel Nüst and <a href="https://sje30.github.io/">Stephen J. Eglen</a>, reader in Computational Neuroscience at the University of Cambridge.
+Daniel and Stephen were brought together by failure: both applied for a small Open Science grant with the Wellcome trust, but both were rejected.
+Luckily, they both took advantage of the option to publish their project proposals, so they could see they had similar ideas.
+Also starting out as technology driven, CODECHECK has developed into something completely different from o2r.</p>
+
+<p>To introduce better recognition of computational workflows in the peer review process, Stephen and Daniel developed a set of <a href="https://codecheck.org.uk/#the-codecheck-principles">four _principles</a>.
+Based on these principles, scientific journals or the community can build a process, of which <a href="https://codecheck.org.uk/process/">many variants are imaginable</a>, for executing code and data-based workflows during peer review.</p>
+
+<ol>
+  <li>Codecheckers record but don’t investigate or fix.</li>
+  <li>Communication between humans is key.</li>
+  <li>Credit is given to codecheckers.</li>
+  <li>Workflows must be auditable.</li>
+</ol>
+
+<p>These principles embrace openness ideals and the opportunity to introduce early career researchers and research software developers in peer review.
+Instead of trying to preserve and package everything, CODECHECK transfers the gist of peer reviewing articles to code execution: at one point in time, one fellow researcher or developer was able to execute a given worklow following the provided instructions.
+Some see this as a low bar, I see it as an option to break the current stagnancy of code review in science (see also the <a href="https://codecheck.org.uk/faq">CODECHECK FAQs</a>).</p>
+
+<p>The currently most active implementation of these principles is the <a href="https://codecheck.org.uk/guide/community-process">community process</a>, but the first successes of CODECHECKs conducted as part of journal publications are also already completed and the number of volunteering codecheckers is slowly rising.
+Stephen put in a lot of effort to contribute to the scientific knowledge by codechecking coronavirus simulations, which not only strengthens trust in science but lead to a nice <a href="https://doi.org/10.1038/d41586-020-01685-y">Nature News article</a>.
+Please check out the CODECHECK website and the <a href="https://codecheck.org.uk/register/">CODECHECK register</a> for details, and see <a href="https://codecheck.org.uk/get-involved/">how you can get involved</a> as author, reviewer, or journal editor.</p>
+
+<hr />
+
+<h2 id="low-tech-community-work-and-technological-advances-go-hand-in-hand-in-opening-reproducible-research"><em>Low tech, community work, and technological advances go hand in hand in Opening Reproducible Research.</em></h2>
+:ET

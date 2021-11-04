@@ -1,0 +1,73 @@
+I"�<p>Two of the o2r student assistants have just finished successful their bachelor theses. Congratulations! 🎉</p>
+
+<p>This blog post introduces the excellent work by<!--more--> Tom and Nick - thank you for your dedication to advance Opening Reproducible Research.</p>
+
+<h2 id="geospatial-metadata-for-discovery-in-scholarly-publishing">Geospatial Metadata for Discovery in Scholarly Publishing</h2>
+
+<p><a href="https://orcid.org/0000-0002-5746-8590">Tom Niers</a>’s thesis <em>“Geospatial Metadata for Discovery in Scholarly Publishing”</em> presents a novel approach to integrate well-defined geospatial metadata in a scholarly publishing platform to enhance discovery of scientific articles.
+For this purpose he developed the software <em><a href="https://github.com/tnier01/geoOJS">geoOJS</a></em>, which offers a novel way for authors to provide spatial properties of research works when submitting an article to a journal based on the open source software <a href="https://pkp.sfu.ca/ojs/">OJS</a>.</p>
+
+<p><strong>Abstract</strong></p>
+
+<blockquote>
+  <p>Many scientific articles are related to specific regions of the Earth.
+The connection is often implicit, although geospatial metadata has been shown to have positive effects, such as detecting biases in research coverage or enhancing discovery of research.
+Scholarly communication platforms lack an explicit modeling of geospatial metadata.
+In this work, we report a novel approach to integrate well-defined geospatial metadata into Open Journal Systems (OJS).
+Authors can create complex geometries to represent the related location(s) or region(s) for their submission and define the relevant time period.
+They are assisted by an interactive map and a gazetteer to capture high quality coordinates as well as a matching textual description with high usability.
+The geospatial metadata is published within the article pages using semantic tags, integrated in standardized publication metadata, and shown on maps.
+Thereby, the geoOJS plugin facilitates indexing by search engines, can improve accessibility, and provides a foundation for more powerful map-based discovery of research articles across journals.</p>
+</blockquote>
+
+<p><a href="/public/images/2020-12-22-bachelor-thesis-of-student-assistants-tom-and-nick/GeoOJS.png"><img src="/public/images/2020-12-22-bachelor-thesis-of-student-assistants-tom-and-nick/ScreenshotGeoOJS.png" alt="" /></a></p>
+
+<p><em>Screenshot of geoOJS – input of geospatial metadata, author can define temporal properties by calendar view, spatial properties by drawing or accept them by suggestions</em></p>
+
+<p>The bachelor thesis was published on the University of Münster’s document repository: <a href="http://nbn-resolving.de/urn:nbn:de:hbz:6-69029469735">http://nbn-resolving.de/urn:nbn:de:hbz:6-69029469735</a>.</p>
+
+<p>Tom presented his work at the <a href="https://site.uit.no/muninconf/">Munin Conference of Scholarly Publishing 2020</a>, a conference on scholarly publishing and communication with focus on open access, open data and open science.
+His ideas and the prototype were received very well, and the discussion yielded many ideas for further development.
+The abstract, the slides and a recording of the conference are available at <a href="https://doi.org/10.7557/5.5590">https://doi.org/10.7557/5.5590</a>.
+A video of the geoOJS presentation and the Q&amp;A that followed is available on <a href="https://youtu.be/-Lc9AjHq_AY">Youtube</a>.</p>
+
+<p>Tom’s experience in OJS is driving the development of the o2r OJS plugin for <a href="https://o2r.info/2019/10/15/Opening-Reproducible-Research-with-OJS/">Opening Reproducible Research in OJS</a> and we are looking forward to present our first developments soon.</p>
+
+<h2 id="combining-augmented-reality-and-reproducibility-to-convey-spatio-temporal-results">Combining Augmented Reality and Reproducibility to convey spatio-temporal results</h2>
+
+<p>Nick Jakuschona researched a novel way of displaying spatio-temporal information in scientific articles and reported his findings in the thesis <em>“Combining Augmented Reality and Reproducibility to convey spatio-temporal results”</em>.
+He makes use of the rising concept of Augmented Reality (AR) to display scientific data and shows how to create an AR application out of a reproducible article”.
+You can try out  the application on your own mobile device at <a href="https://njaku01.github.io/">https://njaku01.github.io/</a>.</p>
+
+<p><strong>Abstract</strong></p>
+
+<blockquote>
+  <p>Spatio-temporal research results are usually published in a static format, for example, as PDF.
+Here the results are not directly linked to their spatial reference. 
+Therefore, it is difficult for the user to understand these results.
+To improve the user’s understanding, we link these results with the real world.
+To archive this, we use the raising concept of Augmented Reality, where it is possible to integrate the results into the view of the user and to display the results on site.
+The results are often calculated out of a specified dataset.
+To ensure the data used for the application indicates the same result presented in the article, the outcome must be reproducible.
+The goal is to combine reproducibility and Augmented Reality to convey spatio-temporal results.
+We answered the research question about how to create an Augmented Reality application out of a reproducible article.
+Therefore, we performed a literature research and developed a concept which provides a guideline and explains the important steps.
+Starting with extracting the data used to calculate the results.
+Designing the app and deciding which types of visualization and devices fit best for the result and implementing the application.
+To show the feasibility of the concept, we created an application to convey the results of one scientific article.
+This application was evaluated with an expert user study, with the goal to indicate whether the application is understandable and easy to use.
+Furthermore, the general interest in using Augmented Reality applications to inspect spatio-temporal results got researched.
+The results of our research show that it is possible to convey spatio-temporal results through Augmented Reality.
+The results are displayed understandable.
+Overall, Augmented Reality is an interesting approach to display results out of scientific articles which should be depended in further research.</p>
+</blockquote>
+
+<p><a href="/public/images/2020-12-22-bachelor-thesis-of-student-assistants-tom-and-nick/ScreenshotAugmentedReality.png"><img src="/public/images/2020-12-22-bachelor-thesis-of-student-assistants-tom-and-nick/ScreenshotAugmentedReality.png" alt="" /></a>
+<em>Screenshots of the Augmented Reality application showing results of the paper in two different views.</em></p>
+
+<p>This application was evaluated with an expert user study.
+The results of this study are published as an <a href="https://o2r.uni-muenster.de/#/erc/6N8OQ">ERC</a>.
+Nick hopes that this novel approach of visualizing results will be used to make research accessible and understandable for everyone.
+The future goal is to help authors, creating their own Augmented Reality applications.
+For example, with an Augmented-Reality-Application-Builder on the o2r-homepage, which creates Augmented Reality applications out of ERCs.</p>
+:ET

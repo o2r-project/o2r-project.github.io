@@ -1,4 +1,4 @@
-I"3<p>We’ve been working on demonstrating our <a href="/results">reference-implementation</a> during spring an managed to create a number of example workspaces.
+I"Y<p>We’ve been working on demonstrating our <a href="/results">reference-implementation</a> during spring an managed to create a number of example workspaces.
 We now decided to publish these workspaces on <a href="https://o2r.uni-muenster.de/">our demo server</a>.</p>
 
 <p><a href="https://o2r.uni-muenster.de/"><img src="/public/images/2018-08-14-demo/o2r-demo-listing.jpg" alt="o2r screenshot 1: listing of compendia" title="Screenshot 1: o2r reference implementation listing of published ERC" width="600" /></a></p>
@@ -6,7 +6,7 @@ We now decided to publish these workspaces on <a href="https://o2r.uni-muenster.
 
 <p>The papers were originally published in <!--more--> <a href="https://www.jstatsoft.org/">Journal of Statistical Software</a> or in a <a href="https://publications.copernicus.org/">Copernicus Publications</a> journal under open licenses.
 We have created an R Markdown document for each paper based on the included data and code following the <a href="https://o2r.info/erc-spec/spec/">ERC specification</a> for naming core files, but only included data, an R Markdown document and a HTML display file.
-The publication metadata, the runtime environment description (i.e. a <code class="highlighter-rouge">Dockerfile</code>), and the runtime image (i.e. a Docker image tarball) were all created during the ERC creation process without any human interaction (see the used <a href="https://github.com/o2r-project/erc-examples/blob/master/corpus/showcases.Rmd">R code for upload</a>), since required metadata were included in the R Markdown document’s front matter.</p>
+The publication metadata, the runtime environment description (i.e. a <code class="language-plaintext highlighter-rouge">Dockerfile</code>), and the runtime image (i.e. a Docker image tarball) were all created during the ERC creation process without any human interaction (see the used <a href="https://github.com/o2r-project/erc-examples/blob/master/corpus/showcases.Rmd">R code for upload</a>), since required metadata were included in the R Markdown document’s front matter.</p>
 
 <p>The documents include selected figures or in some cases the whole paper, if runtime is not extremely long.
 While the paper’s authors are correctly linked in the workspace metadata (see right hand side in <em>Screenshot 1</em>), the “o2r author” of all papers is o2r team member Daniel since he made the uploads.
@@ -27,7 +27,7 @@ Here are some examples of the power of a reproducible research service and publi
   <li>A <a href="https://o2r.uni-muenster.de/#!/erc/IKnWD">demo ERC with randomised output</a> shows how things can really go wrong. Feel free to click “Run Analysis” and see how the differences changes with each execution.</li>
 </ul>
 
-<p>If you want to go through the creation process yourself, register on the platform (this requires a short manual interaction by us) and upload one of selected workspaces, which you can find in our public demo share at <a href="https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA">https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA</a> (just look for zip files starting with <code class="highlighter-rouge">corpus_..</code>).
+<p>If you want to go through the creation process yourself, register on the platform (this requires a short manual interaction by us) and upload one of selected workspaces, which you can find in our public demo share at <a href="https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA">https://uni-muenster.sciebo.de/s/G8vxQ1h50V4HpuA</a> (just look for zip files starting with <code class="language-plaintext highlighter-rouge">corpus_..</code>).
 Please take care to choose appropriate licenses and be aware that we might remove compendia from the demo platform without prior notice.</p>
 
 <p>We welcome <em>your feedback</em> <a href="https://twitter.com/o2r_project/status/1029293814756851712">on Twitter</a>, in the <a href="https://github.com/o2r-project/reference-implementation/issues/13">reference implementation GitHub project</a>, or in the comments below.</p>

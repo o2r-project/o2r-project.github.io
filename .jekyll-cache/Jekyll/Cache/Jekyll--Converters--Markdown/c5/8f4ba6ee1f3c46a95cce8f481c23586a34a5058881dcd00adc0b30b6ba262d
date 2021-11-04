@@ -1,0 +1,85 @@
+I"�<h2 id="specifications--documentation">Specifications &amp; documentation</h2>
+
+<p>o2r is an open project, so all our components are openly developed <a href="https://github.com/o2r-project">on GitHub</a>. The project’s findings manifest themselves in the following core specifications and documents, all of which are under development.</p>
+
+<ul>
+  <li><strong><a href="https://o2r.info/erc-spec">ERC specification</a></strong> (<a href="https://github.com/o2r-project/erc-spec">source</a>) formally defines the Executable Research Compendium and provides some background.</li>
+  <li><strong><a href="https://o2r.info/architecture/">Architecture</a></strong> (<a href="https://github.com/o2r-project/architecture">source</a>) describes multiple levels of architecture, from the relation of our reprocibility service with other platforms down to internal microservices.</li>
+  <li><strong><a href="https://o2r.info/api/">Web API</a></strong> (<a href="https://github.com/o2r-project/api">source</a>) defines a RESTful API for our reproducibility service, also used by our platform client.</li>
+</ul>
+
+<iframe src="https://github.com/o2r-project/erc-spec" title="ERC specifications"></iframe>
+
+<p>To cite the specifications and documentations please use</p>
+
+<blockquote>
+  <p>Nüst, Daniel, 2018. Reproducibility Service for Executable Research Compendia: Technical Specifications and Reference Implementation. Zenodo. doi:<a href="http://doi.org/10.5281/zenodo.2203844">10.5281/zenodo.2203844</a></p>
+</blockquote>
+
+<h2 id="implementation--demo">Implementation &amp; demo</h2>
+
+<p>We develop a reference implementation of the mentioned specification as Open Source software on GitHub: <strong><a href="https://github.com/o2r-project">https://github.com/o2r-project</a></strong></p>
+
+<p><strong>Try the online demo at <a href="https://o2r.uni-muenster.de">https://o2r.uni-muenster.de</a></strong> and if you are a developer find the web API endpoint at <a href="https://o2r.uni-muenster.de/api/v1/"><code>https://o2r.uni-muenster.de/api/v1/</code></a>.</p>
+
+<p><strong>Try it out on your own machine with the <a href="/2017/10/31/reference-implementation/">reference-implementation</a></strong> (only Docker required!):</p>
+
+<p><code class="language-plaintext highlighter-rouge">git clone https://github.com/o2r-project/reference-implementation</code>
+<code class="language-plaintext highlighter-rouge">docker-compose up</code></p>
+
+<p>Watch a short <strong>video</strong> of our platform prototype (turn on subtitles!):</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vy9b3pIWPd0?rel=0" frameborder="0" allowfullscreen=""></iframe>
+
+<p>To cite the reference implementation please use</p>
+
+<blockquote>
+  <p>Nüst, Daniel, 2018. Reproducibility Service for Executable Research Compendia: Technical Specifications and Reference Implementation. Zenodo. doi:<a href="http://doi.org/10.5281/zenodo.2203844">10.5281/zenodo.2203844</a></p>
+</blockquote>
+
+<h2 id="software">Software</h2>
+
+<p>Learn more about our projects on <a href="https://www.openhub.net/orgs/o2r">Open Hub</a> and <a href="https://github.com/o2r-project">GitHub</a>, where we currently have <span id="gh-stats-repo-count">[NA]</span> repositories with <span id="gh-stats-forks-count">[NA]</span> forks using <span id="gh-stats-languages-count">[NA]</span> languages.</p>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    // get repo count
+    $.ajax({
+        type: "get",
+        url: "https://api.github.com/orgs/o2r-project",
+        success: function(data) {
+            var repo_count = data.public_repos;
+            $("#gh-stats-repo-count").html(repo_count);
+        },
+        error: function(err, status) {
+            console.log("Error getting repo count from GitHub API: " + err);
+        }
+    });
+
+    // get languages and forks
+    $.ajax({
+        type: "get",
+        url: "https://api.github.com/users/o2r-project/repos?sort=pushed&per_page=100",
+        success: function(data) {
+            let languages = new Set();
+            let forks = 0;
+            data.forEach(function(item) {
+                languages.add(item.language);
+                forks += item.forks_count;
+            });
+            $("#gh-stats-languages-count").html(languages.size);
+            $("#gh-stats-forks-count").html(forks);
+        },
+        error: function(err, status) {
+            console.log("Error getting repo details from GitHub API: " + err);
+        }
+    });
+});
+</script>
+
+<!--
+<script type="text/javascript" src="https://www.openhub.net/orgs/o2r/widgets/portfolio_projects_activity?format=js"></script>
+-->
+:ET
