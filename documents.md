@@ -4,8 +4,6 @@ title: 📂 Documents
 description: Specifications and Documentations
 ---
 
-<br>
-
 All components of o2r are openly developed [on GitHub]({{ site.github.org }}). The project's findings manifest themselves in the following core specifications and documents, all of which are under development.
 
 - **[ERC specification](https://o2r.info/erc-spec)** ([source](https://github.com/o2r-project/erc-spec)) formally defines the Executable Research Compendium and provides some background.

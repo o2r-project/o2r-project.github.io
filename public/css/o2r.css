@@ -8,6 +8,11 @@
   color: #004286;
 }
 
+.page-title,
+.post-title {
+  margin-bottom: 1em;
+}
+
 img.center {
     display: block;
     margin: 0 auto;
