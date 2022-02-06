@@ -24,7 +24,7 @@ We presented the librry as part of the [2nd call for Notebooks](https://www.eart
 
 ## Exploring research data repositories with geoextent
 
-> Sebastian Garzón and Nüst, Daniel. 2021. **Exploring Research Data Repositories with geoextent**. EarthCube annual meeting. [DOI:](https://doi.org/10.5281/zenodo.5496311) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD)
+> Sebastian Garzón and Nüst, Daniel. 2021. **Exploring Research Data Repositories with geoextent**. EarthCube annual meeting. [https://doi.org/10.5281/zenodo.5496311](https://doi.org/10.5281/zenodo.5496311) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD)
 
 The [notebook](https://mybinder.org/v2/gh/earthcube2021/ec21_garzon_etal/HEAD), accessible through [Binder](https://mybinder.org/), includes an introduction of geoextent's usage and a case study where we explored more than 300 [Zenodo](https://zenodo.org) repositories (over 25.000 files!) with geoextent.
 An initial exploration of Zenodo's API showed that spatial metadata is rarely available, difficulting data integration and discovery.
