@@ -46,7 +46,7 @@ In case of questions, you can always [contact us](#get-help).
 **Participating journals** and papers:
 
 - [**Earth System Science Data**](https://www.earth-syst-sci-data.net/) (ESSD)
-  - [_Deep-sea sediments of the global ocean_ by Markus Diesing]( https://doi.org/10.5194/essd-2020-22) (preprint under review; see RC1 for ERC information)
+  - [_Deep-sea sediments of the global ocean_ by Markus Diesing]( https://doi.org/10.5194/essd-2020-22) (see RC1 for ERC information)
 
 **Next steps:**
 

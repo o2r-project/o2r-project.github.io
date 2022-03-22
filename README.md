@@ -10,19 +10,20 @@ The design is based on [Hyde](https://github.com/poole/hyde) by Mark Otto.
 
 You must have ruby (preferably 3.0.1 or latest) installed in your computer. From your terminal, install the following gem packages (required by [Poole](https://github.com/poole/poole)):
 
+```bash
+gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
 ```
-$ gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
-```
+
 Navigate to the root directory of the website (the one containing the Gemfile of the project) and run the following command:
 
-```
-$ bundle install
+```bash
+bundle install
 ```
 
 Run the site locally with
 
-```
-$ bundle exec jekyll serve
+```bash
+bundle exec jekyll serve
 ```
 
 The website should be running at [localhost:4000](http://localhost:4000/).Use the `--draft` [switch](https://jekyllrb.com/docs/drafts/) to preview the draft posts.
