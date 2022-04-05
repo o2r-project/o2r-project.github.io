@@ -8,7 +8,7 @@ categories:
   - leave
 ---
 
-This blog has been a bit quieter than usual in the year 2021, not because of the thing that messes everything else up in the world, but because o2r team member Daniel has been focussing on wrapping up his PhD thesis ([it's done!](/2022/02/14/daniel-phd-defense/)) and took a leave of absence.
+This blog has been a bit quieter than usual in the year 2021, not because of the thing that messes everything else up in the world, but because o2r team member Daniel has been focussing on wrapping up his PhD thesis ([it's done!](/2022/02/14/daniel-phd-defense/)) and took a leave of absence 👶.
 Most of the activities below have been shared via the project's Twitter feed, but we'd like to catch up the blog, too, and make a little announcement at the end.
 So with no further ado, here are events and publications of the last 8+ months:<!--more-->
 

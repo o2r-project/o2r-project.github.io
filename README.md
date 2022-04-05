@@ -86,7 +86,7 @@ If you do not want a page to appear in the left hand side menu, include the para
 
 ### Footnotes
 
-```
+```txt
 Testing footnotes[^2] for *Opening Reproducible Research*[^1].
 
 [^1]: would be useful!
