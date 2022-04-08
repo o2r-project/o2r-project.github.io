@@ -49,13 +49,10 @@ See our [Deployment](/results) page for more information about all software proj
 
 ## The team
 
-- Fabian Fermazin (student assistant, 2020-10 to ..)
-- Nick Jakuschona (student assistant, 2019-04 to ..)
 - Dr. Stephanie Klötgen (ULB)
-- [Eftychia Koukouraki](https://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/365/Eftychia_Koukouraki)
+- [Eftychia Koukouraki](https://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/365/Eftychia_Koukouraki) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
-- Tom Niers (student assistant, 2019-04 to ..)
 - [Dr. Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
@@ -71,6 +68,9 @@ See our [Deployment](/results) page for more information about all software proj
 
 ### Former members
 
+- Fabian Fermazin (student assistant, 2020-10 to 2022-03)
+- Nick Jakuschona (student assistant, 2019-04 to 2022-03)
+- Tom Niers (student assistant, 2019-04 to 2022-03)
 - [Dr. Markus Konkol](https://orcid.org/0000-0001-6651-0976) (ifgi, 2016-2020)
 - Rehan Chaudhary (ifgi, intern, 2017-01 to 2017-07)
 - Juan Sebastian Garzon (student assistant, 2020-02 to 2021-12)
