@@ -77,7 +77,7 @@ Please contact `o2r.team@uni-muenster.de` if you are a student (ifgi BSc, ifgi M
   <blockquote class="abstract">
     <p><em>Many scientific articles are related to specific regions of the Earth. The connection is often implicit, although geospatial metadata has been shown to have positive effects, such as detecting biases in research coverage or enhancing discovery of research. Scholarly communication platforms lack an explicit modeling of geospatial metadata. In this work, we report a novel approach to integrate well-defined geospatial metadata into Open Journal Systems (OJS). Authors can create complex geometries to represent the related location(s) or region(s) for their submission and define the relevant time period. They are assisted by an interactive map and a gazetteer to capture high quality coordinates as well as a matching textual description with high usability. The geospatial metadata is published within the article pages using semantic tags, integrated in standardized publication metadata, and shown on maps. Thereby, the geoOJS plugin facilitates indexing by search engines, can improve accessibility, and provides a foundation for more powerful map-based discovery of research articles across journals.</em></p>
   </blockquote>
-- George, N., **Developing YYYY-MM-DDand evaluating infrastructure for ERC to communicate with data repositories and computing services** (MSc, April 2021)
+- George, N., **Developing and evaluating infrastructure for ERC to communicate with data repositories and computing services** (MSc, April 2021)
   <br />Supervisors: Prof. Edzer Pebesma (ifgi), Daniel Nüst (ifgi)
   <br /><span class="expandable"><a href="#">Abstract ↓</a></span>
   <blockquote class="abstract">
