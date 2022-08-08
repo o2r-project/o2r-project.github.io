@@ -79,6 +79,7 @@ Please contact `o2r.team@uni-muenster.de` if you are a student (ifgi BSc, ifgi M
   </blockquote>
 - George, N., **Developing and evaluating infrastructure for ERC to communicate with data repositories and computing services** (MSc, April 2021)
   <br />Supervisors: Prof. Edzer Pebesma (ifgi), Daniel Nüst (ifgi)
+  <br />Full text online: <https://doi.org/10.5281/zenodo.6900024>
   <br /><span class="expandable"><a href="#">Abstract ↓</a></span>
   <blockquote class="abstract">
     <p><em>Computational research introduces challenges when it comes to reproducibility, i.e. re-doing an analysis with the same data and code. A current research project at ifgi developed a new approach called Executable Research Compendia (ERC, see https://doi.org/10.1045/january2017-nuest) to solve some of these challenges. ERC contain everything needed to run an analysis: data, code, and runtime environment. So they can be executed “offline” in a sandbox environment. An open challenge is the one of big datasets and reducing data duplication. While the idea of putting “everything” into the ERC is useful in many cases, once the dataset becomes very large it is not feasible to replicate it completely for the sake of reproducibility/transparency and to some extent for archival.
