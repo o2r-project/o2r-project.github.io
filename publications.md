@@ -313,8 +313,9 @@ $(document).ready(function(){
     $.when(
         $.ajax({
             type: "get",
-            url: "https://o2r.uni-muenster.de/wwuproxy/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_PUBL",
+            url: "{{ '/public/publications/PROJ_has_PUBL_9520.xml' | absolute_url }}",
             dataType: "text",
+            beforeSend: function(xhr){  xhr.overrideMimeType( "text/plain; charset=utf-8" ); }, // try to prevent Firefox's XML Parsing Error: syntax error
             success: function(data) {
                 o2rPubs = parsePublications(data);
                 publications = publications.concat(o2rPubs);
@@ -325,8 +326,9 @@ $(document).ready(function(){
         }),
         $.ajax({
             type: "get",
-            url: "https://o2r.uni-muenster.de/wwuproxy/forschungaz-rest/ws/public/infoobject/getrelated/Project/12343/PROJ_has_PUBL",
+            url: "{{ '/public/publications/PROJ_has_PUBL_12343.xml' | absolute_url }}",
             dataType: "text",
+            beforeSend: function(xhr){  xhr.overrideMimeType( "text/plain; charset=utf-8" ); },
             success: function(data) {
                 o2r2Pubs = parsePublications(data);
                 publications = publications.concat(o2r2Pubs);
@@ -337,7 +339,8 @@ $(document).ready(function(){
         }),
         $.ajax({
             type: "get",
-            url: "https://o2r.uni-muenster.de/wwuproxy/forschungaz-rest/ws/public/infoobject/getrelated/Project/9520/PROJ_has_TALK",
+            url: "{{ '/public/publications/PROJ_has_TALK_9520.xml' | absolute_url }}",
+            beforeSend: function(xhr){  xhr.overrideMimeType( "text/plain; charset=utf-8" ); },
             dataType: "text",
             success: function(data) {
                 o2rTalks = parseTalks(data);
@@ -349,7 +352,8 @@ $(document).ready(function(){
         }),
         $.ajax({
             type: "get",
-            url: "https://o2r.uni-muenster.de/wwuproxy/forschungaz-rest/ws/public/infoobject/getrelated/Project/12343/PROJ_has_TALK",
+            url: "{{ '/public/publications/PROJ_has_TALK_12343.xml' | absolute_url }}",
+            beforeSend: function(xhr){  xhr.overrideMimeType( "text/plain; charset=utf-8" ); },
             dataType: "text",
             success: function(data) {
                 o2r2Talks = parseTalks(data);

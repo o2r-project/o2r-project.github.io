@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infoObjects>
+    <infoObject updatedOn="2016-09-09T18:02:25.554+02:00" statusVisible="true" statusProcess="3" createdOn="2016-08-30T12:22:32.421+02:00" id="2719" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>An overview of Docker images for geospatial applications</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>An overview of Docker images for geospatial applications</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2016-08-26</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>FOSS4G 2016</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Bonn</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2016-08-22</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2016-08-26</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Open Source Geospatial Foundation (OSGeo)</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Docker is a growing open-source platform for building and shipping applications as cloud services in so called containers. But containers can be more than that! Following the idea of DevOps, Dockerfiles are a complete scripted definition of an application with all it's dependencies, which can be build and published as ready to use images. As each container is only running &quot;one thing&quot; (e.g. one application, one database, a worker instance), multiple containers can be configured with the help of docker-compose. More and more geospatial open source projects or third parties provide Dockerfiles. In this talk, we try to give an overview of the existing Docker images and docker-compose configurations for FOSS4G projects. We report on test runs that we conducted with them, informing about the evaluation results, target purposes, licenses, commonly used base images, and more. We will also give a short introduction into Docker and present the purposes that Docker images can be used for, such as easy evaluation for new users, education, testing, or common development environments. This talk integrates and summarizes information from previous talks at FOSS4G and FOSSGIS conferences, so I'd like to thank Sophia Parafina, Jonathan Meyer, and Bj&amp;ouml;rn Schilberg for their contributions.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Docker; FOSS; FOSS4G; open source; Containerisierung; Container; DevOps</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Docker; FOSS; FOSS4G; open source; containerization; containers; DevOps</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>http://www.slideshare.net/nuest/docker-foss4g-2016-bonn-public</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel;</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://2016.foss4g.org</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2016</data>
+        </attribute>
+        <relation updatedOn="2016-09-09T18:02:25.559+02:00" createdOn="2016-08-30T12:27:03.827+02:00" id="81" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2017-06-12T11:23:07.645+02:00" statusVisible="true" statusProcess="3" createdOn="2016-08-30T12:31:10.505+02:00" id="2720" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Containers for Sensor Web Services, Applications and Research</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Containers for Sensor Web Services, Applications and Research</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2016-08-30</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Geospatial Sensor Webs Conference</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Münster</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2016-08-29</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2016-08-31</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>52°North Initiative for Geospatial Open Source Software</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Docker; Container; Reproduzierbarkeit; Forschungssoftware; Archivierung</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Docker; containerization; reproducible research; reproducibility; research software; software preservation</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://www.slideshare.net/nuest/docker-for-sensor-web-services-applications-and-research-sensor-web-conference-mnster</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel;</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://52north.org/about/other-activities/geospatial-sensor-webs-conference</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2016</data>
+        </attribute>
+        <relation updatedOn="2020-12-04T13:46:14.303+01:00" createdOn="2016-08-30T12:34:16.832+02:00" id="82" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2017-04-20T17:38:18.625+02:00" statusVisible="true" statusProcess="3" createdOn="2016-09-12T10:12:30.292+02:00" id="2739" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Opening the Publication Process with Executable Research Compendia</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Opening the Publication Process with Executable Research Compendia</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2016-09-09</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>First International Workshop on Reproducible Open Science</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Hannover</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2016-09-09</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2016-09-09</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Leibniz Information Centre for Science and Technology University Library</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>A strong movement towards openness has seized science. Open data and methods, open source software, open access, open reviews, and open research platforms provide the legal and technical solutions to new forms of research and publishing. However, publishing reproducible research is still not common practice. Reasons for that include a lack of incentives and a missing standardized infrastructure for providing research material such as data sets and source code together with a scientific paper. Therefore we first study fundamentals and existing approaches. On that basis, our key contributions are the identification of core requirements of authors, readers, publishers, curators, and preservationists and the subsequent description of an executable research compendium (ERC) as a main component of a publication process providing a new way to publish and access computational research. ERC provide a new standardisable packaging mechanism which combines data, software, text, and a user interface description. We discuss the potential of ERCs and their challenges in the context of user requirements and the established publication processes. We conclude that ERCs provide an unprecedented potential to find, explore, re-use, and archive computer-based research.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Markus Konkol</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://repscience2016.research-infrastructures.eu/ </data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2016</data>
+        </attribute>
+        <relation updatedOn="2017-04-20T17:38:18.632+02:00" createdOn="2016-09-12T10:24:49.839+02:00" id="92" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2016-09-14T11:33:34.070+02:00" statusVisible="true" statusProcess="3" createdOn="2016-09-14T11:25:39.476+02:00" id="2749" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Blitzvortrag &quot;Atlas der Zukunft&quot;</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Blitzvortrag &quot;Atlas der Zukunft&quot;</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2016-06-09</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Werkstattgespräch &quot;Atlas-Zukünfte&quot;</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Leipniz-Institut für Länderkunde (IfL), Leipzig, Deutschland</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2016-06-09</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2016-06-10</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Forschungsbereich Geovisualisierung des Leipniz-Institut für Länderkunde (IfL)</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+Wie sehen Atlanten der Zukunft aus?&lt;br /&gt;&lt;br /&gt;Atlanten der Zukunft sind der Einstieg zu digitalen Informationen. Sie erm&amp;ouml;glichen kritische Interaktionen mit Informationen, weil sie alle Bausteine (Daten, Quellcode, Analysecode, Software, Interaktionsschnittstellen) enthalten um sie zu durchdringen. Sie erm&amp;ouml;glichen dies weil sie &amp;auml;nderbar (technisch, Lizenzen) und archivierbar sind.&lt;br /&gt;&lt;br /&gt;Atlanten der Zukunft sind ausf&amp;uuml;hrbare Forschungskompendien (http://o2r.info/2016/04/08/o2r-at-EGU).</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Atlas; Atlanten; Forschungskompendium; Reproduzierbarkeit</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>http://www.slideshare.net/nuest/atlas-zuknfte</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://atlaszukuenfte.nationalatlas.de/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2016</data>
+        </attribute>
+        <relation updatedOn="2016-09-14T11:33:34.077+02:00" createdOn="2016-09-14T11:30:29.594+02:00" id="93" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2017-05-04T11:01:55.632+02:00" statusVisible="true" statusProcess="3" createdOn="2017-05-04T10:59:39.390+02:00" id="4208" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Reproducible computational research in the publication cycle</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Reproducible computational research in the publication cycle</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2017-04-24</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>EGU General Assembly Short Courses</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Vienna, Austria</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2016-04-24</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2017-04-28</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>European Geophysical Union</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+Reproducibility is unquestionably important for science, but introduces challenges in the context of scientific publications based on computations. In this short course we approach these challenges from two perspectives in two time blocks: (1.) a practical introduction to selected tools supporting computational reproduciblity, and (2.) talks by stakeholders in the scientific publication process and a panel discussion. This course is set in an increasing athmosphere of openness: open access, open science, open data, and open source. Yet the majority of papers analyzing any kind of data is not accompanied by data, code and documentation which let reviewers or readers easily reproduce the calculations that underly the paper. EGU attendees from all scientific disciplines are welcome to bring their data and get some hands-on experience in the tools that facilitate reproduciblity for computations in day-to-day research. A selection of invitied speakers will then put these experiences into the broader context of the publication cycle by sharing their experiences, insights, and ideas for the future. The course starts with practical topics followed by presentations because we expect the practical experience will foster the discussion in the second part. A pratictical mindset will make issues more concrete and give a better understanding of what is important from the different viewpoints on a piece of research.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;(1.) Hands-on Computational Reproducibility (1.5 hrs)&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The first part are hands-on exercises. The attendees are introduced to selected tools to improve the reproducibility of computational research. They then try out these tools either using their own data, or prepared test data.&lt;br /&gt;&lt;br /&gt;Agenda: &lt;br /&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;&amp;nbsp;Welcome &amp;amp; brief overview of relevant publications, definitions, and terms&lt;/li&gt;&#xD;
+&lt;li&gt;Docker containers for reproducible research in the geosciences (R, Python)&lt;/li&gt;&#xD;
+&lt;li&gt;ReproZip for geospatial analyses&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;br /&gt;&lt;strong&gt;(2.) Talks on computational reproducibility in the publication cycle (1.5 hrs)&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;After the hands-on experiences, the second session opens up to a broader context. Selected speakers provide insight on the topic of reproducing scientific papers from their role within the existing publication process, i.e. as publisher, reviewer, educator, or infrastructure provider. The talks are followed by a discussion between a panel of the presenters and the audience.&lt;br /&gt;&lt;br /&gt;Speakers:&lt;br /&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Edzer Pebesma (geostatistics researcher, also journal editor JStatSoft/Computers &amp;amp; Geosciences)&lt;/li&gt;&#xD;
+&lt;li&gt;Tobias Weigel (big climate data, data management, researcher and expert perspective)&lt;/li&gt;&#xD;
+&lt;li&gt;Daniel N&amp;uuml;st (software developer, reproducibility researcher)&lt;/li&gt;&#xD;
+&lt;li&gt;David Ham (GDM executive editor, journal editor perspective) - Xenia van Edig (Copernicus, publisher perspective)&lt;/li&gt;&#xD;
+&lt;li&gt;Vicky Steeves (librarian perspective)&lt;/li&gt;&#xD;
+&lt;/ul&gt;</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Reproduzierbarkeit</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>reproducible research; reproducibility; computational research</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://osf.io/umy6g/</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel; Steeves, Vicky; Rampin, Rémi</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://egu2017.eu/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2017</data>
+        </attribute>
+        <relation updatedOn="2017-05-04T11:01:55.637+02:00" createdOn="2017-05-04T11:00:29.971+02:00" id="141" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2017-07-07T11:54:22.034+02:00" statusVisible="true" statusProcess="3" createdOn="2017-07-07T09:37:26.059+02:00" id="4425" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Creating executable research compendia to improve reproducibility in the geosciences</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Creating executable research compendia to improve reproducibility in the geosciences</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2017-06-28</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Docker Containers for Reproducible Research Workshop (C4RR)</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Cambridge, UK</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2017-06-27</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2017-06-28</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Software Sustainability Institute</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+The project &lt;a href=&quot;http://o2r.info/&quot;&gt;Opening Reproducible Research&lt;/a&gt; tries to reduce the barrier to reproducible research by developing a convention and supporting tools for &lt;a href=&quot;https://doi.org/10.1045/january2017-nuest&quot;&gt;Executable Research Compendia&lt;/a&gt; (ERCs) which include (i) the article, (ii) data, (iii) code, and (iv) the runtime environment to reproduce the study. The ERC provides a well-structured container for both the needs of journals (ERC as the item under review), archives (suitable metadata and packaging formats), and researchers (literally everything needed to re-do an analysis is there). It relies on Docker to define and store the runtime environment. ERCs should be simple enough to be created manually and absorb best practices for organizing digital workspaces. Complementary, an online creation service automatically creates ERC, including Dockerfile and Docker image, from typical user workspaces for less experienced users. A validation and manipulation service will allow (a) users to create an ERC for their workflows with minimal required input, (b) users to interact with published ERC, e.g. (peer) review the contents, or manipulate parameters of the workflow and explore interactive graphics, and (c) platform providers (e.g. journals, data repositories, archives, universities) to integrate o2r building blocks to expand their procedures with exectuable containers. The reference implementation focuses on the geoscience domain and the R language. We show which steps and aspects of publishing and properly archiving computational research with containers can or cannot be automated for a specific community of practice, and point to future challenges. We will share the concepts behind the &lt;a href=&quot;http://o2r.info/erc-spec&quot;&gt;ERC&lt;/a&gt; and the state of the &lt;a href=&quot;http://o2r.info/architecture&quot;&gt;o2r architecture&lt;/a&gt;,&lt;a href=&quot;https://github.com/o2r-project&quot;&gt;software&lt;/a&gt; and &lt;a href=&quot;http://o2r.info/o2r-web-api/&quot;&gt;API&lt;/a&gt;.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>ERC; reproducibility; reproducible research; Docker</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>10.5281/zenodo.823965</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://zenodo.org/record/823965/files/C4RR-workshop_nuest-ERC-geosciences.pdf</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://www.software.ac.uk/c4rr</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2017</data>
+        </attribute>
+        <relation updatedOn="2017-07-07T11:54:21.971+02:00" createdOn="2017-07-07T11:54:21.971+02:00" id="146" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2017-07-07T12:02:20.130+02:00" statusVisible="true" statusProcess="3" createdOn="2017-07-07T11:59:47.069+02:00" id="4426" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Automatically archiving reproducible studies with Docker</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Automatically archiving reproducible studies with Docker</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2017-07-06</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>useR!2017</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Brussels, Belgium</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2017-07-04</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2017-07-07</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Open Analytics and the Interuniversity Institute for Biostatistics and statistical Bioinformatics of the Universities of Leuven</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+Reproducibility of computations is crucial in an era where data is born digital and analysed algorithmically. Most studies however only publish the results, often with figures as important interpreted outputs. But where do these figures come from? Scholarly articles must provide not only a description of the work but be accompanied by data and software. R offers excellent tools to create reproducible works, i.e. Sweave and RMarkdown. Several approaches to capture the workspace environment in R have been made, working around CRAN's deliberate choice not to provide explicit versioning of packages and their dependencies. They preserve a collection of packages locally (packrat, pkgsnap, switchr/GRANBase) or remotely (MRAN timemachine/checkpoint), or install specific versions from CRAN or source (requireGitHub, devtools). Installers for old versions of R are archived on CRAN. A user can manually re-create a specific environment, but this is a cumbersome task. We introduce a new possibility to preserve a runtime environment including both, packages and R, by adding an abstraction layer in the form of a container, which can execute a script or run an interactive session.&lt;br /&gt;&lt;br /&gt;The package containeRit automatically creates such containers based on Docker. Docker is a solution for packaging an application and its dependencies, but shows to be useful in the context of reproducible research (Boettiger 2015). The package creates a container manifest, the Dockerfile, which is usually written by hand, from sessionInfo(), R scripts, or RMarkdown documents. The Dockerfiles use the Rocker community images as base images. Docker can build an executable image from a Dockerfile. The image is executable anywhere a Docker runtime is present. containeRit uses harbor for building images and running containers, and sysreqs for installing system dependencies of R packages. Before the planned CRAN release we want to share our work, discuss open challenges such as handling linked libraries (see discussion on geospatial libraries in Rocker), and welcome community feedback.  &lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://user2017.sched.com/event/785b77e931775df6849f108615605c01&quot;&gt;https://user2017.sched.com/event/785b77e931775df6849f108615605c01&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/o2r-project/containerit/&quot;&gt;https://github.com/o2r-project/containerit/&lt;/a&gt;</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>reproducible research; Docker; ERC; reproducibility; container</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>10.5281/zenodo.824006</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://zenodo.org/record/824007/files/useR%212017-nuest-containerit-presentation.pdf</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://user2017.brussels/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2017</data>
+        </attribute>
+        <relation updatedOn="2017-07-07T12:02:20.136+02:00" createdOn="2017-07-07T11:59:47.328+02:00" id="147" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2017-07-17T17:48:55.868+02:00" statusVisible="true" statusProcess="3" createdOn="2017-07-17T17:46:07.393+02:00" id="4479" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Opening Reproducible Research</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Opening Reproducible Research</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2016-05-19</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Container Strategies for Data &amp; Software Preservation that Promote Open Science</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>University of Notre Dame, USA</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2016-05-19</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2016-05-20</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Data and Software Preservation for Open Science (DASPOS)</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&#xD;
+&lt;div id=&quot;progress-bar-shifty&quot;&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id=&quot;shifty-spritz&quot; style=&quot;display: none; top: -9999px;&quot;&gt;&#xD;
+&lt;div id=&quot;words-shifty&quot;&gt;&lt;span id=&quot;clear-shifty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;div id=&quot;controls-shifty&quot;&gt;&lt;em id=&quot;pause-play-shifty&quot; class=&quot;fa fa-pause left-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;em id=&quot;close-shifty&quot; class=&quot;fa fa-times right-shifty&quot;&gt;&amp;nbsp;&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+Reproducibility of computational research is a challenge with overwhelming complexity. The research project &quot;Opening Reproducible Research&quot; (http://o2r.info/, DFG-funded with six person-years) builds a platform on top of simple, focused and powerful building blocks: a BagIt bag carries a Docker image as well as the corresponding Dockerfile. The image executes an analysis when it is started and validates the generated output based on a single working directory with data and code. This gives us two levels of reproducibility: the first builds the software environment based on a complete scripted definition, the second falls back to the original self-contained run-time image created at time of submission of the research paper. The more challenging goals of the projects, which include switching out data and code between archived papers and well-documented licenses for all of data, text and code, are approached with a mixture of semantic metadata and conventions. We will implement open-source prototypes for a cloud based infrastructure to create, validate, and interact with reproducible open-access publications. The architecture and implementations will not reinvent publication or archival processes, but integrate with existing open-source platforms. We focus on the actual users and their needs in the domain where we are most active: geospatial analysis using R. The technical challenges are simple compared to the required shift in scientists mind sets, the required education, and adjustments of workflows. Therefore the efforts in the project are equally divided between the perspectives archival and preservation, usability and evaluation, as well as architecture and standardisation. Coming from the architecture role, I will talk about technical solutions and details, but would highly appreciate sharing our overall vision and approach to data and software preservation with the workshop participants. In turn, I am sure our project will greatly benefit from the collected experience at the workshop, and the potential to start new collaborations.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Docker; container; Reproduzierbarkeit</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Docker; container; reproducible research; reproducibility</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>10.17605/OSF.IO/H2U6W</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://osf.io/kzruf/download</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://daspos.crc.nd.edu/index.php/workshops/container-strategies-for-data-software-preservation-that-promote-open-science</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2016</data>
+        </attribute>
+        <relation updatedOn="2017-07-17T17:48:55.873+02:00" createdOn="2017-07-17T17:46:39.099+02:00" id="148" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2018-05-23T11:19:36.775+02:00" statusVisible="true" statusProcess="3" createdOn="2018-05-23T11:07:23.011+02:00" id="6128" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Open Reproducible Research in den Geowissenschaften – und darüber hinaus!</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Open reproducible research - and beyond!</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2018-02-07</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Open Science-Tag</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Münster</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2018-02-07</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2018-02-07</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Institut für Psychologie</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>offene Forschung; offene reproduzierbare Forschung; computer-gestützte Analysen</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>open science; open reproducible research; computational analyses</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://docs.google.com/presentation/d/1KcJemsLpmwBsVI8aw3MXMhJSZ37l5htV_GAWWWXu8Ic/edit?usp=sharing</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus; Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://osf.io/x5huy/?view_only=da89102c3ee6414883cc7c991df84de4</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2018</data>
+        </attribute>
+        <relation updatedOn="2018-05-23T11:19:36.782+02:00" createdOn="2018-05-23T11:19:24.108+02:00" id="197" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2018-05-26T08:01:46.465+02:00" statusVisible="true" statusProcess="3" createdOn="2018-05-26T07:57:33.870+02:00" id="6147" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Open Reproducible Research in the Geosciences - and beyond!</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Open Reproducible Research in the Geosciences - and beyond!</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2018-01-18</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Seminar über Neuere Methoden in der Medizinischen Informatik</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Institut für Medizinische Informatik, WWU, Münster, Deutschland</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus; Kray, Christian; Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data></data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2018</data>
+        </attribute>
+        <relation updatedOn="2018-05-26T08:01:46.477+02:00" createdOn="2018-05-26T08:01:02.758+02:00" id="198" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2018-07-13T13:01:09.897+02:00" statusVisible="true" statusProcess="3" createdOn="2018-07-13T12:39:31.165+02:00" id="6322" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>git für Digital Humanities</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2018-06-26</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Arbeitskreis &quot;Digital Humanities&quot;</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>WWU Münster</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Juniorprofessur für die Geschichte des Hoch- und Spätmittelalters/Historische Hilfswissenschaften, Jun.-Prof. Dr. Torsten Hiltm</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>&lt;div&gt;Versionierung, Kollaboration, und Forschungskompendien f&amp;uuml;r effektive, transparente, reproduzierbare und offene Wissensaft in den Digital Humanities&lt;/div&gt;&#xD;
+&lt;div&gt;&lt;/div&gt;&#xD;
+&lt;div&gt;Vortragsfolien: &lt;a href=&quot;https://doi.org/10.5281/zenodo.1298621&quot;&gt;https://doi.org/10.5281/zenodo.1298621&lt;/a&gt;&lt;/div&gt;</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>git; transparente Forschung; reproducible research; Open Science</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://www.uni-muenster.de/Geschichte/histsem/JPGHuSMA/ak_dh.html</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2018</data>
+        </attribute>
+        <relation updatedOn="2018-07-13T13:01:09.902+02:00" createdOn="2018-07-13T12:47:26.283+02:00" id="201" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-01-28T14:54:28.601+01:00" statusVisible="true" statusProcess="3" createdOn="2019-01-28T14:25:28.634+01:00" id="7126" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Packaging Research for Open Scholarship</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Packaging Research for Open Scholarship</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-01-25</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Kolloquium des Lehrstuhls für Geoinformatik</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Friedrich Schiller Universität Jena, Jena, Deutschland</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-01-25</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-01-25</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Lehrstuhl für Geoinformatik, Institut für Geographie</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Scientific breakthroughs are build on previous research. Open Science allows everyone to read (Open Access), contribute to (Open Peer Review), extend upon (Open Data, Open Source), improve (Open Methodology), and teach (Open Educational Resources) the latest research results. Transparency and collaboration are on their way to become the norm across all academic disciplines. Changes are sometimes driven from within, but also imposed from the outside (funders, journals). This fast pace poses challenges to researchers of all career stages who must adapt their habits and workflows, and continuously update their toolboxes. In this talk, we take a brief tour de force across open scholarship's building blocks, people's roles, and best practices. Then we explore different packaging mechanisms that help scientists to improve the reproducibility of their research: research compendia, containerisation or virtual environments can help graduate students, post-docs or professors to increase the quality, efficiency, and reach of their research, collaborations, reviews, and teaching.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Datenwissenschaft; Reproduzierbarkeit</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>data science; reproducibility; open science; open scholarship</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://gitlab.com/nuest/packaging-research-for-open-scholarship</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2006</data>
+            <additionalInfo>practical talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://www.geographie.uni-jena.de/Lehrst%C3%BChle/Geoinformatik.html</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-01-28T14:54:28.604+01:00" createdOn="2019-01-28T14:50:32.479+01:00" id="268" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-02-11T22:44:05.283+01:00" statusVisible="true" statusProcess="3" createdOn="2019-02-11T22:28:23.629+01:00" id="7211" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Reproducible Research in GIScience</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Reproducible Research in GIScience</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-02-11</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Replicability and Reproducibility in Geospatial Research: A SPARC Workshop</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Arizona State University, Arizona, USA</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-02-11</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-02-12</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Spatial Analysis Research Center (SPARC), ASU</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Challenges for, observations about, and approaches towards reproducible research in GIScience</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>reproducibility; reproducible research; open science; GIScience; geospatial analysis; geospatial data science</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://gitlab.com/nuest/rr-geospatial-sparc/</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://sgsup.asu.edu/sparc/RRWorkshop</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-02-11T22:44:05.251+01:00" createdOn="2019-02-11T22:42:22.981+01:00" id="272" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-04-04T13:29:29.602+02:00" statusVisible="true" statusProcess="3" createdOn="2019-04-04T13:24:25.776+02:00" id="7477" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Open Reproducible Research in the Geosciences: Obstacles, Solutions, and Incentives.</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Open Reproducible Research in the Geosciences: Obstacles, Solutions, and Incentives.</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-04-03</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Conquaire Workshop on Data Quality and Reproducibility</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Bielefeld, Germany</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-04-03</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-04-03</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Zentrum für interdisziplinäre Forschung</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>Open Reproducible Research in the Geosciences: Obstacles, Solutions, and Incentives.</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Open Reproducible Research in the Geosciences: Obstacles, Solutions, and Incentives.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>open science; reproducibility</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>open science; reproducibility</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>http://doi.org/10.5281/zenodo.2628278</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>http://doi.org/10.5281/zenodo.2628278</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://uni-bielefeld.de/(en)/conquaire/reproducibility-workshop/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-04-04T13:29:29.607+02:00" createdOn="2019-04-04T13:29:18.928+02:00" id="288" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-08-29T13:38:21.840+02:00" statusVisible="true" statusProcess="3" createdOn="2019-08-29T13:37:45.706+02:00" id="8131" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Creating Interactive Scientific Publications using Bindings</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Creating Interactive Scientific Publications using Bindings</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-06-21</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Engineering Interactive Computing Systems</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Valencia, Spain</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-06-19</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-06-21</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>ACM SIGCHI</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>Many scientific publications report on computational results based on code and data, but even when code and data are published, the main text is usually provided in a separate, traditional format such as PDF. Since code, data, and text are not linked on a deep level, it is difficult for readers and reviewers to understand and retrace how the authors achieved a specific result that is reported in the main text, e.g. a figure, table, or number. In addition, to make use of new the opportunities afforded by data and code availability, such as re-running analyses with changed parameters, considerable effort is required. In order to overcome this issue and to enable more interactive publications that support scientists in more deeply exploring the reported results, we present the concept, implementation, and initial evaluation of bindings. A binding describes which data subsets, code lines, and parameters produce a specific result that is reported in the main text (e.g. a figure or number). Based on a prototypical implementation of these bindings, we propose a toolkit for authors to easily create interactive figures by connecting specific UI widgets (e.g. a slider) to parameters. In addition to inspecting code and data, readers can then manipulate the parameter and see how the results change. We evaluated the approach by applying it to a set of existing articles. The results provide initial evidence that the concept is feasible and applicable to many papers with moderate effort.</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Many scientific publications report on computational results based on code and data, but even when code and data are published, the main text is usually provided in a separate, traditional format such as PDF. Since code, data, and text are not linked on a deep level, it is difficult for readers and reviewers to understand and retrace how the authors achieved a specific result that is reported in the main text, e.g. a figure, table, or number. In addition, to make use of new the opportunities afforded by data and code availability, such as re-running analyses with changed parameters, considerable effort is required. In order to overcome this issue and to enable more interactive publications that support scientists in more deeply exploring the reported results, we present the concept, implementation, and initial evaluation of bindings. A binding describes which data subsets, code lines, and parameters produce a specific result that is reported in the main text (e.g. a figure or number). Based on a prototypical implementation of these bindings, we propose a toolkit for authors to easily create interactive figures by connecting specific UI widgets (e.g. a slider) to parameters. In addition to inspecting code and data, readers can then manipulate the parameter and see how the results change. We evaluated the approach by applying it to a set of existing articles. The results provide initial evidence that the concept is feasible and applicable to many papers with moderate effort.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>open science; reproducible research; research compendia; interactive papers</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>open science; reproducible research; research compendia; interactive papers</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3253692</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3253692</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://eics.acm.org/2019/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-08-29T13:38:21.844+02:00" createdOn="2019-08-29T13:37:45.851+02:00" id="322" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-09-26T08:47:20.831+02:00" statusVisible="true" statusProcess="3" createdOn="2019-09-25T13:03:43.864+02:00" id="8285" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>PDF files are not suitable for communicating computational (geo)scientific results</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>PDF files are not suitable for communicating computational (geo)scientific results</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-09-23</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>GeoMünster 2019</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Münster, Germany</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-09-23</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-09-25</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>Many geoscientific articles are based on computational methods, e.g. a spatiotemporal analysis. It is common practice to describe the analysis as part of the methodology section in a paper. Nevertheless, it is less common to make these materials publicly accessible. Besides issues such as the time needed to prepare code and data, a key issue is that the &amp;ldquo;classic&amp;rdquo; way of publishing a paper (i.e. as a PDF file) is not suitable for describing and publishing computational research. It is challenging (if it is even possible) to describe the computational steps in such a detail that others can understand and reuse the analysis and the data. However, even if the materials, i.e. the source code and data, are attached to the paper, they are largely disconnected from the actual text. Besides the lack of connections between the paper, the source code, and the data, a further issue is that PDFs are static. To solve this issue, interactive geoscientific papers could help to better understand how the results were achieved. For example, an interactive paper could show which source code lines and which data subsets were used to produce a specific result. Besides the possibility to inspect the materials underlying the results in the paper, a further benefit is the creation of interactive results. We found a number of papers in which the authors suggested alternative values for parameters that were used in the analysis but they were not able to show the effects on the results in a static PDF file. This talk describes the concept of a binding which assists authors in creating interactive geoscientific papers by creating links between the paper, the analysis code and the data. Based on these links, the authors can specify controls (e.g. a slider) allowing readers to manipulate analysis parameters within a certain range. Giving readers the possibility to inspect and explore the results might facilitate a reader&amp;rsquo;s, reviewer&amp;rsquo;s, or journalist&amp;rsquo;s understanding of the reported results - a key goal of researchers who publish papers. An essential requirement for this alternative way of publishing research is open reproducible research, i.e. code and data underlying the results in the paper are publicly available and executable. Hence, interactive geoscientific papers not only help authors to communicate their research but also to follow good scientific practice.</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Many geoscientific articles are based on computational methods, e.g. a spatiotemporal analysis. It is common practice to describe the analysis as part of the methodology section in a paper. Nevertheless, it is less common to make these materials publicly accessible. Besides issues such as the time needed to prepare code and data, a key issue is that the &amp;ldquo;classic&amp;rdquo; way of publishing a paper (i.e. as a PDF file) is not suitable for describing and publishing computational research. It is challenging (if it is even possible) to describe the computational steps in such a detail that others can understand and reuse the analysis and the data. However, even if the materials, i.e. the source code and data, are attached to the paper, they are largely disconnected from the actual text. Besides the lack of connections between the paper, the source code, and the data, a further issue is that PDFs are static. To solve this issue, interactive geoscientific papers could help to better understand how the results were achieved. For example, an interactive paper could show which source code lines and which data subsets were used to produce a specific result. Besides the possibility to inspect the materials underlying the results in the paper, a further benefit is the creation of interactive results. We found a number of papers in which the authors suggested alternative values for parameters that were used in the analysis but they were not able to show the effects on the results in a static PDF file. This talk describes the concept of a binding which assists authors in creating interactive geoscientific papers by creating links between the paper, the analysis code and the data. Based on these links, the authors can specify controls (e.g. a slider) allowing readers to manipulate analysis parameters within a certain range. Giving readers the possibility to inspect and explore the results might facilitate a reader&amp;rsquo;s, reviewer&amp;rsquo;s, or journalist&amp;rsquo;s understanding of the reported results - a key goal of researchers who publish papers. An essential requirement for this alternative way of publishing research is open reproducible research, i.e. code and data underlying the results in the paper are publicly available and executable. Hence, interactive geoscientific papers not only help authors to communicate their research but also to follow good scientific practice.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Open science; reproducible research</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Open science; reproducible research</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3460478</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3460478</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://www.geomuenster2019.de/index.html</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-09-26T08:47:20.835+02:00" createdOn="2019-09-25T13:06:40.613+02:00" id="334" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-09-26T08:46:29.997+02:00" statusVisible="true" statusProcess="3" createdOn="2019-09-26T08:42:51.188+02:00" id="8293" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Computational reproducibility in the geoscientific publication cycle</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Computational reproducibility in the geoscientific publication cycle</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-09-25</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>GeoMünster 2019</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Münster, Germany</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-09-23</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-09-25</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>Computational reproducibility is possible when the data, procedures and software involved in a study is shared along with a scientific publication. When this can be done, it is still an open problem how this should be done: journals often mention the option, but give no hints to authors what they should provide and how they should wrap data, scripts and software. Mutual expectations from reviewers and readers on one side, and author on the other side, are largely missing. The project &quot;Opening Reproducible Research&quot; (http://o2r.info/), of which the second phase is now funded by the DFG, has the ambition to formalise these expectation, and develops a workflow for journals such that it becomes easy for authors and reviewers to verify completeness (&quot;one-click reproduce&quot;), and easy for readers to re-execute the computational aspects of a publication. In addition, potential extensions are explored that include searching reproducible publications for data and procedures, and interaction with the settings of particular parameters resulting in updated figures, so that readers can experience a richer view than the classical fixed non-interactive pdf publication. In the second phase of this project, this infrastructure will be put into action by running special issues with journlas at existing publishers (Copernicus, Elsevier).</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Computational reproducibility is possible when the data, procedures and software involved in a study is shared along with a scientific publication. When this can be done, it is still an open problem how this should be done: journals often mention the option, but give no hints to authors what they should provide and how they should wrap data, scripts and software. Mutual expectations from reviewers and readers on one side, and author on the other side, are largely missing. The project &quot;Opening Reproducible Research&quot; (http://o2r.info/), of which the second phase is now funded by the DFG, has the ambition to formalise these expectation, and develops a workflow for journals such that it becomes easy for authors and reviewers to verify completeness (&quot;one-click reproduce&quot;), and easy for readers to re-execute the computational aspects of a publication. In addition, potential extensions are explored that include searching reproducible publications for data and procedures, and interaction with the settings of particular parameters resulting in updated figures, so that readers can experience a richer view than the classical fixed non-interactive pdf publication. In the second phase of this project, this infrastructure will be put into action by running special issues with journlas at existing publishers (Copernicus, Elsevier).</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Open Science; reproducible research</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Open Science; reproducible research</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3461477</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3461477</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://www.geomuenster2019.de/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-09-26T08:46:30.001+02:00" createdOn="2019-09-26T08:45:49.842+02:00" id="336" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-10-21T17:45:25.152+02:00" statusVisible="true" statusProcess="3" createdOn="2019-10-21T17:37:36.341+02:00" id="8368" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Publishing Reproducible Geoscientific Papers: Status quo, benefits, and opportunities</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Publishing Reproducible Geoscientific Papers: Status quo, benefits, and opportunities</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-10-16</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Workshop: Building reproducible workflows for earth sciences</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Reading, Great Britain</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-10-14</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-10-16</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>European Centre for Medium-Range Weather Forecasts</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>Open reproducible research (ORR) is the practice of publishing the source code and the datasets needed to produce the computational results reported in a paper. Since many geoscientific articles include geostatistical analyses and spatiotemporal data, reproducibility should be a cornerstone of the computational geosciences but is rarely realized. Furthermore, publishing scientific outcomes in static PDFs does not adequately report on computational aspects. Thus, readers cannot fully understand how the authors came to the conclusions and how robust these are to changes in the analysis. Consequently, it is difficult for reviewers to follow the analysis steps, and for other researchers to reuse existing materials. This talk starts with obstacles that prevented geoscientists from publishing ORR. To overcome these barriers, the talk suggests concrete strategies. One strategy is the executable research compendium (ERC) which encapsulates the paper, code, data, and the entire software environment needed to produce the computational results. Such concepts can assist authors in adhering to ORR principles to ensure high scientific standards. However, ORR is not only about reproducing results but it involves a number of additional benefits, e.g. an ERC-based workflow. It allows authors to convey their computational methods and results by also providing interactive access to code and data, and readers to deeply investigate the computational analysis while reading the actual article, e.g. by changing the parameters of the analysis. Finally, the presentation introduces the concept of a binding; a binding connects those code lines and data subsets that produce a specific result, e.g. a figure or number. By also considering user interface widgets (e.g. a slider), this approach allows readers to interactively manipulate the parameters of the analysis to see how the results change.</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Open reproducible research (ORR) is the practice of publishing the source code and the datasets needed to produce the computational results reported in a paper. Since many geoscientific articles include geostatistical analyses and spatiotemporal data, reproducibility should be a cornerstone of the computational geosciences but is rarely realized. Furthermore, publishing scientific outcomes in static PDFs does not adequately report on computational aspects. Thus, readers cannot fully understand how the authors came to the conclusions and how robust these are to changes in the analysis. Consequently, it is difficult for reviewers to follow the analysis steps, and for other researchers to reuse existing materials. This talk starts with obstacles that prevented geoscientists from publishing ORR. To overcome these barriers, the talk suggests concrete strategies. One strategy is the executable research compendium (ERC) which encapsulates the paper, code, data, and the entire software environment needed to produce the computational results. Such concepts can assist authors in adhering to ORR principles to ensure high scientific standards. However, ORR is not only about reproducing results but it involves a number of additional benefits, e.g. an ERC-based workflow. It allows authors to convey their computational methods and results by also providing interactive access to code and data, and readers to deeply investigate the computational analysis while reading the actual article, e.g. by changing the parameters of the analysis. Finally, the presentation introduces the concept of a binding; a binding connects those code lines and data subsets that produce a specific result, e.g. a figure or number. By also considering user interface widgets (e.g. a slider), this approach allows readers to interactively manipulate the parameters of the analysis to see how the results change.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Reproducible research; open science</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Reproducible research; open science</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3515353</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://events.ecmwf.int/event/116/contributions/932/</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://www.ecmwf.int/en/learning/workshops/building-reproducible-workflows</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-10-21T17:45:25.157+02:00" createdOn="2019-10-21T17:44:54.398+02:00" id="348" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2019-11-05T14:24:47.035+01:00" statusVisible="true" statusProcess="3" createdOn="2019-11-05T14:21:17.353+01:00" id="8435" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Open reproducible research in the Geosciences – and beyond</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Open reproducible research in the Geosciences – and beyond</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2019-10-24</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Open Access Woche 2019</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Universitäts und Landesbibliothek Münster, Deutschland</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data>2019-10-21</data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data>2019-10-25</data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Universitäts und Landesbibliothek Münster</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data>Open reproducible research in the Geosciences &amp;ndash; and beyond</data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Open reproducible research in the Geosciences &amp;ndash; and beyond</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data>Open Science; reproducible research</data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>Open Science; reproducible research</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3529454</data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://doi.org/10.5281/zenodo.3529454</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Konkol, Markus</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>https://www.uni-muenster.de/Publizieren/open-access/wwu/oa-woche-2019/ankuendigung.html</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2019</data>
+        </attribute>
+        <relation updatedOn="2019-11-05T14:24:47.040+01:00" createdOn="2019-11-05T14:24:37.714+01:00" id="351" type="PROJ_has_TALK"/>
+    </infoObject>
+    <infoObject updatedOn="2021-06-23T16:12:09.252+02:00" statusVisible="true" statusProcess="3" createdOn="2021-06-23T16:07:40.466+02:00" id="10296" type="Talk">
+        <attribute name="Title" language="1" disposition="string">
+            <data>Practical reproducibility and reproducibility vs. peer review</data>
+        </attribute>
+        <attribute name="Title" language="2" disposition="string">
+            <data>Practical reproducibility and reproducibility vs. peer review</data>
+        </attribute>
+        <attribute name="Date of talk" language="0" disposition="date">
+            <data>2021-05-20</data>
+        </attribute>
+        <attribute name="Name of event" language="0" disposition="string">
+            <data>Spatial Data Science Hangout</data>
+        </attribute>
+        <attribute name="Venue of event" language="0" disposition="string">
+            <data>Center for Spatial Studies, UCSB (online)</data>
+        </attribute>
+        <attribute name="Start date of event" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="End date of event" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="Organiser of event" language="0" disposition="string">
+            <data>Center for Spatial Studies, University of California, Santa Barbara, CA, USA</data>
+        </attribute>
+        <attribute name="Abstract" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract" language="2" disposition="string">
+            <data>Daniel will give a short introduction to his paper on practical reproducibility in geography and geosciences and present some advanced technologies for reproducibility (notebooks, containers, Binder). Daniel will wrap up his talk by discussing how reproducibility should be taken into account during peer reviewand give a brief overview of the initiatives CODECHECK and Reproducible AGILE.</data>
+        </attribute>
+        <attribute name="Keywords" language="1" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords" language="2" disposition="string">
+            <data>reproducible research; open science</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="URL of slides" language="0" disposition="string">
+            <data>https://docs.google.com/presentation/d/1x3lJx_y3GM_puG-oTkTfz0Vr6yWLgDxgcAkB8apsgjI/edit#slide=id.p</data>
+        </attribute>
+        <attribute name="Speakers" language="0" disposition="string">
+            <data>Nüst, Daniel</data>
+        </attribute>
+        <attribute name="Type of talk" language="0" disposition="choicegroup">
+            <data>2005</data>
+            <additionalInfo>scientific talk</additionalInfo>
+        </attribute>
+        <attribute name="URL of event" language="0" disposition="link">
+            <data>http://spatial.ucsb.edu/spatial-data-science-hangout-Spring21/</data>
+        </attribute>
+        <attribute name="Year of talk" language="0" disposition="year">
+            <data>2021</data>
+        </attribute>
+        <relation updatedOn="2021-06-23T16:12:09.257+02:00" createdOn="2021-06-23T16:11:04.810+02:00" id="472" type="PROJ_has_TALK"/>
+    </infoObject>
+</infoObjects>
