@@ -6,10 +6,11 @@ description: Project results
 
 <br>
 
+Find a list of all **papers and presentations** at <https://o2r.info/publications/>.
 
-**Try the online demo at [https://o2r.uni-muenster.de](https://o2r.uni-muenster.de)** and if you are a developer find the web API endpoint at [https://o2r.uni-muenster.de/api/v1/](https://o2r.uni-muenster.de/api/v1/).
+Try the **online demo** at [https://o2r.uni-muenster.de](https://o2r.uni-muenster.de) and if you are a developer find the web API endpoint at [https://o2r.uni-muenster.de/api/v1/](https://o2r.uni-muenster.de/api/v1/).
 
-**Try it out on your own machine with the [reference implementation](/2017/10/31/reference-implementation/)** (only Docker required!):
+Try it out on your own machine with the [**reference implementation**](/2017/10/31/reference-implementation/) (only Docker required!):
 
 `git clone https://github.com/o2r-project/reference-implementation`
 `docker-compose up`
