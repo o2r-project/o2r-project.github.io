@@ -7,6 +7,7 @@ categories:
   - OJS
   - Elsevier
   - Copernicus
+exclude_from_nav: true
 ---
 
 The primary objective of the second phase of the project [Opening Reproducible Research](https://o2r.info) (o2r) is to use Executable Research Compendia (ERCs) for actual scientific publications.
@@ -54,12 +55,6 @@ In case of questions, you can always [contact us](#get-help).
 - Integration of _ERC form_ field to submission forms and adding of extra reviewer questions to the review form.
 - Direct display of ERCs from the article reading page.
 
-### <img src="https://static.semrush.com/power-pages/media/favicons/elsevier-com-favicon-c0e62f50.png" height="20" alt="Elsevier favicon/logo" style="display: inline; margin: 0;"> Elsevier Virtual Special Issue
-<a name="elsevier">
-
-**Status:** Looking for collaborating journals
-
-See the [informative leaflet for a virtual special issue for Elsevier journals based on containers and R](https://drive.google.com/file/d/1uIm6hA_Ke7bWmgiDYdaG2gsZAVwsArwB/view?usp=sharing).
 
 ------
 
