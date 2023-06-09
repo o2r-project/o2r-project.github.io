@@ -53,7 +53,6 @@ See our [Deployment](/results) page for more information about all software proj
 - [Eftychia Koukouraki](https://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/365/Eftychia_Koukouraki) (ifgi)
 - [Prof. Dr. Christian Kray](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/118/Christian_Kray) (ifgi)
 - Jörg Lorenz (ULB)
-- [Dr. Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi)
 - [Prof. Dr. Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/119/Edzer_Pebesma) (ifgi)
 - Holger Przibytzin (ULB)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
@@ -68,6 +67,7 @@ See our [Deployment](/results) page for more information about all software proj
 
 ### Former members
 
+- [Dr. Daniel Nüst](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/35/Daniel_N%C3%BCst) (ifgi, 2016-2022)
 - Fabian Fermazin (student assistant, 2020-10 to 2022-03)
 - Nick Jakuschona (student assistant, 2019-04 to 2022-03)
 - Tom Niers (student assistant, 2019-04 to 2022-03)
@@ -110,6 +110,6 @@ They come from different disciplines and provide valuable feedback on project pl
 
 ## Funding
 
-This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](https://gepris.dfg.de/gepris/projekt/274927273) and [Offene Reproduzierbare Forschung II](https://gepris.dfg.de/gepris/projekt/415851837) @ DFG GEPRIS) receives funding by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE&nbsp;1632/10-1, KR&nbsp;3930/3-1 and TR&nbsp;864/6-1 from 2016/01 to 2018/06, and under project numbers PE&nbsp;1632/17-1, KR&nbsp;3930/8-1, and TR&nbsp;864/12-1 from 2019/04 to 2021.
+This project _Opening Reproducible Research_ (see also [Offene Reproduzierbare Forschung](https://gepris.dfg.de/gepris/projekt/274927273) and [Offene Reproduzierbare Forschung II](https://gepris.dfg.de/gepris/projekt/415851837) @ DFG GEPRIS) received funding by the German Research Foundation (Deutsche Forschungsgemeinschaft, DFG) under project numbers PE&nbsp;1632/10-1, KR&nbsp;3930/3-1 and TR&nbsp;864/6-1 from 2016/01 to 2018/06, and under project numbers PE&nbsp;1632/17-1, KR&nbsp;3930/8-1, and TR&nbsp;864/12-1 from 2019/04 to 2021.
 
 [<img src="/public/images/dfg_logo_schriftzug_schwarz.png" alt="DFG Logo" />](http://www.dfg.de)

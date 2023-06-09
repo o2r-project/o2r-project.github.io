@@ -42,8 +42,8 @@ twitter:
 exclude: [README.md, CNAME, "Gemfile", "Gemfile.lock", "README.md", "Makefile", "vendor", "*.pdf"]
 # ribbon itself by https://github.com/simonwhitaker/github-fork-ribbon-css
 ribbon:
-  show:   true
-  text:   'Join the pilots! 🚀'
+  show:   false
+  text:   'Join the pilots!'
   url:    '/pilots'
 
 livereload_ignore: [ "*.pdf" ]
