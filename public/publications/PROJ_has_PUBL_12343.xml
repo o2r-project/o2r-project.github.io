@@ -5244,4 +5244,206 @@ Abstract: https://meetingorganizer.copernicus.org/EGU2019/EGU2019-14063.pdf</dat
         </attribute>
         <relation updatedOn="2022-03-24T17:16:33.412+01:00" createdOn="2022-03-24T17:16:33.412+01:00" id="5349" type="PROJ_has_PUBL"/>
     </infoObject>
+        <infoObject updatedOn="2023-09-18T17:16:33.485+02:00" statusVisible="true" statusProcess="3" createdOn="2023-09-18T17:16:33.485+02:00" id="efty1" type="Publication">
+        <attribute name="sourceOfInfo" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Title" language="0" disposition="string">
+            <data>Map Reproducibility in Geoscientific Publications: An Exploratory Study</data>
+        </attribute>
+        <attribute name="Subtitle" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Title in source" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Language" language="0" disposition="choicegroup">
+            <data></data>
+        </attribute>
+        <attribute name="External" language="0" disposition="choicegroup">
+            <data>533</data>
+            <additionalInfo>Yes</additionalInfo>
+        </attribute>
+        <attribute name="Content type" language="0" disposition="choicegroup">
+            <data></data>
+        </attribute>
+        <attribute name="Peer reviewed" language="0" disposition="choicegroup">
+            <data>1570</data>
+            <additionalInfo>Ja</additionalInfo>
+        </attribute>
+        <attribute name="Volume" language="0" disposition="string">
+            <data>277</data>
+        </attribute>
+        <attribute name="Venue" language="0" disposition="string">
+            <data>University of Leeds</data>
+        </attribute>
+        <attribute name="Graduation type" language="0" disposition="choicegroup">
+            <data></data>
+        </attribute>
+        <attribute name="Graduation year" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Institution" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Publication status" language="0" disposition="choicegroup">
+            <data>219</data>
+            <additionalInfo>Published</additionalInfo>
+        </attribute>
+        <attribute name="Abstract" language="0" disposition="string">
+            <data>Reproducibility is a core element of the scientific method. In the Geosciences, the insights derived from geodata are frequently communicated through maps, and the computational methods to create these maps vary in their ease of reproduction. In this paper, we present the results from a study where we tried to reproduce the maps included in geoscientific publications. Following a systematic approach, we collected 27 candidate papers and in four cases, we were able to successfully reproduce the maps they contained. We report on the approach we applied, the issues we encountered and the insights we gained while attempting to reproduce the maps. In addition, we provide an initial set of criteria to assess the success of a map reproduction attempt. We also propose some guidelines for improving map reproducibility in geoscientific publications. Our work sheds a light on the current state of map reproducibility in geoscientific papers and can benefit researchers interested in publishing maps in a more reproducible way. </data>
+        </attribute>
+        <attribute name="Keywords" language="0" disposition="string">
+            <data>Reproducible Research, Reproduction Assessment, Map Making, Cartography</data>
+        </attribute>
+        <attribute name="Authors_OLD" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Affiliation" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Journal name" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Journal abbreviation" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="ISSN" language="0" disposition="string">
+            <data>1868-8969</data>
+        </attribute>
+        <attribute name="Publication year" language="0" disposition="year">
+            <data>2023</data>
+        </attribute>
+        <attribute name="Publication date" language="0" disposition="date">
+            <data>2023-09-07</data>
+        </attribute>
+        <attribute name="Publication type" language="0" disposition="choicegroup">
+            <data>570</data>
+            <additionalInfo>Aufsatz (Konferenz)</additionalInfo>
+        </attribute>
+        <attribute name="Edition" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Journal volume" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Journal issue" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Start page" language="0" disposition="string">
+            <data>6:1</data>
+        </attribute>
+        <attribute name="End page" language="0" disposition="string">
+            <data>6:16</data>
+        </attribute>
+        <attribute name="Pages range" language="0" disposition="string">
+            <data>6:1-6:16</data>
+        </attribute>
+        <attribute name="Book title" language="0" disposition="string">
+            <data>12th International Conference on Geographic Information Science (GIScience 2023)</data>
+        </attribute>
+        <attribute name="Book subtitle" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Number of pages" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Editor" language="0" disposition="string">
+            <data>Beecham R., Long J. A., Smith D., Zhao Q., Wise S.</data>
+        </attribute>
+        <attribute name="Conference" language="0" disposition="string">
+            <data>12th International Conference on Geographic Information Science (GIScience 2023)</data>
+        </attribute>
+        <attribute name="Title of series" language="0" disposition="string">
+            <data>Leibniz International Proceedings in Informatics (LIPIcs)</data>
+        </attribute>
+        <attribute name="Place" language="0" disposition="string">
+            <data>Dagstuhl, Germany</data>
+        </attribute>
+        <attribute name="Publisher" language="0" disposition="string">
+            <data>Schloss Dagstuhl -- Leibniz-Zentrum für Informatik</data>
+        </attribute>
+        <attribute name="ISBN" language="0" disposition="string">
+            <data>978-3-95977-288-4</data>
+        </attribute>
+        <attribute name="DOI" language="0" disposition="string">
+            <data>10.4230/LIPIcs.GIScience.2023.6</data>
+        </attribute>
+        <attribute name="Source ID" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Source of information" language="0" disposition="string">
+            <data>manual_entry</data>
+        </attribute>
+        <attribute name="URL" language="0" disposition="string">
+            <data>https://drops.dagstuhl.de/opus/volltexte/2023/18901/</data>
+        </attribute>
+        <attribute name="Pubmed ID" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="ISI ID" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Scopus ID" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Title in other language" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Subtitle in other language" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Abstract in other language" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Keywords in other language" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Other language" language="0" disposition="choicegroup">
+            <data></data>
+        </attribute>
+        <attribute name="Comments" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Dont use for annual report" language="0" disposition="boolean">
+            <data></data>
+        </attribute>
+        <attribute name="Approval year" language="0" disposition="year">
+            <data></data>
+        </attribute>
+        <attribute name="Approved by" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Annual report item time stamp" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="Annual report report time stamp" language="0" disposition="date">
+            <data></data>
+        </attribute>
+        <attribute name="Storage Medium" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="ID_PUBL" language="0" disposition="integer">
+            <data></data>
+        </attribute>
+        <attribute name="Code" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Eprint ID" language="0" disposition="integer">
+            <data></data>
+        </attribute>
+        <attribute name="Eprint URL" language="0" disposition="string">
+            <data></data>
+        </attribute>
+        <attribute name="Eprints submit" language="0" disposition="choicegroup">
+            <data></data>
+        </attribute>
+        <attribute name="Publication date in source" language="0" disposition="string">
+            <data>2023</data>
+        </attribute>
+        <attribute name="Authors" language="0" disposition="string">
+            <data>Koukouraki Eftychia, Kray Christian</data>
+        </attribute>
+        <relation updatedOn="2023-09-18T17:16:33.485+02:00" createdOn="2023-09-18T17:16:33.485+02:00" id="efty1" type="PROJ_has_PUBL"/>
+    </infoObject>
 </infoObjects>
