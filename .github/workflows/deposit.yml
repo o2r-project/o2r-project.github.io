@@ -31,7 +31,7 @@ jobs:
             pip3 install --user coloredlogs
 
       - name: Cache gems
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile') }}
