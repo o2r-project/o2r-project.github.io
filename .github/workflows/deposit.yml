@@ -40,11 +40,11 @@ jobs:
           
       - name: Install Jekyll and gems
         run: |
+            sudo gem install sass-embedded -v 1.63.6
             echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
-            sudo gem install sass-embedded -v 1.63.6
             sudo gem install jekyll bundler
             bundle config path vendor/bundle
             bundle install
