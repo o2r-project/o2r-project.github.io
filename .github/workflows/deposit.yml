@@ -39,7 +39,8 @@ jobs:
             ${{ runner.os }}-gem-
           
       - name: Install Jekyll and gems
-        run: |
+        run: 
+            sudo gem update --system|
             sudo gem install sass-embedded -v 1.63.6
             echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
