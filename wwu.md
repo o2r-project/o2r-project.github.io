@@ -69,7 +69,3 @@ Das Ende der Veranstaltung ist für 18 Uhr geplant.
 ## Kontakt
 
 Bei Fragen stehen wir natürlich gerne zur Verfügung.
-
-**[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)**
-
-Tel.: 0251 31-31962
