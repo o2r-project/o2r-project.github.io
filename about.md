@@ -4,7 +4,9 @@ title: 🔓 About
 description: Project description and team members of the project Opening Reproducible Research
 ---
 
-Opening Reproducible Research (o2r) is a project by the Institute for Geoinformatics (ifgi) and University and Regional Library (ULB) at the University of Münster, Germany.
+**This project has been delivered and is not being actively maintained. However, Reproducible Research is still a hot topic at the Institute for Geoinformatics, so we are still posting updates about related activities. For questions and comments, you can reach us at [o2r.projekt@uni-muenster.de](mailto:o2r.projekt@uni-muenster.de). We are also welcoming contributions to our [Github](https://github.com/o2r-project)**
+
+Opening Reproducible Research (o2r) was a project by the Institute for Geoinformatics (ifgi) and University and Regional Library (ULB) at the University of Münster, Germany.
 
 <div style="display: flex; justify-content:space-between;">
   <a href="https://www.uni-muenster.de/Geoinformatics/" title="ifgi website"><img src="/public/images/ifgilogo.svg" height="80" alt="ifgi Logo" /></a>
@@ -57,7 +59,6 @@ See our [Deployment](/results) page for more information about all software proj
 - Holger Przibytzin (ULB)
 - [Dr. Beate Tröger](https://www.ulb.uni-muenster.de/~personal/troeger) (ULB)
 
-**Contact**: [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
 
 [<img src="/public/images/ulblogo.svg" height="80" style="float: left" alt="ULB Logo" />](https://www.ulb.uni-muenster.de/)
 

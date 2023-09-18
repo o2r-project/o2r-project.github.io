@@ -33,11 +33,3 @@ Female applicants will be given preferential consideration when their level of q
 *We look forward to hearing from you!*
 
 ## Contact
-
-Markus Konkol & Daniel Nüst
-
-[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
-
-Telephone: 0251 83-31962
-
-Room 135

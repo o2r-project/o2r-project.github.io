@@ -17,7 +17,7 @@ exclude_from_all_pages: true
 <script type="text/javascript" src="{{ '/public/js/jquery.js' | absolute_url }}"></script>
 
 The following **o2r thesis topics** are open, ongoing, or have been completed in the context of o2r.
-Please contact `o2r.team@uni-muenster.de` if you are a student (ifgi BSc, ifgi MSc, MSc GeoTech, computer science @ WWU, ...) interested in one of the open topics or in helping to solve other important challenges of scholarly publishing and scholarly communication.
+Please contact `o2r.projekt@uni-muenster.de` if you are a student (ifgi BSc, ifgi MSc, MSc GeoTech, computer science @ WWU, ...) interested in one of the open topics or in helping to solve other important challenges of scholarly publishing and scholarly communication.
 
 ## PhD
 

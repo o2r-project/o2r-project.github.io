@@ -31,7 +31,7 @@ Der wöchentliche Arbeitsumfang beträgt 9 bis 19 Stunden.
 In der praktischen Arbeitsteilung sind Schwerpunkte als Frontend- oder Backend-Entwickler_in möglich.
 
 _Interesse?_
-Dann sende bitte ein kurzes Anschreiben in dem Du auf die genannten Profilaspekte eingehst und (falls vorhanden) Quellcode von bisher durchgeführten Softwareentwicklungen (bevorzugt als Link zu GitHub) _per E-Mail [o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)_.
+Dann sende bitte ein kurzes Anschreiben in dem Du auf die genannten Profilaspekte eingehst und (falls vorhanden) Quellcode von bisher durchgeführten Softwareentwicklungen (bevorzugt als Link zu GitHub) _per E-Mail_.
 
 Die WWU Münster tritt für die Geschlechtergerechtigkeit ein und strebt eine Erhöhung des Anteils von Frauen in Forschung und Lehre an.
 Bewerbungen von Frauen sind daher ausdrücklich erwünscht; Frau­en werden bei gleicher Eignung, Befähigung und fachlicher Leistung bevorzugt berücksichtigt, sofern nicht in der Person eines Mitbewerbers liegende Gründe überwiegen.
@@ -42,8 +42,3 @@ Solltest Du noch Fragen haben, dann melde dich gerne telefonisch oder per E-Mail
 
 ## Kontakt
 
-Daniel Nüst & Markus Konkol
-
-[o2r.team@uni-muenster.de](mailto:o2r.team@uni-muenster.de)
-
-Telefon: 0251 83-31962

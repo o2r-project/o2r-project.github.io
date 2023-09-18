@@ -8,14 +8,10 @@ no_citation: true
 
 ## Contact
 
-Westfälische Wilhelms-Universität Münster<br />
-Institut für Geoinformatik - o2r Project Team<br />
+Universität Münster<br />
+Institut für Geoinformatik - o2r Project <br />
 Heisenbergstraße 2<br />
 D-48149 Münster
-
-Phone: +49 (251) 83-33 962
-
-Email: o2r.team@uni-muenster.de
 
 ## Responsible for the content
 
